@@ -1,0 +1,1370 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6_r_3"
+	group: "241F46356188290F"
+	icon: {
+		Count: 1b
+		id: "eidolon:soulfire_wand"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "7F938F67A97A7178"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 100.0d
+			hover: [ ]
+			image: "skilltree:textures/screen/skill_tree_background.png"
+			rotation: 0.0d
+			width: 100.0d
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 20.0d
+			hover: [ ]
+			image: "cataclysm:textures/particle/shock_wave.png"
+			rotation: 0.0d
+			width: 20.0d
+			x: 0.5d
+			y: 2.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["&dМаг&r - класс с большим количеством подклассов, у каждого из которых есть уникальная стихия или способность."]
+			id: "62B46F8423EE7966"
+			shape: "diamond"
+			tasks: [{
+				id: "2EEA1FBB56C8175E"
+				title: "&dМаг"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["62B46F8423EE7966"]
+			description: [
+				"Найдите эссенцию волшебства в структурах или руинах великого мира &dЭде&bнии&r."
+				""
+				"&bЭссенция &dВолшебства&r - магическая пыль обладающая волшебными свойствами и магическими аспектами, а также имеющая небольшое количество маны."
+			]
+			id: "2DF29823DF410C0A"
+			tasks: [{
+				id: "2315F120B5094D9E"
+				item: "irons_spellbooks:arcane_essence"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["11FFE8A627FC13D3"]
+			description: ["Используя&b алмаз&r и &dволше&r&bбный&r слиток создайте кольцо маны. Оно увеличит ваш максимальный запас &bманы&r."]
+			id: "64B000593526DEAA"
+			tasks: [{
+				id: "29CC5E9CA8279B85"
+				item: "irons_spellbooks:mana_ring"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2DF29823DF410C0A"]
+			description: ["Обьеденив эссенцию волшебства со слитком &6меди&r/&eзолота&r/&7железа&r можно получить &dволше&r&bбный&r слиток. Который можно использовать в разных рецептах."]
+			id: "11FFE8A627FC13D3"
+			tasks: [{
+				id: "3564FEFB8B9DE1DE"
+				item: "irons_spellbooks:arcane_ingot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2DF29823DF410C0A"]
+			description: ["Чтобы начать созидать заклинания вам нужна магическая &dкнига&r &bзаклинаний&r и начертательный стол. Как только всё будет готово &b-&r положите книгу заклинаний в начертательный стол и засуньте туда найденный &dсвиток заклинаний&r и привяжите его к одному из слотов."]
+			id: "37D48D0448E475AA"
+			tasks: [
+				{
+					id: "7E761A9E721A8340"
+					item: "irons_spellbooks:inscription_table"
+					type: "item"
+				}
+				{
+					id: "347C3AE6CAF4639D"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "curios:spellbook"
+						}
+					}
+					title: "Магическая книга"
+					type: "item"
+				}
+			]
+			title: "Начало заклинаний"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2DF29823DF410C0A"]
+			description: ["Используя &bэссенцию&r &dволшебства&r создайте &bмагическую ткань&r, чтобы сшить комплект одеяний для вашего &dподкласса&r."]
+			id: "57681503FA62DA45"
+			tasks: [{
+				id: "322C73FDCEB794F1"
+				item: "irons_spellbooks:magic_cloth"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["37D48D0448E475AA"]
+			description: ["При помощи&d волшебной&r &bнаковальни&r можно создавать магические сферы улучшения, чтобы придавать предметам новые &dмагические свойства.&r"]
+			id: "036D2535DDBE386A"
+			shape: "diamond"
+			tasks: [{
+				id: "2E25F4533920F047"
+				item: "irons_spellbooks:arcane_anvil"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["37D48D0448E475AA"]
+			description: ["Чтобы создавать магические свитки вам нужна &dкузница&r &bсвитков&r. Как только она будет готова &d-&r положите в неё бумагу и книгу, а затем положите &bнужный ингридиент&r для вашей стихии."]
+			id: "7FB1E327D097F30B"
+			shape: "diamond"
+			tasks: [{
+				id: "63EC360434C42BD6"
+				item: "irons_spellbooks:scroll_forge"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["37D48D0448E475AA"]
+			description: ["Создайте &dалхимический&r &bкотёл&r для создания магических чернил более высокого уровня."]
+			id: "77A1F07176100E3B"
+			shape: "diamond"
+			tasks: [{
+				id: "366FEDF25A71589D"
+				item: "irons_spellbooks:alchemist_cauldron"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["77A1F07176100E3B"]
+			description: ["Создайте все виды чернил!"]
+			id: "4D092B8A1B19C3E6"
+			subtitle: "Обычные"
+			tasks: [{
+				id: "08AA70EE4F18635D"
+				item: "irons_spellbooks:common_ink"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["77A1F07176100E3B"]
+			description: ["Создайте все виды чернил!"]
+			id: "45E9A4C6CB3D2008"
+			subtitle: "&aНеобычные"
+			tasks: [{
+				id: "19B6629B22FB749B"
+				item: "irons_spellbooks:uncommon_ink"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["77A1F07176100E3B"]
+			description: ["Создайте все виды чернил!"]
+			id: "7A45F204A9985BF1"
+			subtitle: "&bРедкие"
+			tasks: [{
+				id: "7E97BB2E8D3996BA"
+				item: "irons_spellbooks:rare_ink"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["77A1F07176100E3B"]
+			description: ["Создайте все виды чернил!"]
+			id: "4ACE7CC6CA51D6EA"
+			subtitle: "&dЭпические"
+			tasks: [{
+				id: "39E71F17995A8DB3"
+				item: "irons_spellbooks:epic_ink"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["77A1F07176100E3B"]
+			description: ["Создайте все виды чернил!"]
+			id: "2973CEA13BBCF1D5"
+			subtitle: "&6Легендарные"
+			tasks: [{
+				id: "69C2EBEF6E461E1C"
+				item: "irons_spellbooks:legendary_ink"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["036D2535DDBE386A"]
+			description: ["Создайте &7пустую сферу улучшения&r!"]
+			id: "5A723DE7D7B3505E"
+			shape: "diamond"
+			tasks: [{
+				id: "3B703D12D3715538"
+				item: "irons_spellbooks:upgrade_orb"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["62B46F8423EE7966"]
+			description: ["В мире &dЭдении&r можно найти древние руины, в которых спрятаны &bмагические&r &dруны&r. К этим рунам можно привязать особую &dстихию&r и использовать эту руну в рецептах."]
+			hide_dependency_lines: true
+			id: "135B120EFF4EFD1C"
+			shape: "diamond"
+			tasks: [{
+				id: "2BA988817C5E25DB"
+				item: "irons_spellbooks:blank_rune"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5A723DE7D7B3505E"]
+			description: ["Привяжите к пустой сфере улучшения ту или иную &dстихию&r!"]
+			id: "15B176AF88628A2C"
+			subtitle: "&6Огонь"
+			tasks: [{
+				id: "105F578FE5300703"
+				item: "irons_spellbooks:fire_upgrade_orb"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5A723DE7D7B3505E"]
+			description: ["Привяжите к пустой сфере улучшения ту или иную &dстихию&r!"]
+			id: "1684FE5FA800C8CB"
+			subtitle: "&bЛёд"
+			tasks: [{
+				id: "3C1B61010C583F14"
+				item: "irons_spellbooks:ice_upgrade_orb"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5A723DE7D7B3505E"]
+			description: ["Привяжите к пустой сфере улучшения ту или иную &dстихию&r!"]
+			id: "1459E53D41EE95D4"
+			subtitle: "&9Электричество"
+			tasks: [{
+				id: "24F872A808050E7C"
+				item: "irons_spellbooks:lightning_upgrade_orb"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5A723DE7D7B3505E"]
+			description: ["Привяжите к пустой сфере улучшения ту или иную &dстихию&r!"]
+			id: "198B2F8BFDF1015C"
+			subtitle: "&eСвет"
+			tasks: [{
+				id: "1E3A4EF6AB12A385"
+				item: "irons_spellbooks:holy_upgrade_orb"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5A723DE7D7B3505E"]
+			description: ["Привяжите к пустой сфере улучшения ту или иную &dстихию&r!"]
+			id: "0A96956D1F17DBFD"
+			subtitle: "&dТьма"
+			tasks: [{
+				id: "61C1981647EA6F7C"
+				item: "irons_spellbooks:ender_upgrade_orb"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5A723DE7D7B3505E"]
+			description: ["Привяжите к пустой сфере улучшения ту или иную &dстихию&r!"]
+			id: "78533D103BA3FA21"
+			subtitle: "&4Кровь"
+			tasks: [{
+				id: "5BE33E8049194E2B"
+				item: "irons_spellbooks:blood_upgrade_orb"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5A723DE7D7B3505E"]
+			description: ["Привяжите к пустой сфере улучшения ту или иную &dстихию&r!"]
+			id: "0CB5C458F22B1FE7"
+			subtitle: "&aПризыв"
+			tasks: [{
+				id: "13897774107421DE"
+				item: "irons_spellbooks:evocation_upgrade_orb"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5A723DE7D7B3505E"]
+			description: ["Привяжите к пустой сфере улучшения ту или иную &dстихию&r!"]
+			id: "65D6BA5C5DBBB5F8"
+			subtitle: "&2Природа"
+			tasks: [{
+				id: "6A693D33AB3B291C"
+				item: "irons_spellbooks:nature_upgrade_orb"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5A723DE7D7B3505E"]
+			description: ["Привяжите к пустой сфере улучшения ту или иную &dстихию&r!"]
+			id: "3C11097B4810EA41"
+			subtitle: "&eЗащита"
+			tasks: [{
+				id: "499A93C5E8A7C2D7"
+				item: "irons_spellbooks:protection_upgrade_orb"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5A723DE7D7B3505E"]
+			description: ["Привяжите к пустой сфере улучшения ту или иную &dстихию&r!"]
+			id: "7C7F6EE98CD4E846"
+			subtitle: "&cПерезарядка"
+			tasks: [{
+				id: "4D216A5DD54B7168"
+				item: "irons_spellbooks:cooldown_upgrade_orb"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5A723DE7D7B3505E"]
+			description: ["Привяжите к пустой сфере улучшения ту или иную &dстихию&r!"]
+			id: "6FFDE15711BB4128"
+			subtitle: "&bМана"
+			tasks: [{
+				id: "19C458742A356EB2"
+				item: "irons_spellbooks:mana_upgrade_orb"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["135B120EFF4EFD1C"]
+			description: ["Найдите магическую руну и привяжите к ней &dстихию&r."]
+			id: "59C6769DB64D67B4"
+			subtitle: "&6Огонь"
+			tasks: [{
+				id: "4D71A70CBD5B5396"
+				item: "irons_spellbooks:fire_rune"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["135B120EFF4EFD1C"]
+			description: ["Найдите магическую руну и привяжите к ней &dстихию&r."]
+			id: "55F62058589F1CB1"
+			subtitle: "&bЛёд"
+			tasks: [{
+				id: "1918E31C2ECED469"
+				item: "irons_spellbooks:ice_rune"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["135B120EFF4EFD1C"]
+			description: ["Найдите магическую руну и привяжите к ней &dстихию&r."]
+			id: "60DFC2914F0A5063"
+			subtitle: "&9Электричество"
+			tasks: [{
+				id: "16288351A5CE5F0A"
+				item: "irons_spellbooks:lightning_rune"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["135B120EFF4EFD1C"]
+			description: ["Найдите магическую руну и привяжите к ней &dстихию&r."]
+			id: "5C31F7733BB068B8"
+			subtitle: "&dТьма"
+			tasks: [{
+				id: "7056F43FBDC1E440"
+				item: "irons_spellbooks:ender_rune"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["135B120EFF4EFD1C"]
+			description: ["Найдите магическую руну и привяжите к ней &dстихию&r."]
+			id: "26629A64A1476BA3"
+			subtitle: "&eСвет"
+			tasks: [{
+				id: "15FD30AF5D0B5B4C"
+				item: "irons_spellbooks:holy_rune"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["135B120EFF4EFD1C"]
+			description: ["Найдите магическую руну и привяжите к ней &dстихию&r."]
+			id: "62898E05927ED98D"
+			subtitle: "&4Кровь"
+			tasks: [{
+				id: "116F7003C021DF4A"
+				item: "irons_spellbooks:blood_rune"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["135B120EFF4EFD1C"]
+			description: ["Найдите магическую руну и привяжите к ней &dстихию&r."]
+			id: "03CD9926158CC095"
+			subtitle: "&aПризыв"
+			tasks: [{
+				id: "72DB4339B781E609"
+				item: "irons_spellbooks:evocation_rune"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["135B120EFF4EFD1C"]
+			description: ["Найдите магическую руну и привяжите к ней &dстихию&r."]
+			id: "68518DA8A14124E3"
+			subtitle: "&bВолшебство"
+			tasks: [{
+				id: "466CE8A5E22C70D1"
+				item: "irons_spellbooks:arcane_rune"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["57681503FA62DA45"]
+			description: ["Создайте комплект одеяний для вашего подкласса!"]
+			id: "339D8EC9A28056A2"
+			subtitle: "&6Маг Огня"
+			tasks: [
+				{
+					id: "06430AC1791EBC11"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "irons_spellbooks:pyromancer_helmet"
+						tag: {
+							Damage: 0
+							SimpleInsulation: [ ]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "64B109DAD6477D24"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "irons_spellbooks:pyromancer_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "477C7901CA0B0303"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "irons_spellbooks:pyromancer_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "10AAB6A72B3748A3"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "irons_spellbooks:pyromancer_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["57681503FA62DA45"]
+			description: ["Создайте комплект одеяний для вашего подкласса!"]
+			id: "4A6A2A5314D624A3"
+			subtitle: "&bМаг Электричества"
+			tasks: [
+				{
+					id: "61551940C545CF28"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "irons_spellbooks:electromancer_helmet"
+						tag: {
+							Damage: 0
+							SimpleInsulation: [ ]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "34971A9B83CCFAD2"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "irons_spellbooks:electromancer_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6CCD089CACAEFBD7"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "irons_spellbooks:electromancer_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3584123742BEA203"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "irons_spellbooks:electromancer_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["57681503FA62DA45"]
+			description: ["Создайте комплект одеяний для вашего подкласса!"]
+			id: "1124A03A167746A9"
+			subtitle: "&eМаг Призыва"
+			tasks: [
+				{
+					id: "7380D41962F313FB"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "irons_spellbooks:archevoker_helmet"
+						tag: {
+							Damage: 0
+							SimpleInsulation: [ ]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "74171C6C0235C434"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "irons_spellbooks:archevoker_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0D8DD50E0B478591"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "irons_spellbooks:archevoker_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "340A9B1EA34621F4"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "irons_spellbooks:archevoker_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["57681503FA62DA45"]
+			description: ["Создайте комплект одеяний для вашего подкласса!"]
+			id: "5A0758F00A394A34"
+			subtitle: "&4Маг Крови"
+			tasks: [
+				{
+					id: "70C1DAFEB8D97F35"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "irons_spellbooks:cultist_helmet"
+						tag: {
+							Damage: 0
+							SimpleInsulation: [ ]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6E2E6C992B3EE9D2"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "irons_spellbooks:cultist_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7597F415CE782734"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "irons_spellbooks:cultist_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "511AEB91C1C809A8"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "irons_spellbooks:cultist_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["57681503FA62DA45"]
+			description: ["Создайте комплект одеяний для вашего подкласса!"]
+			hide_dependency_lines: true
+			id: "31C803BFC3DE9329"
+			subtitle: "&bМаг Холода"
+			tasks: [
+				{
+					id: "68B632C2A920BC4C"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "irons_spellbooks:cryomancer_helmet"
+						tag: {
+							Damage: 0
+							SimpleInsulation: [ ]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "02EEF08FCFCD43ED"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "irons_spellbooks:cryomancer_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0D82CD0F546CD108"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "irons_spellbooks:cryomancer_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "54D32EB183D383A6"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "irons_spellbooks:cryomancer_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["57681503FA62DA45"]
+			description: ["Создайте комплект одеяний для вашего подкласса!"]
+			hide_dependency_lines: true
+			id: "288D63759D8F4A7A"
+			subtitle: "&dМаг Тьмы"
+			tasks: [
+				{
+					id: "6A9ECEC986029C83"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "irons_spellbooks:shadowwalker_helmet"
+						tag: {
+							Damage: 0
+							SimpleInsulation: [ ]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1EF1EA51F75B5F3A"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "irons_spellbooks:shadowwalker_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1FE50CE06249EBF4"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "irons_spellbooks:shadowwalker_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1055B69BC771B92D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "irons_spellbooks:shadowwalker_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["57681503FA62DA45"]
+			description: ["Создайте комплект одеяний для вашего подкласса!"]
+			id: "2245934E2D580BB3"
+			subtitle: "&eМаг света"
+			tasks: [
+				{
+					id: "3A697D756803D6E0"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "irons_spellbooks:priest_helmet"
+						tag: {
+							Damage: 0
+							SimpleInsulation: [ ]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "62CA76B61CA63862"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "irons_spellbooks:priest_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "28EB19BA4B114772"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "irons_spellbooks:priest_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "728E0670BE761217"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "irons_spellbooks:priest_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["57681503FA62DA45"]
+			description: ["Создайте комплект одеяний для вашего подкласса!"]
+			hide_dependency_lines: true
+			id: "014D0739A3BCF9D5"
+			subtitle: "&aМаг Природы"
+			tasks: [
+				{
+					id: "1A2774E708427A05"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "irons_spellbooks:plagued_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0D9226C5B57AF675"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "irons_spellbooks:plagued_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "39201E2AE8ADCA5B"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "irons_spellbooks:plagued_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5D94076B96D5AB4E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "irons_spellbooks:plagued_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["62B46F8423EE7966"]
+			description: ["Посохи помогают магам &dусиливая&r их заклинания, а также ускоряют &bвостановление маны&r. А также позволяют магам сражаться в ближнем бою."]
+			hide_dependency_lines: true
+			id: "54320061BEF67834"
+			subtitle: "&aНовичок"
+			tasks: [{
+				id: "103DC185915D6E30"
+				item: "irons_spellbooks:graybeard_staff"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["62B46F8423EE7966"]
+			description: ["Посохи помогают магам &dусиливая&r их заклинания, а также ускоряют &bвостановление маны&r. А также позволяют магам сражаться в ближнем бою."]
+			id: "72D82DE6656FD12E"
+			subtitle: "&dМастер"
+			tasks: [{
+				id: "63F8F3E1DB13A5B3"
+				item: "irons_spellbooks:artificer_cane"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["62B46F8423EE7966"]
+			description: ["Посохи помогают магам &dусиливая&r их заклинания, а также ускоряют &bвостановление маны&r. А также позволяют магам сражаться в ближнем бою."]
+			hide_dependency_lines: true
+			id: "142E838AFE0F86E5"
+			subtitle: "&bПродвинутый"
+			tasks: [{
+				id: "374DE69B0D9F561E"
+				item: "irons_spellbooks:ice_staff"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["62B46F8423EE7966"]
+			description: ["Посохи помогают магам &dусиливая&r их заклинания, а также ускоряют &bвостановление маны&r. А также позволяют магам сражаться в ближнем бою."]
+			id: "13A030A16964AC1F"
+			subtitle: "&4Повелитель"
+			tasks: [{
+				id: "7F68B05FB11790C9"
+				item: "irons_spellbooks:blood_staff"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["64B000593526DEAA"]
+			description: ["Создавайте и находите различные &dмагические&r &bкольца&r! Они сильно пригодятся в сражениях за данный класс &dмага&r."]
+			id: "767485C0887C8F22"
+			tasks: [{
+				id: "1E66828B67B6D098"
+				item: "irons_spellbooks:silver_ring"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["64B000593526DEAA"]
+			description: ["Создавайте и находите различные &dмагические&r &bкольца&r! Они сильно пригодятся в сражениях за данный класс &dмага&r."]
+			id: "3DF644C3DAFDF0C7"
+			tasks: [{
+				id: "2D232271A6C91AC4"
+				item: "irons_spellbooks:cooldown_ring"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["64B000593526DEAA"]
+			description: ["Создавайте и находите различные &dмагические&r &bкольца&r! Они сильно пригодятся в сражениях за данный класс &dмага&r."]
+			hide_dependency_lines: true
+			id: "0E575F3D992EED43"
+			tasks: [{
+				id: "085423FB1A54E7E1"
+				item: "irons_spellbooks:cast_time_ring"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["64B000593526DEAA"]
+			description: ["Создавайте и находите различные &dмагические&r &bкольца&r! Они сильно пригодятся в сражениях за данный класс &dмага&r."]
+			hide_dependency_lines: true
+			id: "118693E78127BE47"
+			tasks: [{
+				id: "2784B974DA7B191B"
+				item: "irons_spellbooks:affinity_ring"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["64B000593526DEAA"]
+			description: ["Создавайте и находите различные &dмагические&r &bкольца&r! Они сильно пригодятся в сражениях за данный класс &dмага&r."]
+			hide_dependency_lines: true
+			id: "6D95C0F6EB76B930"
+			tasks: [{
+				id: "1A5E2CA6568A7DC3"
+				item: "irons_spellbooks:emerald_stoneplate_ring"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["64B000593526DEAA"]
+			description: ["Создавайте и находите различные &dмагические&r &bкольца&r! Они сильно пригодятся в сражениях за данный класс &dмага&r."]
+			hide_dependency_lines: true
+			id: "28DC6766AA6E45A2"
+			tasks: [{
+				id: "5AD655207E87AD0A"
+				item: "irons_spellbooks:fireward_ring"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["64B000593526DEAA"]
+			description: ["Создавайте и находите различные &dмагические&r &bкольца&r! Они сильно пригодятся в сражениях за данный класс &dмага&r."]
+			id: "4B36257FC6951BDE"
+			tasks: [{
+				id: "1D616027874DC7F5"
+				item: "irons_spellbooks:frostward_ring"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["64B000593526DEAA"]
+			description: ["Создавайте и находите различные &dмагические&r &bкольца&r! Они сильно пригодятся в сражениях за данный класс &dмага&r."]
+			hide_dependency_lines: true
+			id: "658F5C2983BD8275"
+			tasks: [{
+				id: "64C37BF7919C780E"
+				item: "irons_spellbooks:poisonward_ring"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["64B000593526DEAA"]
+			description: ["Создавайте и находите различные &dмагические&r &bкольца&r! Они сильно пригодятся в сражениях за данный класс &dмага&r."]
+			hide_dependency_lines: true
+			id: "4A03CE09ACA6C649"
+			tasks: [{
+				id: "74EABF0CED0482F6"
+				item: "irons_spellbooks:affinity_ring"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["64B000593526DEAA"]
+			description: ["Создавайте и находите различные &dмагические&r &bкольца&r! Они сильно пригодятся в сражениях за данный класс &dмага&r."]
+			id: "590581182B46ADC4"
+			tasks: [{
+				id: "310F1E25F4571F95"
+				item: "irons_spellbooks:amethyst_resonance_charm"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["64B000593526DEAA"]
+			description: ["Создавайте и находите различные &dмагические&r &bкольца&r! Они сильно пригодятся в сражениях за данный класс &dмага&r."]
+			hide_dependency_lines: true
+			id: "514391FA5D99D6D9"
+			tasks: [{
+				id: "379001ED9AA88016"
+				item: "irons_spellbooks:concentration_amulet"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["64B000593526DEAA"]
+			description: ["Создавайте и находите различные &dмагические&r &bкольца&r! Они сильно пригодятся в сражениях за данный класс &dмага&r."]
+			hide_dependency_lines: true
+			id: "3E6A065F2B32AC35"
+			tasks: [{
+				id: "0A6D3E750BA065A9"
+				item: "irons_spellbooks:heavy_chain_necklace"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 4.5d
+		}
+	]
+	title: "&6- &rМаг"
+}

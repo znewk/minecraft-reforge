@@ -1,0 +1,474 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6_r_5"
+	group: "241F46356188290F"
+	icon: {
+		Count: 1b
+		id: "born_in_chaos_v1:intoxicating_dagger"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "4D9C3D58461CB7B4"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 100.0d
+			hover: [ ]
+			image: "skilltree:textures/screen/skill_tree_background.png"
+			rotation: 0.0d
+			width: 100.0d
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "celestisynth:textures/entity/solaris_spin_soul.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 0.0d
+			y: -1.0d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["&eОхотник&r - класс, который использует оружие ближнего боя, а также фамильяра в виде собаки. Собак можно улучшать благодаря броне."]
+			id: "6467503E4D7DC0A0"
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				id: "7A4D434F92DB84D1"
+				title: "&eОхотник"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6467503E4D7DC0A0"]
+			id: "33F2D80C46829154"
+			subtitle: "&6Оружие Охотника"
+			tasks: [{
+				id: "5B5FE91649C26B2D"
+				item: {
+					Count: 1b
+					id: "better_weaponry:wooden_machete"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6467503E4D7DC0A0"]
+			id: "46E86A8B77ABDC8A"
+			subtitle: "&6Оружие Охотника"
+			tasks: [{
+				id: "5361BC75F5BBBB6E"
+				item: {
+					Count: 1b
+					id: "better_weaponry:stone_machete"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6467503E4D7DC0A0"]
+			id: "7D15EA5B9A975711"
+			subtitle: "&6Оружие Охотника"
+			tasks: [{
+				id: "494B4A20CB2BC9D4"
+				item: {
+					Count: 1b
+					id: "better_weaponry:copper_machete"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6467503E4D7DC0A0"]
+			hide_dependency_lines: true
+			id: "342DEA3955B039E2"
+			subtitle: "&6Оружие Охотника"
+			tasks: [{
+				id: "74C672C244A5413E"
+				item: {
+					Count: 1b
+					id: "better_weaponry:iron_machete"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6467503E4D7DC0A0"]
+			hide_dependency_lines: true
+			id: "491D79E6F2AA2C3A"
+			subtitle: "&6Оружие Охотника"
+			tasks: [{
+				id: "4CBF8E8D332F6EF2"
+				item: {
+					Count: 1b
+					id: "better_weaponry:amethyst_machete"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6467503E4D7DC0A0"]
+			hide_dependency_lines: true
+			id: "0FC041AAB226EA67"
+			subtitle: "&6Оружие Охотника"
+			tasks: [{
+				id: "5E66A767EC4C37E0"
+				item: {
+					Count: 1b
+					id: "better_weaponry:golden_machete"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6467503E4D7DC0A0"]
+			hide_dependency_lines: true
+			id: "6F79529E3699093A"
+			subtitle: "&6Оружие Охотника"
+			tasks: [{
+				id: "22C17BBBD4F0DC85"
+				item: {
+					Count: 1b
+					id: "better_weaponry:emerald_machete"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6467503E4D7DC0A0"]
+			hide_dependency_lines: true
+			id: "74CD15015A90A25C"
+			subtitle: "&6Оружие Охотника"
+			tasks: [{
+				id: "29443760D5A31E2A"
+				item: {
+					Count: 1b
+					id: "better_weaponry:diamond_machete"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6467503E4D7DC0A0"]
+			hide_dependency_lines: true
+			id: "61F7217648144D30"
+			subtitle: "&6Оружие Охотника"
+			tasks: [{
+				id: "54BB1ACFC57D8996"
+				item: {
+					Count: 1b
+					id: "better_weaponry:netherite_machete"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6467503E4D7DC0A0"]
+			description: ["Создайте &6волчью броню&r и приручите себе &6волка&r, чтобы он сражался вместе с вами как отважный воин!"]
+			id: "47530CF1B61C9ACF"
+			shape: "hexagon"
+			subtitle: "&6Кожа"
+			tasks: [{
+				id: "3B91AE96CED79D7B"
+				item: "revampedwolf:leather_wolf_armor"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6467503E4D7DC0A0"]
+			description: ["Создайте &6волчью броню&r и приручите себе &6волка&r, чтобы он сражался вместе с вами как отважный воин!"]
+			id: "372BEF1771469F93"
+			shape: "hexagon"
+			subtitle: "&eЗолото"
+			tasks: [{
+				id: "2FE0791DDF99A568"
+				item: "revampedwolf:golden_wolf_armor"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6467503E4D7DC0A0"]
+			description: ["Создайте &6волчью броню&r и приручите себе &6волка&r, чтобы он сражался вместе с вами как отважный воин!"]
+			id: "4155EB13E23B15CF"
+			shape: "hexagon"
+			subtitle: "Железо"
+			tasks: [{
+				id: "004AE59F82A46C10"
+				item: "revampedwolf:iron_wolf_armor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6467503E4D7DC0A0"]
+			description: ["Создайте &6волчью броню&r и приручите себе &6волка&r, чтобы он сражался вместе с вами как отважный воин!"]
+			id: "504A8A8C7110D906"
+			shape: "hexagon"
+			subtitle: "&bАлмаз"
+			tasks: [{
+				id: "543729C0F77B3FE6"
+				item: "revampedwolf:diamond_wolf_armor"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6467503E4D7DC0A0"]
+			description: ["Создайте &6волчью броню&r и приручите себе &6волка&r, чтобы он сражался вместе с вами как отважный воин!"]
+			id: "6D73C56B021CD2D4"
+			shape: "hexagon"
+			subtitle: "&4Незерит"
+			tasks: [{
+				id: "1D6C80258CAB90C5"
+				item: "revampedwolf:netherite_wolf_armor"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6467503E4D7DC0A0"]
+			id: "335A8A1753EE430F"
+			tasks: [{
+				id: "1097949213D0D2A2"
+				item: {
+					Count: 1b
+					id: "better_weaponry:copper_sai"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6467503E4D7DC0A0"]
+			id: "249FD169CE7EE82C"
+			tasks: [{
+				id: "13B9C1CF2A149DCD"
+				item: {
+					Count: 1b
+					id: "better_weaponry:stone_sai"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6467503E4D7DC0A0"]
+			id: "08193CD8589F279D"
+			tasks: [{
+				id: "306B11801D85E3EF"
+				item: {
+					Count: 1b
+					id: "better_weaponry:wooden_sai"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6467503E4D7DC0A0"]
+			hide_dependency_lines: true
+			id: "7F5AE4C84D87F606"
+			tasks: [{
+				id: "1DA824E4C4E6CBE1"
+				item: {
+					Count: 1b
+					id: "better_weaponry:golden_sai"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6467503E4D7DC0A0"]
+			hide_dependency_lines: true
+			id: "61780B3FA637FAC6"
+			tasks: [{
+				id: "07C40B8AEA519DF5"
+				item: {
+					Count: 1b
+					id: "better_weaponry:amethyst_sai"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6467503E4D7DC0A0"]
+			hide_dependency_lines: true
+			id: "574CD25549EEC798"
+			tasks: [{
+				id: "4A1C79FE9F2D803F"
+				item: {
+					Count: 1b
+					id: "better_weaponry:iron_sai"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6467503E4D7DC0A0"]
+			hide_dependency_lines: true
+			id: "44891123ED3BB7A1"
+			tasks: [{
+				id: "0DFC0D9194289B04"
+				item: {
+					Count: 1b
+					id: "better_weaponry:netherite_sai"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6467503E4D7DC0A0"]
+			hide_dependency_lines: true
+			id: "479AE2ADCAF8E20E"
+			tasks: [{
+				id: "3DEA889E6C59284E"
+				item: {
+					Count: 1b
+					id: "better_weaponry:diamond_sai"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6467503E4D7DC0A0"]
+			hide_dependency_lines: true
+			id: "39A6A6431AFF7B8B"
+			tasks: [{
+				id: "2332804C83AF10A3"
+				item: {
+					Count: 1b
+					id: "better_weaponry:emerald_sai"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6467503E4D7DC0A0"]
+			description: ["Найдите бумеранг ограбив дом &6Егерей&r."]
+			id: "5B1121C02E30CCB9"
+			shape: "diamond"
+			tasks: [{
+				id: "438745811F039902"
+				item: {
+					Count: 1b
+					id: "hunterillager:boomerang"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+	]
+	title: "&6- &rОхотник"
+}

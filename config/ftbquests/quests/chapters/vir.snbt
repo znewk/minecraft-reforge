@@ -1,0 +1,806 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "vir"
+	group: "7BBC8432A0F16C2B"
+	icon: "rootsclassic:altar"
+	id: "0BE36ADE5FC4A74D"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 150.0d
+			hover: [ ]
+			image: "skilltree:textures/screen/skill_tree_background.png"
+			rotation: 0.0d
+			width: 150.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "0A8FD567862B5669"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "malum:textures/mob_effect/earthen_might.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.3214285714285836d
+			y: -0.5714285714285694d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1E3298EFD17882C3"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "irons_spellbooks:item/evocation_rune"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.1173469387755048d
+			y: 0.5255102040816411d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1E3298EFD17882C3"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "relics:item/magma_walker_fire"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1E3298EFD17882C3"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "relics:item/magma_walker_fire"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1E3298EFD17882C3"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "relics:item/magma_walker_fire"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1EB164DBFE32D36C"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "twilightforest:items/steeleaf_ingot"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.3214285714285694d
+			y: -0.6547619047619051d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2322AAC0FC04BAA2"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "irons_spellbooks:item/cinder_essence"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2C34DE52F8F1A527"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "valhelsia_structures:block/brazier_fire"
+			rotation: 90.0d
+			width: 1.0d
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "05D81787D35AB5A8"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "environmental:block/cattail_tall_grown_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.488095238095241d
+			y: -0.7738095238095184d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "10B062BD8F971497"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "farmersdelight:block/wild_cabbages"
+			rotation: 180.0d
+			width: 1.0d
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 15.0d
+			hover: [ ]
+			image: "celestisynth:textures/entity/breezebreaker_wheel_impact/breezebreaker_wheel_impact3.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 5.5d
+			y: -0.5d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2FCAAE2D19281F04"]
+			description: ["&6&l=> &rРаньше, все миры были просто бесконечной пустошью, без зелени, животных, рек и морей. Их всех сотворили Дриады. Они являются могущественными волшебницами природы. Они зародились в мире, уже в тот момент когда он стал зелёным сам по себе. Тогда дриады стали изучать растения, воду, камни, а спустя тысячелетия они смогли открыть порталы в другие миры, где с помощью своей силы запустили цепочку распространения зелени и впустили жизнь в безжизненные миры. В наше время все Дриады мертвы... Они погибли неизвестно от чего..."]
+			hide: true
+			id: "0A8FD567862B5669"
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				id: "19A68E05A308CD25"
+				title: "&6Глава VI&r: Природная магия"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0A8FD567862B5669"]
+			description: ["&6&l=> &rРод дриад тысячелетиями передавал свои знания следующим поколениям благодаря руническим табличкам, в которых было написано всё про магию природы и её секретах."]
+			hide: true
+			id: "1E3298EFD17882C3"
+			rewards: [{
+				auto: "invisible"
+				command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u0422\\u0435\\u043f\\u0435\\u0440\\u044c, \\u043a\\u043e\\u0433\\u0434\\u0430 \\u0443 \\u043c\\u0435\\u043d\\u044f \\u0435\\u0441\\u0442\\u044c \\u0440\\u0443\\u043d\\u0438\\u0447\\u0435\\u0441\\u043a\\u0430\\u044f \\u0442\\u0430\\u0431\\u043b\\u0438\\u0447\\u043a\\u0430 \\u044f \\u0441\\u043c\\u043e\\u0433\\u0443 \\u043e\\u0442\\u043a\\u0440\\u044b\\u0442\\u044c \\u0434\\u043b\\u044f \\u0441\\u0435\\u0431\\u044f \\u043d\\u043e\\u0432\\u044b\\u0439 \\u0432\\u0438\\u0434 \\u043c\\u0430\\u0433\\u0438\\u0438, \\u043f\\u043e\\u0434 \\u043d\\u0430\\u0437\\u0432\\u0430\\u043d\\u0438\\u0435\\u043c \\u043c\\u0430\\u0433\\u0438\\u044f \\u043f\\u0440\\u0438\\u0440\\u043e\\u0434\\u044b.\"}]"
+				icon: "ftbquests:book"
+				id: "7A03D93F90B2348B"
+				title: "mind"
+				type: "command"
+			}]
+			tasks: [{
+				id: "0095C5BB2957FCAC"
+				item: "rootsclassic:runic_tablet"
+				title: "Руническая табличка"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E3298EFD17882C3"]
+			description: ["&6&l=> &rНа деревьях часто растут вкусная ягода - смородина. Она бывает трёх видов: &cкрасная&r, &9чёрная&r и белая. Каждая из них имеет свой особый вкус."]
+			hide: true
+			id: "64AE585DC69B5937"
+			rewards: [{
+				id: "6154848ADB2F6AC4"
+				item: "minecraft:poppy"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "6782129F10F21418"
+				item: "rootsclassic:redcurrant"
+				title: "Красная смородина"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1E3298EFD17882C3"]
+			description: ["&6&l=> &rНа деревьях часто растут вкусная ягода - смородина. Она бывает трёх видов: &cкрасная&r, &9чёрная&r и белая. Каждая из них имеет свой особый вкус."]
+			hide: true
+			id: "18C6F4C24318D6F5"
+			rewards: [{
+				id: "228D87D7C6B2493B"
+				item: "minecraft:cornflower"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "5713AA549FE3C8F5"
+				item: "rootsclassic:blackcurrant"
+				title: "Чёрная смородина"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1E3298EFD17882C3"]
+			description: ["&6&l=> &rНа деревьях часто растут вкусная ягода - смородина. Она бывает трёх видов: &cкрасная&r, &9чёрная&r и белая. Каждая из них имеет свой особый вкус."]
+			hide: true
+			id: "43ED21FBEAD48C41"
+			rewards: [{
+				id: "54AC0507F2D658E6"
+				item: "minecraft:oxeye_daisy"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "672E94A405F0BD91"
+				item: "rootsclassic:whitecurrant"
+				title: "Белая смородина"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1E3298EFD17882C3"]
+			description: ["&6&l=> &rКора дерева, обладает довольно сильной энергией природы. Поэтому, вам нужно собрать её кору. Сделать это можно при помощи ножа природы."]
+			hide: true
+			id: "1EB164DBFE32D36C"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u042d\\u0442\\u043e\\u0442 \\u043d\\u043e\\u0436 \\u043f\\u043e\\u043d\\u0430\\u0434\\u043e\\u0431\\u0438\\u0442\\u0441\\u044f \\u043c\\u043d\\u0435 \\u0434\\u043b\\u044f \\u0441\\u043d\\u044f\\u0442\\u0438\\u044f \\u043a\\u043e\\u0440\\u044b \\u0441 \\u0434\\u0435\\u0440\\u0435\\u0432\\u044c\\u0435\\u0432. \\u041a\\u043e\\u0440\\u0430 \\u0441\\u0438\\u043b\\u044c\\u043d\\u043e \\u043f\\u0440\\u0438\\u0433\\u043e\\u0434\\u0438\\u0442\\u0441\\u044f \\u0432 \\u0431\\u0443\\u0434\\u0443\\u0449\\u0438\\u0445 \\u0440\\u0438\\u0442\\u0443\\u0430\\u043b\\u0430\\u0445 \\u043c\\u0430\\u0433\\u0438\\u0438 \\u043f\\u0440\\u0438\\u0440\\u043e\\u0434\\u044b.\"}]"
+					icon: "ftbquests:book"
+					id: "190AD82740276562"
+					title: "mind"
+					type: "command"
+				}
+				{
+					count: 12
+					id: "66260DCE0CCF829A"
+					item: "irons_spellbooks:arcane_essence"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1893CA7B951F351D"
+				item: {
+					Count: 1b
+					id: "rootsclassic:bark_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				title: "Нож природы"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1EB164DBFE32D36C"
+				"1E3298EFD17882C3"
+			]
+			description: ["&6&l=> &rСоберите кору дерева, используя нож природы."]
+			hide: true
+			id: "2998657138125085"
+			rewards: [{
+				auto: "invisible"
+				command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u0410 \\u0432\\u043e\\u0442 \\u0438 \\u043f\\u0435\\u0440\\u0432\\u0430\\u044f \\u043a\\u043e\\u0440\\u0430. \\u0421\\u0442\\u043e\\u0438\\u0442 \\u0441\\u0440\\u0435\\u0437\\u0430\\u0442\\u044c \\u043a\\u0430\\u043a \\u043c\\u043e\\u0436\\u043d\\u043e \\u0431\\u043e\\u043b\\u044c\\u0448\\u0435!\"}]"
+				icon: "ftbquests:book"
+				id: "187FA646E3B5D071"
+				title: "mind"
+				type: "command"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "47A618ECBB0C71EF"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "rootsclassic:barks"
+					}
+				}
+				title: "Любая кора"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"2998657138125085"
+				"1EB164DBFE32D36C"
+			]
+			description: ["&6&l=> &rОсновой природной магии является магическая эссенция природы. Она создаётся благодаря пестику и ступке. Смешивая разные ингредиенты и измельчая их в порошок, превращая в эссенцию."]
+			hide: true
+			id: "330CCC4BED070082"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u041f\\u0440\\u0438 \\u043f\\u043e\\u043c\\u043e\\u0449\\u0438 \\u043f\\u0435\\u0441\\u0442\\u0438\\u043a\\u0430 \\u0438 \\u0441\\u0442\\u0443\\u043f\\u043a\\u0438 \\u044f \\u0441\\u043c\\u043e\\u0433\\u0443 \\u0441\\u043e\\u0437\\u0434\\u0430\\u0442\\u044c \\u043f\\u0440\\u0438\\u0440\\u043e\\u0434\\u043d\\u0443\\u044e \\u044d\\u0441\\u0441\\u0435\\u043d\\u0446\\u0438\\u044e. \\u041e\\u043d\\u0430 \\u0441\\u0442\\u0430\\u043d\\u0435\\u0442 \\u043e\\u0441\\u043d\\u043e\\u0432\\u043d\\u044b\\u043c \\u043a\\u043e\\u043c\\u043f\\u043e\\u043d\\u0435\\u043d\\u0442\\u043e\\u043c \\u0434\\u043b\\u044f \\u0437\\u0430\\u043a\\u043b\\u0438\\u043d\\u0430\\u043d\\u0438\\u0439 \\u044d\\u0442\\u043e\\u0433\\u043e \\u0432\\u0438\\u0434\\u0430 \\u043c\\u0430\\u0433\\u0438\\u0438.\",\"color\":\"white\"}]"
+					icon: "ftbquests:book"
+					id: "6D0679EDE87854AE"
+					title: "mind"
+					type: "command"
+				}
+				{
+					id: "64B753E3CF6C44EE"
+					item: "farmersdelight:chicken_soup"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "114E3C46C25085EF"
+					item: "rootsclassic:mortar"
+					type: "item"
+				}
+				{
+					id: "3AE4522966AA2B07"
+					item: "rootsclassic:pestle"
+					type: "item"
+				}
+			]
+			title: "Пестик и ступка"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["330CCC4BED070082"]
+			description: [
+				"&6&l=> &rСоздайте эссенцию природы благодаря пестику и ступке."
+				""
+				"&6&lP.S&r&r - На второй странице рунической табличке вы увидите множество цветов. Нажмите на любой из них и положите все ингредиенты в ступку которые будут там показаны, но самый главный ингредиент - Древний корень, положите его, без него ничего не будет работать."
+			]
+			hide: true
+			id: "7F2E97032B687C8E"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u041e\\u0442\\u043b\\u0438\\u0447\\u043d\\u043e, \\u0442\\u0435\\u043f\\u0435\\u0440\\u044c \\u0443 \\u043c\\u0435\\u043d\\u044f \\u0435\\u0441\\u0442\\u044c \\u044d\\u0441\\u0441\\u0435\\u043d\\u0446\\u0438\\u044f \\u043f\\u0440\\u0438\\u0440\\u043e\\u0434\\u044b. \\u0422\\u0435\\u043f\\u0435\\u0440\\u044c \\u043c\\u043d\\u0435 \\u043d\\u0443\\u0436\\u0435\\u043d \\u0441\\u043f\\u0435\\u0446\\u0438\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043d\\u0430\\u043f\\u043e\\u043b\\u043d\\u0438\\u0442\\u0435\\u043b\\u044c, \\u0447\\u0442\\u043e\\u0431\\u044b \\u043f\\u0440\\u0438\\u0432\\u044f\\u0437\\u0430\\u0442\\u044c \\u044d\\u0442\\u043e\\u0442 \\u0442\\u0438\\u043f \\u044d\\u0441\\u0441\\u0435\\u043d\\u0446\\u0438\\u0438 \\u043a \\u043f\\u0430\\u043b\\u043a\\u0435, \\u0441\\u043e\\u0437\\u0434\\u0430\\u0432 \\u0441\\u0432\\u043e\\u0435\\u043e\\u0431\\u0440\\u0430\\u0437\\u043d\\u044b\\u0439 \\u043f\\u043e\\u0441\\u043e\\u0445.\",\"color\":\"white\"}]"
+					icon: "ftbquests:book"
+					id: "1F66B36059C6C596"
+					title: "mind"
+					type: "command"
+				}
+				{
+					id: "1CB4F24B5C637B55"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [
+				{
+					id: "586368F2348C986C"
+					item: "rootsclassic:old_root"
+					title: "Древний корень"
+					type: "item"
+				}
+				{
+					id: "52D33F075D71438D"
+					item: "rootsclassic:spell_powder"
+					type: "item"
+				}
+			]
+			title: "Эссенция природы"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7F2E97032B687C8E"]
+			description: ["&6&l=> &rТеперь, когда у вас есть эссенция природы, вы можете создать свой первый посох. Для этого вам нужен наполнитель."]
+			hide: true
+			id: "2322AAC0FC04BAA2"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u041d\\u0430\\u043f\\u043e\\u043b\\u043d\\u0438\\u0442\\u0435\\u043b\\u044c \\u0433\\u043e\\u0442\\u043e\\u0432. \\u0422\\u0435\\u043f\\u0435\\u0440\\u044c \\u043d\\u0443\\u0436\\u043d\\u043e \\u043f\\u043e\\u043b\\u043e\\u0436\\u0438\\u0442\\u044c \\u0432\\u043d\\u0443\\u0442\\u0440\\u044c \\u043d\\u0435\\u0433\\u043e \\u043f\\u0430\\u043b\\u043a\\u0443 \\u0438 \\u0441\\u0432\\u0435\\u0440\\u0445\\u0443 \\u043f\\u043e\\u043b\\u043e\\u0436\\u0438\\u0442\\u044c \\u044d\\u0441\\u0441\\u0435\\u043d\\u0446\\u0438\\u044e \\u043f\\u0440\\u0438\\u0440\\u043e\\u0434\\u044b.\",\"color\":\"white\"}]"
+					icon: "ftbquests:book"
+					id: "2131FDFDE4A4E2AB"
+					title: "mind"
+					type: "command"
+				}
+				{
+					id: "10355A548A68F197"
+					item: "farmersdelight:pumpkin_soup"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "3CC76AB9CAE895BA"
+				item: "rootsclassic:imbuer"
+				title: "Наполнитель"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"330CCC4BED070082"
+				"2322AAC0FC04BAA2"
+				"7F2E97032B687C8E"
+			]
+			description: [
+				"&6&l=> &rЧтобы получить ваш посох, положите полученную вами эссенцию природы в наполнитель и положите туда палку. После этого пройдёт небольшой обряд, прежде чем вы получите посох."
+				""
+				"&6&lP.S&r - От порошка который вы создали, будет зависеть заклинание посоха!"
+			]
+			hide: true
+			id: "2C34DE52F8F1A527"
+			rewards: [{
+				auto: "invisible"
+				command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u0424\\u0443\\u0445, \\u044f \\u0432\\u0441\\u0451 \\u0441\\u0434\\u0435\\u043b\\u0430\\u043b \\u043f\\u0440\\u0430\\u0432\\u0438\\u043b\\u044c\\u043d\\u043e. \\u0422\\u0435\\u043f\\u0435\\u0440\\u044c \\u0443 \\u043c\\u0435\\u043d\\u044f \\u0435\\u0441\\u0442\\u044c \\u043f\\u0435\\u0440\\u0432\\u044b\\u0439 \\u043f\\u043e\\u0441\\u043e\\u0445. \\u0414\\u0430\\u043b\\u0435\\u0435 \\u0441\\u0442\\u043e\\u0438\\u0442 \\u0441\\u043e\\u0437\\u0434\\u0430\\u0442\\u044c \\u043f\\u0440\\u0438\\u0440\\u043e\\u0434\\u043d\\u044b\\u0439 \\u0430\\u043b\\u0442\\u0430\\u0440\\u044c, \\u0434\\u043b\\u044f \\u043f\\u0440\\u043e\\u0432\\u0435\\u0434\\u0435\\u043d\\u0438\\u044f \\u043f\\u0440\\u0438\\u0440\\u043e\\u0434\\u043d\\u044b\\u0445 \\u043e\\u0431\\u0440\\u044f\\u0434\\u043e\\u0432.\",\"color\":\"white\"}]"
+				icon: "ftbquests:book"
+				id: "025146EABE20F981"
+				title: "mind"
+				type: "command"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "54B9931F201185CE"
+				item: "rootsclassic:staff"
+				title: "Посох"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2C34DE52F8F1A527"]
+			description: ["&aТерра&r - Энергия природы. Она есть везде, на полянах, в лесах и даже в морях. Терра была открыта Дриадами в очень древние времена. Она является альтернативой мане. Терру использует ваш посох, для использования заклинаний, но она быстро восстановиться."]
+			hide: true
+			icon: "rootsclassic:growth_powder"
+			id: "10B062BD8F971497"
+			rewards: [{
+				auto: "invisible"
+				command: "/tellraw @p {\"text\":\"\\u041c\\u0430\\u0433\\u0438\\u0447\\u0435\\u0441\\u043a\\u0438\\u0435 \\u0441\\u0438\\u043b\\u044b \\u043f\\u0440\\u0438\\u0440\\u043e\\u0434\\u044b \\u043e\\u043a\\u0440\\u0436\\u0430\\u044e\\u0442 \\u0432\\u0430\\u0441 \\u0441\\u0432\\u043e\\u0435\\u0439 \\u0430\\u0443\\u0440\\u043e\\u0439 \\u0438 \\u0434\\u0430\\u0440\\u0443\\u044e\\u0442 \\u0432\\u0430\\u043c \\u0441\\u0438\\u043b\\u0443 \\u0441\\u0430\\u043c\\u043e\\u0439 \\u043f\\u0440\\u0438\\u0440\\u043e\\u0434\\u044b...\",\"color\":\"green\"}"
+				icon: "ftbquests:book"
+				id: "0C937E6B8F69B861"
+				title: "inside voice"
+				type: "command"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "36EFBB311FB530A6"
+				title: "&aТерра"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["10B062BD8F971497"]
+			description: [
+				"&6&l=> &rРитуалы природы. Звучит могущественно... Так оно и есть, чтобы их проводить, вам нужно иметь: алтарь, 8 жаровен, 8 маленьких обелисков и 4 больших."
+				""
+				"&6&l=> &rРасположите все эти предметы также как на фотографии ниже:"
+				""
+				"{image:kubejs:textures/item/roots_altar.png width:150 height:100 align:1}"
+			]
+			hide: true
+			id: "05D81787D35AB5A8"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u0412\\u0441\\u0451 \\u0433\\u043e\\u0442\\u043e\\u0432\\u043e. \\u0422\\u0435\\u043f\\u0435\\u0440\\u044c \\u0432\\u0441\\u0451 \\u043d\\u0443\\u0436\\u043d\\u043e \\u0440\\u0430\\u0441\\u0441\\u0442\\u0430\\u0432\\u0438\\u0442\\u044c \\u0432 \\u043f\\u0440\\u0430\\u0432\\u0438\\u043b\\u044c\\u043d\\u043e\\u0439 \\u043f\\u043e\\u0437\\u0438\\u0446\\u0438\\u0438, \\u0447\\u0442\\u043e \\u0443\\u043a\\u0430\\u0437\\u0430\\u043d\\u0430 \\u0432 \\u0440\\u0443\\u043d\\u0438\\u0447\\u0435\\u0441\\u043a\\u043e\\u0439 \\u0442\\u0430\\u0431\\u043b\\u0438\\u0447\\u043a\\u0435 \\u0432\\u043e \\u0432\\u043a\\u043b\\u0430\\u0434\\u043a\\u0435 \\u0441 \\u0440\\u0438\\u0442\\u0443\\u0430\\u043b\\u0430\\u043c\\u0438.\"}]"
+					icon: "ftbquests:book"
+					id: "64740F2B1F848EFE"
+					title: "mind"
+					type: "command"
+				}
+				{
+					id: "0082DC5AAD877705"
+					item: "iceandfire:dragonarmor_diamond_head"
+					type: "item"
+				}
+				{
+					id: "2B75C382BDF9C2A6"
+					item: "iceandfire:dragonarmor_diamond_neck"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [
+				{
+					id: "1D708C8D8EFB09E9"
+					item: "rootsclassic:altar"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "75814610886BAD82"
+					item: "rootsclassic:brazier"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "0D8C2AAF2BE0C41E"
+					item: "rootsclassic:mundane_standing_stone"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2D67BD98F0CDF267"
+					item: "rootsclassic:attuned_standing_stone"
+					type: "item"
+				}
+			]
+			title: "Алтарь Природы"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["05D81787D35AB5A8"]
+			description: ["&6&l=> &rБоевые Дриады всегда носили дикий комплект снаряжения. Он обладал особой способностью к восстановлению. При поломке инструменты и броня восстанавливались."]
+			hide: true
+			id: "2D501BD853F08CF9"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u042d\\u0442\\u0430 \\u0431\\u0440\\u043e\\u043d\\u044f \\u043e\\u0442\\u043b\\u0438\\u0447\\u043d\\u043e \\u0441\\u0438\\u0434\\u0438\\u0442 \\u043d\\u0430 \\u043c\\u043d\\u0435!\"}]"
+					icon: "ftbquests:book"
+					id: "0EAFC8301FF09E1B"
+					title: "mind"
+					type: "command"
+				}
+				{
+					id: "1267C72FB23F824C"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "656E1A5213BE788E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "rootsclassic:wildwood_mask"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "424868BFF6C1CF3F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "rootsclassic:wildwood_plate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7CA11D28C08ADC60"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "rootsclassic:wildwood_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7B7AD542B16ADBFF"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "rootsclassic:wildwood_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5D552FEF94CB7FDF"
+					item: {
+						Count: 1b
+						id: "rootsclassic:living_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3952883436D5946E"
+					item: {
+						Count: 1b
+						id: "rootsclassic:living_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "06822C85E89BEEF9"
+					item: {
+						Count: 1b
+						id: "rootsclassic:living_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Дикий комплект"
+			x: 9.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["05D81787D35AB5A8"]
+			description: ["&6&l=> &rУ Дриад были враги - Сильфы. Они также любили и уважали природу, но из-за неизвестного, маленького конфликта началась война между этими расами. Сильфы использовали сильное магическое снаряжение, что усиливало все природные заклинания в два раза."]
+			hide: true
+			id: "1928247FF9294DAD"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u042d\\u0442\\u0430 \\u0431\\u0440\\u043e\\u043d\\u044f \\u0432\\u044b\\u0433\\u043b\\u044f\\u0434\\u0438\\u0442 \\u043e\\u0447\\u0435\\u043d\\u044c \\u043a\\u0440\\u0430\\u0441\\u0438\\u0432\\u043e!\"}]"
+					icon: "ftbquests:book"
+					id: "200801AD11F47235"
+					title: "mind"
+					type: "command"
+				}
+				{
+					id: "46A7C00FA82E5FC1"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "13FFE71DE386475A"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "rootsclassic:sylvan_hood"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "40E4992A763F851F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "rootsclassic:sylvan_robe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3597E820338DC23C"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "rootsclassic:sylvan_tunic"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "48DC12EB708CC98B"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "rootsclassic:sylvan_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "69701ACB07C111B2"
+					item: {
+						Count: 1b
+						id: "rootsclassic:engraved_blade"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Комплект Сильфа"
+			x: 9.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"2D501BD853F08CF9"
+				"1928247FF9294DAD"
+			]
+			description: ["&6&l=> &rВы изучили магию природы. Молодцы! Но что же вы будете изучать дальше, отправитесь в другие миры или продолжите изучать Эдению или учиться магическим заклинаниям? Выбор за вами!"]
+			hide: true
+			id: "2D1041627985D218"
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				id: "22F49FADE6FE48AE"
+				title: "&6Конец VI главы&r: Магия природы"
+				type: "checkmark"
+			}]
+			x: 11.5d
+			y: 0.0d
+		}
+	]
+	subtitle: ["Магия дриад, природные заклинания и ритуалы"]
+	title: "&6VI&r: Природная магия ✦"
+}

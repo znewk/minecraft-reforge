@@ -1,0 +1,515 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6l_r_4"
+	group: "7D7AE6D174309F4B"
+	icon: "cold_sweat:thermometer"
+	id: "63785E8EC5BAE3F3"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 100.0d
+			hover: [ ]
+			image: "skilltree:textures/screen/skill_tree_background.png"
+			rotation: 0.0d
+			width: 100.0d
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "cold_sweat:textures/mob_effect/grace.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 9.0d
+			hover: [ ]
+			image: "cataclysm:textures/entity/soul_flame_strike_sigil.png"
+			rotation: 0.0d
+			width: 9.0d
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:item/apple"
+			rotation: -10.0d
+			width: 1.0d
+			x: -0.35204081632653583d
+			y: -0.43877551020408134d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "23D3D2925303C765"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "cold_sweat:items/soul_sprout"
+			rotation: -90.0d
+			width: 1.0d
+			x: -0.28061224489795933d
+			y: 1.1887755102040742d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "23D3D2925303C765"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "nethersdelight:item/propelpearl"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.8520408163265358d
+			y: -1.892857142857146d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "23D3D2925303C765"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "relics:item/aqua_walker_bubble"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "23D3D2925303C765"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "relics:item/aqua_walker_bubble"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "23D3D2925303C765"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "relics:item/magma_walker_fire"
+			rotation: -90.0d
+			width: 1.0d
+			x: -2.0d
+			y: 0.0d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["&6&l=> &rВ нашем мире в основном пригодная температура. Но есть места, в которых невозможно жить с той или иной температурой."]
+			hide: true
+			icon: "vinery:apple_tree_sapling"
+			id: "23D3D2925303C765"
+			shape: "diamond"
+			tasks: [{
+				advancement: "cold_sweat:extreme_temps"
+				criterion: ""
+				icon: "vinery:apple_tree_sapling"
+				id: "75C10290D18B0306"
+				title: "Суровый климат"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["23D3D2925303C765"]
+			description: ["&6Швейный стол&r - позволяет утеплит тот или иной элемент брони. Используя: кожу или шерсть."]
+			id: "2E1ED6CD6F5F756A"
+			rewards: [{
+				id: "1332F35E86D22E6F"
+				item: "irons_spellbooks:evasion_elixir"
+				type: "item"
+			}]
+			tasks: [{
+				id: "66BB282A27343DBA"
+				item: "cold_sweat:sewing_table"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["23D3D2925303C765"]
+			description: ["&6Очаг&r - Позволит вам, находясь в холодных условиях не умереть от холода. Положите в него топливо и он начнёт источать тепло."]
+			id: "37985486F0337358"
+			rewards: [{
+				id: "25950D9DDCE65C73"
+				item: "irons_spellbooks:invisibility_elixir"
+				type: "item"
+			}]
+			tasks: [{
+				id: "61BAE59FD845DBAB"
+				item: "cold_sweat:hearth"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"23D3D2925303C765"
+				"6E925E7F96CF1414"
+			]
+			description: ["&6Бойлер&r - Он поможет вам согреться в холодных местах благодаря специальными бурдюкам. Налейте в бойлер лаву и положите в верхние слоты бурдюки, чтобы поднять температуру воды внутри них."]
+			id: "25A94DD54588DC17"
+			rewards: [{
+				id: "66345931E1EF513A"
+				item: "irons_spellbooks:greater_invisibility_elixir"
+				type: "item"
+			}]
+			tasks: [{
+				id: "34781DC86EB34BFC"
+				item: "cold_sweat:boiler"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"23D3D2925303C765"
+				"6E925E7F96CF1414"
+			]
+			description: ["&6Холодильник&r - Позволит вам охладиться в жарких местах. Положите внутрь него ведро воды, а в верхние слоты бурдюки. После этого температура воды в бурдюках станет понижаться."]
+			id: "3A392C02EA20CAB3"
+			rewards: [{
+				id: "21C6AD0088034F5E"
+				item: "irons_spellbooks:greater_evasion_elixir"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6977937503054322"
+				item: "cold_sweat:icebox"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["23D3D2925303C765"]
+			description: ["Бурдюки используются, чтобы наполнить их водой и облить себя, если вам будет &6жарко&r или &bхолодно&r."]
+			id: "6E925E7F96CF1414"
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "5E354E3F158085C1"
+					item: "cold_sweat:waterskin"
+					type: "item"
+				}
+				{
+					id: "7C05F1A63A1A2713"
+					item: {
+						Count: 1b
+						id: "cold_sweat:filled_waterskin"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["23D3D2925303C765"]
+			description: ["&6&l=> &rВ незере живут такие существа как хоглины. Их шкура состоит их очень плотных тканей, так что не дает им замёрзнуть или сгореть в аду."]
+			hide_dependency_lines: true
+			id: "031FE0C4D7978836"
+			rewards: [{
+				id: "427945414F7AB776"
+				item: "malum:spirit_pouch"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "6203618773ECB6F3"
+				item: "cold_sweat:hoglin_hide"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["23D3D2925303C765"]
+			description: ["&6&l=> &rВ нашем мире, в горных окрестностях можно встретить козу. Убив которую, вы получите мех. Который можно использовать в создании комплекта одежды."]
+			hide_dependency_lines: true
+			id: "449A1A62459733A6"
+			rewards: [{
+				id: "551B462D59D4F328"
+				item: "malum:necklace_of_the_hidden_blade"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "638F1AC8C93C7A53"
+				item: "cold_sweat:fur"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["031FE0C4D7978836"]
+			description: ["&6&l=> &rСоздайте комплект одежды из шкуры хоглина."]
+			id: "02BF125DBD3E97B5"
+			rewards: [{
+				id: "24004BB85D112D95"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "05F29E57D21D3E05"
+				item: {
+					Count: 1b
+					id: "cold_sweat:hoglin_headpiece"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["031FE0C4D7978836"]
+			description: ["&6&l=> &rСоздайте комплект одежды из шкуры хоглина."]
+			id: "552E48A1E7514E8D"
+			rewards: [{
+				id: "69ECFC27A5BB3BFA"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "75055EBA1B74A091"
+				item: {
+					Count: 1b
+					id: "cold_sweat:hoglin_tunic"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["031FE0C4D7978836"]
+			description: ["&6&l=> &rСоздайте комплект одежды из шкуры хоглина."]
+			id: "54FCF07D86C320B8"
+			rewards: [{
+				id: "252550B024445B6A"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "0CC3D8244BB5D8A6"
+				item: {
+					Count: 1b
+					id: "cold_sweat:hoglin_trousers"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["031FE0C4D7978836"]
+			description: ["&6&l=> &rСоздайте комплект одежды из шкуры хоглина."]
+			id: "42C921C186FED862"
+			rewards: [{
+				id: "0E2C88E1F739294F"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "59476D9F9A04D7D5"
+				item: {
+					Count: 1b
+					id: "cold_sweat:hoglin_hooves"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["449A1A62459733A6"]
+			description: ["&6&l=> &rСоздайте комплект одежды из меха козы."]
+			id: "6290B406A4ED41B4"
+			rewards: [{
+				id: "6A7AA83E7BD0F970"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "4442793EE0A15723"
+				item: {
+					Count: 1b
+					id: "cold_sweat:fur_cap"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["449A1A62459733A6"]
+			description: ["&6&l=> &rСоздайте комплект одежды из меха козы."]
+			id: "6CF5EB66D79FF4C5"
+			rewards: [{
+				id: "13228D8CFEC0904C"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "0A26D5315B59FD99"
+				item: {
+					Count: 1b
+					id: "cold_sweat:fur_parka"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["449A1A62459733A6"]
+			description: ["&6&l=> &rСоздайте комплект одежды из меха козы."]
+			id: "30E238A747358105"
+			rewards: [{
+				id: "26D0259A4B2F9031"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "400FEF3C7255CB2B"
+				item: {
+					Count: 1b
+					id: "cold_sweat:fur_pants"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["449A1A62459733A6"]
+			description: ["&6&l=> &rСоздайте комплект одежды из меха козы."]
+			id: "00FC91E525A438C9"
+			rewards: [{
+				id: "0375A455D3D05145"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "40CB2D963DF95836"
+				item: {
+					Count: 1b
+					id: "cold_sweat:fur_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["23D3D2925303C765"]
+			description: [
+				"&6Термометр&r - прибор для измерения температуры окружающей среды."
+				""
+				"{image:cold_sweat:items/thermometer/thermometer width:75 height:75 align:1}"
+			]
+			id: "66CAB4F4B9106DDA"
+			shape: "diamond"
+			tasks: [{
+				id: "3C6F9180D344492F"
+				item: "cold_sweat:thermometer"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["23D3D2925303C765"]
+			description: [
+				"&bАдский светоч&r - Магический артефакт, который позволит вам не сгореть в аду от температуры. Чтобы его создать, вам понадобится найти древнюю реликвию - сердце моря."
+				""
+				"Он имеет заряд. Чтобы его зарядить, вы можете использовать &bростки душ&r, найденные в незере."
+				""
+				"{image:cold_sweat:items/soul_sprout width:75 height:75 align:1}"
+			]
+			id: "257AD807E1F99996"
+			rewards: [{
+				id: "31ECBBAF475AA438"
+				item: "irons_spellbooks:eldritch_manuscript"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "6121F588A587A29C"
+				item: {
+					Count: 1b
+					id: "cold_sweat:soulspring_lamp"
+					tag: {
+						fuel: 64.0d
+						isOn: 0b
+						stateChangeTimer: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+	]
+	subtitle: ["Необязательно для прохождения!"]
+	title: "&6&l=> &rТемпература"
+}

@@ -1,0 +1,1056 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "61_r"
+	group: "6B11AACE8AC43630"
+	icon: "minecraft:oak_sapling"
+	id: "41869E66174EBEF0"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 150.0d
+			hover: [ ]
+			image: "skilltree:textures/screen/skill_tree_background.png"
+			rotation: 0.0d
+			width: 150.0d
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "7E645A259A3C3147"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "valhelsia_structures:block/brazier_fire"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "46212208C065836C"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "valhelsia_structures:block/brazier_fire"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "46212208C065836C"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:item/coal"
+			rotation: -10.0d
+			width: 1.0d
+			x: 4.073809523809572d
+			y: -0.2666666666666373d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1C6BEB34294CE0C2"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "neapolitan:block/strawberry_bush_stage6_red"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1C6BEB34294CE0C2"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "wildberries:blocks/blueberry_bush_stage_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1C6BEB34294CE0C2"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "wildberries:blocks/cranberry_bush_stage_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1C6BEB34294CE0C2"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "wildberries:blocks/raspberry_bush_stage_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1C6BEB34294CE0C2"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "wildberries:blocks/blackberry_bush_stage_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "46212208C065836C"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "irons_spellbooks:item/arcane_essence"
+			rotation: -20.0d
+			width: 1.0d
+			x: 3.961904761904748d
+			y: 0.642857142857153d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2F19B37415E1E23F"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:item/diamond"
+			rotation: -20.0d
+			width: 1.0d
+			x: 2.614285714285714d
+			y: 3.1142857142856997d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2F19B37415E1E23F"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:item/gold_ingot"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.321428571428555d
+			y: 3.821428571428555d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2F19B37415E1E23F"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:item/redstone"
+			rotation: 10.0d
+			width: 1.0d
+			x: 3.4000000000000057d
+			y: 3.0642857142857167d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "02CC7A46F59EB1B5"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "valhelsia_structures:block/brazier_fire"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: 3.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7E645A259A3C3147"]
+			description: ["&6&l=> &rЭрес просыпается в неизвестном месте, где его главной целью становится выжить..."]
+			hide: true
+			id: "1C6BEB34294CE0C2"
+			shape: "diamond"
+			size: 1.1d
+			tasks: [{
+				id: "7FD0E178A7B4BFAC"
+				title: "&6Глава I&r: Первые шаги"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1C6BEB34294CE0C2"]
+			description: ["&6&l=> &rЭрес обладал большой физической силой. Благодаря этому он в одиночку может срубить целое дерево. Сделав это, он сможет создать первые инструменты."]
+			hide: true
+			icon: "minecraft:oak_sapling"
+			id: "032F5591B2D85E22"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u0424\\u0443\\u0445, \\u0434\\u0435\\u0440\\u0435\\u0432\\u043e \\u0441\\u0440\\u0443\\u0431\\u0438\\u043b. \\u0422\\u0435\\u043f\\u0435\\u0440\\u044c \\u043d\\u0443\\u0436\\u043d\\u043e \\u0438\\u0437\\u0433\\u043e\\u0442\\u043e\\u0432\\u0438\\u0442\\u044c \\u0432\\u0435\\u0440\\u0441\\u0442\\u0430\\u043a.\"}]"
+					icon: "ftbquests:book"
+					id: "45B645A6D17EBA56"
+					title: "mind"
+					type: "command"
+				}
+				{
+					count: 3
+					id: "7CE7A850C26AECA2"
+					item: "minecraft:apple"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "3ED9CE0F4309357B"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "Любое бревно"
+				type: "item"
+			}]
+			title: "Рубка дерева"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["032F5591B2D85E22"]
+			description: ["&6Верстак&r - рабочий стол, используемый для создания множества предметов: инструменты, броня и т.д. Создать его можно при помощи досок и палок."]
+			hide: true
+			id: "46212208C065836C"
+			rewards: [{
+				auto: "invisible"
+				command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u0420\\u0430\\u0431\\u043e\\u0447\\u0438\\u0439 \\u0441\\u0442\\u043e\\u043b \\u0433\\u043e\\u0442\\u043e\\u0432. \\u0422\\u0435\\u043f\\u0435\\u0440\\u044c \\u043d\\u0443\\u0436\\u043d\\u043e \\u0438\\u0437\\u0433\\u043e\\u0442\\u043e\\u0432\\u0438\\u0442\\u044c \\u043f\\u0435\\u0440\\u0432\\u044b\\u0435 \\u0438\\u043d\\u0441\\u0442\\u0440\\u0443\\u043c\\u0435\\u043d\\u0442\\u044b.\"}]"
+				icon: "ftbquests:book"
+				id: "55BCBED94FC47EF2"
+				title: "mind"
+				type: "command"
+			}]
+			tasks: [{
+				id: "0C651D2A2C43E67A"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["46212208C065836C"]
+			description: ["&6&l=> &rСоздав оружие, Эрес сможет отправиться на охоту на диких животных, чтобы получить их мясо и приготовить на костре и поесть его."]
+			hide: true
+			id: "72B88ACDE9D459D3"
+			rewards: [{
+				auto: "invisible"
+				command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u041e\\u0442\\u043b\\u0438\\u0447\\u043d\\u043e\\u0435 \\u043e\\u0440\\u0443\\u0436\\u0438\\u0435 \\u043f\\u043e\\u043b\\u0443\\u0447\\u0438\\u043b\\u043e\\u0441\\u044c! \\u041c\\u043e\\u0436\\u043d\\u043e \\u043e\\u0442\\u043f\\u0440\\u0430\\u0432\\u043b\\u044f\\u0442\\u044c\\u0441\\u044f \\u043d\\u0430 \\u043e\\u0445\\u043e\\u0442\\u0443 \\u0437\\u0430 \\u0434\\u0438\\u043a\\u0438\\u043c\\u0438 \\u0436\\u0438\\u0432\\u043e\\u0442\\u043d\\u044b\\u043c\\u0438.\"}]"
+				icon: "ftbquests:book"
+				id: "44DB5B18E7429C5A"
+				title: "mind"
+				type: "command"
+			}]
+			subtitle: "Охотничество"
+			tasks: [{
+				id: "3861CAE66791E5AB"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:wooden_weapon"
+					}
+				}
+				title: "Деревянное оружие"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["46212208C065836C"]
+			description: ["&6&l=> &rИспользуя кирку, Эрес собирается добыть первый булыжник, чтобы создать новые, полезные инструменты из камня на данном моменте его развития."]
+			hide: true
+			id: "4A4DBA2C255085DE"
+			rewards: [{
+				auto: "invisible"
+				command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u0414\\u0443\\u043c\\u0430\\u044e \\u0441 \\u043f\\u043e\\u043c\\u043e\\u0449\\u044c\\u044e \\u044d\\u0442\\u043e\\u0439 \\u043a\\u0438\\u0440\\u043a\\u0438 \\u043f\\u043e\\u043b\\u0443\\u0447\\u0438\\u0442\\u0441\\u044f \\u0434\\u043e\\u0431\\u044b\\u0442\\u044c \\u043d\\u0435\\u043c\\u043d\\u043e\\u0433\\u043e \\u043a\\u0430\\u043c\\u043d\\u044f, \\u043d\\u0430 \\u0441\\u043e\\u0437\\u0434\\u0430\\u0442\\u044c \\u0438\\u043d\\u0441\\u0442\\u0440\\u0443\\u043c\\u0435\\u043d\\u0442\\u044b, \\u043f\\u0435\\u0447\\u044c \\u0438 \\u0434\\u0440\\u0443\\u0433\\u043e\\u0435.\"}]"
+				icon: "ftbquests:book"
+				id: "24FB233C95C72658"
+				title: "mind"
+				type: "command"
+			}]
+			subtitle: "Шахтёрство"
+			tasks: [{
+				id: "361774B0030C8F5C"
+				item: {
+					Count: 1b
+					id: "minecraft:wooden_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"46212208C065836C"
+				"72B88ACDE9D459D3"
+			]
+			description: [
+				"&6&l=> &rБлагодаря костру, Эрес собирается греться ночью, чтобы не погибнуть от холода. А также на костре можно будет приготовить еду."
+				""
+				"{image:minecraft:block/campfire_fire width:100 height:100 align:1}"
+			]
+			hide: true
+			id: "55C14AB22E7D9555"
+			rewards: [{
+				auto: "invisible"
+				command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u041e\\u0442\\u043b\\u0438\\u0447\\u043d\\u043e, \\u0432\\u043e\\u0442 \\u043a\\u043e\\u0441\\u0442\\u0451\\u0440 \\u0438 \\u0433\\u043e\\u0442\\u043e\\u0432...\"}]"
+				icon: "ftbquests:book"
+				id: "1F2382874A9D1507"
+				title: "mind"
+				type: "command"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "38EFEB1286C6FD75"
+				item: "minecraft:campfire"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"4A4DBA2C255085DE"
+				"72B88ACDE9D459D3"
+				"7656FA05D14F9441"
+			]
+			description: ["&6&l=> &rДобыв камень, можно создать много всего полезного: инструменты, печи, различные другие предметы и т.д."]
+			hide: true
+			id: "0BC6D1684F00689D"
+			min_required_dependencies: 2
+			rewards: [{
+				auto: "invisible"
+				command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u0414\\u0435\\u0440\\u0435\\u0432\\u044f\\u043d\\u043d\\u0430\\u044f \\u043a\\u0438\\u0440\\u043a\\u0430 \\u043f\\u0440\\u0435\\u043a\\u0440\\u0430\\u0441\\u043d\\u043e \\u0441\\u043f\\u0440\\u0430\\u0432\\u043b\\u044f\\u0435\\u0442\\u0441\\u044f \\u0441\\u043e \\u0441\\u0432\\u043e\\u0435\\u0439 \\u0437\\u0430\\u0434\\u0430\\u0447\\u0435\\u0439!\"}]"
+				icon: "ftbquests:book"
+				id: "3932A8C61E2E3F2F"
+				title: "mind"
+				type: "command"
+			}]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				count: 19L
+				id: "459CB0D2EA343C4C"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			title: "Каменный век"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1C6BEB34294CE0C2"]
+			description: [
+				"&6&l=> &rВ этом мире, существует множество видов ягод, фруктов, овощей, растущих в диких условиях. Возможно, Эрес сможет найти некоторые виды из них."
+				"{image:neapolitan:block/strawberry_bush_stage6_red width:100 height:100 align:1}"
+			]
+			hide: true
+			id: "48E97D80A00696F8"
+			optional: true
+			shape: "hexagon"
+			tasks: [{
+				id: "70111F523A68959B"
+				item: "neapolitan:strawberries"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1C6BEB34294CE0C2"]
+			description: [
+				"&6&l=> &rВ этом мире, существует множество видов ягод, фруктов, овощей, растущих в диких условиях. Возможно, Эрес сможет найти некоторые виды из них."
+				"{image:wildberries:blocks/blueberry_bush_stage_3 width:100 height:100 align:1}"
+			]
+			hide: true
+			id: "7483C3872C031391"
+			optional: true
+			shape: "hexagon"
+			tasks: [{
+				id: "6DF6D007EDD4898B"
+				item: "wildberries:blueberries"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1C6BEB34294CE0C2"]
+			description: [
+				"&6&l=> &rВ этом мире, существует множество видов ягод, фруктов, овощей, растущих в диких условиях. Возможно, Эрес сможет найти некоторые виды из них."
+				"{image:wildberries:blocks/raspberry_bush_stage_3 width:100 height:100 align:1}"
+			]
+			hide: true
+			id: "23714E47F039B19A"
+			optional: true
+			shape: "hexagon"
+			tasks: [{
+				id: "3B545F069C3BB7EA"
+				item: "wildberries:raspberry"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1C6BEB34294CE0C2"]
+			description: [
+				"&6&l=> &rВ этом мире, существует множество видов ягод, фруктов, овощей, растущих в диких условиях. Возможно, Эрес сможет найти некоторые виды из них."
+				"{image:wildberries:blocks/cranberry_bush_stage_3 width:100 height:100 align:1}"
+			]
+			hide: true
+			id: "78240FF9418B072B"
+			optional: true
+			shape: "hexagon"
+			tasks: [{
+				id: "589DDC498D235676"
+				item: "wildberries:cranberries"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1C6BEB34294CE0C2"]
+			description: [
+				"&6&l=> &rВ этом мире, существует множество видов ягод, фруктов, овощей, растущих в диких условиях. Возможно, Эрес сможет найти некоторые виды из них."
+				"{image:wildberries:blocks/blackberry_bush_stage_3 width:100 height:100 align:1}"
+			]
+			hide: true
+			id: "05EE0B09C642EA6E"
+			optional: true
+			shape: "hexagon"
+			tasks: [{
+				id: "3015049F835D25CE"
+				item: "wildberries:blackberry"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0BC6D1684F00689D"]
+			description: [
+				"&6&l=> &rКаменная кирка, является куда прочнее и сильнее, чем деревянная кирка. Она может начать добывать первые металлические руды:"
+				""
+				"- Железная руда;"
+				"- Медная руда;"
+			]
+			hide: true
+			id: "754634DD3D851981"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u041a\\u0430\\u043c\\u0435\\u043d\\u043d\\u0430\\u044f \\u043a\\u0438\\u0440\\u043a\\u0430 \\u0441\\u043c\\u043e\\u0436\\u0435\\u0442 \\u0434\\u043e\\u0431\\u044b\\u0432\\u0430\\u0442\\u044c \\u0433\\u0430\\u0440\\u0430\\u0437\\u0434\\u043e \\u0431\\u043e\\u043b\\u044c\\u0448\\u0435 \\u0440\\u0435\\u0441\\u0443\\u0440\\u0441\\u043e\\u0432 \\u0447\\u0435\\u043c \\u0434\\u0435\\u0440\\u0435\\u0432\\u044f\\u043d\\u043d\\u0430\\u044f.\"}]"
+					icon: "ftbquests:book"
+					id: "028904E7A21DBB6D"
+					title: "mind"
+					type: "command"
+				}
+				{
+					id: "6E47953F0E279F4B"
+					item: "minecraft:torch"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "666CDF2E775849DF"
+				item: {
+					Count: 1b
+					id: "minecraft:stone_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["754634DD3D851981"]
+			description: ["&6Печь&r - одно из самых полезных изобретений человечества. С её помощью можно: готовить еду, плавить металлы и многое другое."]
+			hide: true
+			id: "05255D0146286002"
+			rewards: [{
+				auto: "invisible"
+				command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u0412 \\u044d\\u0442\\u043e\\u0439 \\u043f\\u0435\\u0447\\u0438 \\u044f \\u0441\\u043c\\u043e\\u0433\\u0443 \\u043f\\u043b\\u0430\\u0432\\u0438\\u0442\\u044c \\u043c\\u0435\\u0442\\u0430\\u043b\\u043b\\u044b, \\u0433\\u043e\\u0442\\u043e\\u0432\\u0438\\u0442\\u044c \\u0435\\u0434\\u0443 \\u0438 \\u043c\\u043d\\u043e\\u0433\\u043e\\u0435 \\u0434\\u0440\\u0443\\u0433\\u043e\\u0435!\"}]"
+				icon: "ftbquests:book"
+				id: "235C072AA4937779"
+				title: "mind"
+				type: "command"
+			}]
+			tasks: [{
+				id: "525524CDAD62DA35"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["754634DD3D851981"]
+			description: ["&6Железо&r - один из самых распространённых металлов в этом мире. Он отлично подходит для создания инструментов и брони."]
+			hide: true
+			id: "02CC7A46F59EB1B5"
+			rewards: [{
+				auto: "invisible"
+				command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u0416\\u0435\\u043b\\u0435\\u0437\\u043e! \\u042d\\u0442\\u043e \\u043f\\u0435\\u0440\\u0432\\u044b\\u0439 \\u043f\\u043e\\u043b\\u0443\\u0447\\u0435\\u043d\\u043d\\u044b\\u0439 \\u043c\\u043d\\u043e\\u0439 \\u043c\\u0435\\u0442\\u0430\\u043b\\u043b, \\u043f\\u0440\\u0435\\u0432\\u043e\\u0441\\u0445\\u043e\\u0434\\u043d\\u043e!\"}]"
+				icon: "ftbquests:book"
+				id: "2F32EBCDB7B0C23E"
+				title: "mind"
+				type: "command"
+			}]
+			tasks: [{
+				id: "59A197A872DB07B5"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["05255D0146286002"]
+			description: ["&6Уголь&r - древняя порода, которая является отличным топливом. Один кусочек способен переплавить 8 предметов."]
+			hide: true
+			id: "41805DCCC4327CFE"
+			optional: true
+			rewards: [{
+				id: "7D0D6125F1189893"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "5A10DF70A8216E90"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["02CC7A46F59EB1B5"]
+			description: ["&6&l=> &rЭресу нужны хорошие инструменты и броня, чтобы продолжить свои приключения в этом загадочном мире."]
+			hide: true
+			id: "450E2B5225C4FAC4"
+			optional: true
+			rewards: [
+				{
+					id: "7B1C011ACE326811"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "75DCB65BFAB232F2"
+					item: "artifacts:cross_necklace"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "27981138ECB67A43"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "52239E3649FC1F7D"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "44D0C12192BBFB6A"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "170C409E0F633BC8"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Железная броня"
+			x: 7.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["02CC7A46F59EB1B5"]
+			description: [
+				"&6&l=> &rЭресу нужны хорошие инструменты и броня, чтобы продолжить свои приключения в этом загадочном мире."
+				""
+				"Железная кирка, может добывать гораздо большее количество руд в отличие от каменной:"
+				""
+				"- Алмазы;"
+				"- Золото;"
+				"- Изумруды;"
+				"- Лазурит;"
+				"- Редстоун;"
+				"- Свинец;"
+				"- Серебро;"
+			]
+			hide: true
+			id: "2F19B37415E1E23F"
+			optional: true
+			rewards: [
+				{
+					id: "78DC36AB6FA0686B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5235F556795528F3"
+					item: {
+						Count: 1b
+						id: "minecraft:shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "0BE856D2768A89CD"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6485C2DA4B8041FE"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2644C6ACE5E169E3"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Железные инструменты"
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["032F5591B2D85E22"]
+			description: ["&6&l=> &rСахарный тростник, является разновидностью высокой травы, растущей около озёр, морей, рек и т.д. Из него изготавливают сахар и бумагу."]
+			hide: true
+			id: "49EE4D1C98CD4815"
+			rewards: [{
+				auto: "invisible"
+				command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u0421\\u0430\\u0445\\u0430\\u0440\\u043d\\u044b\\u0439 \\u0442\\u0440\\u043e\\u0441\\u0442\\u043d\\u0438\\u043a! \\u0414\\u0443\\u043c\\u0430\\u044e \\u043e\\u043d \\u043c\\u043d\\u0435 \\u043f\\u0440\\u0438\\u0433\\u043e\\u0434\\u0438\\u0442\\u0441\\u044f.\"}]"
+				icon: "ftbquests:book"
+				id: "5BEAD3597AA0FEBF"
+				title: "mind"
+				type: "command"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "3B1A97DD5F525A9D"
+				item: "minecraft:sugar_cane"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["02CC7A46F59EB1B5"]
+			dependency_requirement: "one_completed"
+			description: ["&6&l=> &rТеперь, когда у вас есть первое снаряжение можно заняться строительством дома, фермерством, магией, путешествием по мирам и чем только угодно!"]
+			hide: true
+			id: "2FCAAE2D19281F04"
+			shape: "diamond"
+			size: 1.1d
+			tasks: [{
+				id: "35FD6E360B76BE83"
+				title: "&6Конец I главы&r: Первые шаги"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["55C14AB22E7D9555"]
+			description: ["&6&l=> &rУбивая животных, можно получить мясо. Которое можно приготовить на костре и восполнить сытость и пополнить запас белков в организме."]
+			hide: true
+			id: "59FC7D371B4A396E"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "14BF29F173B64D8E"
+				item: "minecraft:cooked_chicken"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["55C14AB22E7D9555"]
+			description: ["&6&l=> &rУбивая животных, можно получить мясо. Которое можно приготовить на костре и восполнить сытость и пополнить запас белков в организме."]
+			hide: true
+			id: "002EF0ED57949329"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "7D051BBEF9FC9F5F"
+				item: "minecraft:cooked_mutton"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["55C14AB22E7D9555"]
+			description: ["&6&l=> &rУбивая животных, можно получить мясо. Которое можно приготовить на костре и восполнить сытость и пополнить запас белков в организме."]
+			hide: true
+			id: "15A038F611E3D7DC"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "124F80CA80FC7B71"
+				item: "minecraft:cooked_beef"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["55C14AB22E7D9555"]
+			description: ["&6&l=> &rУбивая животных, можно получить мясо. Которое можно приготовить на костре и восполнить сытость и пополнить запас белков в организме."]
+			hide: true
+			id: "7B2C9C771E56FEA1"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "5B878D74E782DE7C"
+				item: "minecraft:cooked_porkchop"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2F19B37415E1E23F"]
+			description: ["&6&l=> &rВ глубоких пещерах этого Эдении можно обнаружить новые руды, которые можно добыть с помощью железной кирки."]
+			hide: true
+			id: "593451C39CADB981"
+			optional: true
+			shape: "diamond"
+			subtitle: "Ванильные"
+			tasks: [
+				{
+					id: "6DBA6EEED51AA068"
+					item: "minecraft:raw_gold"
+					type: "item"
+				}
+				{
+					id: "44BB9017ED68862E"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "2F2214CBB7C95AE4"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					id: "14253FD086D5C6CE"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+			]
+			title: "Новые ископаемые"
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0BC6D1684F00689D"]
+			description: [
+				"&6Рюкзак&r - наспинное приспособление, в котором можно хранить разные вещи во время путешествий."
+				""
+				"&6Спальный мешок&r - Удобный инструмент, чтобы поспать ночью, посреди лесов, полей, гор и т.д."
+			]
+			hide: true
+			id: "05A7ACC8C049B928"
+			optional: true
+			shape: "diamond"
+			tasks: [
+				{
+					id: "583E4FDDEAE01CB1"
+					item: "backpacked:backpack"
+					type: "item"
+				}
+				{
+					id: "4CC26D709DFF00B3"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "comforts:sleeping_bags"
+						}
+					}
+					title: "Спальный мешок"
+					type: "item"
+				}
+			]
+			title: "Комплект путешественника"
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0BC6D1684F00689D"]
+			description: ["&6&l=> &rИз дерева и камня, можно создать первую броню. Хоть и с маленькой защитой."]
+			hide: true
+			id: "3A539FF7D8B4A170"
+			rewards: [{
+				auto: "invisible"
+				command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u042d\\u0442\\u043e\\u0442 \\u0448\\u043b\\u0435\\u043c \\u0431\\u0443\\u0434\\u0435\\u0442 \\u043f\\u0440\\u0435\\u043a\\u0440\\u0430\\u0441\\u043d\\u043e \\u043d\\u0430 \\u043c\\u043d\\u0435 \\u0441\\u043c\\u043e\\u0442\\u0440\\u0435\\u0442\\u044c\\u0441\\u044f!\"}]"
+				icon: "ftbquests:book"
+				id: "1F7F339877195CD0"
+				title: "mind"
+				type: "command"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "046674B64CE9A125"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "immersive_armors:wooden_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0BC6D1684F00689D"]
+			description: ["&6&l=> &rИз дерева и камня, можно создать первую броню. Хоть и с маленькой защитой."]
+			hide: true
+			id: "2024F0F89C73776F"
+			rewards: [{
+				auto: "invisible"
+				command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u041a\\u0430\\u043a\\u043e\\u0439 \\u043a\\u0440\\u0430\\u0441\\u0438\\u0432\\u044b\\u0439 \\u043d\\u0430\\u0433\\u0440\\u0443\\u0434\\u043d\\u0438\\u043a \\u0432\\u044b\\u0448\\u0435\\u043b, \\u043d\\u0443\\u0436\\u043d\\u043e \\u043f\\u0440\\u0438\\u043c\\u0435\\u0440\\u0438\\u0442\\u044c...\"}]"
+				icon: "ftbquests:book"
+				id: "2684917A87D6CCE4"
+				title: "mind"
+				type: "command"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "6C49D0250A75A73C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "immersive_armors:wooden_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0BC6D1684F00689D"]
+			description: ["&6&l=> &rИз дерева и камня, можно создать первую броню. Хоть и с маленькой защитой."]
+			hide: true
+			id: "7DFB3494563BFD15"
+			rewards: [{
+				auto: "invisible"
+				command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u0425\\u043c\\u043c, \\u0434\\u0443\\u043c\\u0430\\u044e \\u044d\\u0442\\u0438 \\u043f\\u043e\\u043d\\u043e\\u0436\\u0438 \\u043d\\u0435 \\u043f\\u043b\\u043e\\u0445\\u043e \\u043f\\u043e\\u043b\\u0443\\u0447\\u0438\\u043b\\u0438\\u0441\\u044c...\"}]"
+				icon: "ftbquests:book"
+				id: "5021311DBC0BBD84"
+				title: "mind"
+				type: "command"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "6C72BC1928DE511B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "immersive_armors:wooden_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0BC6D1684F00689D"]
+			description: ["&6&l=> &rИз дерева и камня, можно создать первую броню. Хоть и с маленькой защитой."]
+			hide: true
+			id: "6FEEBF55CE8B34D4"
+			rewards: [{
+				auto: "invisible"
+				command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u0411\\u043e\\u0442\\u0438\\u043d\\u043a\\u0438 \\u0438\\u0434\\u0435\\u0430\\u043b\\u044c\\u043d\\u043e\\u0433\\u043e \\u0440\\u0430\\u0437\\u043c\\u0435\\u0440\\u0430 \\u0432\\u044b\\u0448\\u043b\\u0438!\"}]"
+				icon: "ftbquests:book"
+				id: "35FC4171B84A423D"
+				title: "mind"
+				type: "command"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "69AF33A2DC8987BD"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "immersive_armors:wooden_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["46212208C065836C"]
+			description: [
+				"&6&l=> &rЕсли вы выбрали ветку прохождения волшебника, вам советуется создать деревянный жезл. Который отлично подойдёт для убийства первых врагов и монстров."
+				""
+				"&l&6P.S&r - Не видны с шейдерами."
+			]
+			hide: true
+			id: "7656FA05D14F9441"
+			optional: true
+			rewards: [{
+				auto: "invisible"
+				command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u0416\\u0435\\u0437\\u043b \\u043f\\u043e\\u043b\\u0443\\u0447\\u0438\\u043b\\u0441\\u044f \\u043e\\u0442\\u043b\\u0438\\u0447\\u043d\\u044b\\u043c. \\u041d\\u0443\\u0436\\u043d\\u043e \\u0435\\u0433\\u043e \\u043f\\u0440\\u043e\\u0442\\u0435\\u0441\\u0442\\u0438\\u0440\\u043e\\u0432\\u0430\\u0442\\u044c!\"}]"
+				icon: "ftbquests:book"
+				id: "156FA632EEED37AD"
+				title: "mind"
+				type: "command"
+			}]
+			subtitle: "Магия"
+			tasks: [{
+				id: "0A85B904B3475844"
+				item: {
+					Count: 1b
+					id: "sortilege:wooden_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+	]
+	subtitle: ["Начало приключений"]
+	title: "&6I&r: Первые шаги ✦"
+}

@@ -1,0 +1,232 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6_r_2"
+	group: "7D7AE6D174309F4B"
+	icon: {
+		Count: 1b
+		id: "immersive_melodies:trumpet"
+		tag: { }
+	}
+	id: "6A44043A0448BA6B"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 100.0d
+			hover: [ ]
+			image: "skilltree:textures/screen/skill_tree_background.png"
+			rotation: 0.0d
+			width: 100.0d
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "eidolon:item/arcane_gold_ingot"
+			rotation: -20.0d
+			width: 1.0d
+			x: -0.3571428571428541d
+			y: -1.404761904761905d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "skilltree:item/golden_ring"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.4030612244897895d
+			y: 0.8010204081632608d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "farmersdelight:item/barbecue_stick"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5892857142857153d
+			y: -0.40646258503401d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:block/cave_vines_plant_lit"
+			rotation: 90.0d
+			width: 1.0d
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:item/bone"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.16454081632652873d
+			y: 1.5833333333333357d
+		}
+	]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["&6&l=>&r Вы можете создать музыкальные инструменты и играть на них, тем самым проигрывая музыку."]
+			id: "41D93C13B5287D1B"
+			rewards: [{
+				id: "38ADBCF1BD608284"
+				item: "farmersdelight:melon_juice"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2BFF4F46D1357DD4"
+				item: {
+					Count: 1b
+					id: "immersive_melodies:bagpipe"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			description: ["&6&l=>&r Вы можете создать музыкальные инструменты и играть на них, тем самым проигрывая музыку."]
+			id: "501ADC2B65AF889B"
+			rewards: [{
+				id: "4A44B8DD3CB973A9"
+				item: "farmersdelight:hot_cocoa"
+				type: "item"
+			}]
+			tasks: [{
+				id: "669857AAF4B85E11"
+				item: {
+					Count: 1b
+					id: "immersive_melodies:didgeridoo"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["&6&l=>&r Вы можете создать музыкальные инструменты и играть на них, тем самым проигрывая музыку."]
+			id: "6FE37970405186DE"
+			rewards: [{
+				id: "1149E8D2086D6A75"
+				item: "farmersdelight:apple_cider"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5CC02C2A1E8E75C0"
+				item: {
+					Count: 1b
+					id: "immersive_melodies:flute"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			description: ["&6&l=>&r Вы можете создать музыкальные инструменты и играть на них, тем самым проигрывая музыку."]
+			id: "7E93C81B6A930AD8"
+			rewards: [{
+				id: "33E8559E0FFBEE94"
+				item: "farmersdelight:ratatouille"
+				type: "item"
+			}]
+			tasks: [{
+				id: "17F92BEB8BF65228"
+				item: {
+					Count: 1b
+					id: "immersive_melodies:lute"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			description: ["&6&l=>&r Вы можете создать музыкальные инструменты и играть на них, тем самым проигрывая музыку."]
+			id: "37D4439C45BB1919"
+			rewards: [{
+				id: "32BD9318AFCFA3F6"
+				item: "farmersdelight:roasted_mutton_chops"
+				type: "item"
+			}]
+			tasks: [{
+				id: "316872BFD3B9C6B6"
+				item: {
+					Count: 1b
+					id: "immersive_melodies:piano"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			description: ["&6&l=>&r Вы можете создать музыкальные инструменты и играть на них, тем самым проигрывая музыку."]
+			id: "54E49432A8D0CC69"
+			rewards: [{
+				id: "41874925ACDB6262"
+				item: "farmersdelight:mushroom_rice"
+				type: "item"
+			}]
+			tasks: [{
+				id: "681A141370F544AD"
+				item: {
+					Count: 1b
+					id: "immersive_melodies:triangle"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			description: ["&6&l=>&r Вы можете создать музыкальные инструменты и играть на них, тем самым проигрывая музыку."]
+			id: "49DA2C45DFC18987"
+			rewards: [{
+				id: "3F563A48B0E65109"
+				item: "farmersdelight:squid_ink_pasta"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3416342DEE37DCE7"
+				item: {
+					Count: 1b
+					id: "immersive_melodies:trumpet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+	]
+	subtitle: ["Необязательно для прохождения!"]
+	title: "&6&l=> &rМузыка"
+}

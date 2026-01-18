@@ -1,0 +1,14 @@
+{
+  "allowMovement": {
+    "rogo.sketch.gui.ConfigScreen": true,
+    "top.theillusivec4.curios.client.gui.CuriosScreenV2": true,
+    "com.mrcrayfish.backpacked.client.gui.screen.inventory.BackpackScreen": true,
+    "com.mrcrayfish.backpacked.client.gui.screen.CustomiseBackpackScreen": true
+  },
+  "hideBackground": {
+    "top.theillusivec4.curios.client.gui.CuriosScreenV2": true,
+    "com.mrcrayfish.backpacked.client.gui.screen.inventory.BackpackScreen": true,
+    "com.mrcrayfish.backpacked.client.gui.screen.CustomiseBackpackScreen": true,
+    "com.dplayend.justleveling.client.screen.JustLevelingScreen": true
+  }
+}

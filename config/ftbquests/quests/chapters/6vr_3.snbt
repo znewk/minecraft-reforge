@@ -1,0 +1,906 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6vr_3"
+	group: "7BBC8432A0F16C2B"
+	icon: {
+		Count: 1b
+		id: "irons_spellbooks:dragonskin_spell_book"
+		tag: {
+			ISB_Spells: {
+				data: [ ]
+				maxSpells: 12
+				mustEquip: 1b
+				spellWheel: 1b
+			}
+		}
+	}
+	id: "14C24ACBB0FB93E4"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 150.0d
+			hover: [ ]
+			image: "skilltree:textures/screen/skill_tree_background.png"
+			rotation: 0.0d
+			width: 150.0d
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 30.0d
+			hover: [ ]
+			image: "celestisynth:textures/entity/breezebreaker_wheel_impact/breezebreaker_wheel_impact4.png"
+			rotation: 0.0d
+			width: 30.0d
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "celestisynth:textures/entity/breezebreaker_wheel_impact/breezebreaker_wheel_impact6.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "692AA2E10292779D"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "malum:textures/mob_effect/gaian_bulwark.png"
+			rotation: -15.0d
+			width: 1.0d
+			x: -1.8214285714285836d
+			y: -1.4333333333333158d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "692AA2E10292779D"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "iceandfire:item/myrmex_desert_swarm"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.4642857142857153d
+			y: -1.5714285714285694d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "692AA2E10292779D"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "eidolon:textures/item/essence_of_crimson.png"
+			rotation: 20.0d
+			width: 1.0d
+			x: 1.642857142857146d
+			y: -1.607142857142854d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "692AA2E10292779D"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:textures/mob_effect/water_breathing.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "692AA2E10292779D"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "relics:item/magma_walker_fire"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "692AA2E10292779D"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "gothic:items/stone_tablet_of_strength"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "692AA2E10292779D"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:textures/mob_effect/night_vision.png"
+			rotation: 30.0d
+			width: 1.0d
+			x: 4.642857142857146d
+			y: -1.500000000000007d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "692AA2E10292779D"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "irons_spellbooks:item/emerald_stoneplate_ring"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.321428571428569d
+			y: -1.5d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["692AA2E10292779D"]
+			description: ["&6&l=> &rСоберите все артефакты, убивая подземных существ мимиков, живых сундуков охраняющие эти самые артефакты."]
+			hide: true
+			hide_dependency_lines: true
+			id: "44C8C983C934BEB0"
+			rewards: [{
+				id: "1FCF7ED63853BFE5"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6C4BDA0B1FED55A5"
+				item: "artifacts:umbrella"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["692AA2E10292779D"]
+			description: ["&6&l=> &rСоберите все артефакты, убивая подземных существ мимиков, живых сундуков охраняющие эти самые артефакты."]
+			hide: true
+			hide_dependency_lines: true
+			id: "0BD86733362D1B6D"
+			rewards: [{
+				id: "6CE5DA9A92488804"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0B94D64ED759E60A"
+				item: "artifacts:everlasting_beef"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["692AA2E10292779D"]
+			description: ["&6&l=> &rСоберите все артефакты, убивая подземных существ мимиков, живых сундуков охраняющие эти самые артефакты."]
+			hide: true
+			hide_dependency_lines: true
+			id: "6E7AA73DD6778644"
+			rewards: [{
+				id: "1DFEC71E4B6203B4"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "680BDD93718040A0"
+				item: "artifacts:eternal_steak"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["692AA2E10292779D"]
+			description: ["&6&l=> &rСоберите все артефакты, убивая подземных существ мимиков, живых сундуков охраняющие эти самые артефакты."]
+			hide: true
+			hide_dependency_lines: true
+			id: "512456BD9ECF113E"
+			rewards: [{
+				id: "0D69B0EEDB33AF2B"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "79315BB67C9292C1"
+				item: "artifacts:plastic_drinking_hat"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["692AA2E10292779D"]
+			description: ["&6&l=> &rСоберите все артефакты, убивая подземных существ мимиков, живых сундуков охраняющие эти самые артефакты."]
+			hide: true
+			hide_dependency_lines: true
+			id: "617C44FC794E91B9"
+			rewards: [{
+				id: "648B45CFFF4A981D"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "22D6070184DEC990"
+				item: "artifacts:novelty_drinking_hat"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["692AA2E10292779D"]
+			description: ["&6&l=> &rСоберите все артефакты, убивая подземных существ мимиков, живых сундуков охраняющие эти самые артефакты."]
+			hide: true
+			hide_dependency_lines: true
+			id: "054C53F2662824ED"
+			rewards: [{
+				id: "1E6CDB62ADE41B51"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "16B459D8C346A85C"
+				item: "artifacts:snorkel"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["692AA2E10292779D"]
+			description: ["&6&l=> &rСоберите все артефакты, убивая подземных существ мимиков, живых сундуков охраняющие эти самые артефакты."]
+			hide: true
+			hide_dependency_lines: true
+			id: "5DB4107A4B371F98"
+			rewards: [{
+				id: "6628EB7FF26F6B59"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5FAC98CAF62029EB"
+				item: "artifacts:night_vision_goggles"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["692AA2E10292779D"]
+			description: ["&6&l=> &rСоберите все артефакты, убивая подземных существ мимиков, живых сундуков охраняющие эти самые артефакты."]
+			hide: true
+			hide_dependency_lines: true
+			id: "4784E2B69A5E19DA"
+			rewards: [{
+				id: "3354B7CA736F741B"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "71C72F44D66541E3"
+				item: "artifacts:villager_hat"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["692AA2E10292779D"]
+			description: ["&6&l=> &rСоберите все артефакты, убивая подземных существ мимиков, живых сундуков охраняющие эти самые артефакты."]
+			hide: true
+			hide_dependency_lines: true
+			id: "40727B8380F9A2D7"
+			rewards: [{
+				id: "30A9ECA8665DB51D"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3DFD72BDA5E9D3B7"
+				item: "artifacts:superstitious_hat"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["692AA2E10292779D"]
+			description: ["&6&l=> &rСоберите все артефакты, убивая подземных существ мимиков, живых сундуков охраняющие эти самые артефакты."]
+			hide: true
+			hide_dependency_lines: true
+			id: "57A5FFB72BB92BDA"
+			rewards: [{
+				id: "783A3FAF5D7FEA18"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4930D73B6C19BCD9"
+				item: "artifacts:lucky_scarf"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["692AA2E10292779D"]
+			description: ["&6&l=> &rСоберите все артефакты, убивая подземных существ мимиков, живых сундуков охраняющие эти самые артефакты."]
+			hide: true
+			hide_dependency_lines: true
+			id: "22DBD0535B0A64C9"
+			rewards: [{
+				id: "27C8164F712E8DE9"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "05E3EFF5F9011F5F"
+				item: "artifacts:scarf_of_invisibility"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["692AA2E10292779D"]
+			description: ["&6&l=> &rСоберите все артефакты, убивая подземных существ мимиков, живых сундуков охраняющие эти самые артефакты."]
+			hide: true
+			hide_dependency_lines: true
+			id: "5E1D79B76A1A2D3A"
+			rewards: [{
+				id: "393860A4F5A6D18A"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "144F4A5009CE8DFC"
+				item: "artifacts:cross_necklace"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["692AA2E10292779D"]
+			description: ["&6&l=> &rСоберите все артефакты, убивая подземных существ мимиков, живых сундуков охраняющие эти самые артефакты."]
+			hide: true
+			hide_dependency_lines: true
+			id: "5DE127A09C08A509"
+			rewards: [{
+				id: "0243A3755CA2E1F0"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5F3124705492943B"
+				item: "artifacts:panic_necklace"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["692AA2E10292779D"]
+			description: ["&6&l=> &rСоберите все артефакты, убивая подземных существ мимиков, живых сундуков охраняющие эти самые артефакты."]
+			hide: true
+			hide_dependency_lines: true
+			id: "70A66D9B5E2627C0"
+			rewards: [{
+				id: "5559251E36507854"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "117B1C00827C4E52"
+				item: "artifacts:shock_pendant"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["692AA2E10292779D"]
+			description: ["&6&l=> &rСоберите все артефакты, убивая подземных существ мимиков, живых сундуков охраняющие эти самые артефакты."]
+			hide: true
+			hide_dependency_lines: true
+			id: "60EB85A31AA3EC1F"
+			rewards: [{
+				id: "4342D9B648F98FFA"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "08E0C68DD8AD46E3"
+				item: "artifacts:flame_pendant"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["692AA2E10292779D"]
+			description: ["&6&l=> &rСоберите все артефакты, убивая подземных существ мимиков, живых сундуков охраняющие эти самые артефакты."]
+			hide: true
+			hide_dependency_lines: true
+			id: "4E7E0575C1DEA958"
+			rewards: [{
+				id: "16C785065FFF3EF5"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6EFBEF16710E0E03"
+				item: "artifacts:thorn_pendant"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["692AA2E10292779D"]
+			description: ["&6&l=> &rСоберите все артефакты, убивая подземных существ мимиков, живых сундуков охраняющие эти самые артефакты."]
+			hide: true
+			hide_dependency_lines: true
+			id: "1F44B03267656D82"
+			rewards: [{
+				id: "1E8ADEC154EA0CA2"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "16657E77D48210FD"
+				item: "artifacts:charm_of_sinking"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["692AA2E10292779D"]
+			description: ["&6&l=> &rСоберите все артефакты, убивая подземных существ мимиков, живых сундуков охраняющие эти самые артефакты."]
+			hide: true
+			hide_dependency_lines: true
+			id: "38A2EA4D5BB0035B"
+			rewards: [{
+				id: "6F0DB09C47FF260C"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "08F78E70FDC0FECB"
+				item: "artifacts:cloud_in_a_bottle"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["692AA2E10292779D"]
+			description: ["&6&l=> &rСоберите все артефакты, убивая подземных существ мимиков, живых сундуков охраняющие эти самые артефакты."]
+			hide: true
+			hide_dependency_lines: true
+			id: "7158BB4DFD87109C"
+			rewards: [{
+				id: "6AA5EDA4EC9979D9"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "62E4844FFBC5048D"
+				item: "artifacts:obsidian_skull"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["692AA2E10292779D"]
+			description: ["&6&l=> &rСоберите все артефакты, убивая подземных существ мимиков, живых сундуков охраняющие эти самые артефакты."]
+			hide: true
+			hide_dependency_lines: true
+			id: "7FDF913E073F05AE"
+			rewards: [{
+				id: "626B7ED7480FB458"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2AFAE996BD0478E9"
+				item: "artifacts:antidote_vessel"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["692AA2E10292779D"]
+			description: ["&6&l=> &rСоберите все артефакты, убивая подземных существ мимиков, живых сундуков охраняющие эти самые артефакты."]
+			hide: true
+			hide_dependency_lines: true
+			id: "3978C2DBE1B61990"
+			rewards: [{
+				id: "6F78F530004AED5C"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "50042B82B194DAC2"
+				item: "artifacts:universal_attractor"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["692AA2E10292779D"]
+			description: ["&6&l=> &rСоберите все артефакты, убивая подземных существ мимиков, живых сундуков охраняющие эти самые артефакты."]
+			hide: true
+			hide_dependency_lines: true
+			id: "2C8BB51F8A0A4703"
+			rewards: [{
+				id: "500423C28A8B290F"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "54AC0D9BF367F5DF"
+				item: "artifacts:crystal_heart"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["692AA2E10292779D"]
+			description: ["&6&l=> &rСоберите все артефакты, убивая подземных существ мимиков, живых сундуков охраняющие эти самые артефакты."]
+			hide: true
+			hide_dependency_lines: true
+			id: "3EA8F4022DEEE82F"
+			rewards: [{
+				id: "2349EDE0CC7BB40B"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2ACF060B0BA57741"
+				item: "artifacts:helium_flamingo"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["692AA2E10292779D"]
+			description: ["&6&l=> &rСоберите все артефакты, убивая подземных существ мимиков, живых сундуков охраняющие эти самые артефакты."]
+			hide: true
+			hide_dependency_lines: true
+			id: "3D1578DF95F261ED"
+			rewards: [{
+				id: "546BBF80D0BFC004"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "08FE929E8F7BEB46"
+				item: "artifacts:digging_claws"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["692AA2E10292779D"]
+			description: ["&6&l=> &rСоберите все артефакты, убивая подземных существ мимиков, живых сундуков охраняющие эти самые артефакты."]
+			hide: true
+			hide_dependency_lines: true
+			id: "2EDC7E875E426986"
+			rewards: [{
+				id: "336C6738410357F3"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1A15AD6336E1FE7E"
+				item: "artifacts:feral_claws"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["692AA2E10292779D"]
+			description: ["&6&l=> &rСоберите все артефакты, убивая подземных существ мимиков, живых сундуков охраняющие эти самые артефакты."]
+			hide: true
+			hide_dependency_lines: true
+			id: "488477D975B8C132"
+			rewards: [{
+				id: "6CFCD4742EC1472D"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "12028EB5256D4DA8"
+				item: "artifacts:power_glove"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["692AA2E10292779D"]
+			description: ["&6&l=> &rСоберите все артефакты, убивая подземных существ мимиков, живых сундуков охраняющие эти самые артефакты."]
+			hide: true
+			hide_dependency_lines: true
+			id: "20E373424804CEDF"
+			rewards: [{
+				id: "4429289823310CF5"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "216CAD3B464CA25C"
+				item: "artifacts:fire_gauntlet"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["692AA2E10292779D"]
+			description: ["&6&l=> &rСоберите все артефакты, убивая подземных существ мимиков, живых сундуков охраняющие эти самые артефакты."]
+			hide: true
+			hide_dependency_lines: true
+			id: "60E012BBFD9C07E2"
+			rewards: [{
+				id: "0ED5D6B7AA8AECED"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6315F7A7F9192098"
+				item: "artifacts:pocket_piston"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["692AA2E10292779D"]
+			description: ["&6&l=> &rСоберите все артефакты, убивая подземных существ мимиков, живых сундуков охраняющие эти самые артефакты."]
+			hide: true
+			hide_dependency_lines: true
+			id: "2D30219AB7DF5C26"
+			rewards: [{
+				id: "213426A22E484811"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0E08134E4E552C80"
+				item: "artifacts:vampiric_glove"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["692AA2E10292779D"]
+			description: ["&6&l=> &rСоберите все артефакты, убивая подземных существ мимиков, живых сундуков охраняющие эти самые артефакты."]
+			hide: true
+			hide_dependency_lines: true
+			id: "4EB437CB7EEF956D"
+			rewards: [{
+				id: "58E82D0F962B52A0"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0626520978650967"
+				item: "artifacts:golden_hook"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["692AA2E10292779D"]
+			description: ["&6&l=> &rСоберите все артефакты, убивая подземных существ мимиков, живых сундуков охраняющие эти самые артефакты."]
+			hide: true
+			hide_dependency_lines: true
+			id: "422E7B7E24ADCE47"
+			rewards: [{
+				id: "4A6FC7C2E7320C08"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1F2130198C4C1EFD"
+				item: "artifacts:bunny_hoppers"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["692AA2E10292779D"]
+			description: ["&6&l=> &rСоберите все артефакты, убивая подземных существ мимиков, живых сундуков охраняющие эти самые артефакты."]
+			hide: true
+			hide_dependency_lines: true
+			id: "1E63D8214168C09E"
+			rewards: [{
+				id: "73A0AB1D0929AF30"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "052049ACCF17015F"
+				item: "artifacts:aqua_dashers"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["692AA2E10292779D"]
+			description: ["&6&l=> &rСоберите все артефакты, убивая подземных существ мимиков, живых сундуков охраняющие эти самые артефакты."]
+			hide: true
+			hide_dependency_lines: true
+			id: "15CE1D3E19871988"
+			rewards: [{
+				id: "528ED4F5CC01E028"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "42BD1C5B2E954EBD"
+				item: "artifacts:kitty_slippers"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["692AA2E10292779D"]
+			description: ["&6&l=> &rСоберите все артефакты, убивая подземных существ мимиков, живых сундуков охраняющие эти самые артефакты."]
+			hide: true
+			hide_dependency_lines: true
+			id: "6A94B4DB9DDAEDEB"
+			rewards: [{
+				id: "5B012C4EC4893F15"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2ECB7EDFA4118607"
+				item: "artifacts:running_shoes"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["692AA2E10292779D"]
+			description: ["&6&l=> &rСоберите все артефакты, убивая подземных существ мимиков, живых сундуков охраняющие эти самые артефакты."]
+			hide: true
+			hide_dependency_lines: true
+			id: "09405EEC7A1BB001"
+			rewards: [{
+				id: "3814DBB5BBABCB11"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7099B65BF825F3FB"
+				item: "artifacts:steadfast_spikes"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["692AA2E10292779D"]
+			description: ["&6&l=> &rСоберите все артефакты, убивая подземных существ мимиков, живых сундуков охраняющие эти самые артефакты."]
+			hide: true
+			hide_dependency_lines: true
+			id: "2B3CB86820081AE2"
+			rewards: [{
+				id: "1B0C6160C7890464"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "613DE648C26D1EF9"
+				item: "artifacts:flippers"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2FCAAE2D19281F04"]
+			description: [
+				"&6&l=> &rВ глубинах нашего мира существуют такие существа как мимики. Раньше это были просто сундуки, но после заражения, которое создала сверх-божественная сущность, они обрели разум и силу."
+				""
+				"&6&l=> &rВнутри них находятся артефакты, которые могут помочь вам в бою."
+			]
+			hide: true
+			id: "692AA2E10292779D"
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				id: "3953E0F4453EEEF6"
+				title: "&6Глава V&r: Артефакты"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+	]
+	subtitle: ["Древник артефакты разбросаные по всем мирам"]
+	title: "&6 V&r: Артефакты ✦"
+}

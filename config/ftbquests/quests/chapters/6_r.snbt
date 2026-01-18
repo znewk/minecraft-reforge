@@ -1,0 +1,248 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6_r"
+	group: "7D7AE6D174309F4B"
+	icon: "ironchest:gold_to_diamond_chest_upgrade"
+	id: "2910D35F84124671"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 100.0d
+			hover: [ ]
+			image: "skilltree:textures/screen/skill_tree_background.png"
+			rotation: 0.0d
+			width: 100.0d
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "6EFE0013BE252562"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:item/iron_ingot"
+			rotation: -20.0d
+			width: 1.0d
+			x: -0.7142857142857153d
+			y: -1.4336734693877524d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "6EFE0013BE252562"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:item/copper_ingot"
+			rotation: 20.0d
+			width: 1.0d
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "6EFE0013BE252562"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:item/gold_ingot"
+			rotation: 40.0d
+			width: 1.0d
+			x: 1.7738095238095326d
+			y: -1.4642857142857153d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "6EFE0013BE252562"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:item/diamond"
+			rotation: -30.0d
+			width: 1.0d
+			x: -0.9166666666666643d
+			y: -0.25d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "6EFE0013BE252562"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "artifacts:item/obsidian_skull"
+			rotation: 170.0d
+			width: 1.0d
+			x: 1.7738095238095326d
+			y: 0.4404761904761969d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "relics:item/magma_walker_fire"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -3.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6EFE0013BE252562"]
+			description: ["Создайте &7железный&r сундук."]
+			hide: true
+			id: "434C34402DCFC1AD"
+			rewards: [{
+				id: "59CF33995632C108"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "1FECBEDACD10CEB0"
+				item: "ironchest:iron_chest"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6EFE0013BE252562"]
+			description: ["Создайте &eзолотой&r сундук."]
+			hide: true
+			id: "0B00CBD7CFED6889"
+			rewards: [{
+				id: "59DB8C0BE3D55CBF"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "00CC95632264061D"
+				item: "ironchest:gold_chest"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6EFE0013BE252562"]
+			description: ["Создайте &6медный&r сундук."]
+			hide: true
+			id: "322EB6E5047B84D9"
+			rewards: [{
+				id: "5C032CBD285E45E4"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "31E66EB05EFB85F5"
+				item: "ironchest:copper_chest"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6EFE0013BE252562"]
+			description: ["Создайте &bалмазный&r сундук."]
+			hide: true
+			hide_dependency_lines: true
+			id: "1EE92CADEE3119F7"
+			rewards: [{
+				id: "1D1B3FC9A0C70078"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "7F45DCC1870B6E07"
+				item: "ironchest:diamond_chest"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6EFE0013BE252562"]
+			description: ["Создайте &bкристальный&r сундук."]
+			hide: true
+			hide_dependency_lines: true
+			id: "006F26BDB545642B"
+			rewards: [{
+				id: "028EF380ADEC4EC1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7025180BD708D8CF"
+				item: "ironchest:crystal_chest"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6EFE0013BE252562"]
+			description: ["Создайте &dобсидиановый&r сундук."]
+			hide: true
+			hide_dependency_lines: true
+			id: "7F379C776657A5D9"
+			rewards: [{
+				id: "1CFE21AB8F4571FF"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				id: "442B5A76F333E579"
+				item: "ironchest:obsidian_chest"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6EFE0013BE252562"]
+			description: ["Создайте &6земляной&r сундук."]
+			hide: true
+			hide_dependency_lines: true
+			id: "6DCD7FF767DF8869"
+			rewards: [{
+				id: "29D09B536BA219AE"
+				item: "farmersdelight:melon_popsicle"
+				type: "item"
+			}]
+			subtitle: "Ну а куда без него?"
+			tasks: [{
+				id: "24D960D06C0C3FE3"
+				item: "ironchest:dirt_chest"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			description: ["При помощи различных &6ресурсов&r, вы можете улучшать ваши сундуки. Они станут более красивыми, а места в них станет куда больше!"]
+			id: "6EFE0013BE252562"
+			shape: "diamond"
+			tasks: [{
+				id: "0CDDCBB7B523DFD9"
+				title: "Улучшенное хранилище"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+	]
+	subtitle: ["Необязательно для прохождения!"]
+	title: "&6=> &rУлучшенное хранилище"
+}

@@ -1,0 +1,1127 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6vr_2"
+	group: "7BBC8432A0F16C2B"
+	icon: "malum:encyclopedia_arcana"
+	id: "2E1695399F57B35B"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 150.0d
+			hover: [ ]
+			image: "skilltree:textures/screen/skill_tree_background.png"
+			rotation: 0.0d
+			width: 150.0d
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 20.0d
+			hover: [ ]
+			image: "celestisynth:textures/entity/aquaflora_bash/aquaflora_bash2.png"
+			rotation: 0.0d
+			width: 20.0d
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "553DBD1623CEC0AC"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "artifacts:item/obsidian_skull"
+			rotation: 50.0d
+			width: 1.0d
+			x: 1.777040816326533d
+			y: -1.9438775510204103d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "553DBD1623CEC0AC"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "relics:item/magic_mirror_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.023979591836749137d
+			y: -0.7193877551020478d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "27F036D6376955F7"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "irons_spellbooks:textures/item/void_rune.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.8416666666666686d
+			y: -0.4880952380952408d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "0289EC920D57878C"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "irons_spellbooks:item/cinder_essence"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "0289EC920D57878C"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "relics:item/magma_walker_fire"
+			rotation: 180.0d
+			width: 1.0d
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "11B1B96EE6A10FA2"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "malum:item/processed_soulstone"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0607142857142833d
+			y: -0.5448979591836647d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "361D7B2D7050FBCF"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "sortilege:item/witch_hat"
+			rotation: 10.0d
+			width: 1.0d
+			x: 2.710714285714282d
+			y: 0.9183673469387728d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "53C26FC1CB4B4A1D"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "relics:item/magma_walker_fire"
+			rotation: 180.0d
+			width: 1.0d
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "53C26FC1CB4B4A1D"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "irons_spellbooks:textures/mob_effect/airborne.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.00833333333334d
+			y: 5.8809523809523725d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "53C26FC1CB4B4A1D"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:textures/mob_effect/water_breathing.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.9454081632653057d
+			y: 6.081632653061227d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "53C26FC1CB4B4A1D"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "irons_spellbooks:item/nature_rune"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.2790816326530532d
+			y: 5.852040816326543d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "022D89459AE37222"
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "cataclysm:textures/entity/flame_strike_sigil_e.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "24C53CD62FA9AD8F"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "valhelsia_structures:block/brazier_fire"
+			rotation: 180.0d
+			width: 1.0d
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "24C53CD62FA9AD8F"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "valhelsia_structures:block/brazier_fire"
+			rotation: 180.0d
+			width: 1.0d
+			x: 5.5d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "24C53CD62FA9AD8F"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "valhelsia_structures:block/brazier_fire"
+			rotation: 180.0d
+			width: 1.0d
+			x: 6.5d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.0d
+			hover: [ ]
+			image: "celestisynth:textures/entity/aquaflora_bash/aquaflora_bash5.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "24C53CD62FA9AD8F"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "malum:block/runewood/runewood_sapling"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.964115646258499d
+			y: 0.7636054421768748d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "20331175DCA750F2"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "malum:textures/gui/book/icons/soul_shard.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.5d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "20331175DCA750F2"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "malum:textures/attribute/soul_ward_capacity.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.5d
+			y: 4.5d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2FCAAE2D19281F04"]
+			description: [
+				"&6&l=> &rДухи... Существа, что находятся в душе каждого существа. Они это не материализованная оболочка. Волшебники с давних времён интересовались этим явлением. И спустя многие годы, они написали книгу о данном явлении. Имя этой книге - Энциклопедия Духов."
+				""
+				"&6&l=> &rВолшебникам очень нравится эта магия. Она выглядит очень завораживающе и впечатлительно. "
+			]
+			hide: true
+			id: "553DBD1623CEC0AC"
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				id: "59FF6E9993D4B852"
+				title: "&6Глава IV&r: Магия духов"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["553DBD1623CEC0AC"]
+			description: ["&6&l=> &rВ нынешнее время найти энциклопедию духов очень сложно, но волшебники придумали заклинание, чтобы создать её искусственно, для этого можно использовать тигель, и благодаря знанием алхимии, создать эту книгу из обработанного камня души и обычной книги."]
+			hide: true
+			id: "27F036D6376955F7"
+			rewards: [{
+				auto: "invisible"
+				command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u0422\\u0435\\u043f\\u0435\\u0440\\u044c \\u0443 \\u043c\\u0435\\u043d\\u044f \\u0435\\u0441\\u0442\\u044c \\u044d\\u043d\\u0446\\u0438\\u043a\\u043b\\u043e\\u043f\\u0435\\u0434\\u0438\\u044f \\u0442\\u0430\\u0439\\u043d \\u0438 \\u044f \\u043c\\u043e\\u0433\\u0443 \\u043d\\u0430\\u0447\\u0430\\u0442\\u044c \\u0438\\u0437\\u0443\\u0447\\u0435\\u043d\\u0438\\u0435\\u0435 \\u043c\\u0430\\u0433\\u0438\\u0438 \\u0434\\u0443\\u0445\\u043e\\u0432.\"}]"
+				icon: "ftbquests:book"
+				id: "3CC54B319669F2CA"
+				title: "mind"
+				type: "command"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "5EF40364D857F2D8"
+				item: "malum:encyclopedia_arcana"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["27F036D6376955F7"]
+			description: [
+				"&6&l=> &rКогда-то очень давно, была война между Эденией и Незером. Мёртвые души, демоны, духи из ада, пришли сюда и стали поглощать жизненные силы людей, чтобы преподнести их Лорду - &6Игнису&r."
+				""
+				"&6&l=> &rНо в один момент война закончилась, благодаря великому архимагу Ллойду, что провёл божественный ритуал, что оградил Эдению от Незера непробиваемым камнем, который может быть подвластен только Богам. А демоны, что остались на землях Эдении превратились в камни души."
+				""
+				"&6&l=> &rТеперь волшебники используют эти камни души в ритуалах, обрядах магии духов."
+				""
+				"{image:malum:block/ores/soulstone_ore width:75 height:75 align:1}"
+			]
+			hide: true
+			id: "11B1B96EE6A10FA2"
+			rewards: [{
+				auto: "invisible"
+				command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u0412\\u043e\\u0442 \\u043e\\u043d \\u043a\\u0430\\u043c\\u0435\\u043d\\u044c \\u0434\\u0443\\u0448\\u0438. \\u0412 \\u043d\\u0451\\u043c \\u0437\\u0430\\u043f\\u0435\\u0447\\u0430\\u0442\\u0430\\u043d\\u044b \\u0434\\u0435\\u043c\\u043e\\u043d\\u044b, \\u0432\\u0435\\u043b\\u0438\\u043a\\u0438\\u0435 \\u0438 \\u0443\\u0436\\u0430\\u0441\\u0430\\u044e\\u0449\\u0438\\u0435 \\u0441\\u0443\\u0449\\u0435\\u0441\\u0442\\u0432\\u0430 \\u0438\\u0437 \\u0434\\u0440\\u0443\\u0433\\u043e\\u0433\\u043e \\u043c\\u0438\\u0440\\u0430...\"}]"
+				icon: "ftbquests:book"
+				id: "19C62083EC8C2C90"
+				title: "mind"
+				type: "command"
+			}]
+			tasks: [{
+				id: "69D26A0EFD234875"
+				item: "malum:processed_soulstone"
+				type: "item"
+			}]
+			title: "Камень души"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"11B1B96EE6A10FA2"
+				"0289EC920D57878C"
+			]
+			description: ["&6&l=> &rБольшая часть ритуалов магии духов проходит на алтаре духа. Благодаря камню души, духи материализуются в разные предметы и таким образом проходит создание предметов и артефактов."]
+			hide: true
+			id: "361D7B2D7050FBCF"
+			rewards: [{
+				auto: "invisible"
+				command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u041d\\u0430 \\u0434\\u0430\\u043d\\u043d\\u043e\\u043c \\u0430\\u043b\\u0442\\u0430\\u0440\\u0435 \\u0434\\u0443\\u0445\\u043e\\u0432 \\u0438 \\u0431\\u0443\\u0434\\u0435\\u0442 \\u043f\\u0440\\u043e\\u0438\\u0441\\u0445\\u043e\\u0434\\u0438\\u0442\\u044c \\u0431\\u043e\\u043b\\u044c\\u0448\\u0430\\u044f \\u0447\\u0430\\u0441\\u0442\\u044c \\u0440\\u0438\\u0442\\u0443\\u0430\\u043b\\u043e\\u0432 \\u043c\\u0430\\u0433\\u0438\\u0438 \\u0434\\u0443\\u0445\\u043e\\u0432.\"}]"
+				icon: "ftbquests:book"
+				id: "1CCCB8DDD3134879"
+				title: "mind"
+				type: "command"
+			}]
+			tasks: [
+				{
+					id: "1ED4E05BA919392D"
+					item: "malum:spirit_altar"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7D4B4DDC51095117"
+					item: "malum:runewood_item_stand"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["11B1B96EE6A10FA2"]
+			description: ["&6&l=> &rСпустя множество экспериментов над камнем души, волшебники нашли способ поглощать духов и использовать их в ритуалах и обрядах. Они создали волшебную косу, в которую запечатан камень души. Убивая монстров, животных этой косой, вылетает дух который, поглощается в магическую косу."]
+			hide: true
+			id: "53C26FC1CB4B4A1D"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u041f\\u043e \\u0438\\u0434\\u0435\\u0435 \\u044f \\u0441\\u0434\\u0435\\u043b\\u0430\\u043b \\u0432\\u0441\\u0451 \\u043f\\u0440\\u0430\\u0432\\u0438\\u043b\\u044c\\u043d\\u043e. \\u041d\\u0443\\u0436\\u043d\\u043e \\u043f\\u0440\\u043e\\u0432\\u0435\\u0440\\u0438\\u0442\\u044c \\u044d\\u0442\\u0443 \\u043a\\u043e\\u0441\\u0443, \\u0443\\u0431\\u0438\\u0432 \\u043a\\u0430\\u043a\\u043e\\u0435-\\u043d\\u0438\\u0431\\u0443\\u0434\\u044c \\u0436\\u0438\\u0432\\u043e\\u0442\\u043d\\u043e\\u0435 \\u0438\\u043b\\u0438 \\u043c\\u043e\\u043d\\u0441\\u0442\\u0440\\u0430!\"}]"
+					icon: "ftbquests:book"
+					id: "14306715D8F026C9"
+					title: "mind"
+					type: "command"
+				}
+				{
+					count: 3
+					id: "56BE3D9C74820416"
+					item: "born_in_chaos_v1:ethereal_spirit"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "5F34D88F4050ADB0"
+				item: {
+					Count: 1b
+					id: "malum:crude_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["53C26FC1CB4B4A1D"]
+			description: ["&6&l=> &rВолшебники открыли восемь видов духов. Каждый из них принадлежит каждому типу существ. Это зависит от среды обитания существа, убив рыбу - получить духа воды и т.д."]
+			hide: true
+			id: "7928D23E87F7DFAA"
+			shape: "hexagon"
+			subtitle: "&5Malicious"
+			tasks: [{
+				id: "37644E6DD775ECBF"
+				item: "malum:wicked_spirit"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["53C26FC1CB4B4A1D"]
+			description: ["&6&l=> &rВолшебники открыли восемь видов духов. Каждый из них принадлежит каждому типу существ. Это зависит от среды обитания существа, убив рыбу - получить духа воды и т.д."]
+			hide: true
+			id: "3D93EDF88D7F135A"
+			shape: "hexagon"
+			subtitle: "&dFundamental"
+			tasks: [{
+				id: "66B0EAB16D818CD2"
+				item: "malum:arcane_spirit"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["53C26FC1CB4B4A1D"]
+			description: ["&6&l=> &rВолшебники открыли восемь видов духов. Каждый из них принадлежит каждому типу существ. Это зависит от среды обитания существа, убив рыбу - получить духа воды и т.д."]
+			hide: true
+			id: "7DE47A5ACF4BDE89"
+			shape: "hexagon"
+			subtitle: "&5Esoteric"
+			tasks: [{
+				id: "551EEF1B5C1BBB9E"
+				item: "malum:eldritch_spirit"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["53C26FC1CB4B4A1D"]
+			description: ["&6&l=> &rВолшебники открыли восемь видов духов. Каждый из них принадлежит каждому типу существ. Это зависит от среды обитания существа, убив рыбу - получить духа воды и т.д."]
+			hide: true
+			id: "02A328488314C060"
+			shape: "hexagon"
+			subtitle: "&cInnocent"
+			tasks: [{
+				id: "304D4B223B6409E3"
+				item: "malum:sacred_spirit"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["53C26FC1CB4B4A1D"]
+			description: ["&6&l=> &rВолшебники открыли восемь видов духов. Каждый из них принадлежит каждому типу существ. Это зависит от среды обитания существа, убив рыбу - получить духа воды и т.д."]
+			hide: true
+			hide_dependency_lines: true
+			id: "3DA9C9237B0F88FD"
+			shape: "hexagon"
+			subtitle: "&aSteady"
+			tasks: [{
+				id: "2936CA2D4DBD6ECF"
+				item: "malum:earthen_spirit"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["53C26FC1CB4B4A1D"]
+			description: ["&6&l=> &rВолшебники открыли восемь видов духов. Каждый из них принадлежит каждому типу существ. Это зависит от среды обитания существа, убив рыбу - получить духа воды и т.д."]
+			hide: true
+			hide_dependency_lines: true
+			id: "5421F5A696D633DA"
+			shape: "hexagon"
+			subtitle: "&6Radiant"
+			tasks: [{
+				id: "1F65ED08E8518A71"
+				item: "malum:infernal_spirit"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["53C26FC1CB4B4A1D"]
+			description: ["&6&l=> &rВолшебники открыли восемь видов духов. Каждый из них принадлежит каждому типу существ. Это зависит от среды обитания существа, убив рыбу - получить духа воды и т.д."]
+			hide: true
+			hide_dependency_lines: true
+			id: "74F43CA9E3EADA47"
+			shape: "hexagon"
+			subtitle: "&bSwift"
+			tasks: [{
+				id: "1BCAF9DB9C41C354"
+				item: "malum:aerial_spirit"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["53C26FC1CB4B4A1D"]
+			description: ["&6&l=> &rВолшебники открыли восемь видов духов. Каждый из них принадлежит каждому типу существ. Это зависит от среды обитания существа, убив рыбу - получить духа воды и т.д."]
+			hide: true
+			hide_dependency_lines: true
+			id: "191F651F12EE54E9"
+			shape: "hexagon"
+			subtitle: "&bMalleable"
+			tasks: [{
+				id: "1B3C103070EE72CB"
+				item: "malum:aqueous_spirit"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["27F036D6376955F7"]
+			description: ["&6&l=> &rВ Эдении всегда существовали деревья обладающие огромной силой света. Их история происхождения никому не известна. Но волшебникам удалось немного его изучить. Его структура состоит из молекул которые никогда не были ранее увидены, благодаря их уникальной структуре, в дереве вырабатывается сок, который люди стали часто употреблять как вкусные напитки."]
+			hide: true
+			id: "0289EC920D57878C"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u041a\\u0430\\u0436\\u0435\\u0442\\u0441\\u044f \\u044d\\u0442\\u043e \\u043e\\u043d\\u043e \\u0440\\u0443\\u043d\\u043d\\u043e\\u0435 \\u0434\\u0435\\u0440\\u0435\\u0432\\u043e, \\u0447\\u0442\\u043e \\u043e\\u0431\\u043b\\u0430\\u0434\\u0430\\u044e\\u0442 \\u043e\\u0433\\u0440\\u043e\\u043c\\u043d\\u043e\\u0439 \\u0441\\u0438\\u043b\\u043e\\u0439 \\u0441\\u0432\\u0435\\u0442\\u0430. \\u0417\\u0430\\u0433\\u0430\\u0434\\u043e\\u0447\\u043d\\u043e\\u0435, \\u043a\\u0440\\u0430\\u0441\\u0438\\u0432\\u043e\\u0435, \\u044f\\u0440\\u043a\\u043e\\u0435 \\u0438 \\u0441\\u0438\\u044f\\u044e\\u0449\\u0435\\u0435...\"}]"
+					icon: "ftbquests:book"
+					id: "5C39AF90390AFB19"
+					title: "mind"
+					type: "command"
+				}
+				{
+					count: 6
+					id: "01FDF06093E20DAF"
+					item: "naturalist:cooked_egg"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5E95136DD905F7AD"
+				item: "malum:runewood_log"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0289EC920D57878C"]
+			description: ["&6&l=> &rЧтобы собрать этот сок, нужно разделать некоторые части деревья топором и тогда из его коры польётся сок, который можно собрать в бутылку и обработать в печи, получив сироп."]
+			hide: true
+			id: "6101B7DFAA3FC7C2"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "21DDB95AC3D16890"
+					item: "malum:holy_sap"
+					type: "item"
+				}
+				{
+					id: "04F1376D55ECBF96"
+					item: "malum:holy_syrup"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["361D7B2D7050FBCF"]
+			description: ["&6&l=> &rОдно из первых открытий сделанных волшебниками на алтаре духа стал колдовской пепел. Он ускоряет процесс ритуала на алтаре духа, создавая предметы быстрее."]
+			hide: true
+			id: "20947F184B19DF4C"
+			optional: true
+			rewards: [{
+				id: "7C785A4976CB0E49"
+				item: "gnumus:vintage_alloy_ingot"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "1D391FAE9E0F690B"
+				item: "malum:hex_ash"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["361D7B2D7050FBCF"]
+			description: ["&6&l=> &rСамым главным открытием на алтаре духа стала духосталь. Объединив железо, духа земли, чародейства и зла они получили эту сталь. Она обладает огромной силой. А сила камня души, позволило мечом из этой стали также поглощать духов."]
+			hide: true
+			id: "022D89459AE37222"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u0424\\u0443\\u0445, \\u0443 \\u043c\\u0435\\u043d\\u044f \\u043f\\u043e\\u043b\\u0443\\u0447\\u0438\\u043b\\u043e\\u0441\\u044c \\u0441\\u043e\\u0437\\u0434\\u0430\\u0442\\u044c \\u0434\\u0443\\u0445\\u043e\\u0441\\u0442\\u0430\\u043b\\u044c. \\u0418\\u0437 \\u043d\\u0435\\u0451 \\u0432\\u044b\\u0439\\u0434\\u0443\\u0442 \\u043e\\u0442\\u043b\\u0438\\u0447\\u043d\\u044b\\u0435 \\u043c\\u0430\\u0433\\u0438\\u0447\\u0435\\u0441\\u043a\\u0438\\u0435 \\u0438\\u043d\\u0441\\u0442\\u0440\\u0443\\u043c\\u0435\\u043d\\u0442\\u044b.\"}]"
+					icon: "ftbquests:book"
+					id: "036BD6836DDB8034"
+					title: "mind"
+					type: "command"
+				}
+				{
+					id: "49F7AABBDEA25683"
+					item: {
+						Count: 1b
+						id: "born_in_chaos_v1:charmof_fury"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.1d
+			tasks: [{
+				id: "41F638BFE8A3CE0C"
+				item: "malum:soul_stained_steel_ingot"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["022D89459AE37222"]
+			description: ["&6&l=> &rСоздайте комплект брони и инструментов из духостали."]
+			hide: true
+			id: "6D6618BB158F88A1"
+			optional: true
+			shape: "hexagon"
+			tasks: [{
+				id: "6ED0253E018CBB0B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "malum:soul_stained_steel_helmet"
+					tag: {
+						Damage: 0
+						SimpleInsulation: [ ]
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["022D89459AE37222"]
+			description: ["&6&l=> &rСоздайте комплект брони и инструментов из духостали."]
+			hide: true
+			id: "7BBA3E71E5A072AC"
+			optional: true
+			shape: "hexagon"
+			tasks: [{
+				id: "5D048A9231603C46"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "malum:soul_stained_steel_chestplate"
+					tag: {
+						Damage: 0
+						SimpleInsulation: [ ]
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["022D89459AE37222"]
+			description: ["&6&l=> &rСоздайте комплект брони и инструментов из духостали."]
+			hide: true
+			id: "159989BAECB88646"
+			optional: true
+			shape: "hexagon"
+			tasks: [{
+				id: "6CFA46B89311F015"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "malum:soul_stained_steel_leggings"
+					tag: {
+						Damage: 0
+						SimpleInsulation: [ ]
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["022D89459AE37222"]
+			description: ["&6&l=> &rСоздайте комплект брони и инструментов из духостали."]
+			hide: true
+			id: "00F6160D7FA4A12D"
+			optional: true
+			shape: "hexagon"
+			tasks: [{
+				id: "61F9451D2DD586FB"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "malum:soul_stained_steel_boots"
+					tag: {
+						Damage: 0
+						SimpleInsulation: [ ]
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["022D89459AE37222"]
+			description: [
+				"&6&l=> &rСоздайте комплект брони и инструментов из духостали."
+				""
+				"&6&lP.S&r&r - Меч, позволяет поглощать духов."
+			]
+			hide: true
+			id: "17B3F39C4B21E3D2"
+			optional: true
+			shape: "rsquare"
+			tasks: [{
+				id: "029ADDF9FD1F6BF7"
+				item: {
+					Count: 1b
+					id: "malum:soul_stained_steel_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["022D89459AE37222"]
+			description: ["&6&l=> &rСоздайте комплект брони и инструментов из духостали."]
+			hide: true
+			id: "14115F4F01CE3E60"
+			optional: true
+			shape: "rsquare"
+			tasks: [{
+				id: "143A115030CE7F84"
+				item: {
+					Count: 1b
+					id: "malum:soul_stained_steel_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"53C26FC1CB4B4A1D"
+				"022D89459AE37222"
+			]
+			description: ["&6&l=> &rВолшебники в одном из экспериментов получили священное золото. Объединив золото с сакральным и чародейским духом и кварцем."]
+			hide: true
+			id: "24C53CD62FA9AD8F"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u0421\\u0432\\u044f\\u0449\\u0435\\u043d\\u043d\\u043e\\u0435 \\u0437\\u043e\\u043b\\u043e\\u0442\\u043e \\u043f\\u043e\\u043b\\u0443\\u0447\\u0435\\u043d\\u043e, \\u0442\\u0435\\u043f\\u0435\\u0440\\u044c \\u043c\\u043d\\u0435 \\u043d\\u0443\\u0436\\u043d\\u043e \\u0438\\u0437\\u0443\\u0447\\u0438\\u0442\\u044c \\u0432\\u0442\\u043e\\u0440\\u0443\\u044e \\u0447\\u0430\\u0441\\u0442\\u044c \\u043c\\u0430\\u0433\\u0438\\u0438 \\u0434\\u0443\\u0445\\u043e\\u0432, \\u043e\\u043d\\u0430 \\u043d\\u0430\\u0437\\u044b\\u0432\\u0430\\u0435\\u0442\\u0441\\u044f \\u0442\\u043e\\u0442\\u0435\\u043c\\u043d\\u0430\\u044f \\u043c\\u0430\\u0433\\u0438\\u044f.\"}]"
+					icon: "ftbquests:book"
+					id: "50914FBEFC641E1F"
+					title: "mind"
+					type: "command"
+				}
+				{
+					id: "411B4ED4A54CD542"
+					item: {
+						Count: 1b
+						id: "born_in_chaos_v1:charmof_power"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.1d
+			tasks: [{
+				id: "571B03A1AB81803B"
+				item: "malum:hallowed_gold_ingot"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"53C26FC1CB4B4A1D"
+				"022D89459AE37222"
+				"20947F184B19DF4C"
+			]
+			description: ["&6&l=> &rБлагодаря камню души и духостали, можно улучшить косу. Сделав её сильнее и прочнее."]
+			hide: true
+			id: "0D2343E59BDD487D"
+			optional: true
+			tasks: [{
+				id: "67AB0B4E1A5DBC60"
+				item: {
+					Count: 1b
+					id: "malum:soul_stained_steel_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["24C53CD62FA9AD8F"]
+			description: ["&6Кувшин для духа&r - удобное место для хранения бесконечного количества духов. Но только одного типы, смешивать множество духов разного вида в замкнутом месте очень опасно. Ведь концентрация духовной энергии может порвать пространство."]
+			hide: true
+			id: "5DD6007AE3981E9A"
+			optional: true
+			shape: "hexagon"
+			tasks: [{
+				id: "16640D6D2D8DFF88"
+				item: "malum:spirit_jar"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["24C53CD62FA9AD8F"]
+			description: ["&6&l=> &rИз священного золота, волшебники делали красивые аксессуары и продавали их на рынках."]
+			hide: true
+			id: "78E594629C7091CA"
+			optional: true
+			shape: "hexagon"
+			tasks: [{
+				id: "0C8E74ED6E7B99B1"
+				item: "malum:gilded_ring"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["24C53CD62FA9AD8F"]
+			description: ["&6&l=> &rИз священного золота, волшебники делали красивые аксессуары и продавали их на рынках."]
+			hide: true
+			id: "24CA484925242910"
+			optional: true
+			shape: "hexagon"
+			tasks: [{
+				id: "7A05262B7184A489"
+				item: "malum:gilded_belt"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"24C53CD62FA9AD8F"
+				"022D89459AE37222"
+			]
+			description: [
+				"&6&l=> &rКонцентрация энергии духа просто невероятна. Камни души и рунное дерево, а также духи сильно связаны между собой. Таким образом могут происходить странные вещи, которые волшебники смогли научиться использовать в свою пользу."
+				""
+				"&6&l=> &rТак появилась Тотемная магия, тесно связанна с магией духов. Для начала нужно создать основание тотема и поставить на него несколько брёвен рунного дерева. А после этого впечатать духов в полученный тотем и активировать его."
+				""
+				"&6&l=> &rПосле активации данные тотемы будут излучать свечение, которое будет распространяться на существо и давать какой-либо эффект в зависимости от основного вида духа, который использовался в запечатывании тотема."
+			]
+			hide: true
+			id: "6DDB6BB47A0132B9"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u042d\\u0442\\u043e \\u0431\\u0443\\u0434\\u0435\\u0442 \\u043e\\u0441\\u043d\\u043e\\u0432\\u0430\\u043d\\u0438\\u0435\\u043c \\u0434\\u0443\\u0445\\u043e\\u0432\\u043d\\u043e\\u0433\\u043e \\u0442\\u043e\\u0442\\u0435\\u043c\\u0430. \\u041e\\u0441\\u0442\\u0430\\u043b\\u043e\\u0441\\u044c \\u0432\\u044b\\u0431\\u0440\\u0430\\u0442\\u044c \\u044d\\u0444\\u0444\\u0435\\u043a\\u0442 \\u043a\\u043e\\u0442\\u043e\\u0440\\u044b\\u0439 \\u043e\\u043d \\u0431\\u0443\\u0434\\u0435\\u0442 \\u0438\\u0437\\u043b\\u0443\\u0447\\u0430\\u0442\\u044c \\u0438 \\u0437\\u0430\\u043f\\u0435\\u0447\\u0430\\u0442\\u0430\\u0442\\u044c \\u0432\\u043d\\u0443\\u0442\\u0440\\u044c \\u0441\\u0442\\u043e\\u043b\\u0431\\u0430 \\u043e\\u043f\\u0440\\u0435\\u0434\\u0435\\u043b\\u0451\\u043d\\u043d\\u044b\\u0445 \\u0434\\u0443\\u0445\\u043e\\u0432.\"}]"
+					icon: "ftbquests:book"
+					id: "32FD4E1A69EE64A1"
+					title: "mind"
+					type: "command"
+				}
+				{
+					id: "446FD0ADF2AAB25C"
+					item: "gnumus:hearty_dinner"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.1d
+			tasks: [{
+				id: "4C47C7C80BCC3642"
+				item: "malum:runewood_totem_base"
+				type: "item"
+			}]
+			title: "Тотемная магия"
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6DDB6BB47A0132B9"]
+			description: ["&6&l=> &rВо время эксперимент в сочетании шерсти и колдовского пепла, волшебники получили ткань, которую назвали тканью духов. Из неё, они создали себе костюмы и тогда они основали свой орден. Назвали они его - Орден охотников за душами."]
+			hide: true
+			id: "20331175DCA750F2"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u0418\\u0437 \\u044d\\u0442\\u043e\\u0439 \\u0442\\u043a\\u0430\\u043d\\u0438 \\u044f \\u0441\\u043c\\u043e\\u0433\\u0443 \\u0441\\u043e\\u0437\\u0434\\u0430\\u0442\\u044c \\u0444\\u043e\\u0440\\u043c\\u0443 \\u043e\\u0440\\u0434\\u0435\\u043d\\u0430 \\u043e\\u0445\\u043e\\u0442\\u043d\\u0438\\u043a\\u043e\\u0432 \\u0437\\u0430 \\u0434\\u0443\\u0448\\u0430\\u043c\\u0438.\"}]"
+					icon: "ftbquests:book"
+					id: "0E7970BD15E83DE0"
+					title: "mind"
+					type: "command"
+				}
+				{
+					id: "1075D5DDD39CFCE4"
+					item: {
+						Count: 1b
+						id: "gnumus:vintage_rifle"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "33BF39EDE9C4756F"
+				item: "malum:spirit_fabric"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["20331175DCA750F2"]
+			description: ["&d&l=> &rСоздайте комплект формы ордена охотников за душами."]
+			hide: true
+			id: "58B386EB7CF58873"
+			optional: true
+			rewards: [{
+				id: "4490E3F99D50A7DA"
+				type: "xp"
+				xp: 150
+			}]
+			shape: "diamond"
+			subtitle: "&dОхотники за душами"
+			tasks: [
+				{
+					id: "4424F90E240E2924"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "malum:soul_hunter_cloak"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "18971AE66347DDB9"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "malum:soul_hunter_robe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "63167C004450ECD4"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "malum:soul_hunter_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1CB0291F2C6794BD"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "malum:soul_hunter_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Форма ордена"
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["20331175DCA750F2"]
+			description: [
+				"&d&l=> &rУ каждого из участников ордена было своё могущественное оружие. Но самым сильным был Тирвинг."
+				""
+				"&dТирвинг&r - мощное оружие, позволяющее поглощать духов и выпускать скопление духовным частиц при атаке."
+			]
+			hide: true
+			id: "779F802E4E431E8E"
+			optional: true
+			rewards: [{
+				id: "0F6FB72EA69536FF"
+				type: "xp"
+				xp: 150
+			}]
+			shape: "diamond"
+			subtitle: "&dТирвинг - клинок духа"
+			tasks: [{
+				id: "18CB1B4184BA721C"
+				item: {
+					Count: 1b
+					id: "malum:tyrving"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Сильнейшее оружие ордена"
+			x: 9.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["20331175DCA750F2"]
+			description: ["&6&l=> &rИзучение магии духов подошло к концу и вы узнали все тонкости и тайны этого вида магии."]
+			hide: true
+			id: "4E381015E409E79F"
+			rewards: [{
+				id: "38DB96B093BBF248"
+				item: "born_in_chaos_v1:lord_pumpkinheads_lamp"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				id: "2FD88BC248A123A1"
+				title: "&6Конец IV главы&r: Магия Духов"
+				type: "checkmark"
+			}]
+			x: 11.0d
+			y: 1.5d
+		}
+	]
+	subtitle: ["Духи, история демонов, магические ритуалы и другое"]
+	title: "&6IV&r: Магия Духов ✦"
+}

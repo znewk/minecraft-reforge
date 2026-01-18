@@ -1,0 +1,1361 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6vr"
+	group: "7BBC8432A0F16C2B"
+	icon: "eidolon:codex"
+	id: "09C4999F1B7877EA"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 150.0d
+			hover: [ ]
+			image: "skilltree:textures/screen/skill_tree_background.png"
+			rotation: 0.0d
+			width: 150.0d
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "cataclysm:textures/entity/leviathan/dimensional_rift/abyss_black_hole_idle3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 20.0d
+			hover: [ ]
+			image: "cataclysm:textures/entity/leviathan/dimensional_rift/dimensional_rift_grow_2.png"
+			rotation: 0.0d
+			width: 20.0d
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "16C72A3CAF1A2E50"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "irons_spellbooks:item/arcane_essence"
+			rotation: -20.0d
+			width: 1.0d
+			x: -0.3571428571428612d
+			y: -0.5714285714285694d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "0BF63B30548138A8"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "eidolon:item/soulfire_wand"
+			rotation: -10.0d
+			width: 1.0d
+			x: 1.221428571428568d
+			y: -0.44999999999999574d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "122AC496E39B3BE5"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "valhelsia_structures:block/brazier_fire"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "122AC496E39B3BE5"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "valhelsia_structures:block/brazier_fire"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "0A4C18B3CB687630"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "relics:item/magic_mirror_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.495238095238086d
+			y: -0.5285714285714249d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2C2AA41F12DA0624"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:textures/mob_effect/water_breathing.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "0BF63B30548138A8"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "skilltree:textures/icons/alchemist_lesser_1.png"
+			rotation: 10.0d
+			width: 1.0d
+			x: 1.8571428571428612d
+			y: 1.1380952380952465d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "523252B057AC6531"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "valhelsia_structures:block/brazier_fire"
+			rotation: -90.0d
+			width: 1.0d
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "29FDA038DF0930B2"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "valhelsia_structures:block/brazier_fire"
+			rotation: -90.0d
+			width: 1.0d
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "530D46219472F449"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "gothic:items/fire_golem_heart"
+			rotation: -20.0d
+			width: 1.0d
+			x: 0.6428571428571388d
+			y: 2.607142857142854d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "0668F80659196AB4"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "irons_spellbooks:item/blood_rune"
+			rotation: 10.0d
+			width: 1.0d
+			x: 2.392857142857146d
+			y: 3.9642857142857153d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:block/campfire_fire"
+			rotation: 0.0d
+			width: 0.015625d
+			x: -6.5d
+			y: 2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "3F6426E537FB1AD7"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "valhelsia_structures:block/brazier_fire"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "0B3C4D75E72196CE"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "malum:textures/item/lamplighters_wand.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.519903273809518d
+			y: 2.2142857142857153d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2FCAAE2D19281F04"]
+			description: [
+				"&6&l=> &rВ нашей вселенной, существует огромное количество видов магии. Каждая из них по своему уникальна и как-либо связана с другими видами. Самый распространённый вид магии в королевстве - Тёмная магия."
+				""
+				"&6&l=> &rТёмная магия - Могущественная магия, основанная на душах живых или неживых существ, с целью создания мощных артефактов, аксессуаров, посохов и т.д."
+			]
+			hide: true
+			id: "16C72A3CAF1A2E50"
+			shape: "diamond"
+			size: 1.1d
+			tasks: [{
+				id: "5142264451F26E63"
+				title: "&6Глава III&r: Тёмная магия"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["16C72A3CAF1A2E50"]
+			description: ["&6&l=> &rДавным-давно, великий волшебник королевства написал книгу о тёмной магии. В ней написаны все тонкости каждого раздела этой удивительной силы могущества и волшебства. Её можно получить объединив книгу с эссенцией волшебства."]
+			hide: true
+			id: "0BF63B30548138A8"
+			rewards: [{
+				id: "583F2539C4567A66"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "3D622E80824D04D8"
+				item: "eidolon:codex"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0BF63B30548138A8"]
+			description: [
+				"&6&l=> &rВ глубинах нашего мира, существует серебряная руда. Она обладает волшебным свойством: она отравляет душу нежити заставляя её мучатся."
+				""
+				"&6&l=> &rВолшебникам не удалось найти точного объяснения для данного явления. Поэтому они забросили это дело."
+				"{image:eidolon:block/deep_silver_ore width:75 height:75 align:1}"
+			]
+			hide: true
+			id: "122AC496E39B3BE5"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u0421\\u0435\\u0440\\u0435\\u0431\\u0440\\u043e \\u043f\\u0440\\u0438\\u0433\\u043e\\u0434\\u0438\\u0442\\u0441\\u044f \\u0432 \\u0441\\u043e\\u0437\\u0434\\u0430\\u043d\\u0438\\u0438 \\u043f\\u044c\\u044e\\u0442\\u0435\\u0440\\u043e\\u0432\\u043e\\u0439 \\u0441\\u043c\\u0435\\u0441\\u0438, \\u0430 \\u0442\\u0430\\u043a\\u0436\\u0435 \\u0434\\u043b\\u044f \\u0438\\u0437\\u0433\\u043e\\u0442\\u043e\\u0432\\u043b\\u0435\\u043d\\u0438\\u044f \\u0441\\u043d\\u0430\\u0440\\u044f\\u0436\\u0435\\u043d\\u0438\\u044f.\",\"color\":\"white\"}]"
+					icon: "ftbquests:book"
+					id: "137BBB827320CEC5"
+					title: "mind"
+					type: "command"
+				}
+				{
+					id: "707EA378E0CA3182"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:fire_breath"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7B62ABC7255EE83F"
+					item: "eidolon:raw_silver"
+					type: "item"
+				}
+				{
+					id: "6FDDA532D473E095"
+					item: "eidolon:silver_ingot"
+					type: "item"
+				}
+			]
+			title: "Серебро"
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0BF63B30548138A8"]
+			description: [
+				"&6&l=> &rОдним серебром мир тёмной магии не заканчивается. Существует ещё одна руда, которая во многом полезнее серебряной, и используется в большинстве ритуалах и обрядах."
+				""
+				"&6Свинец&r - удивительный металл, который отлично проводит магическую энергию именуемой: маной. Именно за счёт этого свойства, свинец является более полезным ресурсом в тёмной магии."
+				""
+				"{image:eidolon:block/lead_ore width:75 height:75 align:1}"
+			]
+			hide: true
+			id: "73865CB23E0B4E85"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u0422\\u0430\\u043a, \\u043a\\u0430\\u0436\\u0435\\u0442\\u0441\\u044f \\u044d\\u0442\\u043e \\u0441\\u0432\\u0438\\u043d\\u0435\\u0446. \\u0412 \\u0442\\u043e\\u0439 \\u043a\\u043d\\u0438\\u0433\\u0435 \\u043d\\u0430\\u043f\\u0438\\u0441\\u0430\\u043d\\u043e, \\u0447\\u0442\\u043e \\u043e\\u043d \\u044f\\u0432\\u043b\\u044f\\u0435\\u0442\\u0441\\u044f \\u043e\\u0441\\u043d\\u043e\\u0432\\u043d\\u044b\\u043c \\u043a\\u043e\\u043c\\u043f\\u043e\\u043d\\u0435\\u043d\\u0442\\u043e\\u043c \\u0432 \\u0442\\u0451\\u043c\\u043d\\u043e\\u0439 \\u043c\\u0430\\u0433\\u0438\\u0438.\",\"color\":\"white\"}]"
+					icon: "ftbquests:book"
+					id: "23046899EEA7E68A"
+					title: "mind"
+					type: "command"
+				}
+				{
+					id: "40E1569FF4F288A0"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:cone_of_cold"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "73A558FF3FF163CE"
+					item: "eidolon:raw_lead"
+					type: "item"
+				}
+				{
+					id: "13198BBDF593F76B"
+					item: "eidolon:lead_ingot"
+					type: "item"
+				}
+			]
+			title: "Свинец"
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["122AC496E39B3BE5"]
+			description: ["&6&l=> &rИз серебра выйдет отличная броня и инструменты. Создайте их, чтобы стать сильнее и опаснее для ваших врагов!"]
+			hide: true
+			id: "7FECF8C2D2C7ED78"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "611CFE13C552C440"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "eidolon:silver_helmet"
+						tag: {
+							Damage: 0
+							SimpleInsulation: [ ]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5F79BC0480DE2E34"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "eidolon:silver_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "47390EDE6A2BD7F8"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "eidolon:silver_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "139ADD859E68EE8E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "eidolon:silver_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Серебряная броня"
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["122AC496E39B3BE5"]
+			description: ["&6&l=> &rИз серебра выйдет отличная броня и инструменты. Создайте их, чтобы стать сильнее и опаснее для ваших врагов!"]
+			hide: true
+			id: "32D34C5A8EBCED42"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "48C52712D38F200A"
+					item: {
+						Count: 1b
+						id: "eidolon:silver_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5F7C8BA7091BA190"
+					item: {
+						Count: 1b
+						id: "eidolon:silver_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Серебряные инструменты"
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"122AC496E39B3BE5"
+				"73865CB23E0B4E85"
+			]
+			description: [
+				"&6&l=> &rОднажды, волшебники решили провести эксперимент, объединив свинец и серебро в единый сплав. Так они получили - пьютер."
+				""
+				"&6Пьютер&r - основной сплав в тёмной магии, который используется практически в каждом ритуале и обряде тёмной магии."
+			]
+			hide: true
+			id: "0A4C18B3CB687630"
+			rewards: [{
+				auto: "invisible"
+				command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u041f\\u044c\\u044e\\u0442\\u0435\\u0440\\u043e\\u0432\\u044b\\u0439 \\u0441\\u043b\\u0438\\u0442\\u043e\\u043a \\u0433\\u043e\\u0442\\u043e\\u0432. \\u0422\\u0435\\u043f\\u0435\\u0440\\u044c \\u0438\\u0437 \\u043d\\u0435\\u0433\\u043e \\u043d\\u0443\\u0436\\u043d\\u043e \\u0441\\u043e\\u0437\\u0434\\u0430\\u0442\\u044c \\u043d\\u0435\\u0441\\u043a\\u043e\\u043b\\u044c\\u043a\\u043e \\u0443\\u0442\\u0432\\u0430\\u0440\\u0435\\u0439.\",\"color\":\"white\"}]"
+				icon: "ftbquests:book"
+				id: "0F6FB9006D4DC021"
+				title: "mind"
+				type: "command"
+			}]
+			tasks: [
+				{
+					id: "4CAA0036DB0E2EDE"
+					item: "eidolon:pewter_blend"
+					type: "item"
+				}
+				{
+					id: "3342A6BEE3022F2E"
+					item: "eidolon:pewter_ingot"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0A4C18B3CB687630"]
+			description: ["&6&l=> &rИз пьютера, волшебники смогли сделать жаровню и каменные ладони. Что стало основой всех ритуалов тёмной магии."]
+			hide: true
+			id: "1B6FEDCB6624AB01"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u041a\\u0430\\u043c\\u0435\\u043d\\u043d\\u044b\\u0435 \\u043b\\u0430\\u0434\\u043e\\u043d\\u0438 \\u0438 \\u0436\\u0430\\u0440\\u043e\\u0432\\u043d\\u044f \\u043f\\u0440\\u0438\\u0433\\u043e\\u0434\\u044f\\u0442\\u0441\\u044f \\u0434\\u043b\\u044f \\u043c\\u0430\\u0433\\u0438\\u0447\\u0435\\u0441\\u043a\\u0438\\u0445 \\u043e\\u0431\\u0440\\u044f\\u0434\\u043e\\u0432 \\u0438 \\u0440\\u0438\\u0442\\u0443\\u0430\\u043b\\u043e\\u0432.\",\"color\":\"white\"}]"
+					icon: "ftbquests:book"
+					id: "586AC5A41E0D1AB7"
+					title: "mind"
+					type: "command"
+				}
+				{
+					id: "62BBB532F3001B1B"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "23236F90F1D71772"
+					item: "eidolon:brazier"
+					type: "item"
+				}
+				{
+					id: "236E52BC8BB9C0FB"
+					item: "eidolon:stone_hand"
+					type: "item"
+				}
+			]
+			title: "Ритуалы"
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0A4C18B3CB687630"]
+			description: ["&6&l=> &rЕщё одной очень важной частью тёмной магии является алхимия. Из пьютеровых слитков, создают специальный котёл, именуемый тигелем, наливают в него воду и подогревают. А затем бросают в него ингредиенты, получая что-то новое и особенное."]
+			hide: true
+			id: "2C2AA41F12DA0624"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u041f\\u0440\\u0438 \\u043f\\u043e\\u043c\\u043e\\u0449\\u0438 \\u0442\\u0438\\u0433\\u0435\\u043b\\u044f \\u044f \\u0441\\u043c\\u043e\\u0433\\u0443 \\u043d\\u0430\\u0447\\u0430\\u0442\\u044c \\u0438\\u0437\\u0443\\u0447\\u0430\\u0442\\u044c \\u0430\\u043b\\u0445\\u0438\\u043c\\u0438\\u044e \\u0442\\u0451\\u043c\\u043d\\u043e\\u0439 \\u043c\\u0430\\u0433\\u0438\\u0438.\",\"color\":\"white\"}]"
+					icon: "ftbquests:book"
+					id: "56D8C0E655E207A1"
+					title: "mind"
+					type: "command"
+				}
+				{
+					id: "2D3E09ABAA754189"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "15B1A8B133C7CABE"
+				item: "eidolon:crucible"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0A4C18B3CB687630"]
+			description: ["&6Волшебный верстак&r - специальный рабочий стол для волшебника. Который используется для создания реликвий, артефактов, посохов и т.д."]
+			hide: true
+			id: "6E91E103125CD29B"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u041d\\u0430 \\u0432\\u043e\\u043b\\u0448\\u0435\\u0431\\u043d\\u043e\\u043c \\u0432\\u0435\\u0440\\u0441\\u0442\\u0430\\u043a\\u0435 \\u044f \\u0441\\u043c\\u043e\\u0433\\u0443 \\u0441\\u043e\\u0437\\u0434\\u0430\\u0432\\u0430\\u0442\\u044c \\u0440\\u0430\\u0437\\u043d\\u044b\\u0435 \\u0430\\u0440\\u0442\\u0435\\u0444\\u0430\\u043a\\u0442\\u044b, \\u043a\\u043e\\u0442\\u043e\\u0440\\u044b\\u0435 \\u0431\\u0443\\u0434\\u0443\\u0442 \\u043e\\u0447\\u0435\\u043d\\u044c \\u043f\\u043e\\u043b\\u0435\\u0437\\u043d\\u044b \\u043a\\u0430\\u043a \\u0432 \\u0441\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0438 \\u0442\\u0430\\u043a \\u0438 \\u0432 \\u0431\\u044b\\u0442\\u0443.\",\"color\":\"white\"}]"
+					icon: "ftbquests:book"
+					id: "13BA3D5CCDD8A57F"
+					title: "mind"
+					type: "command"
+				}
+				{
+					count: 5
+					id: "5112AFC9886C353F"
+					item: "relics:relic_experience_bottle"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "672E144F67C50641"
+				item: "eidolon:worktable"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"1B6FEDCB6624AB01"
+				"2C2AA41F12DA0624"
+			]
+			description: ["&6&l=> &rСпустя множество лет изучения этого вида магии, волшебники перешли на новый уровень: уровень душ. Спустя сотен экспериментов, они открыли осколки души, которые можно получить, проведя один ритуал. Данный ритуал называется так: &dКристаллизация Душ&r"]
+			hide: true
+			id: "14737546BB5A5832"
+			rewards: [{
+				auto: "invisible"
+				command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u0424\\u0443\\u0445, \\u0440\\u0438\\u0442\\u0443\\u0430\\u043b \\u043a\\u0440\\u0438\\u0441\\u0442\\u0430\\u043b\\u043b\\u0438\\u0437\\u0430\\u0446\\u0438\\u0438 \\u0434\\u0443\\u0448 \\u043f\\u0440\\u043e\\u0448\\u0451\\u043b \\u0443\\u0441\\u043f\\u0435\\u0448\\u043d\\u043e...\",\"color\":\"white\"}]"
+				icon: "ftbquests:book"
+				id: "45AF7D372FC2DCCB"
+				title: "mind"
+				type: "command"
+			}]
+			tasks: [{
+				id: "119079F35A30275D"
+				item: "eidolon:soul_shard"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"14737546BB5A5832"
+				"2C2AA41F12DA0624"
+			]
+			description: ["&6&l=> &rПроведя множество экспериментов, бессонных ночей за изучением осколков души, они смогли открыть новый металл - волшебное золото. Оно выступает как проводник чар и магической энергии."]
+			hide: true
+			id: "3F6426E537FB1AD7"
+			rewards: [{
+				auto: "invisible"
+				command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u042f \\u0434\\u0443\\u043c\\u0430\\u043b, \\u0447\\u0442\\u043e \\u0441\\u043e\\u0437\\u0434\\u0430\\u0442\\u044c \\u0432\\u043e\\u043b\\u0448\\u0435\\u0431\\u043d\\u043e\\u0435 \\u0437\\u043e\\u043b\\u043e\\u0442\\u043e \\u0431\\u0443\\u0434\\u0435\\u0442 \\u0434\\u043e\\u0432\\u043e\\u043b\\u044c\\u043d\\u043e \\u0441\\u043b\\u043e\\u0436\\u043d\\u043e... \\u041d\\u043e \\u043d\\u0430 \\u0434\\u0435\\u043b\\u0435 \\u044d\\u0442\\u043e \\u0434\\u043e\\u0441\\u0442\\u0430\\u0442\\u043e\\u0447\\u043d\\u043e \\u043f\\u0440\\u043e\\u0441\\u0442\\u043e, \\u043d\\u0443 \\u0438 \\u0445\\u043e\\u0440\\u043e\\u0448\\u043e!\",\"color\":\"white\"}]"
+				icon: "ftbquests:book"
+				id: "2D07F6EF2A15868B"
+				title: "mind"
+				type: "command"
+			}]
+			tasks: [{
+				id: "64F4BCB67CADBEBB"
+				item: "eidolon:arcane_gold_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0BF63B30548138A8"]
+			description: [
+				"&6&l=> &rКогда-то давно, великие волшебники придумали способ связи с божественными сущностями, за счёт выброса большого количества магической энергии в одном месте."
+				""
+				"&6&l=> &rИменно тогда, волшебники стали поклоняться богам на алтарях, на которых стоят различные предметы, усиливающие воздействие магической энергии."
+			]
+			hide: true
+			id: "09A0F6D4CC344CB4"
+			rewards: [{
+				auto: "invisible"
+				command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u041d\\u0443\\u0436\\u043d\\u043e \\u043f\\u043e\\u0441\\u0442\\u0430\\u0432\\u0438\\u0442\\u044c \\u044d\\u0442\\u043e\\u0442 \\u0430\\u043b\\u0442\\u0430\\u0440\\u044c \\u0432 \\u0443\\u0434\\u043e\\u0431\\u043d\\u043e\\u0435 \\u043c\\u0435\\u0441\\u0442\\u043e, \\u0430 \\u043d\\u0430 \\u043d\\u0435\\u0433\\u043e \\u043f\\u043e\\u0441\\u0442\\u0430\\u0432\\u0438\\u0442\\u044c \\u0441\\u043e\\u043b\\u043e\\u043c\\u0435\\u043d\\u043d\\u043e\\u0443 \\u0447\\u0443\\u0447\\u0435\\u043b\\u043e. \\u0412 \\u0431\\u0443\\u0434\\u0443\\u0449\\u0435\\u043c \\u043d\\u0443\\u0436\\u043d\\u043e \\u0431\\u0443\\u0434\\u0435\\u0442 \\u0434\\u043e\\u0431\\u0430\\u0432\\u0438\\u0442\\u044c \\u0434\\u0440\\u0443\\u0433\\u0438\\u0435 \\u0440\\u0435\\u043b\\u0438\\u043a\\u0432\\u0438\\u0438.\",\"color\":\"white\"}]"
+				icon: "ftbquests:book"
+				id: "4A91C4837E6D01EC"
+				title: "mind"
+				type: "command"
+			}]
+			tasks: [
+				{
+					count: 6L
+					id: "6B51041F9A8867E9"
+					item: "eidolon:wooden_altar"
+					type: "item"
+				}
+				{
+					id: "22AED5373C6EAC51"
+					item: "eidolon:straw_effigy"
+					type: "item"
+				}
+			]
+			title: "Теургия"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["09A0F6D4CC344CB4"]
+			description: [
+				"&6&l=> &rМолитвы волшебников работают на специальных знаках. Этих знаков достаточно много, но один из самых распространённых это - знак божий."
+				""
+				"&6&l=> &rЧтобы его получить, нужно дать Ars Ecclesi'ю крестьянину священику. И тогда, он начертит вам знак."
+				""
+				"&6Знак божий&r - это олицетворение высших сил света."
+			]
+			hide: true
+			id: "530D46219472F449"
+			rewards: [{
+				auto: "invisible"
+				command: "/tellraw @p {\"text\":\"\\u0412 \\u0432\\u0430\\u0448\\u0435\\u0439 \\u0434\\u0443\\u0448\\u0435 \\u043e\\u0442\\u043a\\u0440\\u044b\\u043b\\u043e\\u0441\\u044c \\u043d\\u043e\\u0432\\u043e\\u0435 \\u043f\\u0440\\u043e\\u0441\\u0442\\u0440\\u0430\\u043d\\u0441\\u0442\\u0432\\u043e \\u0434\\u043b\\u044f \\u0441\\u0438\\u043b \\u0441\\u0432\\u0435\\u0442\\u0430...\",\"color\":\"gold\"}"
+				icon: "ftbquests:book"
+				id: "07B870DA543746AE"
+				title: "inside voice"
+				type: "command"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "eidolon:sacred_path"
+				criterion: ""
+				id: "26FB16B5797DA8BF"
+				title: "Связь с Богом Света"
+				type: "advancement"
+			}]
+			title: "Знак божий"
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["09A0F6D4CC344CB4"]
+			description: [
+				"&6&l=> &rУ знака Божего существует противоположность - знак греха. Он олицетворяет злобу и пустоту в глубине человеческой души."
+				""
+				"&6&l=> &rЧтобы его получить, дайте Ars Ecclesi'ю ведьме, и тогда она начертит нужный вам знак."
+			]
+			hide: true
+			id: "0668F80659196AB4"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @p {\"text\":\"\\u0412 \\u0432\\u0430\\u0448\\u0435\\u0439 \\u0434\\u0443\\u0448\\u0435 \\u043e\\u0442\\u043a\\u0440\\u044b\\u043b\\u043e\\u0441\\u044c \\u043d\\u043e\\u0432\\u043e\\u0435 \\u043f\\u0440\\u043e\\u0441\\u0442\\u0440\\u0430\\u043d\\u0441\\u0442\\u0432\\u043e \\u0434\\u043b\\u044f \\u0441\\u0438\\u043b \\u0442\\u044c\\u043c\\u044b...\",\"color\":\"light_purple\"}"
+					icon: "ftbquests:book"
+					id: "57F70FA2A610C566"
+					title: "inside voice"
+					type: "command"
+				}
+				{
+					id: "0132466AAC227641"
+					item: {
+						Count: 1b
+						id: "waystones:warp_stone"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "eidolon:wicked_path"
+				criterion: ""
+				id: "7CAFD9D6132CCC14"
+				title: "Связь с Богом Тьмы"
+				type: "advancement"
+			}]
+			title: "Знак греха"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0668F80659196AB4"]
+			description: ["&6&l=> &rСледующий знак - знак крови. Он открывается сам по себе, когда Бог Тьмы увидит вашу молитву и примет её. Для этого встаньте ночью около алтаря наполненого разными артефактами (черепами скелетов, свечами, факелами и т.д.) и скажите молитву знака греха три раза."]
+			hide: true
+			icon: "eidolon:crimson_essence"
+			id: "1975A0BD18DA8114"
+			shape: "diamond"
+			tasks: [{
+				id: "32AF3774CAB69E1F"
+				title: "Знак крови"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["09A0F6D4CC344CB4"]
+			description: ["&6&l=> &rПереплавив гнилую плоть, можно получить жир. Вследствие чего,, его можно использовать для создания свечей и подсвечников."]
+			hide: true
+			id: "1B66E9797711B8FC"
+			rewards: [{
+				auto: "invisible"
+				command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u0418\\u0442\\u0430\\u043a, \\u0436\\u0438\\u0440 \\u043f\\u043e\\u043b\\u0443\\u0447\\u0435\\u043d, \\u0430 \\u0442\\u0435\\u043f\\u0435\\u0440\\u044c \\u043d\\u0443\\u0436\\u043d\\u043e \\u0441\\u043e\\u0437\\u0434\\u0430\\u0442\\u044c \\u0441\\u0432\\u0435\\u0447\\u0438 \\u0438 \\u0443\\u0441\\u0442\\u0430\\u043d\\u043e\\u0432\\u0438\\u0442\\u044c \\u0438\\u0445 \\u043d\\u0430 \\u0430\\u043b\\u0442\\u0430\\u0440\\u044c.\",\"color\":\"white\"}]"
+				icon: "ftbquests:book"
+				id: "1157AE08F67A186C"
+				title: "mind"
+				type: "command"
+			}]
+			tasks: [{
+				id: "72273863C48A43E6"
+				item: "eidolon:tallow"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1B66E9797711B8FC"]
+			description: ["&6&l=> &rСоздайте свечу и подсвечник, чтобы усилить свойства вашего деревянного алтаря."]
+			hide: true
+			id: "523252B057AC6531"
+			shape: "diamond"
+			tasks: [{
+				id: "58FFFF143105BB85"
+				item: "eidolon:candle"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1B66E9797711B8FC"]
+			description: ["&6&l=> &rСоздайте свечу и подсвечник, чтобы усилить свойства вашего деревянного алтаря."]
+			hide: true
+			id: "29FDA038DF0930B2"
+			shape: "diamond"
+			tasks: [{
+				id: "18A8668931347DBF"
+				item: "eidolon:candlestick"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"6E91E103125CD29B"
+				"3F6426E537FB1AD7"
+			]
+			description: ["&6Заклинатель душ&r - наивысший уровень развития волшебников в тёмной магии. С его помощью можно зачаровывать предметы на максимальный уровень, используя осколки души."]
+			hide: true
+			id: "0AE0E7DD3F11DB81"
+			rewards: [{
+				auto: "invisible"
+				command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u041e\\u0442\\u043b\\u0438\\u0447\\u043d\\u043e. \\u0417\\u0430\\u043a\\u043b\\u0438\\u043d\\u0430\\u0442\\u0435\\u043b\\u044c \\u0434\\u0443\\u0448 \\u0432\\u044b\\u0433\\u043b\\u044f\\u0434\\u0438\\u0442 \\u0442\\u043e\\u0447\\u044c \\u0432 \\u0442\\u043e\\u0447\\u044c \\u0442\\u0430\\u043a\\u0436\\u0435 \\u043a\\u0430\\u043a \\u0432 \\u043a\\u0430\\u0440\\u0442\\u0438\\u043d\\u043a\\u0430\\u0445 \\u043d\\u0430 \\u043a\\u043d\\u0438\\u0433\\u0435. \\u0422\\u0435\\u043f\\u0435\\u0440\\u044c \\u043d\\u0443\\u0436\\u043d\\u043e \\u043f\\u0440\\u043e\\u0432\\u0435\\u0440\\u0438\\u0442\\u044c \\u0435\\u0433\\u043e \\u0440\\u0430\\u0431\\u043e\\u0442\\u0443.\",\"color\":\"white\"}]"
+				icon: "ftbquests:book"
+				id: "13AB2738A6D10DAC"
+				title: "mind"
+				type: "command"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "33C21601BD810BDE"
+				item: "eidolon:soul_enchanter"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6E91E103125CD29B"]
+			description: ["&6&l=> &rСоздайте различные артефакты, посохи, реликвии на волшебном верстаке и используйте их!"]
+			hide: true
+			id: "268E8EFDDF8488F3"
+			shape: "diamond"
+			tasks: [{
+				id: "7B42B7BF41BD7F01"
+				item: "eidolon:void_amulet"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6E91E103125CD29B"]
+			description: ["&6&l=> &rСоздайте различные артефакты, посохи, реликвии на волшебном верстаке и используйте их!"]
+			hide: true
+			id: "1AF89BCF52E010D8"
+			shape: "diamond"
+			tasks: [{
+				id: "4DF217714B257931"
+				item: "eidolon:warded_mail"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6E91E103125CD29B"]
+			description: ["&6&l=> &rСоздайте различные артефакты, посохи, реликвии на волшебном верстаке и используйте их!"]
+			hide: true
+			id: "45A8F3827710ADDB"
+			shape: "diamond"
+			tasks: [{
+				id: "1EAEE19C63268834"
+				item: {
+					Count: 1b
+					id: "eidolon:sapping_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6E91E103125CD29B"]
+			description: ["&6&l=> &rСоздайте различные артефакты, посохи, реликвии на волшебном верстаке и используйте их!"]
+			hide: true
+			id: "5F252A74A2FAC12A"
+			shape: "diamond"
+			tasks: [{
+				id: "19A5D52C3BD74231"
+				item: "eidolon:sanguine_amulet"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6E91E103125CD29B"]
+			description: ["&6&l=> &rСоздайте различные артефакты, посохи, реликвии на волшебном верстаке и используйте их!"]
+			hide: true
+			hide_dependency_lines: true
+			id: "435682C0658C39D5"
+			shape: "diamond"
+			tasks: [{
+				id: "6B3D5D914C8139B2"
+				item: "eidolon:enervating_ring"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6E91E103125CD29B"]
+			description: ["&6&l=> &rСоздайте различные артефакты, посохи, реликвии на волшебном верстаке и используйте их!"]
+			hide: true
+			hide_dependency_lines: true
+			id: "01112CB9B7A8431E"
+			shape: "diamond"
+			tasks: [{
+				id: "261D0EFF79DD8D21"
+				item: {
+					Count: 1b
+					id: "eidolon:soulfire_wand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6E91E103125CD29B"]
+			description: ["&6&l=> &rСоздайте различные артефакты, посохи, реликвии на волшебном верстаке и используйте их!"]
+			hide: true
+			hide_dependency_lines: true
+			id: "6EE9537C3894B32D"
+			shape: "diamond"
+			tasks: [{
+				id: "797BC8D604618C85"
+				item: {
+					Count: 1b
+					id: "eidolon:bonechill_wand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6E91E103125CD29B"]
+			description: ["&6&l=> &rСоздайте различные артефакты, посохи, реликвии на волшебном верстаке и используйте их!"]
+			hide: true
+			hide_dependency_lines: true
+			id: "7EC8D7FC2B14D906"
+			shape: "diamond"
+			tasks: [{
+				id: "39BC7D513A35AB06"
+				item: "eidolon:gravity_belt"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6E91E103125CD29B"]
+			description: ["&6&l=> &rСоздайте различные артефакты, посохи, реликвии на волшебном верстаке и используйте их!"]
+			hide: true
+			hide_dependency_lines: true
+			id: "20BE3436AD525477"
+			shape: "diamond"
+			tasks: [{
+				id: "128B51B6A9DD478A"
+				item: "eidolon:resolute_belt"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6E91E103125CD29B"]
+			description: ["&6&l=> &rСоздайте различные артефакты, посохи, реликвии на волшебном верстаке и используйте их!"]
+			hide: true
+			hide_dependency_lines: true
+			id: "6816F2606C9DCFBB"
+			shape: "diamond"
+			tasks: [{
+				id: "3B1723998B76DC6B"
+				item: "eidolon:prestigious_palm"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6E91E103125CD29B"]
+			description: ["&6&l=> &rСоздайте различные артефакты, посохи, реликвии на волшебном верстаке и используйте их!"]
+			hide: true
+			hide_dependency_lines: true
+			id: "71D4BE83315C4F69"
+			shape: "diamond"
+			tasks: [{
+				id: "192CCF870CAAEE75"
+				item: "eidolon:mind_shielding_plate"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6E91E103125CD29B"]
+			description: ["&6&l=> &rСоздайте различные артефакты, посохи, реликвии на волшебном верстаке и используйте их!"]
+			hide: true
+			hide_dependency_lines: true
+			id: "3A47B8D3D25565AD"
+			shape: "diamond"
+			tasks: [{
+				id: "0CFA2CE470692C7D"
+				item: "eidolon:glass_hand"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6E91E103125CD29B"]
+			description: ["&6&l=> &rСоздайте различные артефакты, посохи, реликвии на волшебном верстаке и используйте их!"]
+			hide: true
+			hide_dependency_lines: true
+			id: "2EC76776DF70B40D"
+			shape: "diamond"
+			tasks: [{
+				id: "60A5C460A191C46A"
+				item: "eidolon:angels_sight"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"3F6426E537FB1AD7"
+				"1975A0BD18DA8114"
+			]
+			description: ["&6&l=> &rИспользуя волшебное золото, создайте кубок и наполните его кровью животного, убив его на алтаре и поставив на него кубок. "]
+			hide: true
+			id: "609801986DBF32C9"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u041d\\u0443\\u0436\\u043d\\u043e \\u043d\\u0430\\u043f\\u043e\\u043b\\u043d\\u0438\\u0442\\u044c \\u044d\\u0442\\u043e\\u0442 \\u0431\\u043e\\u043a\\u0430\\u043b \\u043a\\u0440\\u043e\\u0432\\u044c\\u044e \\u0436\\u0438\\u0432\\u043e\\u0442\\u043d\\u043e\\u0433\\u043e \\u0438 \\u043f\\u043e\\u043b\\u043e\\u0436\\u0438\\u0442\\u044c \\u0435\\u0433\\u043e \\u043d\\u0430 \\u0430\\u043b\\u0442\\u0430\\u0440\\u044c.\"}]"
+					icon: "ftbquests:book"
+					id: "218119CEDEC5A1FD"
+					title: "mind"
+					type: "command"
+				}
+				{
+					id: "49613772E7512B31"
+					item: {
+						Count: 1b
+						id: "vinery:magnetic_wine"
+						tag: {
+							Year: 1
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "22CF0FB57E6F4A2A"
+				item: "eidolon:goblet"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["609801986DBF32C9"]
+			description: ["&6&l=> &rТеперь когда у вас есть кубок, подойдите ночью к алтарю, и проверьте есть ли в кубке кровь, если она присутствует, то произнесите молитву: &dЗнак греха&r, &cзнак крови&r, &dзнак греха&r."]
+			hide: true
+			id: "4D8CBD5AD82D15A0"
+			tasks: [{
+				advancement: "eidolon:sacrifice"
+				criterion: ""
+				icon: "eidolon:lesser_soul_gem"
+				id: "1D790883A624A332"
+				title: "Знак Души"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"4D8CBD5AD82D15A0"
+				"609801986DBF32C9"
+			]
+			description: [
+				"&6&l=> &rТёмный Бог заинтересовался вашими деяниями и теперь он ждёт последнюю молитву, перед тем как дать вам своё благословение. Для этой молитвы подойдите к алтарю, бросьте на него орнамент из пьютера и произнесите такую молитву: &dЗнак греха&r, &5знак души&r, &dзнак греха&r, &5знак души&r."
+				""
+				"&6&l=> &rПосле этого, вы получите нечестивый символ, который можно использовать в некоторых рецептах и ритуалах."
+			]
+			hide: true
+			id: "52BE15EB7F1AF5D7"
+			rewards: [{
+				id: "4BD9D570E3DD4EBD"
+				item: {
+					Count: 1b
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:blood_needles"
+								index: 0
+								level: 3
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1FEC61AF32F4AAB6"
+				item: "eidolon:unholy_symbol"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["52BE15EB7F1AF5D7"]
+			description: ["&6Коса Жнеца&r - артефакт, который позволяет захватывать осколки души живых или неживых существ при ударе в их сердце."]
+			hide: true
+			id: "07B521204764A3A8"
+			rewards: [{
+				auto: "invisible"
+				command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u0421 \\u043f\\u043e\\u043c\\u043e\\u0449\\u044c\\u044e \\u0434\\u0430\\u043d\\u043d\\u043e\\u0439 \\u043a\\u043e\\u0441\\u044b \\u044f \\u0441 \\u043b\\u0451\\u0433\\u043a\\u043e\\u0441\\u0442\\u044c\\u044e \\u043f\\u043e\\u0433\\u043b\\u043e\\u0449\\u0430\\u0442\\u044c \\u043e\\u0441\\u043a\\u043e\\u043b\\u043a\\u0438 \\u0434\\u0443\\u0448 \\u043d\\u0435\\u0436\\u0438\\u0442\\u0438!\"}]"
+				icon: "ftbquests:book"
+				id: "2D673D40FAE1F1A7"
+				title: "mind"
+				type: "command"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "731C1C05287669CF"
+				item: {
+					Count: 1b
+					id: "eidolon:reaper_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["52BE15EB7F1AF5D7"]
+			description: ["&6Топор Палача&r - артефакт, способный с лёгкостью перерезать голову, череп или что-либо другое своим острым лезвием."]
+			hide: true
+			id: "155075FCB1D206B2"
+			rewards: [{
+				auto: "invisible"
+				command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u0411\\u043b\\u0430\\u0433\\u043e\\u0434\\u0430\\u0440\\u044f \\u044d\\u0442\\u043e\\u043c\\u0443 \\u0442\\u043e\\u043f\\u043e\\u0440\\u0443, \\u044f \\u0441\\u043c\\u043e\\u0433\\u0443 \\u043b\\u0435\\u0433\\u043a\\u043e \\u043e\\u0442\\u0440\\u0443\\u0431\\u0430\\u0442\\u044c \\u0433\\u043e\\u043b\\u043e\\u0432\\u044b \\u0441\\u0443\\u0449\\u0435\\u0441\\u0442\\u0432.\"}]"
+				icon: "ftbquests:book"
+				id: "61B7F1B144270D78"
+				title: "mind"
+				type: "command"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "64C1715348681056"
+				item: {
+					Count: 1b
+					id: "eidolon:cleaving_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"52BE15EB7F1AF5D7"
+				"0AE0E7DD3F11DB81"
+			]
+			description: ["&6&l=> &rС помощью нечестивого символа, вы можете создать тёмную ткань, из которой можно сшить брони чародея или чернокнижника."]
+			hide: true
+			id: "17F52198C4B07E83"
+			rewards: [{
+				auto: "invisible"
+				command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u0418\\u0437 \\u0442\\u0451\\u043c\\u043d\\u043e\\u0439 \\u0442\\u043a\\u0430\\u043d\\u0438 \\u044f \\u0441\\u043c\\u043e\\u0433\\u0443 \\u0441\\u0448\\u0438\\u0442\\u044c \\u0431\\u0440\\u043e\\u043d\\u044e \\u0447\\u0435\\u0440\\u043d\\u043e\\u043a\\u043d\\u0438\\u0436\\u043d\\u0438\\u043a\\u0430.\"}]"
+				icon: "ftbquests:book"
+				id: "0985AB6E9F12CCC1"
+				title: "mind"
+				type: "command"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "3B73F663EB0D6DF1"
+				item: "eidolon:wicked_weave"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["17F52198C4B07E83"]
+			description: ["&6&l=> &rСоздайте броню чернокнижника."]
+			hide: true
+			id: "67C21B70D0354379"
+			rewards: [{
+				id: "4E73CBF89EE43432"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "5BEF3D225E1E8D28"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "eidolon:warlock_hat"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["17F52198C4B07E83"]
+			description: ["&6&l=> &rСоздайте броню чернокнижника."]
+			hide: true
+			id: "0CD9D0ABE4FA8F49"
+			rewards: [{
+				id: "1169BCBEF285DD79"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "2498F7AB5076AB85"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "eidolon:warlock_cloak"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["17F52198C4B07E83"]
+			description: ["&6&l=> &rСоздайте броню чернокнижника."]
+			hide: true
+			id: "58E7D9B16DF0DBC1"
+			rewards: [{
+				id: "7D865AE147980F35"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "72766BEE503951AB"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "eidolon:warlock_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"0CD9D0ABE4FA8F49"
+				"58E7D9B16DF0DBC1"
+				"67C21B70D0354379"
+			]
+			description: ["&6&l=> &rТеперь вы знаете все тайны искусства тёмной магии, став чародеем, вы можете начать изучать что-то новое!"]
+			hide: true
+			id: "0B3C4D75E72196CE"
+			shape: "diamond"
+			size: 1.1d
+			tasks: [{
+				id: "02631590432A7343"
+				title: "&6Конец III главы&r: Тёмная магия"
+				type: "checkmark"
+			}]
+			x: 10.5d
+			y: 3.0d
+		}
+	]
+	subtitle: ["Алхимия, обряды, теургия и другое"]
+	title: "&6III&r: Тёмная магия ✦"
+}

@@ -1,0 +1,912 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6xir"
+	group: "5C6A3997459D91D9"
+	icon: "undergarden:ashen_deepturf_block"
+	id: "61CC4CAF2761B272"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 150.0d
+			hover: [ ]
+			image: "skilltree:textures/screen/skill_tree_background.png"
+			rotation: 0.0d
+			width: 150.0d
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 15.0d
+			hover: [ ]
+			image: "cataclysm:textures/entity/soul_flame_strike_sigil.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.03809523809522375d
+			y: 2.7452380952381077d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "kubejs:textures/item/undergarden.png"
+			rotation: 0.0d
+			width: 25.0d
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2FCAAE2D19281F04"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "relics:item/magma_walker_fire"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2AC7E6AC66D8EF12"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "gothic:items/ice_golem_heart"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.836054421768715d
+			y: 1.3078231292516946d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2AC7E6AC66D8EF12"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "undergarden:item/utheric_shard"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.3112244897959187d
+			y: -0.0010204081632778639d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:block/campfire_fire"
+			rotation: 0.0d
+			width: 0.015625d
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "0175A3281EEA6DE7"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "valhelsia_structures:block/brazier_fire"
+			rotation: -90.0d
+			width: 1.0d
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "61589AD457E15B4B"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "iceandfire:textures/block/ice_lily.png"
+			rotation: -90.0d
+			width: 1.0d
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "0E270B2136657DAF"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "cataclysm:item/mech_eye"
+			rotation: -90.0d
+			width: 1.0d
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "42A69FDF7420731E"
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "cataclysm:textures/particle/shock_wave.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2AC7E6AC66D8EF12"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:block/carrots_stage3_1"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.4795918367346914d
+			y: -0.2255102040816297d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2AC7E6AC66D8EF12"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "eidolon:item/magic_ink"
+			rotation: 40.0d
+			width: 1.0d
+			x: 1.7959183673469425d
+			y: 1.2744897959183632d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "77F87A064A2892C2"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "relics:item/magma_walker_fire"
+			rotation: 90.0d
+			width: 1.0d
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "77F87A064A2892C2"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "relics:item/magma_walker_fire"
+			rotation: -90.0d
+			width: 1.0d
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "77F87A064A2892C2"
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "cataclysm:textures/particle/shock_wave.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "77F87A064A2892C2"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "cataclysm:item/abyss_eye"
+			rotation: 45.0d
+			width: 1.0d
+			x: 0.5459183673469354d
+			y: 5.432653061224499d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2FCAAE2D19281F04"]
+			description: ["&6&l=> &rОдин из самых древних миров в нашем скоплении называется подземелье. Пещеры, леса. Всё было завалено камнями. Но местные растения и животные смогли адаптироваться к новой среде обитания. Растения стали жить и распространяться, а животные мутировали, став сильнее и больше."]
+			hide: true
+			id: "42A69FDF7420731E"
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				id: "797E67F3A9B8323E"
+				title: "&6Глава XI&r: Подземелье"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["42A69FDF7420731E"]
+			description: ["&6&l=> &rЧтобы попасть в этот мир, вам нужен катализатор. Чтобы его создать, вам необходимо знать магию духов и магию природы. Основой портала выступят каменные кирпичи."]
+			hide: true
+			id: "2AC7E6AC66D8EF12"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u041f\\u043e\\u0434\\u0437\\u0435\\u043c\\u0435\\u043b\\u044c\\u0435, \\u0434\\u0440\\u0435\\u0432\\u043d\\u0438\\u0439 \\u043c\\u0438\\u0440, \\u0442\\u0451\\u043c\\u043d\\u044b\\u0439 \\u0438 \\u0437\\u0430\\u0431\\u044b\\u0442\\u044b\\u0439 \\u0432\\u0441\\u0435\\u043c\\u0438 \\u0431\\u043e\\u0433\\u0430\\u043c\\u0438. \\u0427\\u0442\\u043e-\\u0436\\u0435 \\u0441 \\u043d\\u0438\\u043c \\u0441\\u043b\\u0443\\u0447\\u0438\\u043b\\u043e\\u0441\\u044c...\"}]"
+					icon: "ftbquests:book"
+					id: "465EF598D1DACD40"
+					title: "mind"
+					type: "command"
+				}
+				{
+					id: "262F3965BC794B88"
+					item: "irons_spellbooks:shriving_stone"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.1d
+			tasks: [
+				{
+					dimension: "undergarden:undergarden"
+					icon: "undergarden:deepturf_block"
+					id: "0A4DC8D800C19640"
+					title: "&6Посетить мир&r: Подземелье"
+					type: "dimension"
+				}
+				{
+					id: "6177C61726E53824"
+					item: "undergarden:catalyst"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2AC7E6AC66D8EF12"]
+			description: ["&6&l=> &rНа вершинах пещер, можно заметить местные фрукты. Их прозвали дроп фруктами, что переводится как падающий фрукт."]
+			hide: true
+			id: "1CA382A8C6CD04AB"
+			shape: "hexagon"
+			tasks: [{
+				id: "31DD1D057AE0059B"
+				item: "undergarden:droopvine_item"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2AC7E6AC66D8EF12"]
+			description: ["&6&l=> &rЛаминарии, можно объединить с фиолетовой тыквой и местными грибами, чтобы приготовить пирог."]
+			hide: true
+			id: "532F779893CE16E1"
+			shape: "hexagon"
+			tasks: [{
+				id: "2A303A4D69C0FB5F"
+				item: "undergarden:glitterkelp"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2AC7E6AC66D8EF12"]
+			description: ["&6&l=> &rИз-за изменения флоры, местные тыквы стали фиолетового цвета, а их вкусно сильно изменился. Но местным обитателям, данная еда как-раз по вкусу."]
+			hide: true
+			id: "0C5FF098D2740083"
+			shape: "hexagon"
+			tasks: [{
+				id: "79455072438FED3E"
+				item: "undergarden:gloomgourd"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"0C5FF098D2740083"
+				"532F779893CE16E1"
+			]
+			description: ["&6&l=> &rСоздайте пирог из фиолетовой тыквы, из местных грибов и подводных ламинарий."]
+			hide: true
+			id: "7DF4D895277E9735"
+			shape: "diamond"
+			tasks: [{
+				id: "00D0F20345747B45"
+				item: "undergarden:gloomgourd_pie"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2AC7E6AC66D8EF12"]
+			description: ["&6&l=> &rНе так редко, здесь можно найти новые руды. Которые можно использовать для создания слитка, в следствие чего, можно создать местную броню и инструменты."]
+			hide: true
+			id: "0175A3281EEA6DE7"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u041a\\u0430\\u043a\\u043e\\u0439 \\u043d\\u0435\\u043e\\u0431\\u044b\\u0447\\u043d\\u044b\\u0439 \\u043a\\u0440\\u0438\\u0441\\u0442\\u0430\\u043b\\u043b!\"}]"
+					icon: "ftbquests:book"
+					id: "550176EF516AD972"
+					title: "mind"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "6C358196861609CB"
+					item: "blue_skies:crescent_fruit"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "65A9BF1A7D0B2A1B"
+				item: "undergarden:utherium_crystal"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2AC7E6AC66D8EF12"]
+			description: ["&6&l=> &rНе так редко, здесь можно найти новые руды. Которые можно использовать для создания слитка, в следствие чего, можно создать местную броню и инструменты."]
+			hide: true
+			id: "61589AD457E15B4B"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u041d\\u0438\\u043a\\u043e\\u0433\\u0434\\u0430 \\u043d\\u0435 \\u0432\\u0438\\u0434\\u0430\\u043b \\u0438 \\u043d\\u0435 \\u0441\\u043b\\u044b\\u0448\\u0430\\u043b \\u043e \\u043f\\u043e\\u0434\\u043e\\u0431\\u043d\\u043e\\u0439 \\u0440\\u0443\\u0434\\u0435...\"}]"
+					icon: "ftbquests:book"
+					id: "65FC2C81EA7D45E9"
+					title: "mind"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "47CEE49EBAB84F7A"
+					item: "undergarden:droopvine_item"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "00885C6A905B9EB6"
+					item: "undergarden:raw_froststeel"
+					type: "item"
+				}
+				{
+					id: "7D95EAACDEC7FBFF"
+					item: "undergarden:froststeel_ingot"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2AC7E6AC66D8EF12"]
+			description: ["&6&l=> &rНе так редко, здесь можно найти новые руды. Которые можно использовать для создания слитка, в следствие чего, можно создать местную броню и инструменты."]
+			hide: true
+			id: "0E270B2136657DAF"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u041a\\u043b\\u043e\\u0433\\u0433\\u0440\\u0443\\u043c\\u043e\\u0432\\u0430\\u044f \\u0440\\u0443\\u0434\\u0430, \\u0438\\u0437 \\u043d\\u0435\\u0433\\u043e \\u0432\\u044b\\u0439\\u0434\\u0435\\u0442 \\u043e\\u0442\\u043b\\u0438\\u0447\\u043d\\u044b\\u0439 \\u0449\\u0438\\u0442!\"}]"
+					icon: "ftbquests:book"
+					id: "79D8852FAB884A58"
+					title: "mind"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "6050109EB4FAA6F7"
+					item: "blue_skies:scalefruit"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "2300EE86E09DA23B"
+					item: "undergarden:raw_cloggrum"
+					type: "item"
+				}
+				{
+					id: "6B38DC4FCD851C07"
+					item: "undergarden:cloggrum_ingot"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0E270B2136657DAF"]
+			description: ["&6&l=> &rСоздайте комплект снаряжения из клогрума."]
+			hide: true
+			id: "1041D1087C5B7525"
+			rewards: [{
+				id: "155EDCBBA59561FA"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "2355B0851DB68698"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "undergarden:cloggrum_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "55DA64F5603950DC"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "undergarden:cloggrum_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "36A77824CEC5F1DC"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "undergarden:cloggrum_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "58CFED15C011B822"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "undergarden:cloggrum_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1ECD72B223FD7157"
+					item: {
+						Count: 1b
+						id: "undergarden:cloggrum_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "70997D55554B6DAB"
+					item: {
+						Count: 1b
+						id: "undergarden:cloggrum_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Клогрумовое снаряжение"
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["61589AD457E15B4B"]
+			description: ["&6&l=> &rСоздайте комплект снаряжения из хладостали."]
+			hide: true
+			id: "34EEB0AA75A360EB"
+			rewards: [{
+				id: "7DEEDFC246CF8996"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "2DC7601507EA7DD5"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "undergarden:froststeel_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "764BAD7E5C999F81"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "undergarden:froststeel_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3FC9049C8250E8FA"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "undergarden:froststeel_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2491F830FB1B444B"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "undergarden:froststeel_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C6D1BE151DC34DE"
+					item: {
+						Count: 1b
+						id: "undergarden:froststeel_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "662F0A0F8A0906AB"
+					item: {
+						Count: 1b
+						id: "undergarden:froststeel_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Морозное снаряжение"
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0175A3281EEA6DE7"]
+			description: ["&6&l=> &rСоздайте комплект снаряжения из утерия."]
+			hide: true
+			id: "56801CE89C6AC487"
+			rewards: [{
+				id: "7C77FB7280BF2A5B"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "563EF4910256F636"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "undergarden:utherium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "229F33B3B33F80B0"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "undergarden:utherium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5DE3D1CE939C3B98"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "undergarden:utherium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "04545FB12028D856"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "undergarden:utherium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6A3939DB49BC9006"
+					item: {
+						Count: 1b
+						id: "undergarden:utherium_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "40759E8B8053BBAE"
+					item: {
+						Count: 1b
+						id: "undergarden:utherium_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Утериевое снаряжение"
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2AC7E6AC66D8EF12"]
+			description: ["&6&l=> &rИз местных корней, можно создать сильно натягивающуюся проволку, благодаря которой можно изготовить рогатку. А как патроны, можно использовать местные гальки, которые можно найти на земле."]
+			hide: true
+			id: "6EE40A8CB089AE2F"
+			rewards: [{
+				id: "51F30F54C784A57C"
+				item: "gothic:elixir_of_health"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3AE28C22C45CF577"
+					item: {
+						Count: 1b
+						id: "undergarden:slingshot"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2BBFC0B97A5E0AA3"
+					item: "undergarden:depthrock_pebble"
+					type: "item"
+				}
+			]
+			title: "Рогатка"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6EE40A8CB089AE2F"]
+			description: ["&6&l=> &rДревняя цивилизация кобольдов, построили эти катакомбы, чтобы пережить крушение камня, но видимо это не совсем помогло. Возможно внутри катакомб что-нибудь осталось..."]
+			id: "77F87A064A2892C2"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u0425\\u043c\\u043c, \\u043a\\u0430\\u043a\\u0438\\u0435 \\u0434\\u0440\\u0435\\u0432\\u043d\\u0438\\u0435 \\u043a\\u043e\\u0442\\u0430\\u043a\\u043e\\u043c\\u0431\\u044b, \\u0438\\u043d\\u0442\\u0435\\u0440\\u0435\\u0441\\u043d\\u043e \\u043a\\u0442\\u043e \\u0438\\u0445 \\u043f\\u043e\\u0441\\u0442\\u0440\\u043e\\u0438\\u043b?\"}]"
+					icon: "ftbquests:book"
+					id: "3A805227CD89FCDB"
+					title: "mind"
+					type: "command"
+				}
+				{
+					id: "1DFA1C369C8568B0"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				icon: "undergarden:depthrock_bricks"
+				id: "006E6CF31D491E04"
+				structure: "undergarden:catacombs"
+				title: "&6Найдите&r: Котакомбы"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["77F87A064A2892C2"]
+			description: ["&6&l=> &rВ катакомбах, остались древние растения. Например, ягоды. Некоторые конечно стали непригодном для употребления в пищу, но некоторые всё-же ещё съедобны."]
+			hide: true
+			id: "6731147E212087DD"
+			rewards: [{
+				id: "61A07B84BC26ADFC"
+				item: "born_in_chaos_v1:potion_of_rampage"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "770856F822A6BB29"
+					item: "undergarden:rotten_blisterberry"
+					type: "item"
+				}
+				{
+					id: "020A3079AD3F1E26"
+					item: "undergarden:blisterberry"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["77F87A064A2892C2"]
+			description: ["&6&l=> &rВнутри катакомб, вы можете обнаружить загадочные кристаллы, которые не знаете где можно использовать."]
+			hide: true
+			id: "7BBB0862A2544A82"
+			rewards: [{
+				id: "07EAB54C8B9FD2F7"
+				item: "born_in_chaos_v1:potion_of_rampage"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "06C0A736FCD9DA43"
+				item: "undergarden:regalium_crystal"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["77F87A064A2892C2"]
+			description: ["&d&l=> &rДанный артефакт, был утерян Богом Земли, во время его хождений по мирам. Но кобольды, смогли его обнаружить и спрятали его у себя в катакомбах, в дальних сундуках..."]
+			hide: true
+			id: "22288A5392238FEC"
+			rewards: [{
+				auto: "invisible"
+				command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u0414\\u0440\\u0435\\u0432\\u043d\\u0438\\u0439, \\u0431\\u043e\\u0436\\u0435\\u0441\\u0442\\u0432\\u0435\\u043d\\u043d\\u044b\\u0439 \\u0430\\u0440\\u0442\\u0435\\u0444\\u0430\\u043a\\u0442 \\u0434\\u0430\\u0440\\u0443\\u0435\\u0442 \\u0432\\u0430\\u043c \\u0441\\u0438\\u043b\\u044b \\u043f\\u043e\\u0434\\u0437\\u0435\\u043c\\u0435\\u043b\\u0438\\u0439!\"}]"
+				icon: "ftbquests:book"
+				id: "146A5EC96B5CBE5F"
+				title: "mind"
+				type: "command"
+			}]
+			shape: "diamond"
+			size: 1.1d
+			subtitle: "&dКрюк Бога Земли"
+			tasks: [{
+				id: "2F66EAEC2608DA8F"
+				item: {
+					Count: 1b
+					id: "celestisynth:crescentia"
+					tag: {
+						Damage: 0
+						csController: { }
+					}
+				}
+				type: "item"
+			}]
+			title: "Божественный артефакт"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["22288A5392238FEC"]
+			description: ["&6&l=> &rВам удалось обнаружить крюк Бога Земли. Мощный артефакт, выкованный из очень прочного металла. Что же будет дальше?"]
+			hide: true
+			id: "4D47EFE1416135AB"
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				id: "30AF44DAF5D2E300"
+				title: "&6Конец XI главы&r: Подземелье"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+	]
+	subtitle: ["Мёртвый мир, с мелкой фауной и растительностью..."]
+	title: "&6XI&r: Подземелье ✦"
+}

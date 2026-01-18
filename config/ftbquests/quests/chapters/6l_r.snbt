@@ -1,0 +1,1168 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6l_r"
+	group: "7D7AE6D174309F4B"
+	icon: {
+		Count: 1b
+		id: "relics:chorus_inhibitor"
+		tag: {
+			abilities: {
+				blink: {
+					points: 0
+					stats: {
+						cooldown: 7.90972d
+						distance: 28.31531d
+					}
+				}
+			}
+		}
+	}
+	id: "25DD07A3963E6AD3"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "cataclysm:textures/entity/soul_flame_strike_sigil.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 41.5d
+			y: 2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 150.0d
+			hover: [ ]
+			image: "skilltree:textures/screen/skill_tree_background.png"
+			rotation: 0.0d
+			width: 150.0d
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "cataclysm:textures/entity/soul_flame_strike_sigil.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&6&l=> &rВо всех мирах, можно найти древние реликвии. По другому их можно назвать магическими артефактами, которые можно изучить и использовать в своих целях. Изучение реликвии происходит на столе исследователя."
+				""
+				"&6&l=> &rЧтобы им воспользоваться нужно положить реликвию на стол, нажав ПКМ по столу держа в руках реликвию. После этого нажать Shift + ПКМ и откроется интерфейс. У реликвий есть своя система опыта, чтобы его получать вам нужно обычный опыт конвертировать в опыт для реликвий через стол исследователя. Также внизу интерфейса показаны способности реликвии, которые можно улучшать и прокачивать."
+			]
+			hide: true
+			id: "3D523C82C9F7F64C"
+			rewards: [{
+				id: "4A42E92F331BCDD3"
+				item: "artifacts:golden_hook"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				id: "682D6DA60B9C158F"
+				item: "relics:researching_table"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3D523C82C9F7F64C"]
+			description: ["&6&l=> &rНаходите различные реликвии и изучайте их, прокачивайте их способности и используйте в сражениях, приключениях и т.д."]
+			hide: true
+			hide_dependency_lines: true
+			id: "37A995EE494248AB"
+			rewards: [{
+				id: "4A1E5CA70EFBE3E9"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "6FA5AAC4CFF6F64D"
+				item: {
+					Count: 1b
+					id: "relics:spatial_sign"
+					tag: {
+						abilities: {
+							seal: {
+								points: 0
+								stats: {
+									time: 2.13305d
+								}
+							}
+						}
+						pos: "[\"306.3,95.0,82.7\"]"
+						world: "minecraft:overworld"
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3D523C82C9F7F64C"]
+			description: ["&6&l=> &rНаходите различные реликвии и изучайте их, прокачивайте их способности и используйте в сражениях, приключениях и т.д."]
+			hide: true
+			hide_dependency_lines: true
+			id: "6DA736BAF10D92E2"
+			rewards: [{
+				id: "2C1E1214660503F2"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "2C811140CD23D770"
+				item: {
+					Count: 1b
+					id: "relics:reflection_necklace"
+					tag: {
+						abilities: {
+							explode: {
+								points: 0
+								stats: {
+									capacity: 26.76683d
+									damage: 0.48332d
+									stun: 0.1048d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3D523C82C9F7F64C"]
+			description: ["&6&l=> &rНаходите различные реликвии и изучайте их, прокачивайте их способности и используйте в сражениях, приключениях и т.д."]
+			hide: true
+			hide_dependency_lines: true
+			id: "74223D24045FE969"
+			rewards: [{
+				id: "256A8B775EDF68E9"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "01C7435117D71DD2"
+				item: {
+					Count: 1b
+					id: "relics:magma_walker"
+					tag: {
+						abilities: {
+							pace: {
+								points: 0
+								stats: {
+									time: 36.65238d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3D523C82C9F7F64C"]
+			description: ["&6&l=> &rНаходите различные реликвии и изучайте их, прокачивайте их способности и используйте в сражениях, приключениях и т.д."]
+			hide: true
+			hide_dependency_lines: true
+			id: "07F97720F1C7F480"
+			rewards: [{
+				id: "40624428DCF850B5"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "5EC906654F609AEB"
+				item: {
+					Count: 1b
+					id: "relics:aqua_walker"
+					tag: {
+						abilities: {
+							walking: {
+								points: 0
+								stats: {
+									time: 37.32559d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3D523C82C9F7F64C"]
+			description: ["&6&l=> &rНаходите различные реликвии и изучайте их, прокачивайте их способности и используйте в сражениях, приключениях и т.д."]
+			hide: true
+			hide_dependency_lines: true
+			id: "4116E36045C3B3C3"
+			rewards: [{
+				id: "7099C38A1F0AC1C2"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "47743A75F6E9A01A"
+				item: {
+					Count: 1b
+					id: "relics:midnight_robe"
+					tag: {
+						abilities: {
+							backstab: {
+								points: 0
+								stats: {
+									damage: 1.52859d
+									distance: 19.24694d
+								}
+							}
+							vanish: {
+								points: 0
+								stats: {
+									light: 1.36663d
+									speed: 0.17308d
+								}
+								temp: {
+									ticking: 1b
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3D523C82C9F7F64C"]
+			description: ["&6&l=> &rНаходите различные реликвии и изучайте их, прокачивайте их способности и используйте в сражениях, приключениях и т.д."]
+			hide: true
+			hide_dependency_lines: true
+			id: "6D076A95C8A45A1E"
+			rewards: [{
+				id: "4192C4197431314E"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "0552A408B899CB15"
+				item: {
+					Count: 1b
+					id: "relics:drowned_belt"
+					tag: {
+						abilities: {
+							anchor: {
+								points: 0
+								stats: {
+									sinking: 4.3893d
+									slowness: 0.39792d
+								}
+							}
+							pressure: {
+								points: 0
+								stats: {
+									damage: 1.99806d
+								}
+							}
+							riptide: {
+								points: 0
+								stats: {
+									cooldown: 6.61422d
+								}
+							}
+							slots: {
+								points: 0
+								stats: {
+									talisman: 0.8383d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3D523C82C9F7F64C"]
+			description: ["&6&l=> &rНаходите различные реликвии и изучайте их, прокачивайте их способности и используйте в сражениях, приключениях и т.д."]
+			hide: true
+			hide_dependency_lines: true
+			id: "00B5B5675D80D904"
+			rewards: [{
+				id: "52BC99289B314FA4"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "50B58819D27368CF"
+				item: {
+					Count: 1b
+					id: "relics:jellyfish_necklace"
+					tag: {
+						abilities: {
+							paralysis: {
+								points: 0
+								stats: {
+									duration: 0.53465d
+								}
+							}
+							shock: {
+								points: 0
+								stats: {
+									damage: 1.97578d
+								}
+								temp: {
+									ticking: 1b
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3D523C82C9F7F64C"]
+			description: ["&6&l=> &rНаходите различные реликвии и изучайте их, прокачивайте их способности и используйте в сражениях, приключениях и т.д."]
+			hide: true
+			hide_dependency_lines: true
+			id: "7A121D5547606AC5"
+			rewards: [{
+				id: "6C427D2D80255095"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "76BC098653134CC5"
+				item: {
+					Count: 1b
+					id: "relics:hunter_belt"
+					tag: {
+						abilities: {
+							slots: {
+								points: 0
+								stats: {
+									talisman: 1.68287d
+								}
+							}
+							training: {
+								points: 0
+								stats: {
+									damage: 1.70756d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3D523C82C9F7F64C"]
+			description: ["&6&l=> &rНаходите различные реликвии и изучайте их, прокачивайте их способности и используйте в сражениях, приключениях и т.д."]
+			hide: true
+			hide_dependency_lines: true
+			id: "1D7E172F0C8B1DEC"
+			rewards: [{
+				id: "3AA563399ED61153"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "55C2D5489A18F855"
+				item: {
+					Count: 1b
+					id: "relics:rage_glove"
+					tag: {
+						abilities: {
+							phlebotomy: {
+								points: 0
+								stats: {
+									attack_speed: 0.00566d
+									heal: 1.0E-4d
+									movement_speed: 0.01634d
+								}
+							}
+							rage: {
+								points: 0
+								stats: {
+									dealt_damage: 0.0622d
+									duration: 3.43633d
+									incoming_damage: 0.04512d
+								}
+							}
+							spurt: {
+								points: 0
+								stats: {
+									cooldown: 15.02966d
+									damage: 0.11915d
+									distance: 5.18519d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3D523C82C9F7F64C"]
+			description: ["&6&l=> &rНаходите различные реликвии и изучайте их, прокачивайте их способности и используйте в сражениях, приключениях и т.д."]
+			hide: true
+			hide_dependency_lines: true
+			id: "61A0AF3A1C32CD19"
+			rewards: [{
+				id: "5CFA28B58B43BD7B"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "16B32B44E67AA5E9"
+				item: {
+					Count: 1b
+					id: "relics:ice_skates"
+					tag: {
+						abilities: {
+							ram: {
+								points: 0
+								stats: {
+									damage: 0.15687d
+								}
+							}
+							skating: {
+								points: 0
+								stats: {
+									duration: 49.55765d
+									speed: 0.01319d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3D523C82C9F7F64C"]
+			description: ["&6&l=> &rНаходите различные реликвии и изучайте их, прокачивайте их способности и используйте в сражениях, приключениях и т.д."]
+			hide: true
+			hide_dependency_lines: true
+			id: "50258A19B61FD013"
+			rewards: [{
+				id: "58AAA6A66F12B44C"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "5D4E2E7F65DCD572"
+				item: {
+					Count: 1b
+					id: "relics:bastion_ring"
+					tag: {
+						abilities: {
+							trade: {
+								points: 0
+								stats: {
+									rolls: 0.73009d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3D523C82C9F7F64C"]
+			description: ["&6&l=> &rНаходите различные реликвии и изучайте их, прокачивайте их способности и используйте в сражениях, приключениях и т.д."]
+			hide: true
+			hide_dependency_lines: true
+			id: "3640D08452F6CF1C"
+			rewards: [{
+				id: "1E92066360870D94"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "3B0878FB0A0E5C37"
+				item: {
+					Count: 1b
+					id: "relics:chorus_inhibitor"
+					tag: {
+						abilities: {
+							blink: {
+								points: 0
+								stats: {
+									cooldown: 9.91996d
+									distance: 31.77627d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3D523C82C9F7F64C"]
+			description: ["&6&l=> &rНаходите различные реликвии и изучайте их, прокачивайте их способности и используйте в сражениях, приключениях и т.д."]
+			hide: true
+			hide_dependency_lines: true
+			id: "0D44C7CD5368D51F"
+			rewards: [{
+				id: "40E6A9394E67277D"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "08EC043BB644AE5E"
+				item: {
+					Count: 1b
+					id: "relics:arrow_quiver"
+					tag: {
+						abilities: {
+							agility: {
+								points: 0
+								stats: {
+									modifier: 1.0d
+								}
+							}
+							leap: {
+								points: 0
+								stats: {
+									cooldown: 14.99582d
+									duration: 4.28871d
+									multiplier: 0.35616d
+								}
+							}
+							rain: {
+								points: 0
+								stats: {
+									delay: 0.83728d
+									duration: 11.9293d
+									radius: 4.48551d
+								}
+							}
+							receptacle: {
+								points: 0
+								stats: {
+									slots: 3.23998d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3D523C82C9F7F64C"]
+			description: ["&6&l=> &rНаходите различные реликвии и изучайте их, прокачивайте их способности и используйте в сражениях, приключениях и т.д."]
+			hide: true
+			hide_dependency_lines: true
+			id: "6C7004DBD0C0CC9B"
+			rewards: [{
+				id: "5E08EC6FF0A7AB36"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "41D41BC7DC89210E"
+				item: {
+					Count: 1b
+					id: "relics:space_dissector"
+					tag: {
+						abilities: {
+							dissection: {
+								points: 0
+								stats: {
+									distance: 21.21074d
+									time: 8.67235d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3D523C82C9F7F64C"]
+			description: ["&6&l=> &rНаходите различные реликвии и изучайте их, прокачивайте их способности и используйте в сражениях, приключениях и т.д."]
+			hide: true
+			hide_dependency_lines: true
+			id: "1BF70751B4ED7E7E"
+			rewards: [{
+				id: "57A200C0C715A8BE"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "611921C20E33FB85"
+				item: {
+					Count: 1b
+					id: "relics:holy_locket"
+					tag: {
+						abilities: {
+							steal: {
+								points: 0
+								stats: {
+									amount: 0.24074d
+									radius: 2.40894d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3D523C82C9F7F64C"]
+			description: ["&6&l=> &rНаходите различные реликвии и изучайте их, прокачивайте их способности и используйте в сражениях, приключениях и т.д."]
+			hide: true
+			hide_dependency_lines: true
+			id: "2CA6AAAD1281E63B"
+			rewards: [{
+				id: "0813B7C60A17540E"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "09B22E4D8FD636C2"
+				item: {
+					Count: 1b
+					id: "relics:enders_hand"
+					tag: {
+						abilities: {
+							swap: {
+								points: 0
+								stats: {
+									distance: 29.10697d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3D523C82C9F7F64C"]
+			description: ["&6&l=> &rНаходите различные реликвии и изучайте их, прокачивайте их способности и используйте в сражениях, приключениях и т.д."]
+			hide: true
+			hide_dependency_lines: true
+			id: "25CC6F9D65A98A0E"
+			rewards: [{
+				id: "662CDC5BC77EA3B3"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "3D30517ED22E8D92"
+				item: {
+					Count: 1b
+					id: "relics:elytra_booster"
+					tag: {
+						abilities: {
+							boost: {
+								points: 0
+								stats: {
+									capacity: 56.86306d
+									speed: 1.14426d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3D523C82C9F7F64C"]
+			description: ["&6&l=> &rНаходите различные реликвии и изучайте их, прокачивайте их способности и используйте в сражениях, приключениях и т.д."]
+			hide: true
+			hide_dependency_lines: true
+			id: "497EA4E350997965"
+			rewards: [{
+				id: "4766C2866FC2DEC6"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "71B8491C165AC8CE"
+				item: {
+					Count: 1b
+					id: "relics:magic_mirror"
+					tag: {
+						abilities: {
+							teleport: {
+								points: 0
+								stats: {
+									cooldown: 93.09025d
+									distance: 570.44218d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3D523C82C9F7F64C"]
+			description: ["&6&l=> &rНаходите различные реликвии и изучайте их, прокачивайте их способности и используйте в сражениях, приключениях и т.д."]
+			hide: true
+			hide_dependency_lines: true
+			id: "58580EAC2879DDCB"
+			rewards: [{
+				id: "69F990D43EFB0289"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "11110D05D06D17F5"
+				item: {
+					Count: 1b
+					id: "relics:ice_breaker"
+					tag: {
+						abilities: {
+							impact: {
+								points: 0
+								stats: {
+									damage: 2.50479d
+									size: 4.28033d
+								}
+							}
+							sustainability: {
+								points: 0
+								stats: {
+									modifier: 0.74438d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3D523C82C9F7F64C"]
+			description: ["&6&l=> &rНаходите различные реликвии и изучайте их, прокачивайте их способности и используйте в сражениях, приключениях и т.д."]
+			hide: true
+			hide_dependency_lines: true
+			id: "3F6DE3A5F00BD543"
+			rewards: [{
+				id: "2635981A49A20B97"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "72CEB56FA133FC84"
+				item: {
+					Count: 1b
+					id: "relics:blazing_flask"
+					tag: {
+						abilities: {
+							bonfire: {
+								points: 0
+								stats: {
+									height: 3.29747d
+									speed: 0.02563d
+									step: 1.38443d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3D523C82C9F7F64C"]
+			description: ["&6&l=> &rНаходите различные реликвии и изучайте их, прокачивайте их способности и используйте в сражениях, приключениях и т.д."]
+			hide: true
+			hide_dependency_lines: true
+			id: "33433CF2FFCFA579"
+			rewards: [{
+				id: "22854BC558F98F5E"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "0692497EB2061088"
+				item: {
+					Count: 1b
+					id: "relics:spore_sack"
+					tag: {
+						abilities: {
+							buffer: {
+								points: 0
+								stats: {
+									capacity: 3.02408d
+									chance: 0.04369d
+								}
+							}
+							explosion: {
+								points: 0
+								stats: {
+									size: 0.21422d
+								}
+							}
+							multiplying: {
+								points: 0
+								stats: {
+									amount: 0.05271d
+									chance: 0.08142d
+									size: 0.08252d
+								}
+							}
+							spore: {
+								points: 0
+								stats: {
+									cooldown: 14.52426d
+									damage: 0.47303d
+									duration: 2.51288d
+									size: 0.14841d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3D523C82C9F7F64C"]
+			description: ["&6&l=> &rНаходите различные реликвии и изучайте их, прокачивайте их способности и используйте в сражениях, приключениях и т.д."]
+			hide: true
+			hide_dependency_lines: true
+			id: "5449DD547EE49B49"
+			rewards: [{
+				id: "431DC71EC598E2FF"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "53D27F79F3233B45"
+				item: {
+					Count: 1b
+					id: "relics:shadow_glaive"
+					tag: {
+						abilities: {
+							glaive: {
+								points: 0
+								stats: {
+									bounces: 3.36654d
+									damage: 4.07238d
+									radius: 4.24803d
+									recharge: 28.49502d
+								}
+							}
+							saw: {
+								points: 0
+								stats: {
+									damage: 1.40449d
+									speed: 17.09524d
+								}
+							}
+						}
+						charges: 8
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3D523C82C9F7F64C"]
+			description: ["&6&l=> &rНаходите различные реликвии и изучайте их, прокачивайте их способности и используйте в сражениях, приключениях и т.д."]
+			hide: true
+			hide_dependency_lines: true
+			id: "455276A3C6A12E55"
+			rewards: [{
+				id: "5B19CDBB145D872D"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "1AE45994A254DD3C"
+				item: {
+					Count: 1b
+					id: "relics:roller_skates"
+					tag: {
+						abilities: {
+							skating: {
+								points: 0
+								stats: {
+									duration: 31.70808d
+									speed: 0.00348d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3D523C82C9F7F64C"]
+			description: ["&6&l=> &rНаходите различные реликвии и изучайте их, прокачивайте их способности и используйте в сражениях, приключениях и т.д."]
+			hide: true
+			hide_dependency_lines: true
+			id: "40676258ECCA92F2"
+			rewards: [{
+				id: "71D5192C8E59921A"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			subtitle: "&cВырезан (находится для красоты)"
+			tasks: [{
+				id: "2A3A217FD91C5CC4"
+				item: {
+					Count: 1b
+					id: "relics:infinity_ham"
+					tag: {
+						abilities: {
+							autophagy: {
+								points: 0
+								stats: {
+									feed: 1.48026d
+								}
+							}
+							infusion: {
+								points: 0
+								stats: {
+									duration: 1.27559d
+								}
+							}
+						}
+						pieces: 10
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3D523C82C9F7F64C"]
+			description: ["&6&l=> &rНаходите различные реликвии и изучайте их, прокачивайте их способности и используйте в сражениях, приключениях и т.д."]
+			hide: true
+			hide_dependency_lines: true
+			id: "3B35688E3F0A13C0"
+			rewards: [{
+				id: "1EE0F46E7058A263"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "7FCD2DD2D74E4898"
+				item: {
+					Count: 1b
+					id: "relics:leather_belt"
+					tag: {
+						abilities: {
+							slots: {
+								points: 0
+								stats: {
+									talisman: 2.46379d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3D523C82C9F7F64C"]
+			description: ["&6&l=> &rНаходите различные реликвии и изучайте их, прокачивайте их способности и используйте в сражениях, приключениях и т.д."]
+			hide: true
+			hide_dependency_lines: true
+			id: "06ECAECBEAA0A9F8"
+			rewards: [{
+				id: "4274AA33EE4AB71C"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "4E0768FCB51F4193"
+				item: {
+					Count: 1b
+					id: "relics:wool_mitten"
+					tag: {
+						abilities: {
+							mold: {
+								points: 0
+								stats: {
+									damage: 0.09513d
+									freeze: 1.50844d
+									size: 25.70479d
+									stun: 0.04906d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3D523C82C9F7F64C"]
+			description: ["&6&l=> &rНаходите различные реликвии и изучайте их, прокачивайте их способности и используйте в сражениях, приключениях и т.д."]
+			hide: true
+			hide_dependency_lines: true
+			id: "466BE34F78A7FC03"
+			rewards: [{
+				id: "28E300DEC40D93B3"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "677F7E100D41BD66"
+				item: {
+					Count: 1b
+					id: "relics:horse_flute"
+					tag: {
+						abilities: {
+							heal: {
+								points: 0
+								stats: {
+									amount: 0.09072d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3D523C82C9F7F64C"]
+			description: ["&6&l=> &rНаходите различные реликвии и изучайте их, прокачивайте их способности и используйте в сражениях, приключениях и т.д."]
+			hide: true
+			hide_dependency_lines: true
+			id: "20D6B44932002AC1"
+			rewards: [{
+				id: "574DDB7D72E2EEAD"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "7749C88BB9D97F43"
+				item: {
+					Count: 1b
+					id: "relics:amphibian_boot"
+					tag: {
+						abilities: {
+							gills: {
+								points: 0
+								stats: {
+									chance: 0.05573d
+								}
+							}
+							slipping: {
+								points: 0
+								stats: {
+									duration: 23.09187d
+									speed: 0.00577d
+								}
+							}
+							swimming: {
+								points: 0
+								stats: {
+									duration: 20.89832d
+									speed: 0.0055d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+	]
+	subtitle: ["Необязательно для прохождения!"]
+	title: "&6&l=> &rРеликвии"
+}

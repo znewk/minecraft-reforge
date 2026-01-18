@@ -1,0 +1,1075 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "62r"
+	group: "6B11AACE8AC43630"
+	icon: "farmersdelight:hamburger"
+	id: "0151430E0F9CD7D5"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 150.0d
+			hover: [ ]
+			image: "skilltree:textures/screen/skill_tree_background.png"
+			rotation: 0.0d
+			width: 150.0d
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "461EF427A1575531"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "farmersdelight:block/tomatoes_stage3_2"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "461EF427A1575531"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "farmersdelight:block/wild_cabbages"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "461EF427A1575531"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "farmersdelight:block/onions_stage3_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "461EF427A1575531"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "farmersdelight:block/rice_panicles_stage2"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "4BDDD92503F51A6B"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "valhelsia_structures:block/brazier_fire"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "461EF427A1575531"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "vinery:item/red_grape"
+			rotation: -10.0d
+			width: 1.0d
+			x: -0.3333333333333428d
+			y: 2.047619047619037d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "5B13A56544437C3A"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "farmersrespite:item/black_tea"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.261904761904759d
+			y: -0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "5B13A56544437C3A"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "farmersrespite:item/rose_hip_tea"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.285714285714292d
+			y: 0.5714285714285694d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "5B13A56544437C3A"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "farmersrespite:item/green_tea"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.1666666666666714d
+			y: 1.595238095238102d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "76A1539E6B0CF2FC"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "vinery:block/apple_tree_sapling"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "76A1539E6B0CF2FC"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "vinery:block/apple_leaves_1"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "7359D1A7C2E80FC1"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "irons_spellbooks:textures/particle/electricity_1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2E8DD4FCFA06E5D7"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "valhelsia_structures:block/brazier_fire"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: -2.5d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2FCAAE2D19281F04"]
+			description: ["&6&l=> &rУ фермерства существует много ответвлений: готовка, выращивание и т.д. Вы можете начать изучать любое направление, но в конце, вы будете обязаны пройтись по всем."]
+			hide: true
+			id: "461EF427A1575531"
+			shape: "diamond"
+			size: 1.1d
+			tasks: [{
+				id: "693302BEEC194922"
+				title: "&6Глава II&r: Фермерство"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["461EF427A1575531"]
+			description: [
+				"&6&l=> &rВ Эдении существует множество овощей, фруктов и т.д. Попробуйте найти некоторые виды (&cтоматы&r, &aкапуста&r, &eлук&r и т.д.) и придумайте, что можно с ними сделать."
+				""
+				"{image:farmersdelight:block/tomatoes_stage3_2 width:100 height:100 align:1}"
+			]
+			hide: true
+			id: "65F037B791318732"
+			shape: "hexagon"
+			tasks: [{
+				id: "21CDC06F22B75963"
+				item: "farmersdelight:tomato"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["461EF427A1575531"]
+			description: [
+				"&6&l=> &rВ Эдении существует множество овощей, фруктов и т.д. Попробуйте найти некоторые виды (&cтоматы&r, &aкапуста&r, &eлук&r и т.д.) и придумайте, что можно с ними сделать."
+				""
+				"{image:farmersdelight:block/wild_cabbages width:100 height:100 align:1}"
+			]
+			hide: true
+			id: "59D99D0A49D27EED"
+			shape: "hexagon"
+			tasks: [{
+				id: "1EC6C20A60B5F414"
+				item: "farmersdelight:cabbage"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["461EF427A1575531"]
+			description: [
+				"&6&l=> &rВ Эдении существует множество овощей, фруктов и т.д. Попробуйте найти некоторые виды (&cтоматы&r, &aкапуста&r, &eлук&r и т.д.) и придумайте, что можно с ними сделать."
+				"{image:farmersdelight:block/wild_onions width:100 height:100 align:1}"
+			]
+			hide: true
+			id: "72A10CCCC3C78012"
+			shape: "hexagon"
+			tasks: [{
+				id: "7F709114E53899A9"
+				item: "farmersdelight:onion"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["461EF427A1575531"]
+			description: [
+				"&6&l=> &rВ Эдении существует множество овощей, фруктов и т.д. Попробуйте найти некоторые виды (&cтоматы&r, &aкапуста&r, &eлук&r и т.д.) и придумайте, что можно с ними сделать."
+				"{image:farmersdelight:block/wild_rice_top width:100 height:100 align:1}"
+			]
+			hide: true
+			id: "4DD4712C44670CF2"
+			shape: "hexagon"
+			tasks: [{
+				id: "66C6B577673900B3"
+				item: "farmersdelight:rice"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["461EF427A1575531"]
+			description: [
+				"&6&l=> &rБольшая часть блюд, готовится на специальном котле, который находится на плите. Для их создания вам нужно много железа и глины."
+				""
+				"{image:farmersdelight:block/stove_front_on width:75 height:75 align:1}"
+			]
+			hide: true
+			id: "4BDDD92503F51A6B"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u0424\\u0443\\u0445, \\u043f\\u043b\\u0438\\u0442\\u0430 \\u0438 \\u043a\\u043e\\u0442\\u0451\\u043b \\u0433\\u043e\\u0442\\u043e\\u0432\\u044b. \\u041c\\u043e\\u0436\\u043d\\u043e \\u043d\\u0430\\u0447\\u0438\\u043d\\u0430\\u0442\\u044c \\u0432\\u0430\\u0440\\u0438\\u0442\\u044c \\u0440\\u0430\\u0437\\u043b\\u0438\\u0447\\u043d\\u044b\\u0435 \\u0431\\u043b\\u044e\\u0434\\u0430.\"}]"
+					icon: "ftbquests:book"
+					id: "774B7CA7EF219AA4"
+					title: "mind"
+					type: "command"
+				}
+				{
+					id: "6D761887B1D39AE9"
+					item: "artifacts:panic_necklace"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "67E6D8EAD87A9775"
+					item: "farmersdelight:stove"
+					type: "item"
+				}
+				{
+					id: "2093761A9D5916F4"
+					item: "farmersdelight:cooking_pot"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["461EF427A1575531"]
+			description: [
+				"&6Резка продуктов&r - неотъемлемая часть готовки. Её сутью является нарезать овощи, мясо, фрукты на мелкие кусочки, чтобы было удобнее есть и готовить. Чтобы резать вам нужны:"
+				""
+				"- Нож;"
+				"- Доска;"
+			]
+			hide: true
+			id: "65F4A0D6D485194E"
+			rewards: [{
+				auto: "invisible"
+				command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u041d\\u043e\\u0436 \\u0438 \\u0440\\u0430\\u0437\\u0434\\u0435\\u043b\\u043e\\u0447\\u043d\\u0430\\u044f \\u0434\\u043e\\u0441\\u043a\\u0430 \\u0433\\u043e\\u0442\\u043e\\u0432\\u044b. \\u0422\\u0435\\u043f\\u0435\\u0440\\u044c \\u043c\\u043e\\u0433\\u0443 \\u043d\\u0430\\u0440\\u0435\\u0437\\u0430\\u0442\\u044c \\u0440\\u0430\\u0437\\u043b\\u0438\\u0447\\u043d\\u044b\\u0435 \\u043f\\u0440\\u043e\\u0434\\u0443\\u043a\\u0442\\u044b \\u0434\\u043b\\u044f \\u043f\\u0440\\u0438\\u0433\\u043e\\u0442\\u043e\\u0432\\u043b\\u0435\\u043d\\u0438\\u044f \\u043f\\u0438\\u0449\\u0438.\"}]"
+				icon: "ftbquests:book"
+				id: "1BCC0DB3A3B11104"
+				title: "mind"
+				type: "command"
+			}]
+			tasks: [
+				{
+					id: "5C8F193E51382ABE"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "farmersdelight:tools/knives"
+						}
+					}
+					title: "Нож"
+					type: "item"
+				}
+				{
+					id: "20946E066B579840"
+					item: "farmersdelight:cutting_board"
+					type: "item"
+				}
+			]
+			title: "Резка продуктов"
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["65F4A0D6D485194E"]
+			description: ["&6&l=> &rВы также можете собрать солому при помощи ножа. Для этого возьмите в основную руку нож и начинайте ломать траву."]
+			hide: true
+			id: "74DB0C33B311D4ED"
+			tasks: [{
+				id: "33D6293F7C879598"
+				item: "farmersdelight:straw"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["74DB0C33B311D4ED"]
+			description: ["&6&l=> &rИз соломы можно сделать полезные вещи: верёвку, тюк или же холст, но не обязательно."]
+			hide: true
+			id: "24B72F9CBEF9B886"
+			rewards: [{
+				id: "61A002C8C9F8475F"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "358C72300398B1BB"
+				item: "farmersdelight:straw_bale"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["74DB0C33B311D4ED"]
+			description: ["&6&l=> &rИз соломы можно сделать полезные вещи: верёвку, тюк или же холст, но не обязательно."]
+			hide: true
+			id: "3C2B3A16C3C1C4AE"
+			rewards: [{
+				id: "202AE6122C39A4D0"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6F910065165D7ED9"
+				item: "farmersdelight:canvas"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["74DB0C33B311D4ED"]
+			description: [
+				"&6&l=> &rИз соломы можно сделать полезные вещи: верёвку, тюк или же холст, но не обязательно."
+				""
+				"&6P.S&r - Верёвку можно использовать в шахту, чтобы безопасно спуститься вниз."
+			]
+			hide: true
+			id: "508C26DC00751693"
+			rewards: [{
+				id: "38DE3A6DE4889F75"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "481911C2AB9C77D5"
+				item: "farmersdelight:rope"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["65F4A0D6D485194E"]
+			description: ["&6&l=> &rСходите на охоту, чтобы получить мясо животных, а затем приготовьте его и нарежьте на доске."]
+			hide: true
+			id: "5DD613F6383768FF"
+			tasks: [
+				{
+					id: "46D594859EE45D3E"
+					item: "farmersdelight:beef_patty"
+					type: "item"
+				}
+				{
+					id: "0758C404F765F6EC"
+					item: "farmersdelight:cooked_chicken_cuts"
+					type: "item"
+				}
+				{
+					id: "07886162DD7E7739"
+					item: "farmersdelight:cooked_bacon"
+					type: "item"
+				}
+				{
+					id: "399CDFFCF3ABB627"
+					item: "farmersdelight:cooked_mutton_chops"
+					type: "item"
+				}
+			]
+			title: "Нарезаные продукты"
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["461EF427A1575531"]
+			description: ["&6&l=> &rУ берегов рек, вы можете встретить уток. Они несут куда более вкусные яйца чем курицы."]
+			hide: true
+			hide_dependency_lines: true
+			id: "7EA409BF15ED9DE4"
+			shape: "hexagon"
+			tasks: [{
+				id: "7EAD94DC8E46B2CD"
+				item: "naturalist:duck_egg"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7EA409BF15ED9DE4"]
+			description: ["&6&l=> &rПолученное яйцо приготовьте в печи. И приготовьте что-нибудь из него."]
+			hide: true
+			id: "2E8DD4FCFA06E5D7"
+			shape: "diamond"
+			tasks: [{
+				id: "7E7A8770CF4C8A83"
+				item: "naturalist:cooked_egg"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2E8DD4FCFA06E5D7"]
+			description: ["&6&l=> &rПриготовьте вкусную еду из утиного яйца: яичницу, сэндвич."]
+			hide: true
+			id: "33F3F967808D851E"
+			rewards: [{
+				id: "657A864E09B86655"
+				item: "farmersdelight:noodle_soup"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1FEDE27848465B03"
+				item: "farmersdelight:bacon_and_eggs"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2E8DD4FCFA06E5D7"]
+			description: ["&6&l=> &rПриготовьте вкусную еду из утиного яйца: яичницу, сэндвич."]
+			hide: true
+			id: "6EDDF4BC3B00D776"
+			rewards: [{
+				id: "47E9C16613033685"
+				item: "farmersdelight:hamburger"
+				type: "item"
+			}]
+			tasks: [{
+				id: "22F864FFA5964D28"
+				item: "farmersdelight:egg_sandwich"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"65F4A0D6D485194E"
+				"4BDDD92503F51A6B"
+			]
+			description: ["&6&l=> &rС давних времён существует чайное искусство. Его суть заключается в приготовлении очень вкусного чая из листьев дикой природы. Чтобы приготовить чай нужен чайник, а также парочка листьев."]
+			hide: true
+			id: "5B13A56544437C3A"
+			min_required_dependencies: 1
+			rewards: [{
+				id: "58B3A5A608035AB9"
+				item: "farmersrespite:tea_seeds"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "107FE0F9680BBACC"
+				item: "farmersrespite:kettle"
+				title: "Чайник"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5B13A56544437C3A"]
+			description: ["&6&l=> &rПосадите в землю семена чая и подождите пока они вырастут. На первой стадии, вы получите - &aЗеленые листья&r. На второй - &eЖелтые&r. На последней - &6Черные&r."]
+			id: "196B359B489178FF"
+			subtitle: "&aЗелёный чай"
+			tasks: [{
+				id: "1DFB84E0595EF443"
+				item: "farmersrespite:green_tea_leaves"
+				type: "item"
+			}]
+			title: "Зелёный чайные листья"
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5B13A56544437C3A"]
+			description: ["&6&l=> &rПосадите в землю семена чая и подождите пока они вырастут. На первой стадии, вы получите - &aЗеленые листья&r. На второй - &eЖелтые&r. На последней - &6Черные&r."]
+			id: "73D3BA18412D76CB"
+			subtitle: "&eЖёлтый чай"
+			tasks: [{
+				id: "0F68FB63E3D95201"
+				item: "farmersrespite:yellow_tea_leaves"
+				type: "item"
+			}]
+			title: "Желтые чайные листья"
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5B13A56544437C3A"]
+			description: ["&6&l=> &rПосадите в землю семена чая и подождите пока они вырастут. На первой стадии, вы получите - &aЗеленые листья&r. На второй - &eЖелтые&r. На последней - &6Черные&r."]
+			id: "4E40CB40216A5B96"
+			subtitle: "&6Чёрный чай"
+			tasks: [{
+				id: "74FB8006DF730DDC"
+				item: "farmersrespite:black_tea_leaves"
+				type: "item"
+			}]
+			title: "Черные чайные листья"
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"73D3BA18412D76CB"
+				"196B359B489178FF"
+				"4E40CB40216A5B96"
+			]
+			description: ["&6&l=> &rЗа счёт цветов, существует множество видов чая. Эти цветки кладут вперемешку с листьями и теплой водой. В зависимости от вида цвета будет зависеть вкус чая."]
+			hide: true
+			id: "6D53D41CDD68C9AD"
+			shape: "diamond"
+			tasks: [{
+				id: "5BB26CBCF6C31447"
+				title: "Виды чая"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6D53D41CDD68C9AD"]
+			description: ["&6&l=> &rПриготовьте разные виды чая!"]
+			hide: true
+			id: "32A171160E6C8C95"
+			rewards: [{
+				count: 5
+				id: "3B6AB2A240F9053C"
+				item: "abnormals_delight:cherry_cookie"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3B2D31F62D114EFF"
+				item: "farmersrespite:green_tea"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6D53D41CDD68C9AD"]
+			description: ["&6&l=> &rПриготовьте разные виды чая!"]
+			hide: true
+			id: "19A52733FE2CC569"
+			rewards: [{
+				count: 5
+				id: "2C22CC0376B0F682"
+				item: "farmersrespite:green_tea_cookie"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "337391EBE64DB408"
+				item: "farmersrespite:black_tea"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6D53D41CDD68C9AD"]
+			description: ["&6&l=> &rПриготовьте разные виды чая!"]
+			hide: true
+			id: "3812D9308B436C68"
+			rewards: [{
+				count: 5
+				id: "46FAF22C2B59EA7B"
+				item: "neapolitan:strawberry_scones"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6981DFE31D73B5B4"
+				item: "farmersrespite:yellow_tea"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6D53D41CDD68C9AD"]
+			description: ["&6&l=> &rПриготовьте разные виды чая!"]
+			hide: true
+			id: "450D6A3FB244083C"
+			rewards: [{
+				count: 5
+				id: "02DDFB04FBD9CFB9"
+				item: "minecraft:cookie"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "726C5550C8FE11A8"
+				item: "farmersrespite:rose_hip_tea"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6D53D41CDD68C9AD"]
+			description: ["&6&l=> &rПриготовьте разные виды чая!"]
+			hide: true
+			id: "2490C9CA66CCE163"
+			rewards: [{
+				count: 5
+				id: "3B39D4DD6C654D3A"
+				item: "farmersdelight:sweet_berry_cookie"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0D2B9144518607F1"
+				item: "farmersrespite:dandelion_tea"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6D53D41CDD68C9AD"]
+			description: ["&6&l=> &rПриготовьте разные виды чая!"]
+			hide: true
+			id: "02C070FD24633262"
+			rewards: [{
+				count: 5
+				id: "4A1BA7C14179460D"
+				item: "farmersdelight:honey_cookie"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "59BF639DCB2FEBAF"
+				item: "farmersrespite:gamblers_tea"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"4902E9649F28D6E0"
+				"6D53D41CDD68C9AD"
+			]
+			description: ["&6&l=> &rВот вы и решили все проблемы с едой. Теперь пора заняться изучением данного мира и начать незабываемые приключения."]
+			hide: true
+			id: "7E55EFCED9468447"
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				id: "181288AB7B067CF0"
+				title: "&6Конец II главы&r: Фермерство"
+				type: "checkmark"
+			}]
+			x: 6.05d
+			y: 6.05d
+		}
+		{
+			dependencies: ["461EF427A1575531"]
+			description: [
+				"&6Вино&r - Вкусный алкогольный напиток, за его основы выступают разные виды винограда."
+				""
+				"&6&l=> &rЧтобы сделать вино, вам для начала нужен виноградный сок. Чтобы его получить, создайте лохань, положите в неё виноград и потопчите его. После чего, вы сможете забрать сок с помощью специальной бутылки."
+			]
+			hide: true
+			id: "4603DA5237B89EFF"
+			rewards: [{
+				auto: "invisible"
+				command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u041b\\u043e\\u0445\\u0430\\u043d\\u044c \\u0435\\u0441\\u0442\\u044c, \\u0442\\u0435\\u043f\\u0435\\u0440\\u044c \\u043d\\u0443\\u0436\\u043d\\u043e \\u043f\\u043e\\u043b\\u043e\\u0436\\u0438\\u0442\\u044c \\u0432 \\u043d\\u0435\\u0451 \\u0432\\u0438\\u043d\\u043e\\u0433\\u0440\\u0430\\u0434 \\u0438 \\u043d\\u0430\\u0447\\u0430\\u0442\\u044c \\u0441\\u043e\\u0437\\u0434\\u0430\\u0432\\u0430\\u0442\\u044c \\u0432\\u0438\\u043d\\u043e\\u0433\\u0440\\u0430\\u0434\\u043d\\u044b\\u0439 \\u0441\\u043e\\u043a.\"}]"
+				icon: "ftbquests:book"
+				id: "446B138730635934"
+				title: "mind"
+				type: "command"
+			}]
+			tasks: [{
+				id: "0FCCE60BA3D7C648"
+				item: "vinery:grapevine_pot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4603DA5237B89EFF"]
+			description: ["&6&l=> &rСоберите любой вид красного винограда. Самого распространённого винограда во всей Эдении!"]
+			hide: true
+			id: "78CD4FAA972AD910"
+			shape: "diamond"
+			tasks: [{
+				id: "74D76654534BEFDF"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "vinery:red_grape"
+					}
+				}
+				title: "Виноград"
+				type: "item"
+			}]
+			title: "Красный Виноград"
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4603DA5237B89EFF"]
+			description: ["&6&l=> &rСоберите любой вид белого винограда."]
+			hide: true
+			id: "617903D88D3327CE"
+			shape: "diamond"
+			tasks: [{
+				id: "45F7BFB6BEC912F2"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "vinery:white_grape"
+					}
+				}
+				title: "Белый Виноград"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4603DA5237B89EFF"]
+			description: ["&6&l=> &rЧтобы собрать сок из винограда, вам нужна специальная бутылка: бутыль для вина."]
+			hide: true
+			id: "76A1539E6B0CF2FC"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u0410 \\u0432\\u043e\\u0442 \\u0438 \\u0434\\u043e\\u043b\\u0433\\u043e\\u0436\\u0434\\u0430\\u043d\\u043d\\u044b\\u0439 \\u0432\\u0438\\u043d\\u043e\\u0433\\u0440\\u0430\\u0434\\u043d\\u044b\\u0439 \\u0441\\u043e\\u043a. \\u0418\\u0437 \\u043d\\u0435\\u0433\\u043e-\\u0442\\u043e \\u044f \\u0438 \\u0441\\u043c\\u043e\\u0433\\u0443 \\u043f\\u0440\\u0438\\u0433\\u043e\\u0442\\u043e\\u0432\\u0438\\u0442\\u044c \\u0432\\u0438\\u043d\\u043e.\"}]"
+					icon: "ftbquests:book"
+					id: "27D7BE8FB447ACEF"
+					title: "mind"
+					type: "command"
+				}
+				{
+					id: "0EA4C9AC1E81537B"
+					item: "naturalist:teddy_bear"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5C856348006A2EDA"
+					item: "vinery:wine_bottle"
+					type: "item"
+				}
+				{
+					id: "10E8C4E53C85589A"
+					item: "vinery:red_grapejuice_wine_bottle"
+					type: "item"
+				}
+			]
+			title: "Получение сока"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["76A1539E6B0CF2FC"]
+			description: ["&6&l=> &rВы можете создать яблочное пюре. Очень вкусное и питательное блюдо. Для этого создайте яблочный пресс."]
+			hide: true
+			id: "0AEBE736D9A88E87"
+			rewards: [{
+				auto: "invisible"
+				command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u041d\\u0430 \\u044f\\u0431\\u043b\\u043e\\u0447\\u043d\\u043e\\u043c \\u043f\\u0440\\u0435\\u0441\\u0441\\u0435 \\u043f\\u043e\\u043b\\u0443\\u0447\\u0438\\u0442\\u0441\\u044f \\u0441\\u043e\\u0437\\u0434\\u0430\\u0442\\u044c \\u044f\\u0431\\u043b\\u043e\\u0447\\u043d\\u043e\\u0435 \\u043f\\u044e\\u0440\\u0435. \\u041e\\u043d\\u043e \\u0434\\u043e\\u043b\\u0436\\u043d\\u043e \\u043f\\u043e\\u043b\\u0443\\u0447\\u0438\\u0442\\u0441\\u044f \\u0432\\u043a\\u0443\\u0441\\u043d\\u044b\\u043c...\"}]"
+				icon: "ftbquests:book"
+				id: "2E6FF25F559B081B"
+				title: "mind"
+				type: "command"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "22A22A29A25B209E"
+				item: "vinery:wine_press"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["76A1539E6B0CF2FC"]
+			description: ["&6&l=> &rЧтобы приготовить настоящее вино, вам потребуется винная бочка. Создайте её из бочки и двух палок."]
+			hide: true
+			id: "7359D1A7C2E80FC1"
+			rewards: [{
+				auto: "invisible"
+				command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u0412 \\u044d\\u0442\\u043e\\u0442 \\u0431\\u043e\\u0447\\u0451\\u043d\\u043e\\u043a \\u043d\\u0443\\u0436\\u043d\\u043e \\u0437\\u0430\\u043b\\u0438\\u0442\\u044c \\u0432\\u0438\\u043d\\u043e\\u0433\\u0440\\u0430\\u0434\\u043d\\u044b\\u0439 \\u0441\\u043e\\u043a \\u0438 \\u0434\\u043e\\u0431\\u0430\\u0432\\u0438\\u0442\\u044c \\u043e\\u0441\\u0442\\u0430\\u043b\\u044c\\u043d\\u044b\\u0435 \\u0438\\u043d\\u0433\\u0440\\u0438\\u0434\\u0438\\u0435\\u043d\\u0442\\u044b \\u0434\\u043b\\u044f \\u043f\\u0440\\u0438\\u0433\\u043e\\u0442\\u043e\\u0432\\u043b\\u0435\\u043d\\u0438\\u044f \\u0432\\u0438\\u043d\\u0430.\"}]"
+				icon: "ftbquests:book"
+				id: "0CF10B386C742308"
+				title: "mind"
+				type: "command"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "278D0781D328873C"
+				item: "vinery:fermentation_barrel"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0AEBE736D9A88E87"]
+			description: ["&6&l=> &rИспользуя яблочный пресс, создайте яблочное пюре."]
+			hide: true
+			id: "3AD1A2258F29215A"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u0412\\u044b\\u0433\\u043b\\u044f\\u0434\\u0438\\u0442 \\u043e\\u0447\\u0435\\u043d\\u044c \\u0432\\u043a\\u0443\\u0441\\u043d\\u044b\\u043c... \\u0418 \\u043f\\u0430\\u0445\\u043d\\u0435\\u0442 \\u043e\\u0447\\u0435\\u043d\\u044c \\u043f\\u0440\\u0438\\u044f\\u0442\\u043d\\u043e!\"}]"
+					icon: "ftbquests:book"
+					id: "2B2D7C0412E80140"
+					title: "mind"
+					type: "command"
+				}
+				{
+					id: "4D329719E043516A"
+					item: "iceandfire:fire_lily"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "4A452850A7E59501"
+				item: "vinery:apple_mash"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7359D1A7C2E80FC1"]
+			description: [
+				"&6&l=> &rПриготовьте вино, используя бочонок для приготовления вина."
+				""
+				"{image:vinery:item/glowing_wine width:75 height:75 align:1}"
+			]
+			hide: true
+			id: "4902E9649F28D6E0"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u0412\\u0438\\u043d\\u043e! \\u041d\\u0430\\u043a\\u043e\\u043d\\u0435\\u0446-\\u0442\\u0430\\u043a\\u0438 \\u044f \\u043f\\u043e\\u043f\\u0440\\u043e\\u0431\\u0443\\u044e \\u0435\\u0433\\u043e \\u043d\\u0430 \\u0432\\u043a\\u0443\\u0441!\"}]"
+					icon: "ftbquests:book"
+					id: "6D59E0FD4878E95C"
+					title: "mind"
+					type: "command"
+				}
+				{
+					id: "5E98AB285CC7A4A8"
+					type: "xp"
+					xp: 75
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "5C87EA1A7FF93F54"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "vinery:wine"
+					}
+				}
+				title: "Вино"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4902E9649F28D6E0"]
+			description: ["&6&l=> &rКогда, вы смогли приготовить вино, вы можете смело называть себя виноделом. Так что, теперь создайте комплект одежды винодела!"]
+			hide: true
+			id: "01CEEB747003904B"
+			shape: "diamond"
+			tasks: [{
+				id: "768767A679471729"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "vinery:straw_hat"
+					tag: {
+						Damage: 0
+						SimpleInsulation: [ ]
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4902E9649F28D6E0"]
+			description: ["&6&l=> &rКогда, вы смогли приготовить вино, вы можете смело называть себя виноделом. Так что, теперь создайте комплект одежды винодела!"]
+			hide: true
+			id: "429034E5541E6290"
+			shape: "diamond"
+			tasks: [{
+				id: "7E8C78704067BCBE"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "vinery:vinemaker_apron"
+					tag: {
+						Damage: 0
+						SimpleInsulation: [ ]
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4902E9649F28D6E0"]
+			description: ["&6&l=> &rКогда, вы смогли приготовить вино, вы можете смело называть себя виноделом. Так что, теперь создайте комплект одежды винодела!"]
+			hide: true
+			id: "0945914EFAC2EF60"
+			shape: "diamond"
+			tasks: [{
+				id: "7BAC019DACC8E408"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "vinery:vinemaker_leggings"
+					tag: {
+						Damage: 0
+						SimpleInsulation: [ ]
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4902E9649F28D6E0"]
+			description: ["&6&l=> &rКогда, вы смогли приготовить вино, вы можете смело называть себя виноделом. Так что, теперь создайте комплект одежды винодела!"]
+			hide: true
+			id: "77DFEE6180BD0CAB"
+			shape: "diamond"
+			tasks: [{
+				id: "3317E1305B6231D3"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "vinery:vinemaker_boots"
+					tag: {
+						Damage: 0
+						SimpleInsulation: [ ]
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.5d
+		}
+	]
+	subtitle: ["Готовка, фермерство, пивоварение и другое!"]
+	title: "&6II&r: Фермерство ✦"
+}

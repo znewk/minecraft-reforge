@@ -1,0 +1,129 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6lr"
+	group: "7D7AE6D174309F4B"
+	icon: "smallships:oak_drakkar"
+	id: "73D89165348C154E"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 100.0d
+			hover: [ ]
+			image: "skilltree:textures/screen/skill_tree_background.png"
+			rotation: 0.0d
+			width: 100.0d
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "celestisynth:textures/entity/rainfall_vanish_circle.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["584D34CD82715BFA"]
+			description: ["Создайте корабль и отправляйтесь в невероятное приключение по &bморскому миру&r!"]
+			id: "2708052497764582"
+			tasks: [{
+				id: "4D77A6679229FF09"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "smallships:cogs"
+					}
+				}
+				title: "Когг"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["584D34CD82715BFA"]
+			description: ["Создайте корабль и отправляйтесь в невероятное приключение по &bморскому миру&r!"]
+			id: "56B903881466C12C"
+			tasks: [{
+				id: "0B1C48293691C30A"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "smallships:briggs"
+					}
+				}
+				title: "Бригс"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["584D34CD82715BFA"]
+			description: ["Создайте корабль и отправляйтесь в невероятное приключение по &bморскому миру&r!"]
+			id: "7668CCA1B18CA2AA"
+			tasks: [{
+				id: "07AACA5C95C90FBB"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "smallships:galleys"
+					}
+				}
+				title: "Галера"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["584D34CD82715BFA"]
+			description: ["Создайте корабль и отправляйтесь в невероятное приключение по &bморскому миру&r!"]
+			id: "748A1FA990D842D0"
+			tasks: [{
+				id: "6A0BA8A1606CFA49"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "smallships:drakkars"
+					}
+				}
+				title: "Драккар"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			description: ["Чтобы быстрее добираться до других континентов, вы можете использовать управляемые &6корабли&r!"]
+			id: "584D34CD82715BFA"
+			shape: "diamond"
+			size: 1.1d
+			tasks: [{
+				id: "39E90B4FDC445D72"
+				title: "Путь к другим континентам"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	subtitle: ["Необязательно для прохождения!"]
+	title: "&6&l=>&r Другие континенты"
+}

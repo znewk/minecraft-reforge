@@ -1,0 +1,1235 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6xr"
+	group: "5C6A3997459D91D9"
+	icon: "cataclysm:altar_of_fire"
+	id: "6D3AC461AB262B44"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 150.0d
+			hover: [ ]
+			image: "skilltree:textures/screen/skill_tree_background.png"
+			rotation: 0.0d
+			width: 150.0d
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 17.0d
+			hover: [ ]
+			image: "celestisynth:textures/entity/solaris_spin.png"
+			rotation: 0.0d
+			width: 17.0d
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 15.0d
+			hover: [ ]
+			image: "cataclysm:textures/entity/flame_strike_sigil.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "kubejs:textures/item/nether.png"
+			rotation: 0.0d
+			width: 20.0d
+			x: 4.5d
+			y: -8.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "6F22CB19A28545E3"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "nethersdelight:block/propelplant_berry_stem"
+			rotation: -90.0d
+			width: 1.0d
+			x: -0.7857142857142847d
+			y: 0.04999999999999716d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "6F22CB19A28545E3"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "relics:item/magma_walker_fire"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "0D59C5100057A098"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "valhelsia_structures:block/brazier_fire"
+			rotation: 180.0d
+			width: 1.0d
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "0D59C5100057A098"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "valhelsia_structures:block/brazier_fire"
+			rotation: 180.0d
+			width: 1.0d
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "0D59C5100057A098"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "valhelsia_structures:block/brazier_fire"
+			rotation: 180.0d
+			width: 1.0d
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "0D59C5100057A098"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "malum:item/blazing_quartz"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.224489795918373d
+			y: -0.5204081632653086d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "5EC56CD388C9CB9B"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "stalwart_dungeons:items/tungsten_helmet"
+			rotation: -45.0d
+			width: 1.0d
+			x: 0.9540816326530575d
+			y: -1.9795918367346914d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "3ECB65660C9F1DDA"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:textures/particle/soul_7.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.6275510204081627d
+			y: -1.9387755102040813d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "3ECB65660C9F1DDA"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "relics:item/magma_walker_fire"
+			rotation: -90.0d
+			width: 1.0d
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "0A7683D0BAE4612E"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "relics:item/magma_walker_fire"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "3A921FEC6445B0F9"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "cataclysm:item/flame_eye"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "48410F35242B39BE"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "relics:item/magma_walker_fire"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "48410F35242B39BE"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "relics:item/magma_walker_fire"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "48410F35242B39BE"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "relics:item/magma_walker_fire"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "48410F35242B39BE"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "relics:item/magma_walker_fire"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "3C128902225CC8B6"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:textures/mob_effect/fire_resistance.png"
+			rotation: -25.0d
+			width: 1.0d
+			x: 5.714285714285715d
+			y: -0.452380952380949d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "3A921FEC6445B0F9"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "nethersdelight:item/hoglin_mount"
+			rotation: -30.0d
+			width: 1.0d
+			x: 4.1857142857142975d
+			y: -3.607142857142854d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2FCAAE2D19281F04"]
+			description: [
+				"&6&l=> &rДемоны, бесы, дьяволы и другие жуткие существа из сказок, живут в Незере. Тёмном мире, в который попадают злые души."
+				""
+				"&6Незер&r - древний мир, которым с давних времён управляет Лорд Демонов по имени Игнис. Он обладает одним из божественных артефактов, разбросанных по всем мирам."
+			]
+			hide: true
+			id: "6F22CB19A28545E3"
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				id: "73EFCB06078E3C41"
+				title: "&6Глава X&r: Незер"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6F22CB19A28545E3"]
+			description: ["&6&l=> &rПортал в Незер, нужно построить из обсидиана. А затем поджечь его обычной зажигалкой."]
+			hide: true
+			id: "0D59C5100057A098"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u0422\\u0430\\u043a \\u0432\\u043e\\u0442 \\u043e\\u043d \\u043a\\u0430\\u043a\\u043e\\u0439... \\u041d\\u0435\\u0437\\u0435\\u0440! \\u0410 \\u0442\\u0443\\u0442 \\u0438 \\u0432\\u043f\\u0440\\u0430\\u0432\\u0434\\u0443 \\u0436\\u0430\\u0440\\u043a\\u043e...\"}]"
+					icon: "ftbquests:book"
+					id: "6F54EC1C79179E19"
+					title: "mind"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/tellraw @p [\"\",{\"text\":\"\\u0412\\u041d\\u0418\\u041c\\u0410\\u041d\\u0418\\u0415\",\"color\":\"red\"},{\"text\":\"! \\u0415\\u0441\\u043b\\u0438 \\u0432\\u044b \\u0438\\u0433\\u0440\\u0430\\u0435\\u0442\\u0435 \\u0441 \\u0448\\u0435\\u0439\\u0434\\u0435\\u0440\\u0430\\u043c\\u0438, \\u0442\\u043e \\u0441\\u043a\\u043e\\u0440\\u0435\\u0435 \\u0432\\u0441\\u0435\\u0433\\u043e \\u0443 \\u0432\\u0430\\u0441 \\u0431\\u0430\\u0433 \\u0441 \\u0433\\u0440\\u0430\\u0444\\u0438\\u043a\\u043e\\u0439 \\u0432 \\u041d\\u0435\\u0437\\u0435\\u0440\\u0435. \\u0415\\u0441\\u043b\\u0438 \\u044d\\u0442\\u043e \\u0442\\u0430\\u043a, \\u0442\\u043e \\u0438\\u0441\\u043f\\u043e\\u043b\\u044c\\u0437\\u0443\\u0439\\u0442\\u0435 \\u0448\\u0435\\u0439\\u0434\\u0435\\u0440\\u044b \"},{\"text\":\"Sky Gleam\",\"color\":\"red\"},{\"text\":\". \\u0427\\u0442\\u043e\\u0431\\u044b \\u043f\\u0435\\u0440\\u0435\\u043a\\u043b\\u044e\\u0447\\u0438\\u0442\\u044c \\u0448\\u0435\\u0439\\u0434\\u0435\\u0440\\u044b \\u043f\\u0435\\u0440\\u0435\\u0439\\u0434\\u0438\\u0442\\u0435 \\u043f\\u043e \\u044d\\u0442\\u043e\\u043c\\u0443 \\u043f\\u0443\\u0442\\u0438: \\u041d\\u0430\\u0441\\u0442\\u0440\\u043e\\u0439\\u043a\\u0438 -- \\u043d\\u0430\\u0441\\u0442\\u0440\\u043e\\u0439\\u043a\\u0438 \\u0433\\u0440\\u0430\\u0444\\u0438\\u043a\\u0438 - \\u043d\\u0430\\u0431\\u043e\\u0440\\u044b \\u0448\\u0435\\u0439\\u0434\\u0435\\u0440\\u043e\\u0432.\"}]"
+					icon: "ftbquests:book"
+					id: "5CEAA1C78AC641A4"
+					title: "message"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					dimension: "minecraft:the_nether"
+					icon: "irons_spellbooks:fireward_ring"
+					id: "6639C84CFF36091F"
+					title: "&6Посетить мир&r: Незер"
+					type: "dimension"
+				}
+				{
+					id: "264968DC2BF0EA80"
+					item: {
+						Count: 1b
+						id: "cold_sweat:soulspring_lamp"
+						tag: {
+							fuel: 64.0d
+							isOn: 1b
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0D59C5100057A098"]
+			description: ["&6&l=> &rВ аду живут демоны, бесы, чёрты и другие опасные существа. Одолейте их, чтобы получить полезные предметы!"]
+			hide: true
+			id: "4B696BC31ECFFCAC"
+			optional: true
+			rewards: [{
+				id: "2D23AC89B5AA916D"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			tasks: [{
+				entity: "realmrpg_demons:imp"
+				icon: "gothic:bloodfly_wing"
+				id: "1D27CD0C03DF8EAB"
+				title: "&6Убить Монстра&r: Бес"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0D59C5100057A098"]
+			description: ["&6&l=> &rВ аду живут демоны, бесы, чёрты и другие опасные существа. Одолейте их, чтобы получить полезные предметы!"]
+			hide: true
+			id: "400531F35DB304BA"
+			optional: true
+			rewards: [{
+				id: "2D64B8C2EB286CB9"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			tasks: [{
+				entity: "realmrpg_demons:demon"
+				icon: "gothic:demon_heart"
+				id: "4F01B17325E48626"
+				title: "&6Убить Монстра&r: Демон"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0D59C5100057A098"]
+			description: ["&6&l=> &rВ аду живут демоны, бесы, чёрты и другие опасные существа. Одолейте их, чтобы получить полезные предметы!"]
+			hide: true
+			id: "51552BF1664A1400"
+			optional: true
+			rewards: [{
+				id: "7CFFC22FFAE6161B"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			tasks: [{
+				entity: "realmrpg_demons:chort"
+				icon: "gothic:elixir_of_health"
+				id: "74A12D467326C247"
+				title: "&6Убить Монстра&r: Чёрт"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0D59C5100057A098"]
+			description: ["&6&l=> &rВ аду существует магическая руда, неизвестного происхождения, волшебники и чародеи, что осмелились отправиться в Незер, назвали её пылающим кварцом. Из его основы, можно получить эфир - магическую эссенцию света."]
+			hide: true
+			id: "5EC56CD388C9CB9B"
+			rewards: [{
+				count: 12
+				id: "17F2D0FB1926EC3D"
+				item: "nethersdelight:propelpearl"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					icon: "malum:blazing_quartz_ore"
+					id: "14206F0C3E6678BC"
+					observe_type: 0
+					timer: 40L
+					title: "&6Изучение&r: Пылающий Кварц"
+					to_observe: "malum:blazing_quartz_ore"
+					type: "observation"
+				}
+				{
+					id: "733A522F2DF4D7D0"
+					item: "malum:blazing_quartz"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5EC56CD388C9CB9B"]
+			description: ["&6&l=> &rИгнис находится на своей арене уже долгие годы. Его силы заставляют бояться даже полубогов. Из-за его крепчайшей брони, невероятной силы и отличным владением магии огня."]
+			hide: true
+			id: "3C128902225CC8B6"
+			rewards: [{
+				auto: "invisible"
+				command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u0425\\u043c\\u043c, \\u0438\\u043d\\u0442\\u0435\\u0440\\u0435\\u0441\\u043d\\u043e, \\u0447\\u0442\\u043e \\u0436\\u0435 \\u043f\\u0440\\u043e\\u0438\\u0441\\u0445\\u043e\\u0434\\u0438\\u043b\\u043e \\u043d\\u0430 \\u044d\\u0442\\u043e\\u0439 \\u0430\\u0440\\u0435\\u043d\\u0435? \\u0414\\u043b\\u044f \\u0447\\u0435\\u0433\\u043e \\u043e\\u043d\\u0430 \\u0431\\u044b\\u043b\\u0430 \\u0441\\u043e\\u0437\\u0434\\u0430\\u043d\\u0430? \\u0418 \\u043a\\u0435\\u043c?\"}]"
+				icon: "ftbquests:book"
+				id: "7B253F60F14EF7C6"
+				title: "mind"
+				type: "command"
+			}]
+			shape: "diamond"
+			subtitle: "Лорд Демонов..."
+			tasks: [{
+				icon: "cataclysm:altar_of_fire"
+				id: "15C1FE0479C8593C"
+				structure: "cataclysm:burning_arena"
+				title: "&6Найдите: &rПылающую Арену"
+				type: "structure"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3C128902225CC8B6"]
+			description: ["&6&l=> &rЭту крепость охраняют два Ревенанта. Убив их, вы получите пылающий пепел, который нужно использовать пылающем алтаре, чтобы призвать Игниса."]
+			hide: true
+			id: "73967E30B2CC177B"
+			tasks: [{
+				id: "03DAD479AD6A8AC8"
+				item: "cataclysm:burning_ashes"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["73967E30B2CC177B"]
+			description: [
+				"&6Игнис &r- Владыка незерских земель, обладающий огромной физической и магической силой. Но он не всегда был таким. "
+				""
+				""
+				"&6&l=>&r Давным-давно, Игнис участвовал в турнире демонов. Там ему не было равных, ведь когда-то Игнис был человеком, он был героем земель Эдении, его прозвали Инносом, пройдя через боль, он сошёл с ума и стал убивать, уничтожать и крушить. Тогда-то он и заставил свою душу отправиться в Незер. Где он стал могучим войном-магом. Тогда целая армия демонов и тогдашний лорд объявили ему войну, но каким-то чудом, Игнис смог победить целую армию и тогда все склонили свои головы перед ним."
+			]
+			hide: true
+			id: "30BA163CDC3DAE1E"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "20A7E79C8EBCBEDC"
+					item: {
+						Count: 1b
+						id: "celestisynth:solaris"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/tellraw @p [\"\",{\"text\":\"[\\u0414\\u0443\\u0448\\u0430 \\u0418\\u0433\\u043d\\u0438\\u0441\\u0430]\",\"color\":\"gold\"},{\"text\":\" \\u0421\\u043f\\u0430\\u0441\\u0438\\u0431\\u043e \\u0442\\u0435\\u0431\\u0435, \\u0447\\u0435\\u043b\\u043e\\u0432\\u0435\\u043a, \\u0447\\u0442\\u043e \\u0441\\u043f\\u0430\\u0441 \\u043c\\u0435\\u043d\\u044f \\u043e\\u0442 \\u0432\\u0435\\u0447\\u043d\\u044b\\u0445 \\u043c\\u0443\\u0447\\u0435\\u043d\\u0438\\u0439...\"}]"
+					icon: "ftbquests:book"
+					id: "5F38B7848731A428"
+					title: "dialoque"
+					type: "command"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				entity: "cataclysm:ignis"
+				icon: {
+					Count: 1b
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "cataclysm:ignitium_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "14BE61DF2ACFAD7D"
+				title: "&6Убить Полубога&r: Игниса"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"30BA163CDC3DAE1E"
+				"73967E30B2CC177B"
+				"3C128902225CC8B6"
+			]
+			description: ["&6&l=> &rПобедив Игниса, вы получите слитки игнитиума. Из него состоит невероятно прочная и сильная броня Игниса..."]
+			hide: true
+			id: "48410F35242B39BE"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "1CCE8F00FE9BBCDC"
+				item: "cataclysm:ignitium_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["48410F35242B39BE"]
+			description: ["&6&l=> &rБлагодаря игнитовым слиткам, создайте комплект игнитовой брони."]
+			hide: true
+			id: "705092D4E09B6F1B"
+			optional: true
+			rewards: [
+				{
+					id: "266D31C5CB64AED9"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 10
+					id: "3024108B4ECC2168"
+					item: "farmersdelight:vegetable_noodles"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "5F382587C78B9F42"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "cataclysm:ignitium_helmet"
+					tag: {
+						Damage: 0
+						SimpleInsulation: [ ]
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["48410F35242B39BE"]
+			description: ["&6&l=> &rБлагодаря игнитовым слиткам, создайте комплект игнитовой брони."]
+			hide: true
+			id: "53F02EE28B6CFE9C"
+			optional: true
+			rewards: [
+				{
+					id: "7CD8DFDC4DFB8175"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 10
+					id: "50F386A7748EB501"
+					item: "farmersdelight:fish_stew"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "0530DBDF67C4C08D"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "cataclysm:ignitium_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["48410F35242B39BE"]
+			description: ["&6&l=> &rБлагодаря игнитовым слиткам, создайте комплект игнитовой брони."]
+			hide: true
+			id: "786679BF73C3CD82"
+			optional: true
+			rewards: [
+				{
+					id: "7BD8B884740852CC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 10
+					id: "5B6075AC77A8BCAD"
+					item: "farmersdelight:bacon_and_eggs"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "491FBB6A114898AD"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "cataclysm:ignitium_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["48410F35242B39BE"]
+			description: ["&6&l=> &rБлагодаря игнитовым слиткам, создайте комплект игнитовой брони."]
+			hide: true
+			id: "53A3743210C8037B"
+			optional: true
+			rewards: [
+				{
+					id: "42694DD67EA244C0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 10
+					id: "15299082987C5B0E"
+					item: "farmersdelight:bone_broth"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "59DCF0B17FC8B39F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "cataclysm:ignitium_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5EC56CD388C9CB9B"]
+			description: [
+				"&6&l=> &rВ аду существует небольшая крепость, внутри которой расположены опасные монстры, ловушки и ценные сокровища. Но главным артефактом этой крепости является - Молот Незера."
+				""
+				"&6&l=> &rЧтобы активировать алтарь, который находится в главной башне, вам нужна звезда незера, которую можно получить убив Визера. Могущественного монстра Незера."
+			]
+			hide: true
+			id: "3A921FEC6445B0F9"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @p [\"\",{\"text\":\"[\\u0425\\u0440\\u0430\\u043d\\u0438\\u0442\\u0435\\u043b\\u044c \\u041d\\u0435\\u0437\\u0435\\u0440\\u0430]\",\"color\":\"gold\"},{\"text\":\" \\u0444\\u0449\\u0446\\u0440\\u0432\\u0442\\u0448\\u0433\\u043f\\u0446\\u0432\\u0444\",\"obfuscated\":true}]"
+					icon: "ftbquests:book"
+					id: "0B776C01DA030869"
+					title: "mind"
+					type: "command"
+				}
+				{
+					id: "55870BC93991C860"
+					item: {
+						Count: 1b
+						id: "vinery:creepers_crush"
+						tag: {
+							Year: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				entity: "stalwart_dungeons:nether_keeper"
+				icon: "stalwart_dungeons:keeping_castle_spawner"
+				id: "627993320335E1AF"
+				title: "&6Убить Монстра&r: Хранитель"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3A921FEC6445B0F9"]
+			description: ["&6&l=> &rВ Хранителе запечатан огонь древних духов. Благодаря ему, вы сможете создать могущественный молот Незера."]
+			id: "3CBA7A98E2B8ADAE"
+			tasks: [{
+				id: "4A02717A825013CB"
+				item: {
+					Count: 1b
+					id: "stalwart_dungeons:ancient_fire"
+					tag: {
+						Damage: 0
+					}
+				}
+				title: "&6Древний Огонь"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3CBA7A98E2B8ADAE"]
+			description: ["&6Молот Незера&r - Мощный артефакт, который был создан древнми демонами-кузнецами, во время войны между Эденией и Незером."]
+			hide: true
+			id: "22FC1473B7A6867C"
+			rewards: [{
+				id: "7C18C1428C1CCAA7"
+				item: "irons_spellbooks:fire_upgrade_orb"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "55391E037AB30312"
+				item: {
+					Count: 1b
+					id: "stalwart_dungeons:nether_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				title: "&6Молот Незера"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3A921FEC6445B0F9"]
+			description: ["&6&l=> &rВ крепости существует волшебная субстанция - споры. Её можно собрать при помощи бутылки."]
+			hide: true
+			id: "221128219F35970F"
+			optional: true
+			rewards: [{
+				id: "6415AC6D5AE4D25B"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "15AF82354DA511AC"
+				item: "stalwart_dungeons:spore_bottle"
+				title: "Споры в бутылке"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5EC56CD388C9CB9B"]
+			description: ["&6&l=> &rВ древнем храме гастов, можно найти древнюю руду, под названием вольфрам. Из которого можно создать мощную броню и инструменты."]
+			hide: true
+			icon: "stalwart_dungeons:tungsten_ore"
+			id: "3ECB65660C9F1DDA"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u042d\\u0442\\u043e \\u043e\\u0447\\u0435\\u043d\\u044c \\u043f\\u043e\\u0445\\u043e\\u0436\\u0435 \\u043d\\u0430 \\u0432\\u043e\\u043b\\u044c\\u0444\\u0440\\u0430\\u043c. \\u0418\\u0437 \\u043d\\u0435\\u0433\\u043e \\u0432\\u044b\\u0439\\u0434\\u0443\\u0442 \\u043d\\u0435\\u043f\\u043b\\u043e\\u0445\\u0438\\u0435 \\u0438\\u043d\\u0441\\u0442\\u0440\\u0443\\u043c\\u0435\\u043d\\u0442\\u044b \\u0438 \\u0431\\u0440\\u043e\\u043d\\u044f.\"}]"
+					icon: "ftbquests:book"
+					id: "67F308B2506F9512"
+					title: "mind"
+					type: "command"
+				}
+				{
+					id: "2FCA0A62EE0E06D6"
+					item: {
+						Count: 1b
+						id: "twilightforest:fiery_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "10219E61F80D069D"
+					item: "stalwart_dungeons:raw_tungsten"
+					type: "item"
+				}
+				{
+					id: "655D514D9BF98942"
+					item: "stalwart_dungeons:tungsten_ingot"
+					type: "item"
+				}
+			]
+			title: "Вольфрам"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3ECB65660C9F1DDA"]
+			description: ["&6&l=> &rСоздайте инструменты и броню из вольфрама."]
+			hide: true
+			id: "3ED7BB5336809F52"
+			optional: true
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "090126A446DBC34E"
+					item: {
+						Count: 1b
+						id: "stalwart_dungeons:tungsten_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7B5D34EC9F22FA57"
+					item: {
+						Count: 1b
+						id: "stalwart_dungeons:tungsten_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6193722445438A72"
+					item: {
+						Count: 1b
+						id: "stalwart_dungeons:tungsten_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4401507DF262D42F"
+					item: {
+						Count: 1b
+						id: "stalwart_dungeons:tungsten_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Вольфрамовые инструменты"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3ECB65660C9F1DDA"]
+			description: ["&6&l=> &rСоздайте инструменты и броню из вольфрама. Броню можно объединить со спорами, тем самым улучшив её."]
+			hide: true
+			id: "641774AFAAF040E2"
+			optional: true
+			rewards: [{
+				id: "5BF1C5D730FEBCDF"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "19B19A21586BDE5C"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "stalwart_dungeons:tungsten_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3753F874100D8E7D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "stalwart_dungeons:tungsten_chestplate"
+						tag: {
+							Damage: 0
+							SimpleInsulation: [ ]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "613A0E9C678A3278"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "stalwart_dungeons:tungsten_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "69BF253605554F3E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "stalwart_dungeons:tungsten_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Вольфрамовая броня"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"641774AFAAF040E2"
+				"221128219F35970F"
+			]
+			description: ["&6&l=> &rВольфрамовую броню можно обьеденить со спорами, тем самым улучшив её."]
+			hide: true
+			id: "0447672F130D3C5C"
+			optional: true
+			shape: "diamond"
+			size: 1.1d
+			tasks: [
+				{
+					id: "3802BE515CFE8FA2"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "stalwart_dungeons:warted_tungsten_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "299F8D299458B7A1"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "stalwart_dungeons:warted_tungsten_chestplate"
+						tag: {
+							Damage: 0
+							SimpleInsulation: [ ]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "526CEC4268F8CF22"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "stalwart_dungeons:warted_tungsten_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7A055E88D238329B"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "stalwart_dungeons:warted_tungsten_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Споровая броня"
+			x: 3.00714285714286d
+			y: -3.436394557823135d
+		}
+		{
+			dependencies: ["3ECB65660C9F1DDA"]
+			description: ["&6&l=> &rВ главном зале храма гастов, можно найти алтарь и призвать Лорда Гастом при помощи звезды Незера."]
+			hide: true
+			id: "7D1897ACCA15635F"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				entity: "stalwart_dungeons:awful_ghast"
+				icon: "stalwart_dungeons:awful_dungeon_spawner"
+				id: "7F9EF4B58C50BA58"
+				title: "&6Убить Монстра&r: Древний Гаст"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7D1897ACCA15635F"]
+			description: ["&6&l=> &rПобедив Лорда гастов, вы получите проклятый кристалл. Который можно использовать для создания проклятого кинжала."]
+			hide: true
+			id: "31366B4FA447C773"
+			optional: true
+			tasks: [{
+				id: "127AAC42FE5E4371"
+				item: "stalwart_dungeons:awful_crystal"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["31366B4FA447C773"]
+			description: ["&6&l=> &rСоздайте проклятый кинжал."]
+			hide: true
+			id: "0A7683D0BAE4612E"
+			optional: true
+			rewards: [{
+				id: "3C9EA9ED818525CD"
+				item: "gothic:elixir_of_haste"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "04390CD0DFB4D690"
+				item: {
+					Count: 1b
+					id: "stalwart_dungeons:awful_dagger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2C56F66FEDD52518"]
+			description: ["&6&l=> &rИзучение Незера, подошло к концу, Лорд Демонов повержен. Интересно, кто же станет следующим правителем Незера?"]
+			hide: true
+			id: "239EAA85A8A86691"
+			shape: "diamond"
+			size: 1.1d
+			tasks: [{
+				id: "2639B7F725D56B4F"
+				title: "&6Конец X главы&r: Незер"
+				type: "checkmark"
+			}]
+			x: 10.424489795918355d
+			y: -0.6479591836734713d
+		}
+		{
+			dependencies: ["30BA163CDC3DAE1E"]
+			description: ["&6&l=> &rДанный меч, был выкован из мощнейшего сплава в нашем скоплении миров, древним Богом Огня. Он обладает невероятной силой, а тот кто держит его у себя в руках, считается могучим войном, избранным для того, чтобы победить древнее зло."]
+			id: "2C56F66FEDD52518"
+			rewards: [{
+				auto: "invisible"
+				command: "/tellraw @p {\"text\":\"\\u0421\\u0438\\u043b\\u044c\\u043d\\u0435\\u0439\\u0448\\u0438\\u0439 \\u0438\\u0437 \\u0448\\u0435\\u0441\\u0442\\u0438 \\u0431\\u043e\\u0436\\u0435\\u0441\\u0442\\u0432\\u0435\\u043d\\u043d\\u044b\\u0445 \\u0430\\u0440\\u0442\\u0435\\u0444\\u0430\\u043a\\u0442\\u043e\\u0432 \\u0434\\u0430\\u0440\\u0443\\u0435\\u0442 \\u0432\\u0430\\u043c \\u0434\\u0440\\u0435\\u0432\\u043d\\u044e\\u044e \\u0441\\u0438\\u043b\\u0443...\",\"color\":\"red\"}"
+				icon: "ftbquests:book"
+				id: "6097189FAD317643"
+				title: "mind"
+				type: "command"
+			}]
+			subtitle: "&6Меч Бога Огня"
+			tasks: [{
+				id: "49B59E43FC603296"
+				item: {
+					Count: 1b
+					id: "celestisynth:solaris"
+					tag: {
+						Damage: 0
+					}
+				}
+				title: "Божественный артефакт"
+				type: "item"
+			}]
+			x: 8.97551020408163d
+			y: -0.6683673469387799d
+		}
+		{
+			dependencies: ["5EC56CD388C9CB9B"]
+			description: ["Найдите &6адского гоблина-торговца&r."]
+			hide: true
+			id: "73B1B6BF355A159E"
+			rewards: [{
+				id: "64E3181C6C75B1CC"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "rsquare"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:magma_bomb"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				id: "4485CA0211339CED"
+				observe_type: 5
+				timer: 0L
+				title: "&6Найдите&r: Адского гоблина-торговца"
+				to_observe: "goblintraders:vein_goblin_trader"
+				type: "observation"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+	]
+	subtitle: ["Лорд Демонов, бесы и непревзойдённая жара..."]
+	title: "&6X&r: Незер ✦"
+}

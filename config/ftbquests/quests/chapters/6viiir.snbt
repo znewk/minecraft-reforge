@@ -1,0 +1,2431 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6viiir"
+	group: "5C6A3997459D91D9"
+	icon: "twilightforest:twilight_portal_miniature_structure"
+	id: "3135A85C978530D1"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 150.0d
+			hover: [ ]
+			image: "skilltree:textures/screen/skill_tree_background.png"
+			rotation: 0.0d
+			width: 150.0d
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 20.0d
+			hover: [ ]
+			image: "celestisynth:textures/entity/rainfall_vanish.png"
+			rotation: 0.0d
+			width: 20.0d
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "kubejs:textures/item/twilight_forest.png"
+			rotation: 0.0d
+			width: 20.0d
+			x: 6.5d
+			y: -3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2C16CEB49AD3FF5C"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "twilightforest:items/magic_beans"
+			rotation: -35.0d
+			width: 1.0d
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2C16CEB49AD3FF5C"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "relics:item/magma_walker_fire"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "254982C1D77959B4"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "twilightforest:items/raw_ironwood"
+			rotation: -35.0d
+			width: 1.0d
+			x: -1.8809523809523867d
+			y: 1.1428571428571388d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "7FCBE25952127B2A"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "obscure_api:textures/icons/durability.png"
+			rotation: -20.0d
+			width: 1.0d
+			x: -3.408163265306122d
+			y: 0.566326530612244d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "7FCBE25952127B2A"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "malum:textures/gui/book/icons/soul_shard.png"
+			rotation: -20.0d
+			width: 1.0d
+			x: -3.4421768707483054d
+			y: 1.690476190476197d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "7FCBE25952127B2A"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "skilltree:gems/iriscite_1"
+			rotation: 30.0d
+			width: 1.0d
+			x: -2.661564625850346d
+			y: 0.547619047619051d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "254982C1D77959B4"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "valhelsia_structures:block/brazier_fire"
+			rotation: 90.0d
+			width: 1.0d
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "254982C1D77959B4"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "valhelsia_structures:block/brazier_fire"
+			rotation: 90.0d
+			width: 1.0d
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "254982C1D77959B4"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ecologics:item/penguin_feather"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.518707482993193d
+			y: 2.7142857142857224d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "264F1F2ED17FD212"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "twilightforest:block/pedestal/naga"
+			rotation: -20.0d
+			width: 1.0d
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "264F1F2ED17FD212"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "twilightforest:block/pedestal/naga_glow"
+			rotation: -20.0d
+			width: 1.0d
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2D97125FB3DE9A31"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "twilightforest:items/naga_scale"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.9914965986394577d
+			y: 4.051020408163268d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2D97125FB3DE9A31"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "twilightforest:block/pedestal/lich"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2D97125FB3DE9A31"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "twilightforest:block/pedestal/lich_glow"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "66153EDBD5BC8DC5"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "irons_spellbooks:item/blood_vial"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.8809523809523796d
+			y: 5.413265306122447d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "66153EDBD5BC8DC5"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "undergarden:item/slingshot_pulling_blisterberry_1"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "twilightforest:items/lich_shield_frame"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "30C849D73754A0C0"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:item/diamond"
+			rotation: -40.0d
+			width: 1.0d
+			x: 2.0748299319727863d
+			y: 2.7551020408163254d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "30C849D73754A0C0"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "relics:item/magma_walker_fire"
+			rotation: 90.0d
+			width: 1.0d
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "6C248355DABE9A13"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "iceandfire:item/hydra_fang"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.92176870748299d
+			y: 7.030612244897952d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "30C849D73754A0C0"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "iceandfire:textures/item/hydra_venom.png"
+			rotation: -30.0d
+			width: 1.0d
+			x: 4.0238095238095255d
+			y: 5.58163265306122d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2242D415480E8057"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "relics:item/magma_walker_fire"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 7.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2242D415480E8057"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "relics:item/magma_walker_fire"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2242D415480E8057"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "relics:item/magma_walker_fire"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 9.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2242D415480E8057"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "relics:item/magma_walker_fire"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 10.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2242D415480E8057"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "relics:item/magma_walker_fire"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 10.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2242D415480E8057"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "relics:item/magma_walker_fire"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 9.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2A7C94768E44DA00"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "twilightforest:items/knightmetal_helmet"
+			rotation: -50.0d
+			width: 1.0d
+			x: 5.503401360544217d
+			y: 2.632653061224481d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "226675C1209D3F9A"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "twilightforest:items/fiery_blood"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.217687074829932d
+			y: 5.474489795918373d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "226675C1209D3F9A"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "iceandfire:item/jar_2"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.576870748299342d
+			y: 4.005102040816318d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "4752C473CA8ED916"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "iceandfire:textures/particles/snowflake_1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: 3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "4752C473CA8ED916"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "iceandfire:textures/particles/snowflake_1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: 6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "047D06C32B1284A8"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "endergetic:item/eetle_egg"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.845238095238102d
+			y: 5.535714285714299d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "047D06C32B1284A8"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "iceandfire:item/summon_crystal_ice_active"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.171768707482997d
+			y: 5.709183673469383d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "047D06C32B1284A8"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "valhelsia_structures:block/brazier_fire"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.5d
+			y: 2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2E929B20ACA46D1A"
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "cataclysm:textures/entity/deepling/deepling_warlock_mark2.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 15.0d
+			y: 7.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2FCAAE2D19281F04"]
+			description: [
+				"&6&l=> &rСуществуют легенды про существование загадочного и мистического мира, которым управляют 9 Лордов. Речь идёт про мир, под названием Сумеречный Лес."
+				""
+				"&6Сумеречный Лес&r - Это древний мир, который на 90% заполнен лесами. Здесь живёт много животных, монстров. В пещерах есть новая руда, а главными в этом мире являются 9 Лордов."
+			]
+			hide: true
+			id: "2C16CEB49AD3FF5C"
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				id: "5BA5F68B8B474296"
+				title: "&6Глава VIII&r: Сумеречный Лес"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2C16CEB49AD3FF5C"]
+			description: ["&6&l=> &rЧтобы открыть портал в сумеречный лес, потребуется сломать блоки земли областью 2x2, залить полученную яму водой, вокруг этой ямы посадить цветы и бросить в воду &bАлмаз&r."]
+			hide: true
+			id: "254982C1D77959B4"
+			rewards: [{
+				auto: "invisible"
+				command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u0422\\u0430\\u043a \\u0432\\u043e\\u0442 \\u043a\\u0430\\u043a\\u043e\\u0439 \\u043e\\u043d... \\u0421\\u0443\\u043c\\u0435\\u0440\\u0435\\u0447\\u043d\\u044b\\u0439 \\u043b\\u0435\\u0441...\"}]"
+				icon: "ftbquests:book"
+				id: "77A8315B431C5041"
+				title: "mind"
+				type: "command"
+			}]
+			shape: "diamond"
+			size: 1.1d
+			tasks: [
+				{
+					dimension: "twilightforest:twilight_forest"
+					icon: "twilightforest:twilight_portal_miniature_structure"
+					id: "458F10A0901CFE11"
+					title: "&6Посетить мир&r: Сумеречный Лес"
+					type: "dimension"
+				}
+				{
+					id: "6E0E6D69F28217D0"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["254982C1D77959B4"]
+			description: ["&6&l=> &rСумеречный лес наполнен животными, монстрами и фантастическими существами. Вы можете поохотиться на местных диких животных."]
+			hide: true
+			icon: "abnormals_delight:venison_shanks"
+			id: "3A11382F10D23EAC"
+			optional: true
+			rewards: [{
+				count: 5
+				id: "0EAEFF91AAE45665"
+				item: "farmersdelight:cabbage"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				entity: "twilightforest:deer"
+				id: "4E83C2889D68D0F4"
+				title: "&6Убить животное&r: Дикий Олень"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["254982C1D77959B4"]
+			description: ["&6&l=> &rСумеречный лес наполнен животными, монстрами и фантастическими существами. Вы можете поохотиться на местных диких животных."]
+			hide: true
+			id: "6DAC5D3A0FAF838F"
+			optional: true
+			rewards: [{
+				count: 5
+				id: "785CCA0CEFF0FA30"
+				item: "farmersdelight:tomato"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				entity: "twilightforest:boar"
+				icon: "environmental:venison"
+				id: "00826E97D7815BBF"
+				title: "&6Убить животное&r: Дикий Кабан"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["254982C1D77959B4"]
+			description: ["&6&l=> &rПод сумеречными деревьями, растут огромные корни. Некоторые из них совсем старые и постепенно умирают. Вы можете их собрать и создать специальный сплав, соединив эти корни с железом и золотом."]
+			hide: true
+			id: "7FCBE25952127B2A"
+			optional: true
+			rewards: [{
+				auto: "invisible"
+				command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u041d\\u0443\\u0436\\u043d\\u043e \\u043f\\u043e\\u043f\\u0440\\u043e\\u0431\\u043e\\u0432\\u0430\\u0442\\u044c \\u0441\\u043e\\u0437\\u0434\\u0430\\u0442\\u044c \\u0438\\u043d\\u0441\\u0442\\u0440\\u0443\\u043c\\u0435\\u043d\\u0442\\u044b \\u0438 \\u0431\\u0440\\u043e\\u043d\\u044e \\u0438\\u0437 \\u0436\\u0435\\u043b\\u0435\\u0437\\u043d\\u043e\\u0433\\u043e \\u0434\\u0435\\u0440\\u0435\\u0432\\u0430.\"}]"
+				icon: "ftbquests:book"
+				id: "73763CFEA6290EE4"
+				title: "mind"
+				type: "command"
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "652E2C180CFACA15"
+					item: "twilightforest:liveroot"
+					type: "item"
+				}
+				{
+					id: "16C6817D76B25977"
+					item: "twilightforest:raw_ironwood"
+					type: "item"
+				}
+				{
+					id: "6313E43984F5129A"
+					item: "twilightforest:ironwood_ingot"
+					type: "item"
+				}
+			]
+			title: "Железное дерево"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7FCBE25952127B2A"]
+			description: ["&6&l=> &rСоздайте комплект брони и инструментов из слитков железного дерева."]
+			hide: true
+			id: "79A3560E017069DF"
+			optional: true
+			rewards: [{
+				id: "4682D390FEADC6F8"
+				type: "xp"
+				xp: 75
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "645AA1E3950A6687"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "twilightforest:ironwood_helmet"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:aqua_affinity"
+								lvl: 1s
+							}]
+							SimpleInsulation: [ ]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "21DDA19C5F3EC28F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "twilightforest:ironwood_chestplate"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:protection"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "301453178EE20F78"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "twilightforest:ironwood_leggings"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:protection"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6DC291D7F7902BBA"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "twilightforest:ironwood_boots"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:feather_falling"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Броня из железного дерева"
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7FCBE25952127B2A"]
+			description: ["&6&l=> &rСоздайте комплект брони и инструментов из слитков железного дерева."]
+			hide: true
+			id: "57A69B644B88B0BA"
+			optional: true
+			rewards: [{
+				id: "2051941ACEEC35AD"
+				type: "xp"
+				xp: 75
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "01F3D1D18B02ABD4"
+					item: {
+						Count: 1b
+						id: "twilightforest:ironwood_sword"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:knockback"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "462F9C5412CBB271"
+					item: {
+						Count: 1b
+						id: "twilightforest:ironwood_axe"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:fortune"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2BC42169AFFED3CF"
+					item: {
+						Count: 1b
+						id: "twilightforest:ironwood_pickaxe"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:efficiency"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Инструменты из железного дерева"
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["264F1F2ED17FD212"]
+			description: [
+				"&6&l=> &rВ Сумеречном лесу, существует древний колизей, который принадлежал расе друидов, когда те ещё не были нежитью. Но сейчас там обитает Лорд Нага."
+				""
+				"&aНага&r - Огромная змея, что уничтожила расу друидов, превратив их в нежить. Она обладает красными глазами и зелёной чешуёй."
+			]
+			hide: true
+			id: "2D97125FB3DE9A31"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u0424\\u0443\\u0445, \\u044d\\u0442\\u0430 \\u0437\\u043c\\u0435\\u044f \\u0431\\u044b\\u043b\\u0430 \\u043e\\u0433\\u0440\\u043e\\u043c\\u043d\\u044b\\u0445 \\u0440\\u0430\\u0437\\u043c\\u0435\\u0440\\u043e\\u0432! \\u041d\\u043e \\u044f \\u0441\\u043c\\u043e\\u0433 \\u043f\\u043e\\u0431\\u0435\\u0434\\u0438\\u0442\\u044c \\u0435\\u0451, \\u043d\\u0443\\u0436\\u043d\\u043e \\u043f\\u043e\\u0441\\u043c\\u043e\\u0442\\u0440\\u0435\\u0442\\u044c, \\u0447\\u0442\\u043e \\u043d\\u0430\\u0445\\u043e\\u0434\\u0438\\u043b\\u043e\\u0441\\u044c \\u0432 \\u0442\\u043e\\u043c \\u0441\\u0443\\u043d\\u0434\\u0443\\u043a\\u0435...\"}]"
+					icon: "ftbquests:book"
+					id: "34A4F7279C1676BF"
+					title: "mind"
+					type: "command"
+				}
+				{
+					id: "5A991AF3BB8CD33C"
+					item: {
+						Count: 1b
+						id: "iceandfire:myrmex_jungle_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4287A7E4081402E9"
+					item: "irons_spellbooks:poisonward_ring"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "twilightforest:progress_naga"
+				criterion: ""
+				icon: "twilightforest:naga_trophy"
+				id: "00C077A369E68C06"
+				title: "&6Убить Лорда:&r Нага"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2D97125FB3DE9A31"]
+			description: ["&6&l=> &rСоздайте комплект брони из чешуи наги. Невероятно прочной и красивой чешуи."]
+			hide: true
+			id: "11FD440CD0A9DA5C"
+			rewards: [{
+				count: 5
+				id: "5C0FD810546DE088"
+				item: "farmersdelight:bacon_sandwich"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "2A6B7DC57289C82E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "twilightforest:naga_chestplate"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:fire_protection"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4AFECEB8217FF59B"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "twilightforest:naga_leggings"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:protection"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Броня Наги"
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["254982C1D77959B4"]
+			description: [
+				"&6&l=> &rВы решаете начертить карту сумеречного леса, чтобы можно было легче ориентироваться в этом мире."
+				""
+				"&6Факелонт&r - Корни древних деревьев, которые получили свойство свечения благодаря осколкам магического камня, что падали на них. Можно найти под землёй."
+				""
+				"&6Воронье перо&r - Можно получить убив ворона. Который обитает в лесах сумеречного леса."
+				""
+				"&6Светокаменная пыль&r - Можно получить в Незере, сломав скопление светокамня, либо убить светлячка на деревьях сумеречного леса с помощью лука."
+			]
+			hide: true
+			id: "264F1F2ED17FD212"
+			rewards: [{
+				auto: "invisible"
+				command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u041f\\u0440\\u0438 \\u043f\\u043e\\u043c\\u043e\\u0449\\u0438 \\u043c\\u0430\\u0433\\u0438\\u0447\\u0435\\u0441\\u043a\\u043e\\u0439 \\u043a\\u0430\\u0440\\u0442\\u044b, \\u044f \\u0441\\u043c\\u043e\\u0433\\u0443 \\u043b\\u0435\\u0433\\u043a\\u043e \\u043e\\u0440\\u0438\\u0435\\u043d\\u0442\\u0438\\u0440\\u043e\\u0432\\u0430\\u0442\\u044c \\u043f\\u043e \\u043c\\u0435\\u0441\\u0442\\u043d\\u044b\\u043c \\u043e\\u043a\\u0440\\u0435\\u0441\\u0442\\u043d\\u043e\\u0441\\u0442\\u044f\\u043c.\"}]"
+				icon: "ftbquests:book"
+				id: "3134D3DFA959DC15"
+				title: "mind"
+				type: "command"
+			}]
+			shape: "diamond"
+			subtitle: "Подготовка к путешествию"
+			tasks: [
+				{
+					id: "2A156FD2BDC14D6E"
+					item: "twilightforest:magic_map_focus"
+					type: "item"
+				}
+				{
+					id: "2A00EF9A35FE3372"
+					item: "twilightforest:magic_map"
+					type: "item"
+				}
+			]
+			title: "Магическая карта"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2D97125FB3DE9A31"]
+			description: ["&6&l=> &rДревняя башня расположена в лесах сумеречного леса. Она принадлежит королю друидов, сумеречному личу. Когда-то он тоже был таким же друидом, живым, но чары Наги охватили его душу и он перешёл на сторону тьмы. Он обладает четырьмя посохами, которые он использовал в сражении против Наги, давным-давно..."]
+			hide: true
+			id: "66153EDBD5BC8DC5"
+			rewards: [{
+				auto: "invisible"
+				command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u042d\\u0442\\u043e \\u0431\\u044b\\u043b \\u043a\\u043e\\u0440\\u043e\\u043b\\u044c \\u0434\\u0440\\u0443\\u0438\\u0434\\u043e\\u0432. \\u0415\\u0433\\u043e \\u0442\\u0430\\u043a-\\u0436\\u0435 \\u043d\\u0430\\u0437\\u044b\\u0432\\u0430\\u044e\\u0442 \\u0441\\u0443\\u043c\\u0435\\u0440\\u0435\\u0447\\u043d\\u044b\\u0439 \\u043b\\u0438\\u0447, \\u0438\\u0437-\\u0437\\u0430 \\u0435\\u0433\\u043e \\u043b\\u0438\\u043a\\u0430 \\u0432 \\u0432\\u0438\\u0434\\u0435 \\u0441\\u043a\\u0435\\u043b\\u0435\\u0442\\u0430, \\u0430 \\u0442\\u0430\\u043a\\u0436\\u0435 \\u043a\\u0440\\u0430\\u0441\\u043d\\u044b\\u0435, \\u043c\\u0430\\u0433\\u0438\\u0447\\u0435\\u0441\\u043a\\u0438\\u0435 \\u0433\\u043b\\u0430\\u0437\\u0430...\"}]"
+				icon: "ftbquests:book"
+				id: "57EF0774F3CF9714"
+				title: "mind"
+				type: "command"
+			}]
+			tasks: [{
+				advancement: "twilightforest:progress_lich"
+				criterion: ""
+				icon: "twilightforest:lich_trophy"
+				id: "19423275AC854439"
+				title: "&6Убить Лорда:&r Сумеречный Лич"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["66153EDBD5BC8DC5"]
+			description: ["&6&l=> &rПобедив сумеречного лича, вы получите один из четырёх его посохов. Попробуйте собрать всех их. (Лич спавниться не один во всём мире)."]
+			hide: true
+			id: "423CB9115B942CEA"
+			rewards: [{
+				count: 10
+				id: "0ABFAF42FC4B2FAE"
+				item: "farmersdelight:chicken_sandwich"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "0C0E9A46B28474AB"
+				item: {
+					Count: 1b
+					id: "twilightforest:twilight_scepter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["66153EDBD5BC8DC5"]
+			description: ["&6&l=> &rПобедив сумеречного лича, вы получите один из четырёх его посохов. Попробуйте собрать всех их. (Лич спавниться не один во всём мире)."]
+			hide: true
+			id: "55D51B6115A8B474"
+			rewards: [{
+				count: 10
+				id: "433C37DD2B548F09"
+				item: "farmersdelight:mutton_wrap"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "74A62D6A6840D159"
+				item: {
+					Count: 1b
+					id: "twilightforest:lifedrain_scepter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["66153EDBD5BC8DC5"]
+			description: ["&6&l=> &rПобедив сумеречного лича, вы получите один из четырёх его посохов. Попробуйте собрать всех их. (Лич спавниться не один во всём мире)."]
+			hide: true
+			id: "19CD0FC343158355"
+			rewards: [{
+				count: 10
+				id: "7661DF18F8F618B7"
+				item: "farmersdelight:bacon_sandwich"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "0584EBEC2A2A40D4"
+				item: {
+					Count: 1b
+					id: "twilightforest:zombie_scepter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["66153EDBD5BC8DC5"]
+			description: ["&6&l=> &rПобедив сумеречного лича, вы получите один из четырёх его посохов. Попробуйте собрать всех их. (Лич спавниться не один во всём мире)."]
+			hide: true
+			id: "1EC6F3577F6413F2"
+			rewards: [{
+				count: 10
+				id: "1C7E36F2E9E8425F"
+				item: "farmersdelight:dumplings"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "08E0130A9912B06E"
+				item: {
+					Count: 1b
+					id: "twilightforest:fortification_scepter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["66153EDBD5BC8DC5"]
+			description: [
+				"&6&l=> &rНа болоте сумеречного леса, можно найти подземный лабиринт. Хранителем которого является один из лордов - Гриботавр."
+				""
+				"&cГриботавр&r - усовершенствованная версия минотавра. Он обладает мощным оружием - Легендарным алмазным топором. Он охраняет ценные ресурсы лабиринта несколько десятков лет."
+			]
+			hide: true
+			id: "30C849D73754A0C0"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u042d\\u0442\\u043e \\u0431\\u044b\\u043b\\u043e \\u0434\\u043e \\u0436\\u0443\\u0442\\u0438 \\u043f\\u0440\\u043e\\u0441\\u0442\\u043e, \\u043d\\u0435 \\u0434\\u0443\\u043c\\u0430\\u043b, \\u0447\\u0442\\u043e \\u0442\\u0430\\u043a\\u043e\\u0435 \\u0441\\u043b\\u0430\\u0431\\u043e\\u0435 \\u0441\\u0443\\u0449\\u0435\\u0441\\u0442\\u0432\\u043e \\u043c\\u043e\\u0436\\u0435\\u0442 \\u0441\\u0447\\u0438\\u0442\\u0430\\u0442\\u044c\\u0441\\u044f \\u043b\\u043e\\u0440\\u0434\\u043e\\u043c...\"}]"
+					icon: "ftbquests:book"
+					id: "2EA0B3EB9B50C305"
+					title: "mind"
+					type: "command"
+				}
+				{
+					id: "64A78A5612EEE3F8"
+					item: {
+						Count: 1b
+						id: "iceandfire:troll_weapon_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:minoshroom"
+				icon: "twilightforest:minoshroom_trophy"
+				id: "0B11F9C7833FF2C8"
+				title: "&6Убить Лорда:&r Гриботавр"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["30C849D73754A0C0"]
+			description: ["&6&l=> &rПобедив Гриботавра, вы забираете его топор, чтобы использовать его в бою."]
+			hide: true
+			id: "1B98D4F59823C52D"
+			rewards: [{
+				id: "25EEA68084E0201A"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "7B5AC2E3840FC811"
+				item: {
+					Count: 1b
+					id: "twilightforest:diamond_minotaur_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["30C849D73754A0C0"]
+			description: ["&6&l=> &rУбив Гриботавра, вы получаете суп. Который позволит вам пройти в Огненное Болото к следующему Лорду."]
+			id: "04AE1836CC24E3CD"
+			rewards: [{
+				id: "02856C355EABD68F"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "00C55FD274133298"
+				item: "twilightforest:meef_stroganoff"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["30C849D73754A0C0"]
+			description: [
+				"&6&l=> &rВ центре огненного болота находится огромная гора. Под частью которой находится огромная пещера, у входа в которую находится Гидра."
+				""
+				"&bГидра &r- Мощная драконица обладающая тремя головами. При уничтожении одной головы, на её месте появляется ещё две. Чтобы победить её, нужно отбивать её огненные шары в неё саму."
+			]
+			hide: true
+			id: "6C248355DABE9A13"
+			rewards: [{
+				auto: "invisible"
+				command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u042d\\u0442\\u043e \\u0431\\u044b\\u043b\\u043e \\u043e\\u0447\\u0435\\u043d\\u044c \\u0442\\u044f\\u0436\\u0435\\u043b\\u043e. \\u041e\\u0434\\u043d\\u0430 \\u043e\\u0448\\u0438\\u0431\\u043a\\u0430 \\u043c\\u043e\\u0433\\u043b\\u0430 \\u0441\\u0442\\u043e\\u0438\\u0442\\u044c \\u043c\\u043d\\u0435 \\u0436\\u0438\\u0437\\u043d\\u0438, \\u043d\\u043e \\u044f \\u0441\\u043f\\u0440\\u0430\\u0432\\u0438\\u043b\\u0441\\u044f...\"}]"
+				icon: "ftbquests:book"
+				id: "6E62472AD745A44B"
+				title: "mind"
+				type: "command"
+			}]
+			tasks: [{
+				advancement: "twilightforest:progress_hydra"
+				criterion: ""
+				icon: "twilightforest:hydra_trophy"
+				id: "5F797E8CB43585F5"
+				title: "&6Убить Лорда:&r Гидра"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6C248355DABE9A13"]
+			description: ["&6&l=> &rГидра обладала кровью наполненной энергией огня, а её температура достигает уровня температуры лавы."]
+			hide: true
+			id: "5DA66515C8530B74"
+			optional: true
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u041a\\u0440\\u043e\\u0432\\u044c \\u0433\\u0438\\u0434\\u0440\\u044b! \\u041d\\u0435\\u0432\\u0435\\u0440\\u043e\\u044f\\u0442\\u043d\\u043e \\u0433\\u043e\\u0440\\u044f\\u0447\\u0430\\u044f, \\u0435\\u0451 \\u043c\\u043e\\u0436\\u043d\\u043e \\u0438\\u0441\\u043f\\u043e\\u043b\\u044c\\u0437\\u043e\\u0432\\u0430\\u0442\\u044c \\u0434\\u043b\\u044f \\u0441\\u043e\\u0437\\u0434\\u0430\\u043d\\u0438\\u044f \\u0441\\u0430\\u043c\\u044b\\u0445 \\u043d\\u0430\\u0441\\u0442\\u043e\\u044f\\u0449\\u0438\\u0445 \\u043e\\u0433\\u043d\\u0435\\u043d\\u044b\\u0445 \\u0441\\u043b\\u0438\\u0442\\u043a\\u043e\\u0432.\"}]"
+					icon: "ftbquests:book"
+					id: "6E3B9471C8E6EBD8"
+					title: "mind"
+					type: "command"
+				}
+				{
+					id: "3D43F758FB7F654F"
+					item: "artifacts:fire_gauntlet"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4491E6CCA2C559C6"
+				item: "twilightforest:fiery_blood"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5DA66515C8530B74"]
+			description: ["&6&l=> &rЕсли объединить железо с этой кровью, можно получить огненные слитки, что позволят вам создать броню и инструменты стихии огня."]
+			hide: true
+			id: "2242D415480E8057"
+			optional: true
+			rewards: [{
+				id: "59D3CCA101C6F0AA"
+				item: "farmersrespite:coffee_cake"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.1d
+			tasks: [{
+				id: "25BA60D6F18ED996"
+				item: "twilightforest:fiery_ingot"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["2242D415480E8057"]
+			description: ["&6&l=> &rИспользуя огненные слитки, создайте броню и инструменты огня. Обладающие магическими свойствами"]
+			hide: true
+			id: "00F4547B33E7054E"
+			optional: true
+			rewards: [{
+				id: "50F1A7E6C4FD6247"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			subtitle: "&6Поджигает атакующего"
+			tasks: [{
+				id: "5380A663DC3942B0"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "twilightforest:fiery_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2242D415480E8057"]
+			description: ["&6&l=> &rИспользуя огненные слитки, создайте броню и инструменты огня. Обладающие магическими свойствами"]
+			hide: true
+			id: "53915852B9422EE2"
+			optional: true
+			rewards: [{
+				id: "3C38734D2A8FE4F0"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			subtitle: "&6Поджигает атакующего"
+			tasks: [{
+				id: "5B0D7AE7C1786BDD"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "twilightforest:fiery_chestplate"
+					tag: {
+						Damage: 0
+						SimpleInsulation: [ ]
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["2242D415480E8057"]
+			description: ["&6&l=> &rИспользуя огненные слитки, создайте броню и инструменты огня. Обладающие магическими свойствами"]
+			hide: true
+			id: "6EE547AB2CA24377"
+			optional: true
+			rewards: [{
+				id: "1235B3DA02440986"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			subtitle: "&6Поджигает атакующего"
+			tasks: [{
+				id: "5D09399E342C96B2"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "twilightforest:fiery_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["2242D415480E8057"]
+			description: ["&6&l=> &rИспользуя огненные слитки, создайте броню и инструменты огня. Обладающие магическими свойствами"]
+			hide: true
+			id: "19ABDAE8C8A23466"
+			optional: true
+			rewards: [{
+				id: "2EA12AAFB5219FE6"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			subtitle: "&6Поджигает атакующего"
+			tasks: [{
+				id: "3C15857C2FCE39AC"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "twilightforest:fiery_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2242D415480E8057"]
+			description: ["&6&l=> &rИспользуя огненные слитки, создайте броню и инструменты огня. Обладающие магическими свойствами"]
+			hide: true
+			id: "538C44EB20C90EFE"
+			optional: true
+			rewards: [{
+				id: "5DBB7A7E0026B54B"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			subtitle: "&6Поджигает цель"
+			tasks: [{
+				id: "2CA5D5CF25B9C597"
+				item: {
+					Count: 1b
+					id: "twilightforest:fiery_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2242D415480E8057"]
+			description: ["&6&l=> &rИспользуя огненные слитки, создайте броню и инструменты огня. Обладающие магическими свойствами"]
+			hide: true
+			id: "17A2B441AAF85148"
+			optional: true
+			rewards: [{
+				id: "3140C3EE4412E460"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			subtitle: "&6Авто-плавка"
+			tasks: [{
+				id: "7A1BA13A30D6150D"
+				item: {
+					Count: 1b
+					id: "twilightforest:fiery_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6ECD212BB01F3B55"]
+			description: [
+				"&6&l=> &rНа вершине тёмного леса, в центре, существует башня неизвестного происхождения. Там находится один из Лордов. Его имя Ур-Гаст."
+				""
+				"&cУр-Гаст&r - Огромный летающий монстр, обладающий огромной силой и скоростью. Он умеет призывать маленьких гастов в сражении."
+			]
+			hide: true
+			id: "226675C1209D3F9A"
+			rewards: [{
+				auto: "invisible"
+				command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u0427\\u0451\\u0440\\u0442! \\u042d\\u0442\\u043e\\u0442 \\u0433\\u0430\\u0441\\u0442 \\u0431\\u044b\\u043b \\u0432 \\u043d\\u0435\\u0441\\u043a\\u043e\\u043b\\u044c\\u043a\\u043e \\u0440\\u0430\\u0437 \\u0431\\u043e\\u043b\\u044c\\u0448\\u0435 \\u0442\\u043e\\u0439 \\u0436\\u0435 \\u0413\\u0438\\u0434\\u0440\\u044b. \\u041d\\u0435 \\u0443\\u0434\\u0438\\u0432\\u0438\\u0442\\u0435\\u043b\\u044c\\u043d\\u043e \\u043f\\u043e\\u0447\\u0435\\u043c\\u0443 \\u043e\\u043d \\u0440\\u0435\\u0448\\u0438\\u043b \\u0436\\u0438\\u0442\\u044c \\u0432 \\u043d\\u0435\\u0431\\u0435\\u0441\\u0430\\u0445, \\u0430 \\u043d\\u0435 \\u043d\\u0430 \\u0437\\u0435\\u043c\\u043b\\u0435...\"}]"
+				icon: "ftbquests:book"
+				id: "281E04BE600FC9C6"
+				title: "mind"
+				type: "command"
+			}]
+			tasks: [{
+				entity: "twilightforest:ur_ghast"
+				icon: "twilightforest:ur_ghast_trophy"
+				id: "7064311C2D05F7E0"
+				title: "&6Убить Лорда:&r Ур-Гаст"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["226675C1209D3F9A"]
+			description: ["&6&l=> &rНайдя странные тортики, вы понимаете, что когда-то в этой башне жили люди. Они проводили эксперименты над тортиками...? Но зачем? Этого, вы никогда не узнаете."]
+			hide: true
+			id: "5543F760D77336F1"
+			optional: true
+			rewards: [{
+				id: "137787498AC14662"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4AD84A0040AB2484"
+				item: "twilightforest:experiment_115"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6C248355DABE9A13"]
+			description: ["&6&l=> &rУбив Гидру, вы получили невероятно мощное и вкусное мясо."]
+			hide: true
+			id: "04F0571BAABFE816"
+			optional: true
+			shape: "hexagon"
+			tasks: [{
+				id: "0F7698A770E3A452"
+				item: "twilightforest:hydra_chop"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6C248355DABE9A13"]
+			description: ["&6&l=> &rВ тёмном лесу, существует подземная крепость древнего королевства. Элитные стражи королевства были запечатаны в темнице. И спустя сотни лет они превратились в фантомов. Теперь они хотят лишь одного - Умереть."]
+			hide: true
+			id: "6ECD212BB01F3B55"
+			rewards: [{
+				auto: "invisible"
+				command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u041f\\u0440\\u0438\\u0437\\u0440\\u0430\\u043a\\u0438 \\u0431\\u044b\\u0432\\u0448\\u0438\\u0439 \\u0440\\u044b\\u0446\\u0430\\u0440\\u0435\\u0439 \\u043c\\u0435\\u0441\\u0442\\u043d\\u043e\\u0433\\u043e \\u043a\\u043e\\u0440\\u043e\\u043b\\u0435\\u0432\\u0441\\u0442\\u0432\\u0430, \\u043f\\u043e\\u0432\\u0435\\u0440\\u0438\\u0442\\u044c \\u043d\\u0435 \\u043c\\u043e\\u0433\\u0443, \\u0447\\u0442\\u043e \\u0442\\u0430\\u043a\\u043e\\u0435 \\u043c\\u043e\\u0436\\u0435\\u0442 \\u043f\\u0440\\u043e\\u0438\\u0441\\u0445\\u043e\\u0434\\u0438\\u0442\\u044c \\u0441 \\u043c\\u0435\\u0441\\u0442\\u043d\\u044b\\u043c\\u0438 \\u0434\\u0443\\u0448\\u0430\\u043c\\u0438, \\u0441\\u0443\\u0449\\u0435\\u0441\\u0442\\u0432\\u0430\\u043c\\u0438... \\u041c\\u043d\\u0435 \\u0436\\u0430\\u043b\\u044c \\u0438\\u0445...\"}]"
+				icon: "ftbquests:book"
+				id: "34C937729D3BD169"
+				title: "mind"
+				type: "command"
+			}]
+			tasks: [{
+				advancement: "twilightforest:progress_knights"
+				criterion: ""
+				icon: "twilightforest:knight_phantom_trophy"
+				id: "0D7A7E6E45E7A238"
+				title: "&6Убить Лорда:&r Отряд Рыцарей-Фантомов"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6ECD212BB01F3B55"]
+			description: ["&6&l=> &rВ крепости королевства, находятся гоблины, тролли и другие монстры. Которые носят с собой кусочки рыцарского металла. Из него можно создать мощное снаряжение."]
+			hide: true
+			id: "2A7C94768E44DA00"
+			optional: true
+			tasks: [
+				{
+					id: "4252836CFF1C4AB9"
+					item: "twilightforest:armor_shard"
+					type: "item"
+				}
+				{
+					id: "56BFE0F7EA20DF8D"
+					item: "twilightforest:armor_shard_cluster"
+					type: "item"
+				}
+			]
+			title: "Рыцарский металл"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2A7C94768E44DA00"]
+			description: ["&6&l=> &rПереплавив осколок рыцарского металла, вы получите слиток. Который можно использовать для создания снаряжения."]
+			hide: true
+			id: "38320B67645DE351"
+			optional: true
+			shape: "diamond"
+			size: 1.1d
+			tasks: [{
+				id: "316C4AD0CCF6B311"
+				item: "twilightforest:knightmetal_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["38320B67645DE351"]
+			description: ["&6&l=> &rСоздайте комплект брони и оружия из рыцарского металла."]
+			hide: true
+			id: "6B2B5078EBFA806B"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "3C903D7C0AE9A8FE"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "twilightforest:knightmetal_helmet"
+					tag: {
+						Damage: 0
+						SimpleInsulation: [ ]
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["38320B67645DE351"]
+			description: ["&6&l=> &rСоздайте комплект брони и оружия из рыцарского металла."]
+			hide: true
+			id: "2078EB76D829E0AB"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "41DFF32A45C826AE"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "twilightforest:knightmetal_chestplate"
+					tag: {
+						Damage: 0
+						SimpleInsulation: [ ]
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["38320B67645DE351"]
+			description: ["&6&l=> &rСоздайте комплект брони и оружия из рыцарского металла."]
+			hide: true
+			id: "128F63D7FF97635A"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "3C2F9ADCA77199F8"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "twilightforest:knightmetal_leggings"
+					tag: {
+						Damage: 0
+						SimpleInsulation: [ ]
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["38320B67645DE351"]
+			description: ["&6&l=> &rСоздайте комплект брони и оружия из рыцарского металла."]
+			hide: true
+			id: "1DDC3D44E5F69504"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "3BED30C97FC0B5C6"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "twilightforest:knightmetal_boots"
+					tag: {
+						Damage: 0
+						SimpleInsulation: [ ]
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["38320B67645DE351"]
+			description: ["&6&l=> &rСоздайте комплект брони и оружия из рыцарского металла."]
+			hide: true
+			id: "078CD1E42CDE69D3"
+			optional: true
+			shape: "diamond"
+			tasks: [
+				{
+					id: "06157E7C20D77A05"
+					item: {
+						Count: 1b
+						id: "twilightforest:knightmetal_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "54D5056138D041A9"
+					item: {
+						Count: 1b
+						id: "twilightforest:block_and_chain"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2D229CC07A059200"
+					item: {
+						Count: 1b
+						id: "twilightforest:knightmetal_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Боевое снаряжение"
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["226675C1209D3F9A"]
+			description: ["&6&l=> &rВ снежном легионе, существуют огромные холмы. Внутри которых находится логово Йети. Где главным является один из лордов, по имени Альфа-Йети."]
+			id: "4752C473CA8ED916"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u0410\\u043b\\u044c\\u0444\\u0430-\\u0439\\u0435\\u0442\\u0438 \\u043f\\u043e\\u0432\\u0435\\u0440\\u0436\\u0435\\u043d, \\u043e\\u0441\\u0442\\u0430\\u043b\\u0441\\u044f \\u043b\\u0438\\u0448\\u044c \\u043f\\u043e\\u0441\\u043b\\u0435\\u0434\\u043d\\u0438\\u0439 \\u043b\\u043e\\u0440\\u0434 \\u0441\\u0443\\u043c\\u0435\\u0440\\u0435\\u0447\\u043d\\u043e\\u0433\\u043e \\u043b\\u0435\\u0441\\u0430, \\u0438\\u043c\\u044f \\u0435\\u0439 - \\u0421\\u043d\\u0435\\u0436\\u043d\\u0430\\u044f \\u041a\\u043e\\u0440\\u043e\\u043b\\u0435\\u0432\\u0430.\"}]"
+					icon: "ftbquests:book"
+					id: "25D13D03CC19D323"
+					title: "mind"
+					type: "command"
+				}
+				{
+					id: "38D817B29A40D45B"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:cone_of_cold"
+									index: 0
+									level: 10
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:alpha_yeti"
+				icon: "twilightforest:alpha_yeti_trophy"
+				id: "582AC6E509F0D183"
+				title: "&6Убить Лорда:&r Альфа-Йети"
+				type: "kill"
+				value: 1L
+			}]
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4752C473CA8ED916"]
+			description: ["&6&l=> &rУбивая обычных Йети, вы будете получать арктический мех. Который можно использовать для создания шубы. Которую можно покрасить."]
+			hide: true
+			id: "25AB641180184599"
+			optional: true
+			tasks: [{
+				id: "5173DE2004F3FE98"
+				item: "twilightforest:arctic_fur"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["25AB641180184599"]
+			description: ["&6&l=> &rСоздайте шубу из арктического меха."]
+			hide: true
+			id: "3114D1F8FC96AA2C"
+			optional: true
+			rewards: [{
+				id: "7A93946DC4921ECA"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "0E67B70655A70F6C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "twilightforest:arctic_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["25AB641180184599"]
+			description: ["&6&l=> &rСоздайте шубу из арктического меха."]
+			hide: true
+			id: "2A8FD23F6330C663"
+			optional: true
+			rewards: [{
+				id: "522DDEB0FDFD4AD4"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "1683487FB162EB94"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "twilightforest:arctic_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["25AB641180184599"]
+			description: ["&6&l=> &rСоздайте шубу из арктического меха."]
+			hide: true
+			id: "74B07FDEF88058DB"
+			optional: true
+			rewards: [{
+				id: "6ACACBA6382EC3A4"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "61338C523AA4937C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "twilightforest:arctic_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["25AB641180184599"]
+			description: ["&6&l=> &rСоздайте шубу из арктического меха."]
+			hide: true
+			id: "7BC7001B17FDB30C"
+			optional: true
+			rewards: [{
+				id: "1B2B93CABB13E1ED"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "15DE85D5848A2236"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "twilightforest:arctic_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4752C473CA8ED916"]
+			description: ["&6&l=> &rУбив Альфа-Йети, вы получите его мех. Из которого можно создать сильную броню."]
+			hide: true
+			id: "76DE33277A321858"
+			optional: true
+			rewards: [{
+				id: "400565FCF2A0C6D4"
+				item: "cold_sweat:icebox"
+				type: "item"
+			}]
+			tasks: [{
+				id: "16CEF0AD7318EEF8"
+				item: "twilightforest:alpha_yeti_fur"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["76DE33277A321858"]
+			description: ["&6&l=> &rСоздайте комплект брони Йети."]
+			hide: true
+			id: "41AF664375E88893"
+			optional: true
+			rewards: [{
+				count: 5
+				id: "554528C9E37E4D91"
+				item: "farmersdelight:apple_pie"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.1d
+			tasks: [
+				{
+					id: "4680B5CB8DD4E9E4"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "twilightforest:yeti_helmet"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:protection"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2C56930A9A422EC5"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "twilightforest:yeti_chestplate"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:protection"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "26B675A8A05620A1"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "twilightforest:yeti_leggings"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:protection"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "67C53FF35B2387D2"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "twilightforest:yeti_boots"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "minecraft:protection"
+									lvl: 2s
+								}
+								{
+									id: "minecraft:feather_falling"
+									lvl: 4s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Броня Йети"
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4752C473CA8ED916"]
+			description: [
+				"&6&l=> &rВ центре снежного легиона находится огромная гора. Состоящая из-за льда. А в её центре, на вершине находится замок Авроры. Который принадлежит снежной королеве."
+				""
+				"&bСнежная Королева&r - Повелительница льда и холода сумеречного леса. Она считается одним из сильнейших лордов сумеречного леса."
+			]
+			hide: true
+			id: "047D06C32B1284A8"
+			rewards: [{
+				auto: "invisible"
+				command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u0418\\u0441\\u0442\\u043e\\u0440\\u0438\\u044f \\u0442\\u0432\\u043e\\u0435\\u0433\\u043e \\u043f\\u0440\\u0430\\u0432\\u043b\\u0435\\u043d\\u0438\\u044f \\u043a\\u043e\\u043d\\u0447\\u0435\\u043d\\u0430...\"}]"
+				icon: "ftbquests:book"
+				id: "43F7E9EC2B09F4DD"
+				title: "mind"
+				type: "command"
+			}]
+			tasks: [{
+				advancement: "twilightforest:progress_glacier"
+				criterion: ""
+				icon: "twilightforest:snow_queen_trophy"
+				id: "04C3569BCD931789"
+				title: "&6Убить Лорда&r: Снежная Королева"
+				type: "advancement"
+			}]
+			x: 10.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["047D06C32B1284A8"]
+			description: ["&6&l=> &rНайдите и получите один из мощных луков, который принадлежит стражникам замка Авроры."]
+			hide: true
+			id: "677B5859928B3FDA"
+			optional: true
+			rewards: [{
+				id: "66531C451B20AF9D"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7EAC81E2F9487894"
+				item: {
+					Count: 1b
+					id: "twilightforest:triple_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["047D06C32B1284A8"]
+			description: ["&6&l=> &rНайдите и получите один из мощных луков, который принадлежит стражникам замка Авроры."]
+			hide: true
+			id: "6ED9A7B4FCAAA04F"
+			optional: true
+			rewards: [{
+				id: "3E137F3ED35B8328"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "08A614C44D3C9830"
+				item: {
+					Count: 1b
+					id: "twilightforest:seeker_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["047D06C32B1284A8"]
+			description: ["&6&l=> &rНайдите и получите один из мощных луков, который принадлежит стражникам замка Авроры."]
+			hide: true
+			id: "388B7981E7114CA5"
+			optional: true
+			rewards: [{
+				id: "3252A25F3E494CFD"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2FA867C1E458F285"
+				item: {
+					Count: 1b
+					id: "twilightforest:ice_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["047D06C32B1284A8"]
+			description: ["&6&l=> &rНайдите и получите один из мощных луков, который принадлежит стражникам замка Авроры."]
+			hide: true
+			id: "3298ADAC7F57D3D0"
+			optional: true
+			rewards: [{
+				id: "3C055380999D9877"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3F4B94DC6CFA3CF7"
+				item: {
+					Count: 1b
+					id: "twilightforest:ender_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["047D06C32B1284A8"]
+			description: ["&6&l=> &rВ подземельях высокогорья, можно найти пещеру троллей в центре которой стоит огромный обсидиан. Внутри него вам нужно найти волшебные бобы и огненную лампу. Чтобы пробраться в финальный замок."]
+			hide: true
+			id: "148239CEF5C4592C"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u0410 \\u0432\\u043e\\u0442 \\u0438 \\u0432\\u0435\\u043b\\u0438\\u043a\\u0430\\u044f \\u043f\\u0435\\u0449\\u0435\\u0440\\u0430 \\u0442\\u0440\\u043e\\u043b\\u043b\\u0435\\u0439...\"}]"
+					icon: "ftbquests:book"
+					id: "788542EDE19B3203"
+					title: "mind"
+					type: "command"
+				}
+				{
+					id: "40B3EFEE0796B327"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "iceandfire:forest_troll_leather_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "677C212F4EE6FC70"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "iceandfire:forest_troll_leather_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7B8DE8946173C667"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "iceandfire:forest_troll_leather_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "645F6F2221604C96"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "iceandfire:forest_troll_leather_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "twilightforest:unripe_trollber"
+				id: "61EBAC43D3F582C0"
+				structure: "twilightforest:troll_cave"
+				title: "&6Найдите&r: Пещеру Троллей"
+				type: "structure"
+			}]
+			x: 12.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["148239CEF5C4592C"]
+			description: ["&6&l=> &rНа высокогорье найдите огромное облако, под ним расположите волшебные бобы и вырастите их, чтобы отправиться к облаку, где вы встретите огромных монстров&6:)&r"]
+			hide: true
+			id: "50F18F9ECB778A04"
+			tasks: [{
+				id: "429D1C210AAD209A"
+				item: "twilightforest:magic_beans"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["148239CEF5C4592C"]
+			description: ["&6&l=> &rИспользуя лампу огня, вы можете уничтожать острые шипы, что охраняют проход в финальный замок."]
+			hide: true
+			id: "58CB40ED54D708A1"
+			tasks: [{
+				id: "7FE77C758727AB0B"
+				item: {
+					Count: 1b
+					id: "twilightforest:lamp_of_cinders"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["50F18F9ECB778A04"]
+			description: ["&6&l=> &rУбив своих огромных копий, вы получите огромную кирку и меч из камня."]
+			hide: true
+			id: "43AB82987A1FF7CE"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "01EEECCCCF279A5F"
+				item: {
+					Count: 1b
+					id: "twilightforest:giant_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["50F18F9ECB778A04"]
+			description: ["&6&l=> &rУбив своих огромных копий, вы получите огромную кирку и меч из камня."]
+			hide: true
+			id: "4D28BC2D26ECEF26"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "66BF1454967C1A51"
+				item: {
+					Count: 1b
+					id: "twilightforest:giant_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"50F18F9ECB778A04"
+				"58CB40ED54D708A1"
+			]
+			description: ["&6&l=> &rВас ждёт исследование огромного замка..."]
+			hide: true
+			id: "3E57DE4CD61D67FA"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u041d\\u0435\\u0432\\u0435\\u0440\\u043e\\u044f\\u0442\\u043d\\u043e \\u043a\\u0440\\u0430\\u0441\\u0438\\u0432\\u043e, \\u0432\\u043e\\u0437\\u043c\\u043e\\u0436\\u043d\\u043e \\u0432 \\u044d\\u0442\\u043e\\u043c \\u0437\\u0430\\u043c\\u043a\\u0435 \\u043a\\u0442\\u043e-\\u0442\\u043e \\u0438 \\u0436\\u0438\\u0432\\u0451\\u0442, \\u043d\\u043e \\u0433\\u043e\\u043b\\u043e\\u0441 \\u0441\\u043a\\u0430\\u0437\\u0430\\u043b \\u043c\\u043d\\u0435, \\u0447\\u0442\\u043e \\u0442\\u0443\\u0442 \\u043b\\u0438\\u0448\\u044c \\u0432\\u043e\\u0441\\u0435\\u043c\\u044c \\u043b\\u043e\\u0440\\u0434\\u043e\\u0432. \\u0422\\u0430\\u043a-\\u0447\\u0442\\u043e \\u0441\\u043e\\u043c\\u043d\\u0435\\u0432\\u0430\\u044e\\u0441\\u044c, \\u0447\\u0442\\u043e \\u0437\\u0434\\u0435\\u0441\\u044c \\u043a\\u0442\\u043e-\\u0442\\u043e \\u0435\\u0441\\u0442\\u044c.\"}]"
+					icon: "ftbquests:book"
+					id: "422CB38FD3B35797"
+					title: "mind"
+					type: "command"
+				}
+				{
+					id: "44C9484EC38702DB"
+					item: "stalwart_dungeons:void_crystal"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "twilightforest:progress_castle"
+				criterion: ""
+				id: "11B4725EADBEE2D1"
+				title: "&6Посетите: &rФинальный Замок"
+				type: "advancement"
+			}]
+			x: 15.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3E57DE4CD61D67FA"]
+			description: ["&6&l=> &rЗабравшись на вершину замка, вы ожидали увидеть могучего противника, но увидели лишь силовое поле. Внутрь которого невозможно пройти. Возможно когда-нибудь оно исчезнет..."]
+			hide: true
+			id: "2E929B20ACA46D1A"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u0427\\u0442\\u043e \\u044d\\u0442\\u043e? \\u0412\\u044b\\u0433\\u043b\\u044f\\u0434\\u0438\\u0442 \\u043a\\u0430\\u043a \\u043a\\u0430\\u043a\\u043e\\u0439-\\u0442\\u043e \\u0442\\u043e\\u043f\\u043e\\u0440, \\u043d\\u043e \\u043a\\u0430\\u043a \\u043e\\u043d \\u0442\\u0443\\u0442 \\u043e\\u043a\\u0430\\u0437\\u0430\\u043b\\u0441\\u044f? \\u0421\\u0442\\u043e\\u043f... \\u042d\\u0442\\u043e \\u0436\\u0435 \\u043e\\u0434\\u0438\\u043d \\u0438\\u0437 \\u0448\\u0435\\u0441\\u0442\\u0438 \\u0430\\u0440\\u0442\\u0435\\u0444\\u0430\\u043a\\u0442\\u043e\\u0432! \\u041f\\u0440\\u0435\\u0432\\u043e\\u0441\\u0445\\u043e\\u0434\\u043d\\u043e, \\u0437\\u043d\\u0430\\u0447\\u0438\\u0442 \\u043c\\u043e\\u044f \\u0446\\u0435\\u043b\\u044c \\u0432 \\u044d\\u0442\\u043e\\u043c \\u043c\\u0438\\u0440\\u0435 \\u0432\\u044b\\u043f\\u043e\\u043b\\u043d\\u0435\\u043d\\u0430.\"}]"
+					icon: "ftbquests:book"
+					id: "61D15589CFEC6CC4"
+					title: "mind"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					id: "000688D9F3A4D733"
+					item: {
+						Count: 1b
+						id: "celestisynth:poltergeist"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.1d
+			tasks: [{
+				icon: "twilightforest:violet_force_field"
+				id: "2B5F4CA745055AF9"
+				observe_type: 0
+				timer: 20L
+				title: "&6Изучение&r: Силовое Поле"
+				to_observe: "twilightforest:violet_force_field"
+				type: "observation"
+			}]
+			x: 15.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4F67D9DC5154CA12"]
+			description: ["&6&l=> &rВы прошли через огромное количество испытаний и избавили этот мир от Лордов. Теперь этому ничего не угрожает, а со временем все чары этого леса исчезнут и здесь вновь будет разумная жизнь в виде друидов..."]
+			hide: true
+			id: "300598C9606F2304"
+			rewards: [{
+				id: "620A107C494BCFDC"
+				item: "twilightforest:twilight_portal_miniature_structure"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				id: "7FEB74E413091155"
+				title: "&6Конец VIII главы&r: Сумеречный Лес"
+				type: "checkmark"
+			}]
+			x: 15.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["2E929B20ACA46D1A"]
+			description: ["&a&l=> &rБог Природы был одним из сильнейших Богов скопления миров, но по какой-то причине он стал постепенно умирать, тогда-то он и решил отдать свой артефакт Королю Сумеречного Леса, которых хранил его в своём замке, с давних времён. Но сейчас он куда-то делся. Интересно куда...?"]
+			hide: true
+			id: "4F67D9DC5154CA12"
+			shape: "diamond"
+			size: 1.1d
+			subtitle: "&aТопор Бога Природы"
+			tasks: [{
+				id: "620EDE32DBB9F131"
+				item: {
+					Count: 1b
+					id: "celestisynth:poltergeist"
+					tag: {
+						Damage: 0
+					}
+				}
+				title: "Божественный артефакт"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 7.5d
+		}
+	]
+	subtitle: ["Древний, загадочный лес, которым правят 9 Лордов"]
+	title: "&6VIII&r: Сумеречный Лес ✦"
+}

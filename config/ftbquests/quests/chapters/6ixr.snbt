@@ -1,0 +1,2136 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6ixr"
+	group: "5C6A3997459D91D9"
+	icon: "blue_skies:multi_portal_item"
+	id: "70354B45CDEB20FA"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 150.0d
+			hover: [ ]
+			image: "skilltree:textures/screen/skill_tree_background.png"
+			rotation: 0.0d
+			width: 150.0d
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 15.0d
+			hover: [ ]
+			image: "celestisynth:textures/entity/solaris_spin_soul.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 15.0d
+			hover: [ ]
+			image: "celestisynth:textures/entity/solaris_spin.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 11.5d
+			y: -0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.0d
+			hover: [ ]
+			image: "kubejs:textures/item/everbright.png"
+			rotation: 0.0d
+			width: 20.0d
+			x: 7.5d
+			y: -8.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "kubejs:textures/item/everdawn.png"
+			rotation: 0.0d
+			width: 20.0d
+			x: 7.0d
+			y: 8.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "0332F88591E94451"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "valhelsia_structures:block/soul_brazier_fire"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "4A1C44B52EC7EB64"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "blue_skies:block/plants/brewberry_bush_mature_red"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -2.2397959183673493d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "75FDF68BDBFD3185"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "irons_spellbooks:item/affinity_ring_fire"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.571428571428598d
+			y: 1.1500000000000057d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "385CB7C0725A7490"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "relics:item/magma_walker_fire"
+			rotation: 90.0d
+			width: 1.0d
+			x: 5.5d
+			y: -4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "385CB7C0725A7490"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "relics:item/magma_walker_fire"
+			rotation: -90.0d
+			width: 1.0d
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "6B23734F81A83C33"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "irons_spellbooks:textures/mob_effect/spider_aspect.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0204081632653015d
+			y: 1.2663265306122327d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "6E3ABADF120C8567"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "blue_skies:block/misc/moonstone_crystal"
+			rotation: -90.0d
+			width: 1.0d
+			x: 7.0d
+			y: -4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "6E3ABADF120C8567"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "blue_skies:block/misc/moonstone_crystal"
+			rotation: 90.0d
+			width: 1.0d
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "563F782D445597CA"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "irons_spellbooks:item/wandering_magician_helmet"
+			rotation: -45.0d
+			width: 1.0d
+			x: 7.120748299319729d
+			y: -5.9608843537415055d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "438542240C5DC82C"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "iceandfire:item/stone_statue"
+			rotation: 30.0d
+			width: 1.0d
+			x: 7.897959183673464d
+			y: -1.4795918367346914d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "301B72308569BAF4"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "blue_skies:block/plants/brewberry_bush_mature_black"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.5d
+			y: -3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "4AC65B715600D9A7"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "blue_skies:item/misc/loot_bag_starlit_crusher"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.0d
+			y: -4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "4AC65B715600D9A7"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "endrem:items/magical_eye"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.0d
+			y: -4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "4AC65B715600D9A7"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "undergarden:item/forgotten_ingot"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.0d
+			y: -4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "0555B9E281C52836"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "relics:item/magma_walker_fire"
+			rotation: 180.0d
+			width: 1.0d
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "0555B9E281C52836"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "relics:item/magma_walker_fire"
+			rotation: 180.0d
+			width: 1.0d
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "29EC5485FD5CC4C6"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "relics:item/magma_walker_fire"
+			rotation: 180.0d
+			width: 1.0d
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1B7CBF05A29BA60B"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "malum:textures/mob_effect/earthen_might.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.056122448979593d
+			y: -1.091836734693878d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "4AC65B715600D9A7"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "twilightforest:items/borer_essence_particles"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.5d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "0987F46862841353"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "blue_skies:item/materials/diopside_gem"
+			rotation: 35.0d
+			width: 1.0d
+			x: 14.828571428571422d
+			y: -1.8908163265306115d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "0987F46862841353"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "blue_skies:item/materials/diopside_gem"
+			rotation: 35.0d
+			width: 1.0d
+			x: 14.897959183673478d
+			y: -0.6938775510204138d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "0987F46862841353"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "blue_skies:item/materials/diopside_gem"
+			rotation: 35.0d
+			width: 1.0d
+			x: 14.969387755102034d
+			y: 0.25510204081632537d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "0987F46862841353"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "irons_spellbooks:item/upgrade_orb_lightning"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.0d
+			y: 1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "0987F46862841353"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "irons_spellbooks:item/upgrade_orb_lightning"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.5d
+			y: 1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "0987F46862841353"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "irons_spellbooks:item/upgrade_orb_lightning"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.0d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "0987F46862841353"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "irons_spellbooks:item/upgrade_orb_lightning"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.5d
+			y: 1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "7692246287CE004D"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "relics:item/magma_walker_fire"
+			rotation: 180.0d
+			width: 1.0d
+			x: 11.0d
+			y: 3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "7692246287CE004D"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "relics:item/magma_walker_fire"
+			rotation: 180.0d
+			width: 1.0d
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "7692246287CE004D"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "relics:item/magma_walker_fire"
+			rotation: 180.0d
+			width: 1.0d
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "73B8C6648B2AE032"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "blue_skies:item/food/cherry"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.468367346938777d
+			y: 3.0387755102040757d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2A944768D7FDDBAD"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "valhelsia_structures:block/brazier_fire"
+			rotation: 90.0d
+			width: 1.0d
+			x: 16.5d
+			y: 1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2A944768D7FDDBAD"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "valhelsia_structures:block/brazier_fire"
+			rotation: 90.0d
+			width: 1.0d
+			x: 16.5d
+			y: 2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2A944768D7FDDBAD"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "valhelsia_structures:block/brazier_fire"
+			rotation: 90.0d
+			width: 1.0d
+			x: 16.5d
+			y: 3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "6B23734F81A83C33"
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "celestisynth:textures/entity/solaris_air.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "34A62B79530C54DC"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "blue_skies:item/misc/portal_mix"
+			rotation: 30.0d
+			width: 1.0d
+			x: 7.591836734693871d
+			y: 3.540816326530617d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2FCAAE2D19281F04"]
+			description: ["&6&l=> &rВ нашем скоплении миров, существует два мира, которые находятся очень близко друг к другу. Из-за чего они тесно связаны. Один путешественник изучал эти миры, его имя Привратник."]
+			hide: true
+			id: "75FDF68BDBFD3185"
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				id: "08228A0E7BDD0E58"
+				title: "&6Глава IX&r: Эвербрайт и Эвердон"
+				type: "checkmark"
+			}]
+			x: 3.000000000000014d
+			y: 2.9285714285714164d
+		}
+		{
+			dependencies: ["75FDF68BDBFD3185"]
+			description: ["&bПривратник&r - Бывший воин и странник по мирам. Он носит чёрные одеяния с жёлтыми полосами, а на его глазу находится шрам, полученный от одного могущественного существа из Эвердона."]
+			hide: true
+			id: "29EC5485FD5CC4C6"
+			tasks: [{
+				icon: "blue_skies:soul_fragment"
+				id: "6026C5B0EF2B7367"
+				observe_type: 5
+				timer: 0L
+				title: "&bНайдите&r: Привратника"
+				to_observe: "blue_skies:gatekeeper"
+				type: "observation"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["29EC5485FD5CC4C6"]
+			description: [
+				"&6&l=> &rВо время изучения Эвердона и Эвербрайта, Привратник записывал всю информацию в свой дневник. В нём можно узнать много полезной информации об этих двух мирах."
+				""
+				"&6&l=> &rПорталы в эти два мира состоят из разных кирпичей. Портал в эвербрайт строится из бирюзовых кирпичей, а портал в эвердон из кирпичей лунного камня. А активация проходит с помощью зажигалки усердия."
+			]
+			hide: true
+			id: "0332F88591E94451"
+			rewards: [{
+				id: "09364E02B36CC498"
+				item: "mysticsbiomes:cyan_frosted_cake"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "24BDED27CDD624FA"
+					item: "blue_skies:blue_journal"
+					type: "item"
+				}
+				{
+					id: "3B3CBF88A2D201F3"
+					item: {
+						Count: 1b
+						id: "blue_skies:zeal_lighter"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0332F88591E94451"]
+			description: ["&bЭвербрайт&r - Светлый мир, в котором всегда день. Здесь нет такого понятия как ночь. Жители этого мира, ложатся спать когда угодно. А температура данного мира является холодной, ведь даже снег здесь никогда не тает."]
+			icon: "blue_skies:everbright_portal"
+			id: "4A1C44B52EC7EB64"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u041e\\u0445, \\u043a\\u0430\\u043a\\u043e\\u0435 \\u0437\\u0434\\u0435\\u0441\\u044c \\u0432\\u0441\\u0451 \\u044f\\u0440\\u043a\\u043e\\u0435 \\u0438 \\u043a\\u0440\\u0430\\u0441\\u0438\\u0432\\u043e\\u0435!\"}]"
+					icon: "ftbquests:book"
+					id: "3221C6DCF26735D1"
+					title: "mind"
+					type: "command"
+				}
+				{
+					id: "7472040064482AA0"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [{
+				dimension: "blue_skies:everbright"
+				icon: "blue_skies:everbright_portal"
+				id: "1117C26258F5C0D5"
+				title: "&bПосетить Мир&r: Эвербрайт"
+				type: "dimension"
+			}]
+			title: "&bПосетить Мир&r: Эвербрайт"
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7EDB91362281A156"]
+			description: ["&cЭвердон&r - Тёмный мир, с жарким климатом. Здесь вечный закат, а жители этого миры не знают про существование дня и ночи. Этот мир полная противоположность Эвербрайта."]
+			hide: true
+			icon: "blue_skies:everdawn_portal"
+			id: "73B8C6648B2AE032"
+			rewards: [{
+				id: "7096F33BF5FB67DB"
+				item: "irons_spellbooks:fireward_ring"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				dimension: "blue_skies:everdawn"
+				icon: "blue_skies:everdawn_portal"
+				id: "0BB9124AC9D0D7E1"
+				title: "&cПосетить Мир&r: Эвердон"
+				type: "dimension"
+			}]
+			title: "&cПосетить Мир&r: Эвердон"
+			x: 13.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4A1C44B52EC7EB64"]
+			description: ["&b&l=> &rВаши инструменты не будут работать в этом мире так же хорошо, как и в других мирах. Здесь вам понадобиться начать своё развитие с нуля..."]
+			hide: true
+			icon: "blue_skies:bluebright_sapling"
+			id: "44F00E9ADB4968A2"
+			rewards: [{
+				auto: "invisible"
+				command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u0422\\u0430\\u043a, \\u0434\\u0435\\u0440\\u0435\\u0432\\u043e \\u0434\\u043e\\u0431\\u044b\\u0442\\u043e \\u0442\\u0435\\u043f\\u0435\\u0440\\u044c, \\u043d\\u0443\\u0436\\u043d\\u043e \\u0441\\u043e\\u0437\\u0434\\u0430\\u0442\\u044c \\u0432\\u0435\\u0440\\u0441\\u0442\\u0430\\u043a. \\u0412\\u044b\\u043b\\u0435\\u0442\\u043e\\u0435 \\u043f\\u043e\\u0432\\u0442\\u043e\\u0440\\u0435\\u043d\\u0438\\u0435 \\u043d\\u0447\\u0430\\u043b\\u0430 \\u043c\\u043e\\u0438\\u0445 \\u043f\\u0440\\u0438\\u043a\\u043b\\u044e\\u0447\\u0435\\u043d\\u0438\\u0439, \\u043d\\u043e \\u0432 \\u0434\\u0440\\u0443\\u0433\\u043e\\u043c \\u043c\\u0438\\u0440\\u0435.\"}]"
+				icon: "ftbquests:book"
+				id: "04215E8A4EB06DBD"
+				title: "mind"
+				type: "command"
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "42332D5BA78F8E9A"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "blue_skies:logs/bluebright"
+						}
+					}
+					title: "Рубка Дерева"
+					type: "item"
+				}
+				{
+					id: "15D35822DF45D13D"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "blue_skies:crafting_tables"
+						}
+					}
+					title: "Местный верстак"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["44F00E9ADB4968A2"]
+			description: ["&b&l=> &rИспользуя верстак, создайте кирку из местной древесины, чтобы отправится за камнем. И создать более совершенные инструменты из местного камня."]
+			hide: true
+			id: "4CF582BA5351722B"
+			rewards: [{
+				auto: "invisible"
+				command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u041a\\u0438\\u0440\\u043a\\u0430 \\u0438\\u0437 \\u043c\\u0435\\u0441\\u0442\\u043d\\u043e\\u0439 \\u0434\\u0440\\u0435\\u0432\\u0435\\u0441\\u0438\\u043d\\u044b \\u0442\\u0430\\u043a\\u0436\\u0435 \\u0433\\u043e\\u0442\\u043e\\u0432\\u0430.\"}]"
+				icon: "ftbquests:book"
+				id: "057FEC79B2C9EBFE"
+				title: "mind"
+				type: "command"
+			}]
+			tasks: [{
+				id: "44B10FA3641D2615"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "blue_skies:tools/wooden_pickaxes"
+					}
+				}
+				title: "Местная деревянная кирка"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"4A1C44B52EC7EB64"
+				"44F00E9ADB4968A2"
+				"4CF582BA5351722B"
+			]
+			description: ["&b&l=> &rИспользуя деревянную кирку, добудьте немного бирюзового булыжника. Для создания каменных инструментов."]
+			hide: true
+			id: "438542240C5DC82C"
+			shape: "diamond"
+			tasks: [{
+				id: "6AB24FC77FD76C31"
+				item: "blue_skies:turquoise_cobblestone"
+				type: "item"
+			}]
+			title: "Каменный Век II"
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["438542240C5DC82C"]
+			description: ["&b&l=> &rСоздайте ваше первое оружие в этом мире."]
+			hide: true
+			id: "385CB7C0725A7490"
+			shape: "diamond"
+			tasks: [{
+				id: "3F8EB9B3A1E0E498"
+				item: {
+					Count: 1b
+					id: "blue_skies:turquoise_stone_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["438542240C5DC82C"]
+			description: ["&b&l=> &rСоздайте каменную кирку, чтобы отправиться на поиски новых руд."]
+			hide: true
+			id: "6E3ABADF120C8567"
+			shape: "diamond"
+			tasks: [{
+				id: "419519B871D13781"
+				item: {
+					Count: 1b
+					id: "blue_skies:turquoise_stone_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4A1C44B52EC7EB64"]
+			description: ["&b&l=> &rВ этом мире растут пивные ягоды. Очень вкусные! Встречаются довольно часто."]
+			hide: true
+			id: "369D273692BD5FF0"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u041e\\u0442 \\u044d\\u0442\\u043e\\u0439 \\u044f\\u0433\\u043e\\u0434\\u044b \\u043f\\u0430\\u0445\\u043d\\u0435\\u0442, \\u0441\\u043b\\u043e\\u0432\\u043d\\u043e \\u043e\\u0442 \\u0430\\u043b\\u043a\\u043e\\u0433\\u043e\\u043b\\u044f \\u0438 \\u0432\\u0438\\u043d\\u043e\\u0433\\u0440\\u0430\\u0434\\u0430!\"}]"
+					icon: "ftbquests:book"
+					id: "12045E4AF3F01B32"
+					title: "mind"
+					type: "command"
+				}
+				{
+					id: "3EEEE5436E3D7F33"
+					item: {
+						Count: 1b
+						id: "vinery:aegis_wine"
+						tag: {
+							Year: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "1E55447247EA0142"
+				item: "blue_skies:brewberry"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["385CB7C0725A7490"]
+			description: ["&bАзульфо&r - Огромные, синие быки. Живущие в стае. Их мясо очень сытное и вкусное. Лучшее оружие для охоты на них - Копья."]
+			hide: true
+			id: "23F2B34BF4107CC5"
+			rewards: [{
+				id: "74D39591BA797AAF"
+				item: "farmersdelight:barbecue_stick"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "blue_skies:azulfo"
+				icon: "blue_skies:bluebright_stick"
+				id: "4FD6105564799EC0"
+				title: "&bУбить Животное&r: Азульфо"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["385CB7C0725A7490"]
+			description: ["&bСеверный Олень&r - Олень, живущий в ярких местах. Его можно приручить с помощью сосновых плодов. На них можно кататься с помощью седла."]
+			hide: true
+			id: "24458E1102146DE6"
+			rewards: [{
+				id: "64EA92C017649F4B"
+				item: "nethersdelight:warped_moldy_meat"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "blue_skies:reindeer"
+				icon: "blue_skies:starlit_stick"
+				id: "6CEEB6E484052975"
+				title: "&bУбить Животное&r: Северный Олень"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6E3ABADF120C8567"]
+			description: ["&bАквит&r - Магическая руда, находящаяся в Эвербрайте и Эвердоне."]
+			hide: true
+			id: "301B72308569BAF4"
+			rewards: [{
+				auto: "invisible"
+				command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u041a\\u0430\\u0436\\u0435\\u0442\\u0441\\u044f \\u044d\\u0442\\u043e \\u0430\\u043a\\u0432\\u0438\\u0442\\u043e\\u0432\\u0430\\u044f \\u0440\\u0443\\u0434\\u0430! \\u041e\\u043d\\u0430 \\u043f\\u0440\\u0435\\u0432\\u043e\\u0441\\u0445\\u043e\\u0434\\u0438\\u0442 \\u043f\\u0438\\u0440\\u043e\\u043f\\u043e\\u0432\\u044b\\u0435 \\u0441\\u0430\\u043c\\u043e\\u0446\\u0432\\u0435\\u0442\\u044b, \\u043d\\u043e \\u0432\\u0441\\u0451-\\u0436\\u0435 \\u043e\\u043d\\u0430 \\u0445\\u0443\\u0436\\u0435 \\u0447\\u0435\\u043c \\u0431\\u043e\\u043b\\u044c\\u0448\\u0438\\u043d\\u0441\\u0442\\u0432\\u043e \\u0434\\u0440\\u0443\\u0433\\u0438\\u0445 \\u043c\\u0435\\u0442\\u0430\\u043b\\u043b\\u043e\\u0432 \\u0438 \\u043a\\u0440\\u0438\\u0441\\u0442\\u0430\\u043b\\u043b\\u043e\\u0432 \\u044d\\u0442\\u043e\\u0433\\u043e \\u043c\\u0438\\u0440\\u0430.\"}]"
+				icon: "ftbquests:book"
+				id: "0C3ED09E2516D1C6"
+				title: "mind"
+				type: "command"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "03B273A21DFA0151"
+					item: "blue_skies:raw_aquite"
+					type: "item"
+				}
+				{
+					id: "1CD8EDE4C92782D6"
+					item: "blue_skies:aquite"
+					type: "item"
+				}
+			]
+			title: "Аквит"
+			x: 9.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6E3ABADF120C8567"]
+			description: ["&cПироп&r - Самоцвет, который можно найти в пещерах Эвербрайта и Эвердона. Используется для создания брони и инструментов."]
+			hide: true
+			id: "0555B9E281C52836"
+			rewards: [{
+				auto: "invisible"
+				command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u0422\\u0430\\u043a, \\u044d\\u0442\\u043e \\u043f\\u0438\\u0440\\u043e\\u043f\\u043e\\u0432\\u044b\\u0439 \\u0441\\u0430\\u043c\\u043e\\u0446\\u0432\\u0435\\u0442. \\u0421\\u0430\\u043c\\u044b\\u0439 \\u0441\\u043b\\u0430\\u0431\\u044b\\u0439 \\u043c\\u0435\\u0442\\u0430\\u043b\\u043b \\u0432 \\u042d\\u0432\\u0435\\u0440\\u0431\\u0440\\u0430\\u0439\\u0442\\u0435.\"}]"
+				icon: "ftbquests:book"
+				id: "03BA373E253A62D3"
+				title: "mind"
+				type: "command"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "07320FDFCD61A00B"
+				item: "blue_skies:pyrope_gem"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6E3ABADF120C8567"]
+			description: ["&b&l=> &rВ пещерах Эвербрайта существуют лунные камни. Они появились благодаря луне. Из-за сильного магнитного поля Эвербрайта, осколки луны стали падать на Эвербрайт. И спустя тысячи лет они стали подземными объектами."]
+			hide: true
+			id: "563F782D445597CA"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u041a\\u0430\\u0436\\u0435\\u0442\\u0441\\u044f \\u044d\\u0442\\u043e \\u043e\\u0441\\u043a\\u043e\\u043b\\u043a\\u0438 \\u043b\\u0443\\u043d\\u043d\\u043e\\u0433\\u043e \\u043a\\u0430\\u043c\\u043d\\u044f. \\u0412 \\u0434\\u043d\\u0435\\u0432\\u043d\\u0438\\u043a\\u0435 \\u0423\\u0438\\u043b\\u044c\\u044f\\u043c\\u0430 \\u0431\\u044b\\u043b\\u043e \\u0441\\u043a\\u0430\\u0437\\u0430\\u043d\\u043e, \\u0447\\u0442\\u043e \\u0438\\u0437 \\u043d\\u0438\\u0445 \\u0432\\u044b\\u0439\\u0434\\u0435\\u0442 \\u043e\\u0442\\u043b\\u0438\\u0447\\u043d\\u043e\\u0435 \\u043a\\u043e\\u043f\\u044c\\u0451! \\u041d\\u0443\\u0436\\u043d\\u043e \\u043f\\u0440\\u043e\\u0431\\u043e\\u0432\\u0430\\u0442\\u044c.\"}]"
+					icon: "ftbquests:book"
+					id: "4E9ABDD2ED3CB197"
+					title: "mind"
+					type: "command"
+				}
+				{
+					id: "17A5CC10F48C89B0"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				id: "46DF488F33ECD731"
+				item: "blue_skies:moonstone_shard"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["563F782D445597CA"]
+			description: ["&b&l=> &rИз лунных осколков, можно создать копья. Отличное оружие против дальников."]
+			hide: true
+			id: "61D1FE9687B8C7EE"
+			rewards: [{
+				auto: "invisible"
+				command: "/tellraw @p [\"\",{\"text\":\"[\\u042d\\u0440\\u0435\\u0441]\",\"color\":\"gold\"},{\"text\":\" \\u0414\\u0435\\u0439\\u0441\\u0442\\u0432\\u0438\\u0442\\u0435\\u043b\\u044c\\u043d\\u043e, \\u0438\\u0437 \\u044d\\u0442\\u0438\\u0445 \\u043e\\u0441\\u043a\\u043e\\u043b\\u043a\\u043e\\u0432 \\u0432\\u044b\\u0448\\u043b\\u043e \\u043f\\u0440\\u043e\\u0441\\u0442\\u043e \\u0437\\u0430\\u043c\\u0435\\u0447\\u0430\\u0442\\u0435\\u043b\\u044c\\u043d\\u043e\\u0435 \\u043a\\u043e\\u043f\\u044c\\u0451.\"}]"
+				icon: "ftbquests:book"
+				id: "38983B426FED78D6"
+				title: "mind"
+				type: "command"
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "30F91C3274017C6B"
+					item: {
+						Count: 1b
+						id: "blue_skies:starlit_spear"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "16116687B749E7F3"
+					item: {
+						Count: 1b
+						id: "blue_skies:frostbright_spear"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "26592AE34831F872"
+					item: {
+						Count: 1b
+						id: "blue_skies:lunar_spear"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["301B72308569BAF4"]
+			description: ["&b&l=> &rСоздайте комплект инструментов и брони из аквита."]
+			hide: true
+			id: "5A93F2164C7DECEE"
+			optional: true
+			rewards: [{
+				id: "0D81BBCFD4F8B687"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "0CA341C81B318EF7"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "blue_skies:aquite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "267247B5412A298F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "blue_skies:aquite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5E576C3FC4C1A442"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "blue_skies:aquite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "12D9CEF17A4844AF"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "blue_skies:aquite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Аквитовая Броня"
+			x: 9.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["301B72308569BAF4"]
+			description: ["&b&l=> &rСоздайте комплект инструментов и брони из аквита."]
+			hide: true
+			id: "572DA5D0F5A6F8CF"
+			optional: true
+			rewards: [{
+				id: "5629FF0A9F2BE47F"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "290153B90B0ED84D"
+					item: {
+						Count: 1b
+						id: "blue_skies:aquite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "60098C78608A4A08"
+					item: {
+						Count: 1b
+						id: "blue_skies:aquite_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "36C31027A01F5BB7"
+					item: {
+						Count: 1b
+						id: "blue_skies:aquite_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Аквитовые Инструменты"
+			x: 10.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0555B9E281C52836"]
+			description: ["&b&l=> &rСоздайте комплект инструментов и брони из пироповых самоцветов."]
+			hide: true
+			id: "0BDC4D3AD4D35BFB"
+			rewards: [{
+				id: "4A9C3DF5930726DA"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "7CC5DB6BE1AF36B5"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "blue_skies:pyrope_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1B1D9030E98E5083"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "blue_skies:pyrope_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "654E8671A0F824C2"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "blue_skies:pyrope_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1AB5947DAFBEF946"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "blue_skies:pyrope_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Пироповая Броня"
+			x: 9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0555B9E281C52836"]
+			description: ["&b&l=> &rСоздайте комплект инструментов и брони из пироповых самоцветов."]
+			hide: true
+			id: "1DF63F713DE59B75"
+			rewards: [{
+				id: "3AC4E6A7A1FBFEE1"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "48BE93FD55B0ABDA"
+					item: {
+						Count: 1b
+						id: "blue_skies:pyrope_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "271D6B195F1F3FD1"
+					item: {
+						Count: 1b
+						id: "blue_skies:pyrope_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "428CC93C60B5AA73"
+					item: {
+						Count: 1b
+						id: "blue_skies:pyrope_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Пироповые Инструменты"
+			x: 10.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"0555B9E281C52836"
+				"301B72308569BAF4"
+			]
+			description: [
+				"&b&l=> &rВ этом мистическом мире существуют могущественные противники, которые держат местных жителей в страхе. Одним из них, является Заклинатель."
+				""
+				"&b&l=> &rЧтобы сразиться с заклинателем, вам нужно найти четыре ключа подземелья в сундуках башни. Затем подняться на верхний этаж и открыть скважину с помощью четырёх ключей."
+				""
+				"&bЗаклинатель&r - Волшебник, живущий в высокой, голубой башне, он держит местных жителей у себя в клетке и проводит над ними эксперименты."
+			]
+			hide: true
+			id: "15687BCF78055ED6"
+			tasks: [
+				{
+					icon: "blue_skies:bluebright_bookshelf"
+					id: "5397C162551B6FCF"
+					structure: "blue_skies:everbright_blinding_dungeon"
+					title: "&bНайдите&r: Башню Заклинателя"
+					type: "structure"
+				}
+				{
+					count: 4L
+					id: "28C0B395C97E3757"
+					item: "blue_skies:blinding_key"
+					type: "item"
+				}
+			]
+			x: 11.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["15687BCF78055ED6"]
+			description: ["&b&l=> &rОткройте скважину на верхнем этаже с помощью ключей подземелья и победите Заклинателя!"]
+			hide: true
+			id: "4AC65B715600D9A7"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @p [\"\",{\"text\":\"[\\u0417\\u0430\\u043a\\u043b\\u0438\\u043d\\u0430\\u0442\\u0435\\u043b\\u044c]\",\"color\":\"aqua\"},{\"text\":\" \\u0427\\u0451\\u0440\\u0442! \\u0414\\u0430\\u0432\\u043d\\u043e \\u044f \\u043d\\u0435 \\u0432\\u0438\\u0434\\u0435\\u043b \\u0442\\u0430\\u043a\\u0438\\u0445 \\u0441\\u0438\\u043b\\u044c\\u043d\\u044b\\u0445 \\u043f\\u0440\\u043e\\u0442\\u0438\\u0432\\u043d\\u0438\\u043a\\u043e\\u0432 \\u043a\\u0430\\u043a \\u0442\\u044b...\"}]"
+					icon: "ftbquests:book"
+					id: "398A07BDBE8810F5"
+					title: "dialoque"
+					type: "command"
+				}
+				{
+					id: "7D7B86F30BC3BA64"
+					item: {
+						Count: 1b
+						id: "eidolon:bonechill_wand"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				entity: "blue_skies:summoner"
+				icon: {
+					Count: 1b
+					id: "blue_skies:loot_bag_summoner"
+					tag: {
+						LootTable: "blue_skies:loot_bags/summoner/common"
+						Rarity: 0
+					}
+				}
+				id: "4EB5626A74B9BB29"
+				title: "&bПобедите Злодея&r: Заклинатель"
+				type: "kill"
+				value: 1L
+			}]
+			x: 13.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4AC65B715600D9A7"]
+			description: ["&b&l=> &rУбив Заклинателя, вы получите разные полезные предметы и артефакты."]
+			hide: true
+			id: "651D35D0B70BED47"
+			shape: "hexagon"
+			tasks: [{
+				id: "77AEF9C4339DA217"
+				item: {
+					Count: 1b
+					id: "blue_skies:soulbound_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4AC65B715600D9A7"]
+			description: ["&b&l=> &rУбив Заклинателя, вы получите разные полезные предметы и артефакты."]
+			hide: true
+			id: "233BBCA191BC4119"
+			shape: "hexagon"
+			tasks: [{
+				id: "05FF09CF93A1FF68"
+				item: {
+					Count: 1b
+					id: "blue_skies:ethereal_arc"
+					tag: {
+						ArcLevel: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4AC65B715600D9A7"]
+			description: ["&b&l=> &rУбив Заклинателя, вы получите разные полезные предметы и артефакты."]
+			hide: true
+			id: "21C5FB5754FE1C3D"
+			shape: "hexagon"
+			tasks: [{
+				id: "69FA16F13240D615"
+				item: {
+					Count: 1b
+					id: "blue_skies:summoner_trophy"
+					tag: {
+						BlockStateTag: {
+							tier: "bronze"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"15687BCF78055ED6"
+				"4AC65B715600D9A7"
+			]
+			description: [
+				"&a&l=> &rВ мире Эвербрайта существует огромный замок природы. Главным там является Повелитель Природы."
+				""
+				"&a&l=> &rЧтобы сразится с Повелителем Природны, найдите четыре ключа природы в сундуках этого замка и заберитесь на верхних этаж, после чего откройте скважину и начните битву!"
+				""
+				"&aПовелитель Природы&r - Дерево, пробудившее в себе силы звёзд и спустя тысячи лет заточении в своём сознании, оно готово к сражению с могучими противниками."
+			]
+			hide: true
+			id: "1B7CBF05A29BA60B"
+			tasks: [
+				{
+					icon: "blue_skies:glowing_nature_stonebrick"
+					id: "03885219FD11F9A0"
+					structure: "blue_skies:nature_dungeon"
+					title: "&aНайдите&r: Замок Природы"
+					type: "structure"
+				}
+				{
+					count: 4L
+					id: "7D4A9455242BF638"
+					item: "blue_skies:nature_key"
+					type: "item"
+				}
+			]
+			x: 11.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1B7CBF05A29BA60B"]
+			description: ["&a&l=> &rОткройте скважину на верхнем этаже с помощью ключей подземелья и победите Повелителя Природы!"]
+			hide: true
+			id: "0987F46862841353"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "055DEEF8E011346C"
+					item: {
+						Count: 1b
+						id: "celestisynth:rainfall_serenity"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/tellraw @p [\"\",{\"text\":\"[\\u041f\\u043e\\u0432\\u0435\\u043b\\u0438\\u0442\\u0435\\u043b\\u044c \\u041f\\u0440\\u0438\\u0440\\u043e\\u0434\\u044b]\",\"color\":\"green\"},{\"text\":\" \\u0422\\u044b \\u0436\\u0435 \\u043f\\u0440\\u0438\\u0448\\u0451\\u043b \\u0417\\u0430 \\u043d\\u0438\\u043c? \\u0417\\u0430 \\u0430\\u0440\\u0442\\u0435\\u0444\\u0430\\u043a\\u0442\\u043e\\u043c \\u0431\\u043e\\u0433\\u0438\\u043d\\u0438 \\u043f\\u0440\\u0438\\u0440\\u043e\\u0434\\u044b? \\u0417\\u0430\\u0431\\u0438\\u0440\\u0430\\u0439... \\u041e\\u043d \\u0442\\u0432\\u043e\\u0439!\"}]"
+					id: "510D49DE9A89250C"
+					title: "dialoque"
+					type: "command"
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				entity: "blue_skies:starlit_crusher"
+				icon: {
+					Count: 1b
+					id: "blue_skies:loot_bag_starlit_crusher"
+					tag: {
+						LootTable: "blue_skies:loot_bags/starlit_crusher/common"
+						Rarity: 0
+					}
+				}
+				id: "55AA08579C6F68E3"
+				title: "&aПобедите Злодея&r: Повелитель Природы"
+				type: "kill"
+				value: 1L
+			}]
+			x: 13.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0987F46862841353"]
+			description: ["&a&l=> &rУбив Повелителя, вы получите разные полезные предметы и артефакты."]
+			hide: true
+			id: "3486F34023F6AD97"
+			shape: "hexagon"
+			tasks: [{
+				id: "4CB284D7E95994B9"
+				item: {
+					Count: 1b
+					id: "blue_skies:nature_arc"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 14.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0987F46862841353"]
+			description: ["&a&l=> &rУбив Повелителя, вы получите разные полезные предметы и артефакты."]
+			hide: true
+			id: "4EDEAD4C0DE6DF7B"
+			shape: "hexagon"
+			tasks: [{
+				id: "721C29BF8C8A9150"
+				item: {
+					Count: 1b
+					id: "blue_skies:crushing_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 14.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0987F46862841353"]
+			description: ["&a&l=> &rУбив Повелителя, вы получите разные полезные предметы и артефакты."]
+			hide: true
+			id: "21F845D5818CCC43"
+			shape: "hexagon"
+			tasks: [{
+				id: "6B00F8868BBFDEB1"
+				item: {
+					Count: 1b
+					id: "blue_skies:starlit_crusher_trophy"
+					tag: {
+						BlockStateTag: {
+							tier: "bronze"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 14.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["73B8C6648B2AE032"]
+			description: ["&cВаран&r - Ящерица больших размеров. Из неё выходит очень вкусное мясо, поэтому охотники этого мира часто выбирают их как потенциальную жертву."]
+			hide: true
+			id: "23C82F3EB5F58977"
+			tasks: [{
+				entity: "blue_skies:shade_monitor"
+				icon: "blue_skies:cherry_sapling"
+				id: "5A9901DAF89A7E7F"
+				title: "&cУбить Животное&r: Варан"
+				type: "kill"
+				value: 1L
+			}]
+			x: 13.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["23C82F3EB5F58977"]
+			description: ["&c&l=> &rУбейте Варана и приготовьте его хвост."]
+			hide: true
+			id: "1E52E5181042D929"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "51D9BCBC5C3C4589"
+					item: "blue_skies:monitor_tail"
+					type: "item"
+				}
+				{
+					id: "765B0325EDE9527C"
+					item: "blue_skies:cooked_monitor_tail"
+					type: "item"
+				}
+			]
+			x: 14.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["73B8C6648B2AE032"]
+			description: ["&6Горизонт&r - Огненный металл, который находится в глубоких пещерах Эвердона. Обладает магическими свойствами огня."]
+			hide: true
+			id: "2A944768D7FDDBAD"
+			tasks: [
+				{
+					id: "38988ED4147CE586"
+					item: "blue_skies:horizonite_ingot"
+					type: "item"
+				}
+				{
+					id: "5E9EC986B19ED5A2"
+					item: "blue_skies:raw_horizonite"
+					type: "item"
+				}
+			]
+			title: "Горизонт"
+			x: 14.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2A944768D7FDDBAD"]
+			description: ["&6&l=> &rСоздайте комплект инструментов и брони из горизонта."]
+			id: "0B326C3937491E1F"
+			tasks: [
+				{
+					id: "31D9D1148B739AA4"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "blue_skies:horizonite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "40C4D0CB4A3B6194"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "blue_skies:horizonite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "05411A56CA72A9B4"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "blue_skies:horizonite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7DE9C475160D4D4E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "blue_skies:horizonite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Горизонтовая броня"
+			x: 16.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2A944768D7FDDBAD"]
+			description: ["&6&l=> &rСоздайте комплект инструментов и брони из горизонта."]
+			id: "5AF4657982ADDE03"
+			tasks: [
+				{
+					id: "4B3A663EC51524E4"
+					item: {
+						Count: 1b
+						id: "blue_skies:horizonite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "48DAC6F74175967A"
+					item: {
+						Count: 1b
+						id: "blue_skies:horizonite_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "040E3477910C73D7"
+					item: {
+						Count: 1b
+						id: "blue_skies:horizonite_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Горизонтовые Инструменты"
+			x: 16.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2A944768D7FDDBAD"]
+			description: ["&6&l=> &rИз горизонта можно создать полезную кузницу. При переплавке горизонта в жидкость получаемтся смесь, которая является превосходным топливом для переплавки руд и т.д."]
+			id: "136A836E1A293231"
+			tasks: [{
+				id: "5EF698D7927A3683"
+				item: "blue_skies:horizonite_forge"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["73B8C6648B2AE032"]
+			description: ["&c&l=> &rНа местных деревьях часто растёт вишня. Возможно, вы сможете её найти."]
+			hide: true
+			id: "5111AF46FF24B19B"
+			shape: "diamond"
+			tasks: [{
+				id: "2E923ED45A095960"
+				item: "blue_skies:cherry"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["73B8C6648B2AE032"]
+			description: [
+				"&c&l=> &rОдним из местных злодеев является Алхимик."
+				""
+				"&c&l=> &rЧтобы сразиться с Алхимиком, вам нужно найти четыре ключа подземелья в сундуках башни. Затем подняться на верхний этаж и открыть скважину с помощью четырёх ключей."
+				""
+				"&cАлхимик &r- Очень похож на Заклинателя, но в отличие от него, он не призывает войнов, а сражается своими силами. Он живёт в высокой башне, проводя в ней свои эксперименты с зельями и магическими артефактами."
+			]
+			hide: true
+			id: "319A98A04BFD54A6"
+			rewards: [{
+				id: "745DF1D51B210DCB"
+				item: "irons_spellbooks:emerald_stoneplate_ring"
+				type: "item"
+			}]
+			tasks: [
+				{
+					icon: "blue_skies:lunar_log"
+					id: "455E6D39C65358B9"
+					structure: "blue_skies:everdawn_blinding_dungeon"
+					title: "&cНайдите&r: Башню Алхимика"
+					type: "structure"
+				}
+				{
+					count: 4L
+					id: "18C9973A6EF48D70"
+					item: "blue_skies:blinding_key"
+					type: "item"
+				}
+			]
+			x: 11.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["319A98A04BFD54A6"]
+			description: ["&c&l=> &rОткройте скважину на верхнем этаже с помощью ключей подземелья и победите Алхимика!"]
+			hide: true
+			id: "7692246287CE004D"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @p [\"\",{\"text\":\"[\\u0410\\u043b\\u0445\\u0438\\u043c\\u0438\\u043a]\",\"color\":\"red\"},{\"text\":\" \\u041a\\u0430\\u043a\\u043e\\u0435-\\u0436\\u0435 \\u0442\\u044b \\u043d\\u0438\\u0447\\u0442\\u043e\\u0436\\u0435\\u0441\\u0442\\u0432\\u043e! \\u0416\\u0430\\u043b\\u043a\\u043e\\u0435 \\u0441\\u0443\\u0449\\u0435\\u0441\\u0442\\u0432\\u043e! \\u0421\\u0434\\u043e\\u0445\\u043d\\u0438, \\u0441\\u0434\\u043e\\u0445\\u043d\\u0438, \\u0441\\u0434\\u043e\\u0445\\u043d\\u0438! \\u0421\\u0434\\u043e\\u0445\\u043d\\u0438...\"}]"
+					icon: "ftbquests:book"
+					id: "29B5C820AEB63B6F"
+					title: "dialoque"
+					type: "command"
+				}
+				{
+					id: "4A07557726E8D47C"
+					item: {
+						Count: 1b
+						id: "eidolon:soulfire_wand"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				entity: "blue_skies:alchemist"
+				icon: {
+					Count: 1b
+					id: "blue_skies:loot_bag_alchemist"
+					tag: {
+						LootTable: "blue_skies:loot_bags/alchemist/common"
+						Rarity: 0
+					}
+				}
+				id: "5EB4EF3F236B7F0B"
+				title: "&cПобедить Злодея&r: Алхимик"
+				type: "kill"
+				value: 1L
+			}]
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7692246287CE004D"]
+			description: ["&c&l=> &rУбив Алхимика, вы получите разные полезные предметы и артефакты."]
+			hide: true
+			id: "3CA34280EC070F7E"
+			shape: "hexagon"
+			tasks: [{
+				id: "7E0C29537C897BBD"
+				item: {
+					Count: 1b
+					id: "blue_skies:dusk_arc"
+					tag: {
+						ArcLevel: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7692246287CE004D"]
+			description: ["&c&l=> &rУбив Алхимика, вы получите разные полезные предметы и артефакты."]
+			hide: true
+			id: "4D3B08763D7B7B89"
+			shape: "hexagon"
+			tasks: [{
+				id: "5BFEC57E1A49C640"
+				item: {
+					Count: 1b
+					id: "blue_skies:spike_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7692246287CE004D"]
+			description: ["&c&l=> &rУбив Алхимика, вы получите разные полезные предметы и артефакты."]
+			hide: true
+			id: "50E30A62322EA331"
+			shape: "hexagon"
+			tasks: [{
+				id: "744B5037A600EA6C"
+				item: {
+					Count: 1b
+					id: "blue_skies:alchemist_trophy"
+					tag: {
+						BlockStateTag: {
+							tier: "bronze"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7692246287CE004D"]
+			description: [
+				"&c&l=> &rВ кленовом лесу, существует огромное дерево, внутри которого расположилось гнездо и логово огромной паучихи Арахны."
+				""
+				"&c&l=> &rЧтобы сразиться с Арахной, вам нужно найти четыре ключа от ядовитого подземелья в сундуках. Затем подняться на нижний этаж и открыть скважину с помощью четырёх ключей. "
+				""
+				"&cАрахна&r - Неудачный эксперимент алхимика с его зельями и препаратами. Он проводил эксперимент над пауками, но что-то пошло не так и Арахна вырвалась из-под контроля и сбежала от Алхимика."
+			]
+			hide: true
+			id: "24BD56D86AF719E8"
+			rewards: [{
+				id: "01D1F0C1A771321E"
+				item: "irons_spellbooks:frostward_ring"
+				type: "item"
+			}]
+			tasks: [
+				{
+					icon: "blue_skies:maple_wood"
+					id: "5E66CCDDB1CF01A9"
+					structure: "blue_skies:poison_dungeon"
+					title: "&cНайдите&r: Логово Арахны"
+					type: "structure"
+				}
+				{
+					count: 4L
+					id: "1310E996D39BF9C4"
+					item: "blue_skies:poison_key"
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["24BD56D86AF719E8"]
+			description: ["&c&l=> &rОткройте скважину на нижнем этаже с помощью ключей  и победите Арахну в честном бою!"]
+			hide: true
+			id: "6B23734F81A83C33"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "59C8DBD63E089FC6"
+					item: {
+						Count: 1b
+						id: "celestisynth:breezebreaker"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/tellraw @p [\"\",{\"text\":\"[\\u0410\\u0440\\u0430\\u0445\\u043d\\u0430]\",\"color\":\"red\"},{\"text\":\" \\u0449\\u0448\\u0444\\u0449\\u0446\\u0448\\u0432\\u0442\\u0433\\u043c\",\"obfuscated\":true}]"
+					icon: "ftbquests:book"
+					id: "0F6A65B77A046563"
+					title: "dialoque"
+					type: "command"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				entity: "blue_skies:arachnarch"
+				icon: {
+					Count: 1b
+					id: "blue_skies:loot_bag_arachnarch"
+					tag: {
+						LootTable: "blue_skies:loot_bags/arachnarch/common"
+						Rarity: 0
+					}
+				}
+				id: "29E97F98DC91556F"
+				title: "&cПобедите Злодея&r: Арахна"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"6B23734F81A83C33"
+				"0332F88591E94451"
+			]
+			description: ["&c&l=> &rУбив Арахну, вы получите разные полезные предметы и артефакты."]
+			hide: true
+			id: "5DD5BC25014E55E9"
+			shape: "hexagon"
+			tasks: [{
+				id: "141AF50CD1586892"
+				item: {
+					Count: 1b
+					id: "blue_skies:venom_sac"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6B23734F81A83C33"]
+			description: ["&c&l=> &rУбив Арахну, вы получите разные полезные предметы и артефакты."]
+			hide: true
+			id: "0EDA3958CC5956A8"
+			shape: "hexagon"
+			tasks: [{
+				id: "585CCF1AFF96BDF5"
+				item: {
+					Count: 1b
+					id: "blue_skies:poison_arc"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6B23734F81A83C33"]
+			description: ["&c&l=> &rУбив Арахну, вы получите разные полезные предметы и артефакты."]
+			hide: true
+			id: "206FBA117F323F86"
+			shape: "hexagon"
+			tasks: [{
+				id: "6FF4156B0F4333BC"
+				item: {
+					Count: 1b
+					id: "blue_skies:arachnarch_trophy"
+					tag: {
+						BlockStateTag: {
+							tier: "bronze"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["34A62B79530C54DC"]
+			description: ["&6&l=> &rВот вы и победили всех злодеев этих двух миров, чем займётесь дальше?"]
+			hide: true
+			id: "1EDCE5E9ADC1DE86"
+			rewards: [{
+				id: "4B65D2D0B7A868E6"
+				item: "irons_spellbooks:greater_oakskin_elixir"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				id: "1AE87E8444F55F16"
+				title: "&6Конец IX главы&r: Эвербрайт и Эвердон"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0987F46862841353"]
+			description: ["&b&l=> &rБогиня Молний Асфира, утратила свой артефакт в битве с Богом Пустоты в Эвербрайте. А заклинатель живущий в башне нашёл его. Но повелитель природы захотел овладеть этим артефактом и спустя долгие годы он достался ему."]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "celestisynth:rainfall_serenity"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7EDB91362281A156"
+			rewards: [{
+				auto: "invisible"
+				command: "/tellraw @p {\"text\":\"\\u041f\\u043e\\u043b\\u0443\\u0447\\u0438\\u0432 \\u0430\\u0440\\u0442\\u0435\\u0444\\u0430\\u043a\\u0442 \\u0431\\u043e\\u0433\\u0438\\u043d\\u0438 \\u043f\\u0440\\u0438\\u0440\\u043e\\u0434\\u044b, \\u0432\\u044b \\u0447\\u0443\\u0432\\u0441\\u0442\\u0432\\u0443\\u0435\\u0442\\u0435 \\u043a\\u0430\\u043a \\u0432\\u0430\\u0448\\u0438 \\u043c\\u0430\\u0433\\u0438\\u0447\\u0435\\u0441\\u043a\\u0438\\u0435 \\u0441\\u0438\\u043b\\u044b \\u0441\\u0438\\u043b\\u044c\\u043d\\u043e \\u0443\\u0432\\u0435\\u043b\\u0438\\u0447\\u0438\\u043b\\u0438\\u0441\\u044c...\",\"color\":\"blue\"}"
+				icon: "ftbquests:book"
+				id: "27125F43620CB07A"
+				title: "mind"
+				type: "command"
+			}]
+			shape: "diamond"
+			subtitle: "&bЛук Богини Молний"
+			tasks: [{
+				id: "4E9FFDA411FFB3BA"
+				item: {
+					Count: 1b
+					id: "celestisynth:rainfall_serenity"
+					tag: {
+						Damage: 0
+					}
+				}
+				title: "Божественный артефакт"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6B23734F81A83C33"]
+			description: ["&e&l=> &rСестра Богини Молний, Эльза захотела помочь сестре заполучить свой артефакт. Вместе они отправились на его поиски, но так и не вернулись в мир Богов. Видимо кто-то пытался устранить всех Богов и встать на их место, ведь из обычных людей и существ никто не мог бы одолеть Бога."]
+			hide: true
+			id: "34A62B79530C54DC"
+			rewards: [{
+				auto: "invisible"
+				command: "/tellraw @p {\"text\":\"\\u041f\\u043e\\u043b\\u0443\\u0447\\u0438\\u0432 \\u0430\\u0440\\u0442\\u0435\\u0444\\u0430\\u043a\\u0442 \\u0431\\u043e\\u0433\\u0438\\u043d\\u0438 \\u0432\\u0435\\u0442\\u0440\\u0430, \\u0432\\u044b \\u0447\\u0443\\u0432\\u0441\\u0442\\u0432\\u0443\\u0435\\u0442\\u0435 \\u043b\\u0451\\u0433\\u043a\\u043e\\u0441\\u0442\\u044c \\u0432\\u043e \\u0432\\u0441\\u0451\\u043c \\u0442\\u0435\\u043b\\u0435...\",\"color\":\"gray\"}"
+				icon: "ftbquests:book"
+				id: "3A06B0DE3F1F8D76"
+				title: "mind"
+				type: "command"
+			}]
+			shape: "diamond"
+			size: 1.1d
+			subtitle: "&eКлинок Богини Ветра"
+			tasks: [{
+				id: "3630198206291642"
+				item: {
+					Count: 1b
+					id: "celestisynth:breezebreaker"
+					tag: {
+						Damage: 0
+						csController: {
+							cs.AttackIndex: -1
+							cs.animationTimer: 0
+							cs.hasAnimationBegun: 0b
+						}
+						csExtras: {
+							cs.bbCombo: 11
+						}
+						level: 0
+						levelprogress: 11
+					}
+				}
+				title: "Божественный артефакт"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1EDCE5E9ADC1DE86"]
+			description: ["&b&l=>&r Прейдите к привратнику, по имени Уильям и расскажите ему историю о своём путешествии по Эвердону и Эвербрайту."]
+			hide: true
+			id: "7378C7DCAB00845E"
+			optional: true
+			tasks: [{
+				icon: "malum:aerial_spirit"
+				id: "5A24589C094A5D41"
+				observe_type: 5
+				timer: 0L
+				title: "&bНайдите&r: Привратника"
+				to_observe: "blue_skies:gatekeeper"
+				type: "observation"
+			}]
+			x: 5.5d
+			y: 4.0d
+		}
+	]
+	subtitle: ["Два мира, которые терроризируют злодеи!"]
+	title: "&6IX&r: Эвербрайт и Эвердон ✦"
+}

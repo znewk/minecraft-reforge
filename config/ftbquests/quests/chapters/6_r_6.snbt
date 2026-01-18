@@ -1,0 +1,228 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6_r_6"
+	group: "241F46356188290F"
+	icon: {
+		Count: 1b
+		id: "twilightforest:triple_bow"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "63EDF201A605FB53"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 100.0d
+			hover: [ ]
+			image: "skilltree:textures/screen/skill_tree_background.png"
+			rotation: 0.0d
+			width: 100.0d
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "celestisynth:textures/entity/rainfall_vanish.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["&2Лучник&r - класс, похожий на охотника, но вместо сражения в ближнем мою стреляет из лука или арбалета."]
+			id: "3E0342F7A6335DC5"
+			shape: "diamond"
+			tasks: [{
+				id: "332BC72CE7E81F9D"
+				title: "&2Лучник"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3E0342F7A6335DC5"]
+			id: "4D0CFA3D7F3C1CC5"
+			subtitle: "&6Оружие лучника"
+			tasks: [{
+				id: "4F3D13EC7E593BDB"
+				item: {
+					Count: 1b
+					id: "archbows:shortbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				title: "Короткий лук"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3E0342F7A6335DC5"]
+			id: "39C4BCD96A111FBE"
+			subtitle: "&6Оружие лучника"
+			tasks: [{
+				id: "388AA5157688A980"
+				item: {
+					Count: 1b
+					id: "archbows:recurve"
+					tag: {
+						Damage: 0
+					}
+				}
+				title: "Изогнутый лук"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3E0342F7A6335DC5"]
+			id: "16A4E42BB6A19D6D"
+			subtitle: "&6Оружие лучника"
+			tasks: [{
+				id: "572212DA6854D0EC"
+				item: {
+					Count: 1b
+					id: "archbows:flatbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				title: "Плоский лук"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3E0342F7A6335DC5"]
+			id: "029C3F18F91C986E"
+			subtitle: "&6Оружие лучника"
+			tasks: [{
+				id: "5D74749CB5E4AD9D"
+				item: {
+					Count: 1b
+					id: "archbows:longbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				title: "Длинный лук"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3E0342F7A6335DC5"]
+			id: "457A25D291540993"
+			subtitle: "&6Оружие лучника"
+			tasks: [{
+				id: "4F2CB76D29475140"
+				item: {
+					Count: 1b
+					id: "archbows:heavy_crossbow"
+					tag: {
+						Charged: 1b
+						ChargedProjectiles: [{
+							Count: 1b
+							id: "minecraft:arrow"
+						}]
+						Damage: 0
+					}
+				}
+				title: "Тяжёлый арбалет"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3E0342F7A6335DC5"]
+			id: "2882D2A818D19E6E"
+			subtitle: "&6Оружие лучника"
+			tasks: [{
+				id: "3B5139E3D7F74220"
+				item: {
+					Count: 1b
+					id: "archbows:pistol_crossbow"
+					tag: {
+						Charged: 1b
+						ChargedProjectiles: [{
+							Count: 1b
+							id: "minecraft:arrow"
+						}]
+						Damage: 0
+					}
+				}
+				title: "Пистолет-арбалет"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3E0342F7A6335DC5"]
+			description: ["&2Колчан&r - удобная наспинная сумка, в которую можно класть стрелы и доставать в нужный момент."]
+			id: "090199B28B370155"
+			tasks: [{
+				id: "7DC3F0005083BD4F"
+				item: {
+					Count: 1b
+					id: "relics:arrow_quiver"
+					tag: {
+						abilities: {
+							agility: {
+								points: 0
+								stats: {
+									modifier: 1.0d
+								}
+							}
+							leap: {
+								points: 0
+								stats: {
+									cooldown: 14.2603d
+									duration: 4.39958d
+									multiplier: 0.37076d
+								}
+							}
+							rain: {
+								points: 0
+								stats: {
+									delay: 0.99016d
+									duration: 13.31901d
+									radius: 3.06641d
+								}
+							}
+							receptacle: {
+								points: 0
+								stats: {
+									slots: 4.81642d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+	]
+	title: "&6- &rЛучник"
+}

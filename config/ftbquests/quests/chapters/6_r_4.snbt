@@ -1,0 +1,1580 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6_r_4"
+	group: "241F46356188290F"
+	icon: {
+		Count: 1b
+		id: "epicsamurai:red_samurai_helmet"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "0837DCC68F412C1E"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 100.0d
+			hover: [ ]
+			image: "skilltree:textures/screen/skill_tree_background.png"
+			rotation: 0.0d
+			width: 100.0d
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 15.0d
+			hover: [ ]
+			image: "cataclysm:textures/particle/em_pulse.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["&cСамурай&r - класс в стилисте японского война, который использует мощную и броню, а также красивые, японские оружия: катаны, нагитаны, камы, сюрикены и т.д."]
+			id: "7150D20C299AFE7C"
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				id: "73D2D6637C4D2A3F"
+				title: "&cСамурай"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7150D20C299AFE7C"]
+			hide_dependency_lines: true
+			id: "797A565B4B0E3688"
+			subtitle: "&6Оружие самурая"
+			tasks: [{
+				id: "591141BE2829ADE9"
+				item: {
+					Count: 1b
+					id: "better_weaponry:wooden_chakram"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7150D20C299AFE7C"]
+			id: "0F9BE682176D5E5B"
+			subtitle: "&6Оружие самурая"
+			tasks: [{
+				id: "74F3625B4305728C"
+				item: {
+					Count: 1b
+					id: "better_weaponry:stone_chakram"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7150D20C299AFE7C"]
+			hide_dependency_lines: true
+			id: "2BEFE85BD3CC8035"
+			subtitle: "&6Оружие самурая"
+			tasks: [{
+				id: "0141B10D545400B6"
+				item: {
+					Count: 1b
+					id: "better_weaponry:copper_chakram"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7150D20C299AFE7C"]
+			hide_dependency_lines: true
+			id: "42E9B0EBB4F36A32"
+			subtitle: "&6Оружие самурая"
+			tasks: [{
+				id: "675CA5A019DD9E53"
+				item: {
+					Count: 1b
+					id: "better_weaponry:iron_chakram"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7150D20C299AFE7C"]
+			hide_dependency_lines: true
+			id: "0F0D615769BE734A"
+			subtitle: "&6Оружие самурая"
+			tasks: [{
+				id: "4195512A10BD734F"
+				item: {
+					Count: 1b
+					id: "better_weaponry:amethyst_chakram"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7150D20C299AFE7C"]
+			hide_dependency_lines: true
+			id: "2AFAEF0516506997"
+			subtitle: "&6Оружие самурая"
+			tasks: [{
+				id: "50C3CECA391B801C"
+				item: {
+					Count: 1b
+					id: "better_weaponry:golden_chakram"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7150D20C299AFE7C"]
+			hide_dependency_lines: true
+			id: "1FD842C0542BF992"
+			subtitle: "&6Оружие самурая"
+			tasks: [{
+				id: "23A8FCF79FE5AD96"
+				item: {
+					Count: 1b
+					id: "better_weaponry:emerald_chakram"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7150D20C299AFE7C"]
+			hide_dependency_lines: true
+			id: "37FF55DED99B3737"
+			subtitle: "&6Оружие самурая"
+			tasks: [{
+				id: "4565F16D29FD9283"
+				item: {
+					Count: 1b
+					id: "better_weaponry:diamond_chakram"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7150D20C299AFE7C"]
+			hide_dependency_lines: true
+			id: "0C27E31C3E16F8CF"
+			subtitle: "&6Оружие самурая"
+			tasks: [{
+				id: "5C7EC43EBC7D6A01"
+				item: {
+					Count: 1b
+					id: "better_weaponry:netherite_chakram"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7150D20C299AFE7C"]
+			hide_dependency_lines: true
+			id: "6F2831C3557E2E1C"
+			subtitle: "&6Оружие самурая"
+			tasks: [{
+				id: "445FDA0FB5A5B5A0"
+				item: {
+					Count: 1b
+					id: "better_weaponry:wooden_shuriken"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7150D20C299AFE7C"]
+			id: "331C7F9CC8AF12C7"
+			subtitle: "&6Оружие самурая"
+			tasks: [{
+				id: "6705E9ADCB8A1015"
+				item: {
+					Count: 1b
+					id: "better_weaponry:stone_shuriken"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7150D20C299AFE7C"]
+			hide_dependency_lines: true
+			id: "373F62B2A181389A"
+			subtitle: "&6Оружие самурая"
+			tasks: [{
+				id: "2485B274D439AA03"
+				item: {
+					Count: 1b
+					id: "better_weaponry:copper_shuriken"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7150D20C299AFE7C"]
+			hide_dependency_lines: true
+			id: "608FF535415DE16D"
+			subtitle: "&6Оружие самурая"
+			tasks: [{
+				id: "0D1A70521C450AF6"
+				item: {
+					Count: 1b
+					id: "better_weaponry:iron_shuriken"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7150D20C299AFE7C"]
+			hide_dependency_lines: true
+			id: "4AD6AB20F9BFC7AE"
+			subtitle: "&6Оружие самурая"
+			tasks: [{
+				id: "19E066B1C64D14B3"
+				item: {
+					Count: 1b
+					id: "better_weaponry:amethyst_shuriken"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7150D20C299AFE7C"]
+			hide_dependency_lines: true
+			id: "523A4FBAB7B4FA53"
+			subtitle: "&6Оружие самурая"
+			tasks: [{
+				id: "15548F1FE545DFD2"
+				item: {
+					Count: 1b
+					id: "better_weaponry:golden_shuriken"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7150D20C299AFE7C"]
+			hide_dependency_lines: true
+			id: "55784B5D15A2A95A"
+			subtitle: "&6Оружие самурая"
+			tasks: [{
+				id: "3B5A4004A858A2D3"
+				item: {
+					Count: 1b
+					id: "better_weaponry:emerald_shuriken"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7150D20C299AFE7C"]
+			hide_dependency_lines: true
+			id: "3BA4A803E1C31E1E"
+			subtitle: "&6Оружие самурая"
+			tasks: [{
+				id: "406C4C0F9BA3FF91"
+				item: {
+					Count: 1b
+					id: "better_weaponry:diamond_shuriken"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7150D20C299AFE7C"]
+			hide_dependency_lines: true
+			id: "2BD500E460FBF5E5"
+			subtitle: "&6Оружие самурая"
+			tasks: [{
+				id: "4496A760BED46C16"
+				item: {
+					Count: 1b
+					id: "better_weaponry:netherite_shuriken"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7150D20C299AFE7C"]
+			hide_dependency_lines: true
+			id: "60B60DDA87BF7E98"
+			subtitle: "&6Оружие самурая"
+			tasks: [{
+				id: "28FAE37D98DEF5A8"
+				item: {
+					Count: 1b
+					id: "better_weaponry:wooden_katana"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7150D20C299AFE7C"]
+			id: "68567BF61988486E"
+			subtitle: "&6Оружие самурая"
+			tasks: [{
+				id: "708A2F037DC5EE41"
+				item: {
+					Count: 1b
+					id: "better_weaponry:stone_katana"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7150D20C299AFE7C"]
+			hide_dependency_lines: true
+			id: "50D5A1FA1905D73B"
+			subtitle: "&6Оружие самурая"
+			tasks: [{
+				id: "5A0F31EABCEAADE9"
+				item: {
+					Count: 1b
+					id: "better_weaponry:copper_katana"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7150D20C299AFE7C"]
+			hide_dependency_lines: true
+			id: "3E103F7C1ACE511E"
+			subtitle: "&6Оружие самурая"
+			tasks: [{
+				id: "078114E7DBA025AD"
+				item: {
+					Count: 1b
+					id: "better_weaponry:iron_katana"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7150D20C299AFE7C"]
+			hide_dependency_lines: true
+			id: "121DA05C9395D466"
+			subtitle: "&6Оружие самурая"
+			tasks: [{
+				id: "100334C5CC98E44B"
+				item: {
+					Count: 1b
+					id: "better_weaponry:amethyst_katana"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7150D20C299AFE7C"]
+			hide_dependency_lines: true
+			id: "4389ED4212E16342"
+			subtitle: "&6Оружие самурая"
+			tasks: [{
+				id: "59A164EC64565D5E"
+				item: {
+					Count: 1b
+					id: "better_weaponry:golden_katana"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7150D20C299AFE7C"]
+			hide_dependency_lines: true
+			id: "772ACC0155918DF9"
+			subtitle: "&6Оружие самурая"
+			tasks: [{
+				id: "76BB742BA50ADBDF"
+				item: {
+					Count: 1b
+					id: "better_weaponry:emerald_katana"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7150D20C299AFE7C"]
+			hide_dependency_lines: true
+			id: "057A8238A513A2D0"
+			subtitle: "&6Оружие самурая"
+			tasks: [{
+				id: "65CC5843CD1ED885"
+				item: {
+					Count: 1b
+					id: "better_weaponry:diamond_katana"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7150D20C299AFE7C"]
+			hide_dependency_lines: true
+			id: "405E553D2CF68BC0"
+			subtitle: "&6Оружие самурая"
+			tasks: [{
+				id: "24542904DF1ADD56"
+				item: {
+					Count: 1b
+					id: "better_weaponry:netherite_katana"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7150D20C299AFE7C"]
+			description: ["Из ванильных ресурсов можно создать &7броню самурая&r."]
+			id: "2EE1D4E2C6C124DD"
+			tasks: [
+				{
+					id: "5B83DAFF18AED402"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "epicsamurai:iron_samurai_helmet"
+						tag: {
+							Damage: 0
+							SimpleInsulation: [ ]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "410C1B41E3B87ACB"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "epicsamurai:iron_samurai_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2CCAE97C32491D12"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "epicsamurai:iron_samurai_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7562C4BC4C26FC71"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "epicsamurai:iron_samurai_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Железная броня самурая"
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7150D20C299AFE7C"]
+			description: ["Из модовых ресурсов можно создать броню самурая&r."]
+			hide_dependency_lines: true
+			id: "6FBC3D91782647D2"
+			tasks: [
+				{
+					id: "12AA1BC18A876C14"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "epicsamurai:white_samurai_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0A6CEDCED4945727"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "epicsamurai:white_samurai_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6FC077C65D4ADAC7"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "epicsamurai:white_samurai_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "471A003F2DE030B4"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "epicsamurai:white_samurai_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Серебряная броня самурая"
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7150D20C299AFE7C"]
+			description: ["Из ванильных ресурсов можно создать &6броню самурая&r."]
+			id: "215D21253DCFDD68"
+			tasks: [
+				{
+					id: "5CF8F70B13C53405"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "epicsamurai:gold_samurai_helmet"
+						tag: {
+							Damage: 0
+							SimpleInsulation: [ ]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0D38D8FA4D2ADE34"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "epicsamurai:gold_samurai_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "13D4294ECA60967A"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "epicsamurai:gold_samurai_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "569C022D9DA7E576"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "epicsamurai:gold_samurai_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Золотая броня самурая"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7150D20C299AFE7C"]
+			description: ["Из ванильных ресурсов можно создать &bброню самурая&r."]
+			id: "66C528CA7E520707"
+			tasks: [
+				{
+					id: "4F2E04FBF3D5395C"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "epicsamurai:diamond_samurai_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0A0CC566D7EC0CD3"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "epicsamurai:diamond_samurai_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E9C9B53DC004CC4"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "epicsamurai:diamond_samurai_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2CBD4E8E4735AD58"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "epicsamurai:diamond_samurai_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Алмазная броня самурая"
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7150D20C299AFE7C"]
+			description: ["Из ванильных ресурсов можно создать &4броню самурая&r."]
+			hide_dependency_lines: true
+			id: "4C7FF84EB8F10426"
+			tasks: [
+				{
+					id: "381594BF034769AC"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "epicsamurai:netherite_samurai_helmet"
+						tag: {
+							Damage: 0
+							SimpleInsulation: [ ]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "653FE729AB14DF0F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "epicsamurai:netherite_samurai_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5BB11765CB919C11"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "epicsamurai:netherite_samurai_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "30960408949B22A5"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "epicsamurai:netherite_samurai_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Незеритовая броня самурая"
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7150D20C299AFE7C"]
+			description: ["Из ванильных ресурсов можно создать &dброню самурая&r."]
+			hide_dependency_lines: true
+			id: "4C8370F68A645C6E"
+			tasks: [
+				{
+					id: "12F7FC492735F8EC"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "epicsamurai:amethyst_samurai_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "66B82B2643DEA919"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "epicsamurai:amethyst_samurai_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "021437EEF3CF8FFE"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "epicsamurai:amethyst_samurai_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "29CB975FC1FC4650"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "epicsamurai:amethyst_samurai_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Аметистовая броня самурая"
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7150D20C299AFE7C"]
+			description: ["Из модовых ресурсов можно создать &cброню самурая&r."]
+			hide_dependency_lines: true
+			id: "15EC69C16AE9C9CC"
+			tasks: [
+				{
+					id: "7FBCCAAAD081395D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "epicsamurai:red_samurai_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "51522036F3A8170F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "epicsamurai:red_samurai_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5F0EE2D2220C19A8"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "epicsamurai:red_samurai_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "48C32077FF3D41CD"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "epicsamurai:red_samurai_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Рубиновая броня самурая"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7150D20C299AFE7C"]
+			description: ["Из ванильных ресурсов можно создать &8броню самурая&r."]
+			hide_dependency_lines: true
+			id: "538F83577965B85C"
+			tasks: [
+				{
+					id: "79FFF604BF995D28"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "epicsamurai:quartz_samurai_helmet"
+						tag: {
+							Damage: 0
+							SimpleInsulation: [ ]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "614851EE828081CD"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "epicsamurai:quartz_samurai_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "68337CB1015CB451"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "epicsamurai:quartz_samurai_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3EA7B377F649F7A6"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "epicsamurai:quartz_samurai_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Кварцевая броня самурая"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7150D20C299AFE7C"]
+			description: ["Из модовых ресурсов можно создать &9броню самурая&r."]
+			hide_dependency_lines: true
+			id: "2B5CA59CF815BF27"
+			tasks: [
+				{
+					id: "5EB00DF4DCDF33DC"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "epicsamurai:blue_samurai_helmet"
+						tag: {
+							Damage: 0
+							SimpleInsulation: [ ]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "290393FF17E679A5"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "epicsamurai:blue_samurai_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "111102F393014834"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "epicsamurai:blue_samurai_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6462BDDC271CC165"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "epicsamurai:blue_samurai_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Аквамариновая броня самурая"
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7150D20C299AFE7C"]
+			description: ["Из модовых ресурсов можно создать &aброню самурая&r."]
+			hide_dependency_lines: true
+			id: "35E84FF55E6D7063"
+			tasks: [
+				{
+					id: "3CEA0D48D987E660"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "epicsamurai:green_samurai_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "22387ACF8AE47BED"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "epicsamurai:green_samurai_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6E450DBD1F833BBA"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "epicsamurai:green_samurai_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1A00154E2ED8BA24"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "epicsamurai:green_samurai_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Нефритовая броня самурая"
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7150D20C299AFE7C"]
+			description: ["Из модовых ресурсов можно создать &6броню самурая&r."]
+			hide_dependency_lines: true
+			id: "7ABF930A76913D71"
+			tasks: [
+				{
+					id: "25750CAC1AB09723"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "epicsamurai:gray_samurai_helmet"
+						tag: {
+							Damage: 0
+							SimpleInsulation: [ ]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "14285CA738CC52A0"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "epicsamurai:gray_samurai_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3614019320E3A6D3"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "epicsamurai:gray_samurai_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "17642CE6AEFDDC4C"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "epicsamurai:gray_samurai_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Ониксовая броня самурая"
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7150D20C299AFE7C"]
+			description: ["Из модовых ресурсов можно создать &7броню самурая&r."]
+			hide_dependency_lines: true
+			id: "71498A4345FA3215"
+			tasks: [
+				{
+					id: "34E7DB8056F6F7AE"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "epicsamurai:steel_helmet"
+						tag: {
+							Damage: 0
+							SimpleInsulation: [ ]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6A429A742269176D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "epicsamurai:steel_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2565B644A1F017C2"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "epicsamurai:steel_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6D1E0CED8C1B8A6D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "epicsamurai:steel_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Стальная броня самурая"
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7150D20C299AFE7C"]
+			description: ["Создайте &cкатану&r."]
+			id: "0E9989FA7C9D0D43"
+			tasks: [{
+				id: "0A17AAE71131DDE3"
+				item: {
+					Count: 1b
+					id: "epicsamurai:katana"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7150D20C299AFE7C"]
+			description: ["Создайте &cнагитану&r."]
+			id: "7C59C32010FCE09D"
+			tasks: [{
+				id: "52EECD201F4344C2"
+				item: {
+					Count: 1b
+					id: "epicsamurai:naginata"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7150D20C299AFE7C"]
+			description: ["Создайте &cнагасаки&r."]
+			id: "3F77A2EFEC66B071"
+			tasks: [{
+				id: "46AF8D421E1CCA30"
+				item: {
+					Count: 1b
+					id: "epicsamurai:nagamaki"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7150D20C299AFE7C"]
+			description: ["Создайте &cкунай&r."]
+			id: "09F3F8EAE202544E"
+			tasks: [{
+				id: "642E69E89F09DE15"
+				item: {
+					Count: 1b
+					id: "epicsamurai:kunai"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7150D20C299AFE7C"]
+			description: ["Создайте &cкаму&r."]
+			id: "6C62310512BD1C4A"
+			tasks: [{
+				id: "4E9519D984F63201"
+				item: {
+					Count: 1b
+					id: "epicsamurai:kama"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7150D20C299AFE7C"]
+			description: ["Создайте &cсай&r."]
+			id: "29B02354B1B438C1"
+			tasks: [{
+				id: "1AD9A073DEB3CD55"
+				item: {
+					Count: 1b
+					id: "epicsamurai:sai"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+	]
+	title: "&6- &rСамурай"
+}

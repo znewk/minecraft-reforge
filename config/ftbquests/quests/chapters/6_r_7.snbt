@@ -1,0 +1,900 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6_r_7"
+	group: "241F46356188290F"
+	icon: {
+		Count: 1b
+		id: "born_in_chaos_v1:darkwarblade"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "4BC3D93C1BE03974"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 100.0d
+			hover: [ ]
+			image: "skilltree:textures/screen/skill_tree_background.png"
+			rotation: 0.0d
+			width: 100.0d
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 15.0d
+			hover: [ ]
+			image: "celestisynth:textures/entity/solaris_spin.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.5d
+			y: 0.5d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["&4Берсерк&r - класс, который использует тяжёлое оружие и броню. Из-за этого он имеет большую защиту и урон, но медленную скорость."]
+			id: "5A019ABE83A97A64"
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				id: "58608592FDA45834"
+				title: "&4Берсерк"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A019ABE83A97A64"]
+			id: "079FD1AE4BC272BE"
+			subtitle: "&6Оружие Берсерка"
+			tasks: [{
+				id: "2423FBB31EA469DC"
+				item: {
+					Count: 1b
+					id: "better_weaponry:wooden_broadsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5A019ABE83A97A64"]
+			id: "3E6F125FCB37DDC9"
+			subtitle: "&6Оружие Берсерка"
+			tasks: [{
+				id: "30143AB6F43F930C"
+				item: {
+					Count: 1b
+					id: "better_weaponry:stone_broadsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A019ABE83A97A64"]
+			id: "2F58829F3711E707"
+			subtitle: "&6Оружие Берсерка"
+			tasks: [{
+				id: "7D09AA4FDA2EF59A"
+				item: {
+					Count: 1b
+					id: "better_weaponry:copper_broadsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5A019ABE83A97A64"]
+			hide_dependency_lines: true
+			id: "288AC1C9B5C731C9"
+			subtitle: "&6Оружие Берсерка"
+			tasks: [{
+				id: "6E12817BBBCDE065"
+				item: {
+					Count: 1b
+					id: "better_weaponry:iron_broadsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5A019ABE83A97A64"]
+			hide_dependency_lines: true
+			id: "25FA6C84248F96B0"
+			subtitle: "&6Оружие Берсерка"
+			tasks: [{
+				id: "3123B9FCFE7A0FA9"
+				item: {
+					Count: 1b
+					id: "better_weaponry:amethyst_broadsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A019ABE83A97A64"]
+			hide_dependency_lines: true
+			id: "21C35CAEF85534AA"
+			subtitle: "&6Оружие Берсерка"
+			tasks: [{
+				id: "6AF1C0F1FFAA84C7"
+				item: {
+					Count: 1b
+					id: "better_weaponry:golden_broadsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5A019ABE83A97A64"]
+			hide_dependency_lines: true
+			id: "3EF91B1947351F0C"
+			subtitle: "&6Оружие Берсерка"
+			tasks: [{
+				id: "1F5944BE8B10F4C6"
+				item: {
+					Count: 1b
+					id: "better_weaponry:emerald_broadsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5A019ABE83A97A64"]
+			hide_dependency_lines: true
+			id: "64CDAD7C66586808"
+			subtitle: "&6Оружие Берсерка"
+			tasks: [{
+				id: "73B14E517699BA48"
+				item: {
+					Count: 1b
+					id: "better_weaponry:diamond_broadsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A019ABE83A97A64"]
+			hide_dependency_lines: true
+			id: "1F99E17AD62A7600"
+			subtitle: "&6Оружие Берсерка"
+			tasks: [{
+				id: "276EDC7B83113726"
+				item: {
+					Count: 1b
+					id: "better_weaponry:netherite_broadsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5A019ABE83A97A64"]
+			id: "527234A4E7541E75"
+			subtitle: "&6Оружие Берсерка"
+			tasks: [{
+				id: "6BE03B30CA08B7D3"
+				item: {
+					Count: 1b
+					id: "better_weaponry:wooden_battleaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5A019ABE83A97A64"]
+			id: "7E3F0B7E949657B9"
+			subtitle: "&6Оружие Берсерка"
+			tasks: [{
+				id: "27A103A6F10BE7F4"
+				item: {
+					Count: 1b
+					id: "better_weaponry:stone_battleaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5A019ABE83A97A64"]
+			id: "652A8A50942EBF9B"
+			subtitle: "&6Оружие Берсерка"
+			tasks: [{
+				id: "00D0EC57ED6B8D44"
+				item: {
+					Count: 1b
+					id: "better_weaponry:copper_battleaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5A019ABE83A97A64"]
+			hide_dependency_lines: true
+			id: "30D8F8FDA416D8ED"
+			subtitle: "&6Оружие Берсерка"
+			tasks: [{
+				id: "7B9832E8697B2521"
+				item: {
+					Count: 1b
+					id: "better_weaponry:iron_battleaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5A019ABE83A97A64"]
+			hide_dependency_lines: true
+			id: "3C425F9AB96BD2D5"
+			subtitle: "&6Оружие Берсерка"
+			tasks: [{
+				id: "709F03E6E741344E"
+				item: {
+					Count: 1b
+					id: "better_weaponry:amethyst_battleaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5A019ABE83A97A64"]
+			hide_dependency_lines: true
+			id: "6D9A874116983EC6"
+			subtitle: "&6Оружие Берсерка"
+			tasks: [{
+				id: "29343E622BD153A5"
+				item: {
+					Count: 1b
+					id: "better_weaponry:golden_battleaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5A019ABE83A97A64"]
+			hide_dependency_lines: true
+			id: "29B5948657151458"
+			subtitle: "&6Оружие Берсерка"
+			tasks: [{
+				id: "243AF6FA5A1F3A3B"
+				item: {
+					Count: 1b
+					id: "better_weaponry:emerald_battleaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5A019ABE83A97A64"]
+			hide_dependency_lines: true
+			id: "36F09E9515A051F3"
+			subtitle: "&6Оружие Берсерка"
+			tasks: [{
+				id: "4E64C8879FF706F1"
+				item: {
+					Count: 1b
+					id: "better_weaponry:diamond_battleaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5A019ABE83A97A64"]
+			hide_dependency_lines: true
+			id: "25BC2999C3E6984B"
+			subtitle: "&6Оружие Берсерка"
+			tasks: [{
+				id: "00ACF3C340314394"
+				item: {
+					Count: 1b
+					id: "better_weaponry:netherite_battleaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5A019ABE83A97A64"]
+			id: "3B57F73FC5BFD69E"
+			subtitle: "&aНачальная броня класса"
+			tasks: [{
+				id: "4E1E58AEB957EC21"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "immersive_armors:heavy_helmet"
+					tag: {
+						Damage: 0
+						SimpleInsulation: [ ]
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5A019ABE83A97A64"]
+			hide_dependency_lines: true
+			id: "4408AC4CA2F79CA1"
+			subtitle: "&aНачальная броня класса"
+			tasks: [{
+				id: "62501A747AB1D8C7"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "immersive_armors:heavy_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5A019ABE83A97A64"]
+			id: "2857AD859BD8084D"
+			subtitle: "&aНачальная броня класса"
+			tasks: [{
+				id: "32E79A835E13D37E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "immersive_armors:heavy_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5A019ABE83A97A64"]
+			hide_dependency_lines: true
+			id: "4DF5E78D5474DFEB"
+			subtitle: "&aНачальная броня класса"
+			tasks: [{
+				id: "112471B5CDBF4044"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "immersive_armors:heavy_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5A019ABE83A97A64"]
+			id: "175029DB9E83E448"
+			subtitle: "&6Оружие Берсерка"
+			tasks: [{
+				id: "3500F271F7489605"
+				item: {
+					Count: 1b
+					id: "stalwart_dungeons:wooden_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5A019ABE83A97A64"]
+			id: "75B2290F66C5E62D"
+			subtitle: "&6Оружие Берсерка"
+			tasks: [{
+				id: "2B428A05B0A21D24"
+				item: {
+					Count: 1b
+					id: "stalwart_dungeons:stone_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5A019ABE83A97A64"]
+			id: "7CE19F280ADC980B"
+			subtitle: "&6Оружие Берсерка"
+			tasks: [{
+				id: "7148DB49543D5D46"
+				item: {
+					Count: 1b
+					id: "stalwart_dungeons:iron_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5A019ABE83A97A64"]
+			hide_dependency_lines: true
+			id: "713B55C8744CB35F"
+			subtitle: "&6Оружие Берсерка"
+			tasks: [{
+				id: "17BB82F27E416639"
+				item: {
+					Count: 1b
+					id: "stalwart_dungeons:golden_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5A019ABE83A97A64"]
+			hide_dependency_lines: true
+			id: "0F75E45595B6E621"
+			subtitle: "&6Оружие Берсерка"
+			tasks: [{
+				id: "68992A40BEFD2F79"
+				item: {
+					Count: 1b
+					id: "stalwart_dungeons:diamond_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5A019ABE83A97A64"]
+			hide_dependency_lines: true
+			id: "03E6F18BBD8DAA11"
+			subtitle: "&6Оружие Берсерка"
+			tasks: [{
+				id: "164D2B5EC9B30CD5"
+				item: {
+					Count: 1b
+					id: "stalwart_dungeons:netherite_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5A019ABE83A97A64"]
+			id: "36FA3CADAE292E59"
+			subtitle: "&4Продвинутая броня класса"
+			tasks: [{
+				id: "1B0C98C369866F59"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "born_in_chaos_v1:dark_metal_armor_helmet"
+					tag: {
+						Damage: 0
+						SimpleInsulation: [ ]
+					}
+				}
+				title: "Шлем Берсерка"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5A019ABE83A97A64"]
+			hide_dependency_lines: true
+			id: "0C791BEDEF35BEC3"
+			subtitle: "&4Продвинутая броня класса"
+			tasks: [{
+				id: "1DE7DAE78238A292"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "born_in_chaos_v1:dark_metal_armor_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				title: "Нагрудник Берсерка"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5A019ABE83A97A64"]
+			id: "00512FFA99EC25BA"
+			subtitle: "&4Продвинутая броня класса"
+			tasks: [{
+				id: "0681D7BF15B09DD6"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "born_in_chaos_v1:dark_metal_armor_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				title: "Поножи Берсерка"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5A019ABE83A97A64"]
+			hide_dependency_lines: true
+			id: "45009C655656781E"
+			subtitle: "&4Продвинутая броня класса"
+			tasks: [{
+				id: "4D845211D62FEBE3"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "born_in_chaos_v1:dark_metal_armor_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				title: "Ботинки Берсерка"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5A019ABE83A97A64"]
+			hide_dependency_lines: true
+			id: "0FACE0856B23B523"
+			subtitle: "&4Продвинутое оружие класса"
+			tasks: [{
+				id: "6DDCCE0857B246CD"
+				item: {
+					Count: 1b
+					id: "born_in_chaos_v1:darkwarblade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Меч Берсерка"
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5A019ABE83A97A64"]
+			hide_dependency_lines: true
+			id: "336286752236875A"
+			subtitle: "&4Продвинутое оружие класса"
+			tasks: [{
+				id: "2526EB497D5F63AA"
+				item: {
+					Count: 1b
+					id: "born_in_chaos_v1:skullbreaker_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				title: "Крушитель черепов"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A019ABE83A97A64"]
+			hide_dependency_lines: true
+			id: "21FD2D7A3774F45C"
+			subtitle: "&4Продвинутое оружие класса"
+			tasks: [{
+				id: "5FA12830BA910544"
+				item: {
+					Count: 1b
+					id: "born_in_chaos_v1:great_reaper_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				title: "Топор Жнеца"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"5A019ABE83A97A64"
+				"30BA163CDC3DAE1E"
+			]
+			id: "0B0FDF0BF44B502E"
+			subtitle: "&6Финальная броня класса"
+			tasks: [{
+				id: "788F851DCB0BCA02"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "cataclysm:ignitium_helmet"
+					tag: {
+						Damage: 0
+						SimpleInsulation: [ ]
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"5A019ABE83A97A64"
+				"30BA163CDC3DAE1E"
+			]
+			id: "705F6F9ACB662DD2"
+			subtitle: "&6Финальная броня класса"
+			tasks: [{
+				id: "44F2CE5CD66C86B6"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "cataclysm:ignitium_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"5A019ABE83A97A64"
+				"30BA163CDC3DAE1E"
+			]
+			id: "39D1453A2999A2CB"
+			subtitle: "&6Финальная броня класса"
+			tasks: [{
+				id: "6D69F405590C691E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "cataclysm:ignitium_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"5A019ABE83A97A64"
+				"30BA163CDC3DAE1E"
+			]
+			id: "5FA738FC176098A4"
+			subtitle: "&6Финальная броня класса"
+			tasks: [{
+				id: "652DD812C99C1535"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "cataclysm:ignitium_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"5A019ABE83A97A64"
+				"30BA163CDC3DAE1E"
+			]
+			id: "1CA2C12DF88A572B"
+			subtitle: "&6Финальное оружие класса"
+			tasks: [{
+				id: "6C795AD63EC2C3C4"
+				item: "cataclysm:the_incinerator"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"5A019ABE83A97A64"
+				"30BA163CDC3DAE1E"
+			]
+			id: "50E2CDB7B6ADD983"
+			subtitle: "&6Финальное оружие класса"
+			tasks: [{
+				id: "0CC4B6737787C9C2"
+				item: {
+					Count: 1b
+					id: "cataclysm:infernal_forge"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+	]
+	title: "&6- &rБерсерк"
+}

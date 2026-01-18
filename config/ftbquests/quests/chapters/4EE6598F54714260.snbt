@@ -1,0 +1,507 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "4EE6598F54714260"
+	group: "6B11AACE8AC43630"
+	icon: {
+		Count: 1b
+		id: "celestisynth:solaris"
+		tag: {
+			Damage: 0
+			csController: { }
+		}
+	}
+	id: "4EE6598F54714260"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 150.0d
+			hover: [ ]
+			image: "skilltree:textures/screen/skill_tree_background.png"
+			rotation: 0.0d
+			width: 150.0d
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "cataclysm:textures/entity/flame_strike_sigil.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			click: "https://vk.com/timofei916"
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: ["VK Автора сборки"]
+			image: "cataclysm:textures/mob_effect/blazing_brand.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			click: "https://www.youtube.com/channel/UCFA2tPNCytiaOu-f1rClNVw"
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: ["YouTube Автора сборки"]
+			image: "cataclysm:textures/item/ignitium_upgrade_smithing_template.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "7E645A259A3C3147"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "valhelsia_structures:block/brazier_fire"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "7E645A259A3C3147"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "valhelsia_structures:block/brazier_fire"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "7E645A259A3C3147"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "valhelsia_structures:block/brazier_fire"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "7E645A259A3C3147"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "valhelsia_structures:block/brazier_fire"
+			rotation: 180.0d
+			width: 1.0d
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "7E645A259A3C3147"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "valhelsia_structures:block/brazier_fire"
+			rotation: 180.0d
+			width: 1.0d
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "7E645A259A3C3147"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "valhelsia_structures:block/brazier_fire"
+			rotation: 180.0d
+			width: 1.0d
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "kubejs:textures/item/edenium.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			click: "https://boosty.to/rein1_modpacks"
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: ["Boosty автор сборки"]
+			image: "cataclysm:item/ignitium_ingot"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			click: "https://discord.gg/EJBx6mStHE"
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: ["Discord сервер автора сборки"]
+			image: "cataclysm:item/ignitium_helmet"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			click: "https://t.me/+lGNLu_GoC8xhODcy"
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: ["Telegram канал автора сборки"]
+			image: "cataclysm:item/ignitium_elytra_chestplate"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: 2.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["&6&l=> &rДобро пожаловать на новый, глобальный мод-пак по такой игре как майнкрафт - Edenium. Вас ждёт незабываемое приключением, со своей историей, мирами, боссами, магией, новым оружием и бронёй и многим-многим другим!"]
+			hide: true
+			icon: "cataclysm:burning_ashes"
+			id: "7E645A259A3C3147"
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				id: "130F0288A624564B"
+				title: "&6Edenium&r: Cluster of Worlds"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7E645A259A3C3147"]
+			description: [
+				"&6&l=> &rАвтором данного проекта является начинающий ютубер &6Rein1&r."
+				""
+				"Социальные сети, можно увидеть в гл. меню или в слева от этих квестов. Пишите, если увидите баги, или другие проблемы по мод-паку."
+			]
+			hide: true
+			icon: "cataclysm:music_disc_netherite_monstrosity"
+			id: "083F5EA1D26B099D"
+			shape: "diamond"
+			tasks: [{
+				id: "68BB8E16C7FA6BB1"
+				title: "Автор"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7E645A259A3C3147"]
+			description: [
+				"&6&l=> &rУ данной сборки есть огромное количество новых механик, сильно меняющих прогресс прохождения и геймплея. Большую часть из них, вы увидите здесь:"
+				""
+				"&6P.S&r - Чтобы прочитать все механики, пролистайте на след. страницу."
+				"{@pagebreak}"
+				"&6I&r: Система сражений"
+				""
+				"На сборке появилось большое количество нового оружия и брони. Также теперь при атаке каким-либо оружием будет проигрываться анимация атаки, она зависит от типа вашего оружия. Также теперь, есть одноручные и двуручные оружие. Держа двуручное оружие, вы не сможете держать предметы в левой руке. Как по мне крутая механика :)"
+				"{@pagebreak}"
+				"&6II&r: Выносливость и кувырки"
+				""
+				"Теперь, над шкалой голода, будет шкала выносливости. Нажав Alt, вы сможете сделать кувырок, тем самым потратив немного энергии."
+				"{@pagebreak}"
+				"&6III&r: Дерево прокачки"
+				""
+				"Нажав на \"&6щ&r\", вы откроете древо навыков. В котром за специальные очки можно будет прокачивать скиллы вашего персонажа. Получить очки можно при получении обычного опыта над ход-баром."
+				"{@pagebreak}"
+				""
+				"&6IV&r: Температура"
+				""
+				"Над вашим ход-баром появился череп. Который обозначает температуру вашего тела. Серый - нормальная, красный - жарко, синий - холодно. Температура вашего тела зависит от температуры окружающей среды. Следить за этой температурой можно с помощью термометра. Также в холодных местах, можно носить утепляющую одежду, которую можно сшить на швейном столе."
+				"{@pagebreak}"
+				""
+				"&6V&r: Кристаллы жизни"
+				""
+				"Теперь в пещерах будет генерироваться новая руда - кристаллы жизни. Из 9 осколков этих кристаллов можно создать кристалл жизни. В следствии его можно использовать на правую кнопку мыши, тем самым увеличив своё здоровье на 1."
+				"{@pagebreak}"
+				""
+				"&6VI&r: Лимит Зачарований"
+				""
+				"Теперь изначально у предметов будет сильный лимит зачарований, максимум до трёх зачарований. Чтобы это число увеличить вам нужно воспользоваться предельником, магическом камне найденом в сундуках или созданным из волшебной эссенции и свинца."
+				"{@pagebreak}"
+				""
+				"&6VII&r: Ярость"
+				""
+				"Во время битвы со множеством врагов, вы вероятно откроете эффект ярости. Когда вы откроете эффект ярости, справа от хот-бара появится иконка персонажа и индикатор ярости. Чем он больше - тем больше урона вы наносите. Уровень индикатора зависит от количества убитых монстров. Ярость сбрасывается когда красная появившаяся полоска на хот-баре исчезнет."
+				"{@pagebreak}"
+				""
+				"&6IX&r: Обелиски"
+				""
+				"Теперь, вы не сможете телепортироваться используя метки на мини-карте. Для этого вам будут нужны путеводные обелиски. Все они имеют связь между собой позволяя телепортироваться от одного обелиска к другому."
+				""
+				"{@pagebreak}"
+				""
+				"&6X&r: Прогрессия"
+				""
+				"В начале вашей игры, вы имеете стандартную сложность, у мобов всё то-же здоровье и урон. Но после попадания в другой мир, вы переходите на второй этап: Хард-мод или по простому режим эксперта. В нём все монстры стали сильнее, опаснее и быстрее!"
+				""
+				"{@pagebreak}"
+				""
+				"&6XI&r: Армия Нежити"
+				""
+				"Теперь к вам может наведаться армия нежити. В ней состоят: зомби, скелеты и другие монстры. Всего в этом событии есть 5 волн. Чем больше волн вы прошли - тем сильнее и больше монстров. В этом событии есть боссы и мини-боссы, которую могут дать не слабую сдачу. При завершении события, вы получите мешок с полезными предметами."
+				""
+				"{@pagebreak}"
+				""
+				"&6XII&r: Тотемы"
+				""
+				"В мире разбросаны различные тотемы. Активировав которые, вы получите пассивный эффект на всегда."
+				""
+				"{@pagebreak}"
+				""
+				"&6XIII&r: Мешки с лутом"
+				""
+				"Убивая монстров, с мелким шансом, вы сможете получить мешки. Открыв которые вы сможете получить различные сокровища, артефаакты и другое."
+			]
+			hide: true
+			icon: "cataclysm:ignitium_ingot"
+			id: "32179DAB67E2B20F"
+			shape: "diamond"
+			tasks: [{
+				id: "18F779AA52404514"
+				title: "Новые механики"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7E645A259A3C3147"]
+			description: [
+				"&6&l=> &rВ мод-паке есть много модов, которые сделают вашу игру незабываемой и приятной. Вот основные из них:"
+				""
+				"&6Regions Unexplored&r - Добавляет множество новых биомов, предметов, улучшая пещеры, леса, поляны и т.д."
+				""
+				"&6Naturalist&r - Добавит множество новых животных, разнообразив ваш мир живностью."
+				""
+				"&6Ambien Sounds&r - Добавляет много новых звуков. Пение птиц, шевеление листвы и т.д."
+				""
+				"&6Medieval Music&r - Добавляет новую музыку в средневековом стиле, сделав ваш майнкрафт максимально атмосферным и приятным на глаз."
+			]
+			hide: true
+			icon: "cataclysm:altar_of_fire"
+			id: "7BFBAB2A6F299723"
+			shape: "diamond"
+			tasks: [{
+				id: "640F41B6F021C526"
+				title: "Основные моды (Атмосфера)"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7E645A259A3C3147"]
+			description: [
+				"&6&l=> &rЧтобы игра на данной сборке казалось максимально интересной, пожалуйста, соблюдайте данные правила:"
+				""
+				"&6-&r Не используйте читы;"
+				"&6-&r Читайте всё описание из квестов;"
+				"&6-&r Старайтесь как можно больше путешествовать по миру или другим мирам;"
+				"&6-&r Проверяйте оружие и броню на присутствие текста, чтобы он совпадал с вашим выбранным классом."
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "cataclysm:monstrous_helm"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4FFC645A67DEF262"
+			shape: "diamond"
+			tasks: [{
+				id: "758F9C85FDD6C41F"
+				title: "Советы"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7E645A259A3C3147"]
+			description: [
+				"&6&l=> &rВы можете выбрать класс, за который вы будете проходить данную сборку. Про все классы, вы можете узнать информацию на следующих страницах."
+				""
+				"&4ВНИМАНИЕ!&r Отдельного меню для выбора класса, нет. Вы просто ориентируетесь на каком классе будете играть и проверяете описание оружия и брони. И если оно совпадает с вашим выбранным классом - одеваете. Это необязательно, но &6желательно&r."
+				""
+				"{@pagebreak}"
+				"&6I&r: Воин"
+				""
+				"Воин вооржён оружием и щитом или двумя одноручными оружиями. Также носит доспехи средние доспехи."
+				""
+				"{image:kubejs:textures/item/warrior.png width:150 height:200 align:1}"
+				"{@pagebreak}"
+				"&dII&r: Маг"
+				""
+				"Маг использует посохи и книги заклинания. Носит одеяния или особую магическую броню. Для полного прохождения обязан пройти все квесты акта магии."
+				""
+				"{image:kubejs:textures/item/mage.png width:150 height:200 align:1}"
+				"{@pagebreak}"
+				"&6III&r: Самурай"
+				""
+				"Самурай использует двуручную катану и носит крепкую и красивую броню."
+				""
+				"{image:kubejs:textures/item/samurai.png width:150 height:200 align:1}"
+				"{@pagebreak}"
+				"&6IV&r: Разбойник"
+				""
+				"Размойник использует лёгкую броню, чтобы он мог быстро передвигаться, а также часто делать кувырок. В битве использует кинжалы и луки/арбалеты."
+				""
+				"{image:kubejs:textures/item/illager.png width:150 height:200 align:1}"
+				"{@pagebreak}"
+				"&6V&r: Берсерк"
+				""
+				"Берсерк носит очень тяжёлую броню и меч, имеет огромную защиту и урон. Но очень медленно передвигается. Можно получить примерно в середине игры на сборке."
+				""
+				""
+				"{image:kubejs:textures/item/berserk.png width:150 height:150 align:1}"
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "cataclysm:ignitium_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "55C79B9E2AC06008"
+			shape: "diamond"
+			tasks: [{
+				id: "212BB0D3308EF20E"
+				title: "Система Классов"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7E645A259A3C3147"]
+			description: [
+				"&6&l=> &rСборка имеет несколько уникальных свойств, которых нету в большинстве майнкрафт сборок:"
+				""
+				"&6-&r Сюжетная линия."
+				"&6-&r Дневник персонажа."
+				"&6-&r Квесты, уник. меню, наш ресурспак."
+				"&6-&r Уникальные моды."
+				"&6-&r Хорошая оптимизация."
+				"&6-&r Приятная атмосфера Фэнтэзи."
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"cold_sweat:item_insulation": {
+						Insulation: [ ]
+					}
+				}
+				id: "cataclysm:ignitium_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "103E4586EAA5DDD0"
+			shape: "diamond"
+			tasks: [{
+				id: "4EB32CC8C16D903C"
+				title: "Особенности"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7E645A259A3C3147"]
+			description: ["&6&l=> &rНа данной сборке каждый сможет найти чем заняться. Строительство, фермерство, готовка, убийство босов, изучение мира, путешествие по мирам, проведения ритуалов и многое другое!"]
+			hide: true
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"cold_sweat:item_insulation": {
+						Insulation: [ ]
+					}
+				}
+				id: "cataclysm:ignitium_leggings"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "58F2FB60073CD002"
+			shape: "diamond"
+			tasks: [{
+				id: "23B454AE0AB10F97"
+				title: "Аспекты Игры"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7E645A259A3C3147"]
+			description: [
+				"&6&l=> &rУ проекта есть собственный дискорд сервер. Там вы можете предложить свои идеи, попросить помощи, задать вопросы. Пообщаться с другими игроками или вообще обьедениться и играть вместе!"
+				""
+				"&6Discord&r https://discord.gg/uvS7cJm4jr"
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "cataclysm:ignitium_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3CF1461C15C6DEDE"
+			shape: "diamond"
+			tasks: [{
+				id: "7820573D3896C8E2"
+				title: "Discord"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+	]
+	subtitle: ["Информация о сборке"]
+	title: "&6&l=> &rОзнакомление ✦"
+}

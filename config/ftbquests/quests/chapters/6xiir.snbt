@@ -1,0 +1,665 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6xiir"
+	group: "5C6A3997459D91D9"
+	icon: {
+		Count: 1b
+		id: "endrem:black_eye"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "0A5F5031D75C911C"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 150.0d
+			hover: [ ]
+			image: "skilltree:textures/screen/skill_tree_background.png"
+			rotation: 0.0d
+			width: 150.0d
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 15.0d
+			hover: [ ]
+			image: "celestisynth:textures/entity/aquaflora_bash/aquaflora_bash5.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "celestisynth:textures/entity/aquaflora_bash/aquaflora_bash2.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "kubejs:textures/item/end.png"
+			rotation: 0.0d
+			width: 20.0d
+			x: 1.5d
+			y: -5.5d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"2FCAAE2D19281F04"
+				"7E55EFCED9468447"
+				"1EDCE5E9ADC1DE86"
+				"300598C9606F2304"
+				"239EAA85A8A86691"
+				"4D47EFE1416135AB"
+			]
+			description: [
+				"&6Бездна&r - Самый большой и древний мир в нашем скоплении миров. Большая часть этого мира это пустота. Этот мир находится между всеми мирами, связывая каждый с другим."
+				"{image:malum:textures/vfx/rite/infernal.png width:100 height:100 align:1}"
+			]
+			hide: true
+			id: "37B8FE8876A26216"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "6FCFD609AA0A5865"
+				title: "&6Глава XII&r: Бездна"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["37B8FE8876A26216"]
+			description: [
+				"&6&l=> &rСоберите все двенадцать очей пустоты, чтобы активировать портал в Бездну и победить того, кто отправил вам магические сигналы через сон..."
+				"{image:endrem:items/nether_eye width:100 height:100 align:1}"
+				""
+				"С давних времён миром Незером управляет лорд демонов Игнис. В данный момент он запечатан в огненном алтаре на своей арене. Возможно кому-то удасться его освободить и отпустить от мучений..."
+			]
+			hide: true
+			id: "2358F4337272821C"
+			rewards: [{
+				id: "27CD9BE9EE20C095"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "06ABBEA1144BA3B1"
+				item: {
+					Count: 1b
+					id: "endrem:nether_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["37B8FE8876A26216"]
+			description: [
+				"&6&l=> &rСоберите все двенадцать очей пустоты, чтобы активировать портал в Бездну и победить того, кто отправил вам магические сигналы через сон..."
+				"{image:endrem:items/cursed_eye width:100 height:100 align:1}"
+				""
+				"Повелителем морей Эдении является могущественное существо, живущее в древнем, подводном замке, находящийся в центре океана. Его прозвали Левиафаном..."
+			]
+			hide: true
+			id: "684E0B8CE1F2D575"
+			rewards: [{
+				id: "0F19B64FDBBB2259"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "749137AC580BE171"
+				item: {
+					Count: 1b
+					id: "endrem:cursed_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["37B8FE8876A26216"]
+			description: [
+				"&6&l=> &rСоберите все двенадцать очей пустоты, чтобы активировать портал в Бездну и победить того, кто отправил вам магические сигналы через сон..."
+				"{image:endrem:items/cold_eye width:100 height:100 align:1}"
+				""
+				"В великой, голубой башне Эвербрайта живёт заклинатель, который проводит эксперименты над местными жителями. Это нужно остановить..."
+			]
+			hide: true
+			id: "26D6B5B24BB86590"
+			rewards: [{
+				id: "7F3E0FB6F41D45AC"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "18B660FF285FA5F2"
+				item: {
+					Count: 1b
+					id: "endrem:cold_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["37B8FE8876A26216"]
+			description: [
+				"&6&l=> &rСоберите все двенадцать очей пустоты, чтобы активировать портал в Бездну и победить того, кто отправил вам магические сигналы через сон..."
+				"{image:endrem:items/rogue_eye width:100 height:100 align:1}"
+				""
+				"Повелитель природы Эвербрайта обитает в своём древнем, зелёном замке, который охраняется сильными и опасными врагами..."
+			]
+			hide: true
+			id: "67238CB66DFFBE4B"
+			rewards: [{
+				id: "72FDDF7609ED82EC"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "04741C066ADE64B2"
+				item: {
+					Count: 1b
+					id: "endrem:rogue_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["37B8FE8876A26216"]
+			description: [
+				"&6&l=> &rСоберите все двенадцать очей пустоты, чтобы активировать портал в Бездну и победить того, кто отправил вам магические сигналы через сон..."
+				"{image:endrem:items/magical_eye width:100 height:100 align:1}"
+				""
+				"В великой, красной башне Эвердона живёт Алхимик, проводящий эксперименты над местными жителями как его брат Заклинатель..."
+			]
+			id: "52ADB28ADFCC4587"
+			rewards: [{
+				id: "56EBFE5D3B941906"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "2319CF12E673C4CF"
+				item: {
+					Count: 1b
+					id: "endrem:magical_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["37B8FE8876A26216"]
+			description: [
+				"&6&l=> &rСоберите все двенадцать очей пустоты, чтобы активировать портал в Бездну и победить того, кто отправил вам магические сигналы через сон..."
+				"{image:endrem:items/guardian_eye width:100 height:100 align:1}"
+				""
+				"Под землёй кленового леса находиться логово огромной паучихи Арахны, которая получила свои размеры и силы благодаря неудачному эксперименту Алхимика."
+			]
+			hide: true
+			id: "52D68C55429E8E2E"
+			rewards: [{
+				id: "29506CA6F06CBF46"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "4EE474571BBDD135"
+				item: {
+					Count: 1b
+					id: "endrem:guardian_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["37B8FE8876A26216"]
+			description: [
+				"&6&l=> &rСоберите все двенадцать очей пустоты, чтобы активировать портал в Бездну и победить того, кто отправил вам магические сигналы через сон..."
+				"{image:endrem:items/old_eye width:100 height:100 align:1}"
+				""
+				"В заброшенном лабиринте сумеречного леса, живёт огромная змея, которая обладает большой силой и размерами, а её чешуя невероятно крепкая..."
+			]
+			hide: true
+			id: "69FD7E2616CB04B9"
+			rewards: [{
+				id: "1B5C09B4975993FF"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "6A66E6547C0DB966"
+				item: {
+					Count: 1b
+					id: "endrem:old_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["37B8FE8876A26216"]
+			description: [
+				"&6&l=> &rСоберите все двенадцать очей пустоты, чтобы активировать портал в Бездну и победить того, кто отправил вам магические сигналы через сон..."
+				"{image:endrem:items/lost_eye width:100 height:100 align:1}"
+				""
+				"На вершине огромного замка, живёт повелитель всех друидов сумеречного леса, он обладает силой четырёх посохов и огромной магической силой..."
+			]
+			hide: true
+			id: "1A21B59EED1D3FEE"
+			rewards: [{
+				id: "09A3B7132C161C99"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "262DECFF99087CB3"
+				item: {
+					Count: 1b
+					id: "endrem:lost_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["37B8FE8876A26216"]
+			description: [
+				"&6&l=> &rСоберите все двенадцать очей пустоты, чтобы активировать портал в Бездну и победить того, кто отправил вам магические сигналы через сон..."
+				"{image:endrem:items/corrupted_eye width:100 height:100 align:1}"
+				""
+				"В глубоких подземельях, скрываются руины, в которых когда-то давно была расположена великая крепость, в ней и погиб король Эрдвес. Скорее всего сейчас он превратился в скелета и лежит где-нибудь там, потеряв свою душу во тьме и ненависти..."
+			]
+			hide: true
+			id: "45D847445A9AF6E3"
+			rewards: [{
+				id: "5036A44B2CEF3CBF"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "645B2A45314A8AB4"
+				item: {
+					Count: 1b
+					id: "endrem:corrupted_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["37B8FE8876A26216"]
+			description: [
+				"&6&l=> &rСоберите все двенадцать очей пустоты, чтобы активировать портал в Бездну и победить того, кто отправил вам магические сигналы через сон..."
+				"{image:endrem:items/black_eye width:100 height:100 align:1}"
+				""
+				"Каждую ночь в Эдении вылезает нежить, но некоторые особи являются довольно сильными и опасными противниками. Такими как некромант..."
+			]
+			hide: true
+			id: "77176BAFE3EB2EB9"
+			rewards: [{
+				id: "2FABA93BC2F6BA0C"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "451FD8D36A93C2F2"
+				item: {
+					Count: 1b
+					id: "endrem:black_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["37B8FE8876A26216"]
+			description: [
+				"&6&l=> &rСоберите все двенадцать очей пустоты, чтобы активировать портал в Бездну и победить того, кто отправил вам магические сигналы через сон..."
+				"{image:endrem:items/wither_eye width:100 height:100 align:1}"
+				""
+				"Древняя душа могучего демона, блуждает по всем мирам в поисках подходящего сосуда, чтобы возродиться вновь..."
+			]
+			hide: true
+			id: "14F856E8592B94CD"
+			rewards: [{
+				id: "5BC28E8E92DB5D39"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "3C9134DB9DA56AF5"
+				item: {
+					Count: 1b
+					id: "endrem:wither_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["37B8FE8876A26216"]
+			description: [
+				"&6&l=> &rСоберите все двенадцать очей пустоты, чтобы активировать портал в Бездну и победить того, кто отправил вам магические сигналы через сон..."
+				"{image:endrem:items/evil_eye width:100 height:100 align:1}"
+				""
+				"На вершине тёмного леса, находится огромная башня, на вершине которой находится мутированый гаст, огромных размеров и силой, неизвестным способом попавший в сумеречный лес..."
+			]
+			hide: true
+			id: "793DA89D6AE68D6D"
+			rewards: [{
+				id: "7E89F5E4E93BF7C0"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "422E146BEF44358B"
+				item: {
+					Count: 1b
+					id: "endrem:evil_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"52ADB28ADFCC4587"
+				"52D68C55429E8E2E"
+				"14F856E8592B94CD"
+				"26D6B5B24BB86590"
+				"793DA89D6AE68D6D"
+				"2358F4337272821C"
+				"684E0B8CE1F2D575"
+				"1A21B59EED1D3FEE"
+				"45D847445A9AF6E3"
+				"69FD7E2616CB04B9"
+				"77176BAFE3EB2EB9"
+				"67238CB66DFFBE4B"
+			]
+			description: ["&6&l=> &rВы готовы отправляться в последний путь, от которого может зависеть судьба вашего скопления миров. Отыщите подземную крепость и отправляйтесь в Бездну!"]
+			hide: true
+			hide_dependency_lines: true
+			id: "50195F6C0461FFCF"
+			shape: "diamond"
+			size: 1.1d
+			tasks: [{
+				icon: "endrem:ancient_portal_frame"
+				id: "07162B093D4D8EE3"
+				structure: "minecraft:stronghold"
+				title: "&6Найти&r: Подземную Крепость"
+				type: "structure"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["50195F6C0461FFCF"]
+			description: ["&6&l=> &rВставьте двенадцать очей в рамку портала в Бездну и вперёд в бой. Или не бой?..."]
+			hide: true
+			icon: "cataclysm:void_core"
+			id: "76998F5E031BD831"
+			rewards: [
+				{
+					id: "35BC83EE7C4EC448"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:magic_missile"
+									index: 0
+									level: 10
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "419F6D35C4E8A36A"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:starfall"
+									index: 0
+									level: 10
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2B438EF3D973B53E"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:magic_arrow"
+									index: 0
+									level: 10
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: {
+					Count: 1b
+					id: "relics:spatial_sign"
+					tag: {
+						abilities: {
+							seal: {
+								points: 0
+								stats: {
+									time: 3.04666d
+								}
+							}
+						}
+					}
+				}
+				id: "5F8A5E6F0249C96E"
+				title: "&6Посетить мир&r: Бездна"
+				type: "dimension"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["76998F5E031BD831"]
+			description: ["&6&l=> &rПобедите дракона пустоты, чтобы выиграть пари у Алмита. Дать себе несколько лет на подготовку к битве с ним!"]
+			hide: true
+			id: "127A197402860780"
+			rewards: [{
+				auto: "invisible"
+				id: "2C5BF34DD6F577CC"
+				item: {
+					Count: 1b
+					id: "celestisynth:aquaflora"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.1d
+			tasks: [{
+				advancement: "minecraft:end/kill_dragon"
+				criterion: ""
+				icon: "minecraft:dragon_head"
+				id: "4DCCEFF85F0B25FF"
+				title: "&6Победите&r: Дракона Пустоты"
+				type: "advancement"
+			}]
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4DB00C8712AF7343"]
+			description: ["&6&l=> &rВернувшись домой, вы начинаете готовиться к предстоящей войне против сверх-божественного существа..."]
+			hide: true
+			id: "0A084EEE93D70959"
+			rewards: [{
+				id: "124B1740E4BFE292"
+				item: {
+					Count: 1b
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:black_hole"
+								index: 0
+								level: 6
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				id: "00417DFFA0719903"
+				title: "&6Конец XII главы&r: Бездна"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"127A197402860780"
+				"50195F6C0461FFCF"
+				"76998F5E031BD831"
+			]
+			description: ["&6&l=> &rТеперь, когда в ближайшие годы нашему скоплению ничего не грозит, вы стали героем и можете вернуться домой. Но рано или поздно он вернётся в своей пиковой форме..."]
+			hide: true
+			id: "4DB00C8712AF7343"
+			size: 1.1d
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: "regions_unexplored:flowering_sapling"
+				id: "0DDD4F4A521FA1E0"
+				title: "&6Посетите мир&r: Эдения"
+				type: "dimension"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+	]
+	subtitle: ["Мир пустоты, где всё что есть - это летающие острова и пустота..."]
+	title: "&6XII&r: Бездна ✦"
+}

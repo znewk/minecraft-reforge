@@ -1,0 +1,1650 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6r"
+	group: "241F46356188290F"
+	icon: {
+		Count: 1b
+		id: "born_in_chaos_v1:sharpened_dark_metal_sword"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "0B6652821FB93AB6"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 100.0d
+			hover: [ ]
+			image: "skilltree:textures/screen/skill_tree_background.png"
+			rotation: 0.0d
+			width: 100.0d
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 20.0d
+			hover: [ ]
+			image: "cataclysm:textures/entity/flame_strike_sigil_e.png"
+			rotation: 0.0d
+			width: 20.0d
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["&6Воин &r- основной класс сборки. Играя за него вы будете использовать оружия ближнего боя. Такие как рапиры, сабли, копья и другие. А также носит обыкновенную броню."]
+			id: "5C6CC45604B21B2E"
+			shape: "diamond"
+			tasks: [{
+				id: "1DE524597C7F1BA3"
+				title: "&6Воин"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5C6CC45604B21B2E"]
+			description: ["&6Копейщий&r - &aдоблестный&r воин ближнего боя, который отлично управляется с копьями и глефами. Носит обыкновенную броню."]
+			icon: {
+				Count: 1b
+				id: "better_weaponry:iron_spear"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1EFAD1312EAA213D"
+			subtitle: "&6Подкласс"
+			tasks: [{
+				id: "2A92AB84E5E71C1B"
+				title: "Копейщий"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5C6CC45604B21B2E"]
+			description: ["&6Убийца&r - кровожадный воин, которому нравится &4жажда крови&r. Одет в обыкновенную броню, а в качестве оружия использует кинжалы, ножи и серпы."]
+			icon: {
+				Count: 1b
+				id: "better_weaponry:iron_cutlass"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "69B79ACFE008E758"
+			subtitle: "&6Подкласс"
+			tasks: [{
+				id: "612815DA76E073D4"
+				title: "Убийца"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5C6CC45604B21B2E"]
+			description: ["&6Паладин&r - &eсвященный&r воин, одетый в могущественные доспехи. В качестве оружия использует молоты, булавы и клейморы."]
+			icon: {
+				Count: 1b
+				id: "stalwart_dungeons:iron_hammer"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6C5718277FE2C5D6"
+			shape: "diamond"
+			size: 1.1d
+			subtitle: "&6Подкласс"
+			tasks: [{
+				id: "067BDC2296B11857"
+				title: "Паладин"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6C5718277FE2C5D6"]
+			id: "55AA4582D5ADDD3A"
+			subtitle: "&6Оружие Паладина"
+			tasks: [{
+				id: "67678C2328ACF0FF"
+				item: {
+					Count: 1b
+					id: "better_weaponry:wooden_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6C5718277FE2C5D6"]
+			hide_dependency_lines: true
+			id: "0EC7A6444B09C8EC"
+			subtitle: "&6Оружие Паладина"
+			tasks: [{
+				id: "509CD7C35E40131E"
+				item: {
+					Count: 1b
+					id: "better_weaponry:stone_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6C5718277FE2C5D6"]
+			hide_dependency_lines: true
+			id: "101E79E5D1B15121"
+			subtitle: "&6Оружие Паладина"
+			tasks: [{
+				id: "5FCE5EBC644B8F21"
+				item: {
+					Count: 1b
+					id: "better_weaponry:copper_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6C5718277FE2C5D6"]
+			hide_dependency_lines: true
+			id: "1F0EE94931FF3E80"
+			subtitle: "&6Оружие Паладина"
+			tasks: [{
+				id: "72B1335AF34CEBE5"
+				item: {
+					Count: 1b
+					id: "better_weaponry:iron_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6C5718277FE2C5D6"]
+			hide_dependency_lines: true
+			id: "390DBBCFA4388607"
+			subtitle: "&6Оружие Паладина"
+			tasks: [{
+				id: "59BA13F58B1246C6"
+				item: {
+					Count: 1b
+					id: "better_weaponry:amethyst_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6C5718277FE2C5D6"]
+			hide_dependency_lines: true
+			id: "55EE0E41C5523230"
+			subtitle: "&6Оружие Паладина"
+			tasks: [{
+				id: "2547734A45ABA4CF"
+				item: {
+					Count: 1b
+					id: "better_weaponry:golden_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6C5718277FE2C5D6"]
+			hide_dependency_lines: true
+			id: "0234B58D8CFC564F"
+			subtitle: "&6Оружие Паладина"
+			tasks: [{
+				id: "42ECF444CF873E07"
+				item: {
+					Count: 1b
+					id: "better_weaponry:emerald_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6C5718277FE2C5D6"]
+			hide_dependency_lines: true
+			id: "7DFC34A5634C38C3"
+			subtitle: "&6Оружие Паладина"
+			tasks: [{
+				id: "5F06D70D0999AC03"
+				item: {
+					Count: 1b
+					id: "better_weaponry:diamond_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6C5718277FE2C5D6"]
+			hide_dependency_lines: true
+			id: "371E1261D6373C3A"
+			subtitle: "&6Оружие Паладина"
+			tasks: [{
+				id: "3382819011BB788E"
+				item: {
+					Count: 1b
+					id: "better_weaponry:netherite_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6C5718277FE2C5D6"]
+			id: "478FD753FC0398F1"
+			subtitle: "&6Оружие Паладина"
+			tasks: [{
+				id: "6D2BAE8FBE6D7694"
+				item: {
+					Count: 1b
+					id: "better_weaponry:wooden_claymore"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6C5718277FE2C5D6"]
+			hide_dependency_lines: true
+			id: "18BE28FF5F1BEA73"
+			subtitle: "&6Оружие Паладина"
+			tasks: [{
+				id: "429514212AF84AD2"
+				item: {
+					Count: 1b
+					id: "better_weaponry:stone_claymore"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6C5718277FE2C5D6"]
+			hide_dependency_lines: true
+			id: "4CFA906B26642D51"
+			subtitle: "&6Оружие Паладина"
+			tasks: [{
+				id: "03F8CE30B96D9EFA"
+				item: {
+					Count: 1b
+					id: "better_weaponry:copper_claymore"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6C5718277FE2C5D6"]
+			hide_dependency_lines: true
+			id: "7FE9760EA8567484"
+			subtitle: "&6Оружие Паладина"
+			tasks: [{
+				id: "1971FDEF2B3F0A6D"
+				item: {
+					Count: 1b
+					id: "better_weaponry:iron_claymore"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6C5718277FE2C5D6"]
+			hide_dependency_lines: true
+			id: "617DFAA96335D64C"
+			subtitle: "&6Оружие Паладина"
+			tasks: [{
+				id: "0FD56839DD5B595B"
+				item: {
+					Count: 1b
+					id: "better_weaponry:amethyst_claymore"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6C5718277FE2C5D6"]
+			hide_dependency_lines: true
+			id: "192FE6AD035A075E"
+			subtitle: "&6Оружие Паладина"
+			tasks: [{
+				id: "20732324A9720979"
+				item: {
+					Count: 1b
+					id: "better_weaponry:golden_claymore"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6C5718277FE2C5D6"]
+			hide_dependency_lines: true
+			id: "6E4E57D380BCF649"
+			subtitle: "&6Оружие Паладина"
+			tasks: [{
+				id: "6FF669E2CCE72025"
+				item: {
+					Count: 1b
+					id: "better_weaponry:emerald_claymore"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6C5718277FE2C5D6"]
+			hide_dependency_lines: true
+			id: "6C190D13E482CE2B"
+			subtitle: "&6Оружие Паладина"
+			tasks: [{
+				id: "6295342BB13BCF22"
+				item: {
+					Count: 1b
+					id: "better_weaponry:diamond_claymore"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6C5718277FE2C5D6"]
+			hide_dependency_lines: true
+			id: "22E8E363CB26DF1A"
+			subtitle: "&6Оружие Паладина"
+			tasks: [{
+				id: "6111EC492C349F74"
+				item: {
+					Count: 1b
+					id: "better_weaponry:netherite_claymore"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6C5718277FE2C5D6"]
+			id: "4D6C884E2E26BD22"
+			subtitle: "&6Оружие Паладина"
+			tasks: [{
+				id: "0A023134F551002D"
+				item: {
+					Count: 1b
+					id: "better_weaponry:wooden_mace"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6C5718277FE2C5D6"]
+			hide_dependency_lines: true
+			id: "54C52ADB3703338C"
+			subtitle: "&6Оружие Паладина"
+			tasks: [{
+				id: "4C3B901508268F07"
+				item: {
+					Count: 1b
+					id: "better_weaponry:stone_mace"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6C5718277FE2C5D6"]
+			hide_dependency_lines: true
+			id: "58ECC44CED8D155F"
+			subtitle: "&6Оружие Паладина"
+			tasks: [{
+				id: "4EA7BFBC3F630C55"
+				item: {
+					Count: 1b
+					id: "better_weaponry:copper_mace"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6C5718277FE2C5D6"]
+			hide_dependency_lines: true
+			id: "5BE9F5D4B4E0D5E1"
+			subtitle: "&6Оружие Паладина"
+			tasks: [{
+				id: "6939264DFFACB42F"
+				item: {
+					Count: 1b
+					id: "better_weaponry:iron_mace"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6C5718277FE2C5D6"]
+			hide_dependency_lines: true
+			id: "3CCB812AC835BDF2"
+			subtitle: "&6Оружие Паладина"
+			tasks: [{
+				id: "0642D54D52DC0975"
+				item: {
+					Count: 1b
+					id: "better_weaponry:amethyst_mace"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6C5718277FE2C5D6"]
+			hide_dependency_lines: true
+			id: "5F909E3BA3573AB7"
+			subtitle: "&6Оружие Паладина"
+			tasks: [{
+				id: "5B82F21548F09769"
+				item: {
+					Count: 1b
+					id: "better_weaponry:golden_mace"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6C5718277FE2C5D6"]
+			hide_dependency_lines: true
+			id: "66A55B387DB9916D"
+			subtitle: "&6Оружие Паладина"
+			tasks: [{
+				id: "2532FDDF2A91AC84"
+				item: {
+					Count: 1b
+					id: "better_weaponry:emerald_mace"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6C5718277FE2C5D6"]
+			hide_dependency_lines: true
+			id: "01AF723AD1B42779"
+			subtitle: "&6Оружие Паладина"
+			tasks: [{
+				id: "78B06819CB0C1712"
+				item: {
+					Count: 1b
+					id: "better_weaponry:diamond_mace"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6C5718277FE2C5D6"]
+			hide_dependency_lines: true
+			id: "77B59D86E844FD4B"
+			subtitle: "&6Оружие Паладина"
+			tasks: [{
+				id: "181B4997B3D6A829"
+				item: {
+					Count: 1b
+					id: "better_weaponry:netherite_mace"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["69B79ACFE008E758"]
+			id: "5DD3148EAB59F8D7"
+			subtitle: "&6Оружие Убийцы"
+			tasks: [{
+				id: "3492D64A9BBF10AC"
+				item: {
+					Count: 1b
+					id: "better_weaponry:wooden_rapier"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["69B79ACFE008E758"]
+			hide_dependency_lines: true
+			id: "1D87E1CEF2AFB4DF"
+			subtitle: "&6Оружие Убийцы"
+			tasks: [{
+				id: "2750533BC746A8F7"
+				item: {
+					Count: 1b
+					id: "better_weaponry:stone_rapier"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["69B79ACFE008E758"]
+			hide_dependency_lines: true
+			id: "689A790F29CF4F4D"
+			subtitle: "&6Оружие Убийцы"
+			tasks: [{
+				id: "44E82188742C4A32"
+				item: {
+					Count: 1b
+					id: "better_weaponry:copper_rapier"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["69B79ACFE008E758"]
+			hide_dependency_lines: true
+			id: "784B42AE2197B1E7"
+			subtitle: "&6Оружие Убийцы"
+			tasks: [{
+				id: "6BE228A89310A12F"
+				item: {
+					Count: 1b
+					id: "better_weaponry:iron_rapier"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["69B79ACFE008E758"]
+			hide_dependency_lines: true
+			id: "3353A0B5F61E2A02"
+			subtitle: "&6Оружие Убийцы"
+			tasks: [{
+				id: "436BBFBAFBEB9FAD"
+				item: {
+					Count: 1b
+					id: "better_weaponry:amethyst_rapier"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["69B79ACFE008E758"]
+			hide_dependency_lines: true
+			id: "08F92661719B7905"
+			subtitle: "&6Оружие Убийцы"
+			tasks: [{
+				id: "24B98C9BE907EDB7"
+				item: {
+					Count: 1b
+					id: "better_weaponry:golden_rapier"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["69B79ACFE008E758"]
+			hide_dependency_lines: true
+			id: "046F4DB220F6CFCF"
+			subtitle: "&6Оружие Убийцы"
+			tasks: [{
+				id: "43430CA9408969CA"
+				item: {
+					Count: 1b
+					id: "better_weaponry:emerald_rapier"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["69B79ACFE008E758"]
+			hide_dependency_lines: true
+			id: "713AF62934C558B5"
+			subtitle: "&6Оружие Убийцы"
+			tasks: [{
+				id: "5AAEBDE128A970FD"
+				item: {
+					Count: 1b
+					id: "better_weaponry:diamond_rapier"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["69B79ACFE008E758"]
+			hide_dependency_lines: true
+			id: "2205AEFA423F45DF"
+			subtitle: "&6Оружие Убийцы"
+			tasks: [{
+				id: "7AE0DC8F9136682A"
+				item: {
+					Count: 1b
+					id: "better_weaponry:netherite_rapier"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["69B79ACFE008E758"]
+			id: "4B08EF65709FDC52"
+			subtitle: "&6Оружие Убийцы"
+			tasks: [{
+				id: "62A8BFD624460C9A"
+				item: {
+					Count: 1b
+					id: "better_weaponry:wooden_cutlass"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["69B79ACFE008E758"]
+			hide_dependency_lines: true
+			id: "7593EF233F73110D"
+			subtitle: "&6Оружие Убийцы"
+			tasks: [{
+				id: "6F68A064946555A4"
+				item: {
+					Count: 1b
+					id: "better_weaponry:stone_cutlass"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["69B79ACFE008E758"]
+			hide_dependency_lines: true
+			id: "03C46ADF4FB16670"
+			subtitle: "&6Оружие Убийцы"
+			tasks: [{
+				id: "3245712CF5D621C9"
+				item: {
+					Count: 1b
+					id: "better_weaponry:copper_cutlass"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["69B79ACFE008E758"]
+			hide_dependency_lines: true
+			id: "30A2BBE49EF1BBDC"
+			subtitle: "&6Оружие Убийцы"
+			tasks: [{
+				id: "2A0EF1635E1081AF"
+				item: {
+					Count: 1b
+					id: "better_weaponry:iron_cutlass"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["69B79ACFE008E758"]
+			dependency_requirement: "one_started"
+			hide_dependency_lines: true
+			id: "3DBB3718DDF5F396"
+			subtitle: "&6Оружие Убийцы"
+			tasks: [{
+				id: "1CEA9C8EC1AAF477"
+				item: {
+					Count: 1b
+					id: "better_weaponry:amethyst_cutlass"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["69B79ACFE008E758"]
+			hide_dependency_lines: true
+			id: "227A0728E0C192F0"
+			subtitle: "&6Оружие Убийцы"
+			tasks: [{
+				id: "549CD2FF84E39C6E"
+				item: {
+					Count: 1b
+					id: "better_weaponry:golden_cutlass"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["69B79ACFE008E758"]
+			hide_dependency_lines: true
+			id: "0BD209FA48483F56"
+			subtitle: "&6Оружие Убийцы"
+			tasks: [{
+				id: "7D7B1F1E0421B21D"
+				item: {
+					Count: 1b
+					id: "better_weaponry:emerald_cutlass"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["69B79ACFE008E758"]
+			hide_dependency_lines: true
+			id: "62E9D98EB1304595"
+			subtitle: "&6Оружие Убийцы"
+			tasks: [{
+				id: "3D3BC9BBED9880D1"
+				item: {
+					Count: 1b
+					id: "better_weaponry:diamond_cutlass"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["69B79ACFE008E758"]
+			hide_dependency_lines: true
+			id: "06C3978F17C97379"
+			subtitle: "&6Оружие Убийцы"
+			tasks: [{
+				id: "2D00DFD2DDEA02C8"
+				item: {
+					Count: 1b
+					id: "better_weaponry:netherite_cutlass"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["69B79ACFE008E758"]
+			id: "02950B171A48E9C8"
+			subtitle: "&6Оружие Убийцы"
+			tasks: [{
+				id: "783D7AA310A50681"
+				item: {
+					Count: 1b
+					id: "better_weaponry:wooden_sickle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["69B79ACFE008E758"]
+			hide_dependency_lines: true
+			id: "2101A41126ACD332"
+			subtitle: "&6Оружие Убийцы"
+			tasks: [{
+				id: "51DD56BC8281E3E7"
+				item: {
+					Count: 1b
+					id: "better_weaponry:stone_sickle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["69B79ACFE008E758"]
+			hide_dependency_lines: true
+			id: "41C146BE53049AEB"
+			subtitle: "&6Оружие Убийцы"
+			tasks: [{
+				id: "0AEDEBB4CA151354"
+				item: {
+					Count: 1b
+					id: "better_weaponry:copper_sickle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["69B79ACFE008E758"]
+			hide_dependency_lines: true
+			id: "746CA9229A57EF15"
+			subtitle: "&6Оружие Убийцы"
+			tasks: [{
+				id: "06E29494367E5746"
+				item: {
+					Count: 1b
+					id: "better_weaponry:iron_sickle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["69B79ACFE008E758"]
+			hide_dependency_lines: true
+			id: "1A8A2AC7C54E0DE5"
+			subtitle: "&6Оружие Убийцы"
+			tasks: [{
+				id: "47836F4182D44338"
+				item: {
+					Count: 1b
+					id: "better_weaponry:amethyst_sickle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["69B79ACFE008E758"]
+			hide_dependency_lines: true
+			id: "5B96774950F45FE5"
+			subtitle: "&6Оружие Убийцы"
+			tasks: [{
+				id: "3C59F5894305FC13"
+				item: {
+					Count: 1b
+					id: "better_weaponry:golden_sickle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["69B79ACFE008E758"]
+			hide_dependency_lines: true
+			id: "529F828A59B5D200"
+			subtitle: "&6Оружие Убийцы"
+			tasks: [{
+				id: "42E149A9CB2DC976"
+				item: {
+					Count: 1b
+					id: "better_weaponry:emerald_sickle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["69B79ACFE008E758"]
+			hide_dependency_lines: true
+			id: "6E0295A794D560E2"
+			subtitle: "&6Оружие Убийцы"
+			tasks: [{
+				id: "7DC53CE743442F17"
+				item: {
+					Count: 1b
+					id: "better_weaponry:diamond_sickle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["69B79ACFE008E758"]
+			hide_dependency_lines: true
+			id: "6C7F8194D98850C6"
+			subtitle: "&6Оружие Убийцы"
+			tasks: [{
+				id: "6CA6F90661AA1A6D"
+				item: {
+					Count: 1b
+					id: "better_weaponry:netherite_sickle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1EFAD1312EAA213D"]
+			id: "45400EEC47C7CFB5"
+			subtitle: "&6Оружие копейщика"
+			tasks: [{
+				id: "041CC770685BD1D1"
+				item: {
+					Count: 1b
+					id: "better_weaponry:wooden_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1EFAD1312EAA213D"]
+			hide_dependency_lines: true
+			id: "2D1582FD11913B34"
+			subtitle: "&6Оружие копейщика"
+			tasks: [{
+				id: "2CD3446986D0AED0"
+				item: {
+					Count: 1b
+					id: "better_weaponry:stone_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1EFAD1312EAA213D"]
+			hide_dependency_lines: true
+			id: "0500C694F5F91F83"
+			subtitle: "&6Оружие копейщика"
+			tasks: [{
+				id: "7791CDB42D93CDAC"
+				item: {
+					Count: 1b
+					id: "better_weaponry:copper_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1EFAD1312EAA213D"]
+			hide_dependency_lines: true
+			id: "136487492FAEFE4A"
+			subtitle: "&6Оружие копейщика"
+			tasks: [{
+				id: "4947D621EE693057"
+				item: {
+					Count: 1b
+					id: "better_weaponry:amethyst_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1EFAD1312EAA213D"]
+			hide_dependency_lines: true
+			id: "732BB719CF3C3F6F"
+			subtitle: "&6Оружие копейщика"
+			tasks: [{
+				id: "107496160A7206C3"
+				item: {
+					Count: 1b
+					id: "better_weaponry:golden_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1EFAD1312EAA213D"]
+			hide_dependency_lines: true
+			id: "0501C828841A26D7"
+			subtitle: "&6Оружие копейщика"
+			tasks: [{
+				id: "11DD93660FC63159"
+				item: {
+					Count: 1b
+					id: "better_weaponry:emerald_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1EFAD1312EAA213D"]
+			hide_dependency_lines: true
+			id: "40C6AF6794F2D1CA"
+			subtitle: "&6Оружие копейщика"
+			tasks: [{
+				id: "6E4494A66224C362"
+				item: {
+					Count: 1b
+					id: "better_weaponry:diamond_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1EFAD1312EAA213D"]
+			hide_dependency_lines: true
+			id: "4060A5D151BBEF1B"
+			subtitle: "&6Оружие копейщика"
+			tasks: [{
+				id: "0780EAC0126C9752"
+				item: {
+					Count: 1b
+					id: "better_weaponry:netherite_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1EFAD1312EAA213D"]
+			hide_dependency_lines: true
+			id: "16624017A0EA9780"
+			subtitle: "&6Оружие копейщика"
+			tasks: [{
+				id: "59D064E1DCD2BDEB"
+				item: {
+					Count: 1b
+					id: "better_weaponry:iron_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1EFAD1312EAA213D"]
+			id: "4F4A5835B784F741"
+			subtitle: "&6Оружие копейщика"
+			tasks: [{
+				id: "0AED4F2BD045D539"
+				item: {
+					Count: 1b
+					id: "better_weaponry:wooden_glaive"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1EFAD1312EAA213D"]
+			hide_dependency_lines: true
+			id: "652AF8197685BC1B"
+			subtitle: "&6Оружие копейщика"
+			tasks: [{
+				id: "06EB0B73ED721DC7"
+				item: {
+					Count: 1b
+					id: "better_weaponry:stone_glaive"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1EFAD1312EAA213D"]
+			hide_dependency_lines: true
+			id: "496B1AE2FEA3AC96"
+			subtitle: "&6Оружие копейщика"
+			tasks: [{
+				id: "44A648CA835609DB"
+				item: {
+					Count: 1b
+					id: "better_weaponry:copper_glaive"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1EFAD1312EAA213D"]
+			hide_dependency_lines: true
+			id: "12C0BAC69111B06D"
+			subtitle: "&6Оружие копейщика"
+			tasks: [{
+				id: "3A0F1B69C4A73C2C"
+				item: {
+					Count: 1b
+					id: "better_weaponry:iron_glaive"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1EFAD1312EAA213D"]
+			hide_dependency_lines: true
+			id: "460AA6262CC63AE9"
+			subtitle: "&6Оружие копейщика"
+			tasks: [{
+				id: "423409A3B9EE5093"
+				item: {
+					Count: 1b
+					id: "better_weaponry:amethyst_glaive"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1EFAD1312EAA213D"]
+			hide_dependency_lines: true
+			id: "648B5D991C1A9DFB"
+			subtitle: "&6Оружие копейщика"
+			tasks: [{
+				id: "391644E031303B3E"
+				item: {
+					Count: 1b
+					id: "better_weaponry:golden_glaive"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1EFAD1312EAA213D"]
+			hide_dependency_lines: true
+			id: "0BB7B94236F90CE4"
+			subtitle: "&6Оружие копейщика"
+			tasks: [{
+				id: "7B0478718150C688"
+				item: {
+					Count: 1b
+					id: "better_weaponry:emerald_glaive"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1EFAD1312EAA213D"]
+			hide_dependency_lines: true
+			id: "0EBA403CA5A9CA1B"
+			subtitle: "&6Оружие копейщика"
+			tasks: [{
+				id: "6E399E8084139F31"
+				item: {
+					Count: 1b
+					id: "better_weaponry:diamond_glaive"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1EFAD1312EAA213D"]
+			hide_dependency_lines: true
+			id: "0DD55FB390CBEC6D"
+			subtitle: "&6Оружие копейщика"
+			tasks: [{
+				id: "56542D8AAF68A3F3"
+				item: {
+					Count: 1b
+					id: "better_weaponry:netherite_glaive"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5C6CC45604B21B2E"]
+			id: "77BCCCEA07C11FE4"
+			subtitle: "&6Щит класса Война"
+			tasks: [{
+				id: "6EA6134DB4E993CD"
+				item: {
+					Count: 1b
+					id: "better_weaponry:wooden_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5C6CC45604B21B2E"]
+			hide_dependency_lines: true
+			id: "2C380666635935EC"
+			subtitle: "&6Щит класса Война"
+			tasks: [{
+				id: "10F497D7E2D97C58"
+				item: {
+					Count: 1b
+					id: "better_weaponry:golden_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5C6CC45604B21B2E"]
+			hide_dependency_lines: true
+			id: "7B01EFA0B8399BFA"
+			subtitle: "&6Щит класса Война"
+			tasks: [{
+				id: "564FD973F42AE759"
+				item: {
+					Count: 1b
+					id: "better_weaponry:stone_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5C6CC45604B21B2E"]
+			hide_dependency_lines: true
+			id: "62FBE39902BE61A9"
+			subtitle: "&6Щит класса Война"
+			tasks: [{
+				id: "0E273AE7DD006218"
+				item: {
+					Count: 1b
+					id: "better_weaponry:copper_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5C6CC45604B21B2E"]
+			hide_dependency_lines: true
+			id: "061901B21D85B5C5"
+			subtitle: "&6Щит класса Война"
+			tasks: [{
+				id: "6977AA6BCD014A2D"
+				item: {
+					Count: 1b
+					id: "better_weaponry:iron_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5C6CC45604B21B2E"]
+			hide_dependency_lines: true
+			id: "5526EE9FD6EB83B1"
+			subtitle: "&6Щит класса Война"
+			tasks: [{
+				id: "27C19AF0F6AA078B"
+				item: {
+					Count: 1b
+					id: "better_weaponry:amethyst_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5C6CC45604B21B2E"]
+			hide_dependency_lines: true
+			id: "539A249B8E2ECAF8"
+			subtitle: "&6Щит класса Война"
+			tasks: [{
+				id: "366E4E30AE0A1E99"
+				item: {
+					Count: 1b
+					id: "better_weaponry:emerald_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5C6CC45604B21B2E"]
+			hide_dependency_lines: true
+			id: "750CA53B7AB4C141"
+			subtitle: "&6Щит класса Война"
+			tasks: [{
+				id: "61562BF17F6C2E30"
+				item: {
+					Count: 1b
+					id: "better_weaponry:diamond_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5C6CC45604B21B2E"]
+			hide_dependency_lines: true
+			id: "43A0818FF2FF835B"
+			subtitle: "&6Щит класса Война"
+			tasks: [{
+				id: "1B4DC5891C10628C"
+				item: {
+					Count: 1b
+					id: "better_weaponry:netherite_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -5.0d
+		}
+	]
+	title: "&6-&r Воин"
+}
