@@ -3,12 +3,40 @@
     "rogo.sketch.gui.ConfigScreen": true,
     "top.theillusivec4.curios.client.gui.CuriosScreenV2": true,
     "com.mrcrayfish.backpacked.client.gui.screen.inventory.BackpackScreen": true,
-    "com.mrcrayfish.backpacked.client.gui.screen.CustomiseBackpackScreen": true
+    "com.mrcrayfish.backpacked.client.gui.screen.CustomiseBackpackScreen": true,
+    "net.minecraft.client.gui.screens.PauseScreen": true,
+    "net.minecraft.client.gui.screens.OptionsScreen": true,
+    "org.embeddedt.embeddium.gui.EmbeddiumVideoOptionsScreen": true,
+    "net.irisshaders.iris.gui.screen.ShaderPackScreen": true,
+    "net.minecraft.client.gui.screens.packs.PackSelectionScreen": true,
+    "net.minecraft.client.gui.screens.SoundOptionsScreen": true,
+    "net.minecraftforge.client.gui.ModListScreen": true,
+    "xaero.map.gui.GuiMap": true,
+    "xaero.map.gui.GuiWorldMapSettings": true,
+    "mezz.jei.gui.recipes.RecipesGui": true,
+    "com.talhanation.smallships.client.gui.screens.inventory.ShipContainerScreen": true,
+    "net.minecraft.client.gui.screens.social.SocialInteractionsScreen": true,
+    "io.ejekta.bountiful.client.BoardScreen": true,
+    "net.blay09.mods.waystones.client.gui.screen.WaystoneSettingsScreen": true,
+    "net.blay09.mods.waystones.client.gui.screen.WaystoneSelectionScreen": true,
+    "io.wispforest.accessories.client.gui.AccessoriesScreen": true,
+    "io.github.kosmx.emotes.arch.gui.screen.ingame.FastChosseScreen": true,
+    "io.github.kosmx.emotes.arch.gui.screen.ingame.FullScreenListImpl": true,
+    "com.sky.weaponmaster.TutorialBookScreen": true,
+    "com.sky.weaponmaster.WeaponKitScreen": true
   },
   "hideBackground": {
     "top.theillusivec4.curios.client.gui.CuriosScreenV2": true,
     "com.mrcrayfish.backpacked.client.gui.screen.inventory.BackpackScreen": true,
     "com.mrcrayfish.backpacked.client.gui.screen.CustomiseBackpackScreen": true,
-    "com.dplayend.justleveling.client.screen.JustLevelingScreen": true
+    "com.dplayend.justleveling.client.screen.JustLevelingScreen": true,
+    "mezz.jei.gui.recipes.RecipesGui": true,
+    "com.talhanation.smallships.client.gui.screens.inventory.ShipContainerScreen": true,
+    "net.minecraft.client.gui.screens.social.SocialInteractionsScreen": true,
+    "io.ejekta.bountiful.client.BoardScreen": true,
+    "net.blay09.mods.waystones.client.gui.screen.WaystoneSettingsScreen": true,
+    "net.blay09.mods.waystones.client.gui.screen.WaystoneSelectionScreen": true,
+    "io.wispforest.accessories.client.gui.AccessoriesScreen": true,
+    "io.github.kosmx.emotes.arch.gui.screen.ingame.FastChosseScreen": true
   }
 }
